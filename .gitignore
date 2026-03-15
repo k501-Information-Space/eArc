@@ -1,0 +1,10 @@
+# Compiled Object files and Binaries
+*.o
+k501_alpha
+
+# K501 Storage Manifold (Do not version control the database)
+storage/frames.ndjson
+storage/index.dat
+
+# OS generated files
+.DS_Store
