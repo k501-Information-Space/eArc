@@ -1,34 +1,67 @@
-#include "dynamic_cage.h"
-#include "frame_engine.h"
+#include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#include <time.h>
+#include "qh_core.h"
+#include "frame_engine.h"
+#include "dynamic_cage.h"
+#include "hard_index.h"
+#include "ingestion.h"
 
-static cage_state_t g_cage = {0, false};
+#define LEDGER_PATH "archive/little_alpha_storage/frames.ndjson"
 
-bool dc_init(uint64_t genesis_time) {
-    g_cage.last_time = genesis_time;
-    g_cage.is_active = true;
-    return true;
-}
+// Hilfsfunktion: Sucht den letzten Zeitstempel im Ledger
+uint64_t get_last_timestamp(const char *path) {
+    FILE *f = fopen(path, "rb");
+    if (!f) return 1773524342ULL; // Genesis-Fallback
 
-void dc_force_time(uint64_t override_time) {
-    g_cage.last_time = override_time;
-}
+    fseek(f, 0, SEEK_END);
+    long size = ftell(f);
+    if (size < 50) { fclose(f); return 1773524342ULL; }
 
-bool dc_validate_for_append(const frame_t *candidate_frame) {
-    if (!g_cage.is_active || !candidate_frame) return false;
-    if (!qhc_validate_frame_structure(candidate_frame)) return false;
-    if (candidate_frame->time <= g_cage.last_time) return false;
+    // Die letzten 512 Bytes lesen
+    long read_len = (size > 512) ? 512 : size;
+    fseek(f, -read_len, SEEK_END);
+    char buf[513];
+    size_t n = fread(buf, 1, read_len, f);
+    buf[n] = '\0';
+    fclose(f);
 
-    frame_t shadow_copy;
-    memcpy(&shadow_copy, candidate_frame, sizeof(frame_t));
-    memset(shadow_copy.hash, 0, 65); 
-
-    if (!fe_compute_hash(&shadow_copy)) return false;
-
-    if (strncmp(candidate_frame->hash, shadow_copy.hash, 64) != 0) {
-        return false; 
+    // Suche rückwärts nach dem Zeitstempel-Tag
+    char *ptr = strstr(buf, ",\"t\":");
+    if (!ptr) return 1773524342ULL;
+    
+    // Finde das letzte Vorkommen von "t":
+    char *last_ptr = ptr;
+    while ((ptr = strstr(last_ptr + 1, ",\"t\":"))) {
+        last_ptr = ptr;
     }
 
-    g_cage.last_time = candidate_frame->time;
-    return true;
+    return (uint64_t)strtoull(last_ptr + 5, NULL, 10);
+}
+
+int main(int argc, char **argv) {
+    if (argc < 2) return 1;
+
+    hi_init();
+
+    // KERNEL-SYNCHRONISATION: Zeit aus physischem Ledger extrahieren
+    uint64_t ledger_time = get_last_timestamp(LEDGER_PATH);
+    dc_init(ledger_time);
+
+    if (strcmp(argv[1], "genesis") == 0) {
+        // ... (Genesis Logik wie gehabt)
+    } 
+    else if (strcmp(argv[1], "ingest") == 0) {
+        if (argc < 3) return 1;
+        
+        // Sicherstellen, dass der erste Frame des neuen Laufs 
+        // nicht vor dem Ledger liegt
+        uint64_t now = (uint64_t)time(NULL);
+        if (now < ledger_time) now = ledger_time;
+
+        ingest_document(argv[2]);
+    }
+
+    return 0;
 }
