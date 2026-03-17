@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-static const char *INDEX_FILE = "storage/index.dat";
+static const char *INDEX_FILE = "archive/little_alpha_storage/index.dat";
 
 bool hi_init(void) {
     FILE *f = fopen(INDEX_FILE, "ab");

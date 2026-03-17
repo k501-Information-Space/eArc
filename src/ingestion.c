@@ -1,50 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <openssl/sha.h>
 #include "ingestion.h"
 #include "qh_core.h"
 #include "frame_engine.h"
-#include "dynamic_cage.h"
 #include "hard_index.h"
-#include <stdio.h>
-#include <string.h>
+#include "dynamic_cage.h"
 
-/* Extern hooks to main.c */
-extern uint64_t get_monotonic_time(void);
-extern bool append_frame_to_disk(frame_t *f);
+#define CHUNK_SIZE 4096
+#define LEDGER_PATH "archive/little_alpha_storage/frames.ndjson"
 
 bool ingest_document(const char *filepath) {
-    FILE *in = fopen(filepath, "rb");
-    if (!in) {
-        printf("[K501] Error: Cannot open document %s\n", filepath);
+    FILE *source = fopen(filepath, "rb");
+    if (!source) {
+        perror("[K501] Source Error");
         return false;
     }
 
-    char chunk_buffer[4096];
-    size_t bytes_read;
-    uint32_t chunk_index = 0;
-
-    printf("[K501] Ingesting %s...\n", filepath);
-
-    while ((bytes_read = fread(chunk_buffer, 1, sizeof(chunk_buffer), in)) > 0) {
-        frame_t f;
-        char frame_id[64];
-        
-        snprintf(frame_id, sizeof(frame_id), "DOC-CHUNK-%u", chunk_index);
-        qhc_frame_init(&f, frame_id, get_monotonic_time());
-        qhc_set_qh_cell(&f, 0, QH_TRUE);
-
-        fe_compute_hash(&f);
-
-        if (dc_validate_for_append(&f)) {
-            if (append_frame_to_disk(&f)) {
-                printf("  -> Appended: %s [Hash: %.16s...]\n", f.id, f.hash);
-            }
-        } else {
-            printf("[K501] Cage Rejected Frame: %s\n", f.id);
-        }
-
-        chunk_index++;
+    FILE *ledger = fopen(LEDGER_PATH, "ab");
+    if (!ledger) {
+        perror("[K501] Ledger Error");
+        fclose(source);
+        return false;
     }
 
-    fclose(in);
-    printf("[K501] Ingestion complete. %u chunks processed.\n", chunk_index);
+    uint8_t buffer[CHUNK_SIZE];
+    uint32_t idx = 0;
+
+    while (true) {
+        size_t bytes_read = fread(buffer, 1, CHUNK_SIZE, source);
+        if (bytes_read == 0) break;
+
+        frame_t frame;
+        char fid[128];
+        snprintf(fid, sizeof(fid), "F-%06u-%s", idx, filepath);
+        qhc_frame_init(&frame, fid, (uint64_t)time(NULL));
+
+        // Content Hash berechnen
+        unsigned char c_hash[32];
+        SHA256(buffer, bytes_read, c_hash);
+        for(int i=0; i<32; i++) sprintf(frame.content_hash + (i*2), "%02x", c_hash[i]);
+
+        // QH-Stabilisierung
+        for(int i=0; i<56; i++) qhc_set_qh_cell(&frame, i, QH_GUARD);
+
+        if (dc_validate_for_append(&frame)) {
+            fe_compute_hash(&frame);
+            
+            uint64_t offset = (uint64_t)ftell(ledger);
+            char jcs[8192];
+            fe_build_jcs(&frame, jcs, sizeof(jcs));
+
+            fprintf(ledger, "{\"f\":%s,\"hash\":\"%s\"}\n", jcs, frame.hash);
+            fflush(ledger);
+            
+            hi_append_entry(frame.hash, offset);
+            idx++;
+        } else {
+            fprintf(stderr, "[!] Cage Interdiction at chunk %u\n", idx);
+            break;
+        }
+    }
+
+    fclose(source);
+    fclose(ledger);
+    printf("[K501] Ingested %u chunks.\n", idx);
     return true;
 }
