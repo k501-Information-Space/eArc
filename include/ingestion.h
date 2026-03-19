@@ -3,6 +3,10 @@
 
 #include "k501_types.h"
 
-int k501_ingest_directory(const char *path, K501_DocumentSet *out);
+int k501_ingest_directory_recursive(
+    const char *path,
+    int max_depth,
+    K501_DocumentSet *out
+);
 
 #endif
