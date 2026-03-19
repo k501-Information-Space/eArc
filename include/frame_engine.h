@@ -1,13 +1,9 @@
 #ifndef K501_FRAME_ENGINE_H
 #define K501_FRAME_ENGINE_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
-#include "qh_core.h"
+#include "k501_types.h"
 
-/* Canonical Serialization and Hashing Prototypes */
-bool fe_build_jcs(const frame_t *f, char *out_buffer, size_t max_len);
-bool fe_compute_hash(frame_t *f);
+int k501_parse_batch(const K501_DocumentSet *docs, K501_NormalizedSet *out);
+int k501_frame_build(const K501_NormalizedSet *chunks, K501_State *state_out);
 
-#endif // K501_FRAME_ENGINE_H
+#endif

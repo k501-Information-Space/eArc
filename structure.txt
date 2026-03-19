@@ -1,0 +1,75 @@
+/home/iinkognit0/workspace
+├── /home/iinkognit0/workspace/archive
+│   ├── /home/iinkognit0/workspace/archive/init_k501.sh
+│   ├── /home/iinkognit0/workspace/archive/ledger_k501
+│   ├── /home/iinkognit0/workspace/archive/ledger_root
+│   ├── /home/iinkognit0/workspace/archive/little_alpha_storage
+│   │   ├── /home/iinkognit0/workspace/archive/little_alpha_storage/frames.ndjson
+│   │   └── /home/iinkognit0/workspace/archive/little_alpha_storage/index.dat
+│   ├── /home/iinkognit0/workspace/archive/temp_k501
+│   └── /home/iinkognit0/workspace/archive/temp_root
+├── /home/iinkognit0/workspace/include
+│   ├── /home/iinkognit0/workspace/include/dynamic_cage.h
+│   ├── /home/iinkognit0/workspace/include/frame_engine.h
+│   ├── /home/iinkognit0/workspace/include/hard_index.h
+│   ├── /home/iinkognit0/workspace/include/ingestion.h
+│   ├── /home/iinkognit0/workspace/include/qh_algebra.h
+│   └── /home/iinkognit0/workspace/include/qh_core.h
+├── /home/iinkognit0/workspace/k501
+│   ├── /home/iinkognit0/workspace/k501/bin
+│   ├── /home/iinkognit0/workspace/k501/docs
+│   │   ├── /home/iinkognit0/workspace/k501/docs/input
+│   │   │   ├── /home/iinkognit0/workspace/k501/docs/input/Makefile
+│   │   │   └── /home/iinkognit0/workspace/k501/docs/input/normalizer.py
+│   │   └── /home/iinkognit0/workspace/k501/docs/test_corpus
+│   │       ├── /home/iinkognit0/workspace/k501/docs/test_corpus/K501_KANON_V1.md
+│   │       ├── /home/iinkognit0/workspace/k501/docs/test_corpus/Makefile
+│   │       └── /home/iinkognit0/workspace/k501/docs/test_corpus/normalizer.py
+│   ├── /home/iinkognit0/workspace/k501/README.md
+│   ├── /home/iinkognit0/workspace/k501/runtime
+│   │   ├── /home/iinkognit0/workspace/k501/runtime/boot_loader
+│   │   ├── /home/iinkognit0/workspace/k501/runtime/ingest_runner.py
+│   │   ├── /home/iinkognit0/workspace/k501/runtime/modules
+│   │   │   ├── /home/iinkognit0/workspace/k501/runtime/modules/framer_linker.py
+│   │   │   ├── /home/iinkognit0/workspace/k501/runtime/modules/framer.py
+│   │   │   ├── /home/iinkognit0/workspace/k501/runtime/modules/linker.py
+│   │   │   ├── /home/iinkognit0/workspace/k501/runtime/modules/normalizer.py
+│   │   │   ├── /home/iinkognit0/workspace/k501/runtime/modules/__pycache__
+│   │   │   │   └── /home/iinkognit0/workspace/k501/runtime/modules/__pycache__/quantizer.cpython-313.pyc
+│   │   │   ├── /home/iinkognit0/workspace/k501/runtime/modules/quantizer.py
+│   │   │   └── /home/iinkognit0/workspace/k501/runtime/modules/segmenter.py
+│   │   ├── /home/iinkognit0/workspace/k501/runtime/tests
+│   │   │   ├── /home/iinkognit0/workspace/k501/runtime/tests/chunks
+│   │   │   │   └── /home/iinkognit0/workspace/k501/runtime/tests/chunks/CHUNK-af5cc2a571b0e5c7b22af4a41667cb6058e573f966ad02cf07a4458cfc5ed57b-000000.bin
+│   │   │   ├── /home/iinkognit0/workspace/k501/runtime/tests/frames
+│   │   │   │   └── /home/iinkognit0/workspace/k501/runtime/tests/frames/CHUNK-af5cc2a571b0e5c7b22af4a41667cb6058e573f966ad02cf07a4458cfc5ed57b-000000.json
+│   │   │   └── /home/iinkognit0/workspace/k501/runtime/tests/NORM-af5cc2a571b0e5c7b22af4a41667cb6058e573f966ad02cf07a4458cfc5ed57b.txt
+│   │   └── /home/iinkognit0/workspace/k501/runtime/tools
+│   │       └── /home/iinkognit0/workspace/k501/runtime/tools/build_ffmpeg_deterministic.sh
+│   └── /home/iinkognit0/workspace/k501/src
+├── /home/iinkognit0/workspace/k501_v24
+├── /home/iinkognit0/workspace/k501_v25
+├── /home/iinkognit0/workspace/k501_v26
+├── /home/iinkognit0/workspace/Makefile
+├── /home/iinkognit0/workspace/src
+│   ├── /home/iinkognit0/workspace/src/dynamic_cage.c
+│   ├── /home/iinkognit0/workspace/src/dynamic_cage.o
+│   ├── /home/iinkognit0/workspace/src/frame_engine.c
+│   ├── /home/iinkognit0/workspace/src/frame_engine.o
+│   ├── /home/iinkognit0/workspace/src/hard_index.c
+│   ├── /home/iinkognit0/workspace/src/hard_index.o
+│   ├── /home/iinkognit0/workspace/src/ingestion.c
+│   ├── /home/iinkognit0/workspace/src/ingestion.o
+│   ├── /home/iinkognit0/workspace/src/k501_auditor.py
+│   ├── /home/iinkognit0/workspace/src/k501_kernel_v24.c
+│   ├── /home/iinkognit0/workspace/src/k501_kernel_v25_mmap.c
+│   ├── /home/iinkognit0/workspace/src/k501_kernel_v26_deep.c
+│   ├── /home/iinkognit0/workspace/src/main.c
+│   ├── /home/iinkognit0/workspace/src/main.o
+│   ├── /home/iinkognit0/workspace/src/qh_algebra.c
+│   ├── /home/iinkognit0/workspace/src/qh_algebra.o
+│   ├── /home/iinkognit0/workspace/src/qh_core.c
+│   └── /home/iinkognit0/workspace/src/qh_core.o
+└── /home/iinkognit0/workspace/structure.txt
+
+23 directories, 50 files
