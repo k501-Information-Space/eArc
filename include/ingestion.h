@@ -1,9 +1,8 @@
 #ifndef K501_INGESTION_H
 #define K501_INGESTION_H
 
-#include <stdbool.h>
+#include "k501_types.h"
 
-/* Ingestion Pipeline Prototypes */
-bool ingest_document(const char *filepath);
+int k501_ingest_directory(const char *path, K501_DocumentSet *out);
 
-#endif // K501_INGESTION_H
+#endif
