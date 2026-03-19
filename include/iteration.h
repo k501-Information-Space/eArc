@@ -3,6 +3,10 @@
 
 #include "k501_types.h"
 
-int k501_iterate_fixpoint(K501_State *initial, K501_State *final, int max_iterations);
+int k501_iterate_fixpoint(
+    K501_State *initial,
+    K501_State *final,
+    int max_iterations
+);
 
 #endif
