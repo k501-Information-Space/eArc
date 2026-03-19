@@ -10,16 +10,38 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    K501_DocumentSet docs;
-    K501_NormalizedSet norm;
-    K501_State state, final;
+    K501_DocumentSet docs = {0};
+    K501_NormalizedSet norm = {0};
+    K501_State state = {0}, final = {0};
 
-    k501_ingest_directory(argv[1], &docs);
+    if (k501_ingest_directory(argv[1], &docs) != 0) {
+        printf("ERROR: ingestion failed\n");
+        return 1;
+    }
+
+    if (docs.count == 0) {
+        printf("ERROR: no valid files found\n");
+        return 1;
+    }
+
     k501_parse_batch(&docs, &norm);
+
+    if (norm.count == 0) {
+        printf("ERROR: parsing produced no data\n");
+        return 1;
+    }
+
     k501_frame_build(&norm, &state);
+
+    if (state.count == 0) {
+        printf("ERROR: no frames built\n");
+        return 1;
+    }
+
     k501_iterate_fixpoint(&state, &final, 10);
+
     k501_write_frames_ndjson(&final, "output.ndjson");
 
-    printf("OK\n");
+    printf("SUCCESS: %zu frames\n", final.count);
     return 0;
 }
