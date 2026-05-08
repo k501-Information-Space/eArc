@@ -146,22 +146,22 @@ ORCID: https://orcid.org/0009-0005-5125-9711
 Zenodo: K501 Technical Core v1.5
         https://zenodo.org/records/18697454
         
-        K501 Frames — Structural Gateway & Repository Navigation v1.1
+Zenodo: K501 Frames — Structural Gateway & Repository Navigation v1.1
         https://zenodo.org/records/18632667
         
-        K501 Frames — Combined Formal Statement · Reality = Flow · Interpretation = Projection
+Zenodo: K501 Frames — Combined Formal Statement · Reality = Flow · Interpretation = Projection
         https://zenodo.org/records/18615438
         
-        K501 Frames — Structural Integration Specification v1.0
+Zenodo: K501 Frames — Structural Integration Specification v1.0
         https://zenodo.org/records/18615245
 
-        K501 Frames — Die Formel v1.0
+Zenodo: K501 Frames — Die Formel v1.0
         https://zenodo.org/records/18599148
 
-        K501 Frames — FLOW · Dynamic Layer & Narrative Evolution
+Zenodo: K501 Frames — FLOW · Dynamic Layer & Narrative Evolution
         https://zenodo.org/records/18521607
 
-        As i State: K501.
+Zenodo: As i State: K501.
         https://zenodo.org/records/18511614
 
 Publication:
