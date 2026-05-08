@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Table
+  - type: table
+    name: View
+    sort:
+      - property: timestamp
+        direction: ASC
+      - property: file.ctime
+        direction: ASC
