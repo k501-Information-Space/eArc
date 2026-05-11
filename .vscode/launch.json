@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run k501_core",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/k501_core.bin",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "MIMode": "gdb",
+            "externalConsole": false
+        }
+    ]
+}
