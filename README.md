@@ -78,11 +78,9 @@ Dataset (Current Batch)
 	•	Source: Obsidian workspace
 	•	Format: Markdown (.md)
 	•	Size: ~350 files
-    
-	•	Source: Google Gemini
+    •	Source: Google Gemini
 	•	Format: Documents (.docx)
 	•	Size: ~500 files
-
 	•	Source: Various
 	•	Format: Documents (.txt)
 	•	Size: ~300 files
