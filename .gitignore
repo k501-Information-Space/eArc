@@ -1,10 +1,94 @@
-# Compiled Object files and Binaries
+# =========================================================
+# K501 — Repository Boundary Layer
+# =========================================================
+
+# ---------------------------------------------------------
+# BUILD ARTIFACTS
+# transient compile outputs
+# ---------------------------------------------------------
+
+build/obj/
+build/logs/
+
 *.o
-k501_alpha
+*.so
+*.a
 
-# K501 Storage Manifold (Do not version control the database)
-storage/frames.ndjson
-storage/index.dat
+# transient runtime binaries
+build/bin/*.bin
+build/bin/k501_v*
 
-# OS generated files
+# ---------------------------------------------------------
+# TEMP / CACHE
+# ---------------------------------------------------------
+
+*.tmp
+*.cache
+*.log
+*.swp
+*~
+
+# ---------------------------------------------------------
+# PYTHON
+# ---------------------------------------------------------
+
+__pycache__/
+*.pyc
+
+# ---------------------------------------------------------
+# EDITORS
+# ---------------------------------------------------------
+
+.vscode/
+.idea/
+
+# ---------------------------------------------------------
+# OS NOISE
+# ---------------------------------------------------------
+
 .DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------
+# LIVE RUNTIME STATE
+# append-only runtime outputs
+# NOT canonical archives
+# ---------------------------------------------------------
+
+archive/live/runtime/
+
+# ---------------------------------------------------------
+# TEMPORARY ARCHIVE ZONES
+# ---------------------------------------------------------
+
+archive/temp_*
+
+# ---------------------------------------------------------
+# RAW IMPORT STAGING
+# transient ingestion area
+# ---------------------------------------------------------
+
+raw/imports/*
+!raw/imports/.keep
+
+# ---------------------------------------------------------
+# OPTIONAL:
+# local mirrors / scratch workspace
+# uncomment later if needed
+# ---------------------------------------------------------
+
+# raw/workspace/
+
+# ---------------------------------------------------------
+# IMPORTANT:
+# DO NOT IGNORE:
+#
+# archive/epochs/
+# archive/manifests/
+# canonical/
+# spec/
+# src/
+# include/
+#
+# these are structural memory layers
+# ---------------------------------------------------------

@@ -1,11 +1,40 @@
-CC=gcc
-CFLAGS=-Iinclude -Wall -O2
+CC = gcc
 
-SRC=$(wildcard src/*.c)
-OBJ=$(SRC:.c=.o)
+CFLAGS = -Iinclude -Wall -O2
 
-k501_core.bin: $(OBJ)
+SRC = $(wildcard src/*.c)
+
+OBJ = $(patsubst src/%.c,build/obj/%.o,$(SRC))
+
+TARGET = build/bin/k501_core.bin
+
+LOGDIR = build/logs
+
+all: $(TARGET)
+
+$(TARGET): $(OBJ)
 	$(CC) -o $@ $(OBJ)
 
+build/obj/%.o: src/%.c
+	@mkdir -p build/obj
+	$(CC) $(CFLAGS) -c $< -o $@
+
+debug: CFLAGS += -g -DDEBUG
+debug: clean all
+
+release: clean all
+
 clean:
-	rm -f src/*.o k501_core.bin
+	rm -f build/obj/*.o
+	rm -f $(TARGET)
+
+logs:
+	@mkdir -p $(LOGDIR)
+
+run: all
+	./$(TARGET)
+
+info:
+	@echo "Sources : $(SRC)"
+	@echo "Objects : $(OBJ)"
+	@echo "Target  : $(TARGET)"
