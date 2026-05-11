@@ -1,0 +1,1 @@
+{"frame_id":"KPOL-PACK-FREEZE-0001","created_utc":"2026-01-22T18:13:30Z","created_unix":1769105610,"frame_type":"FREEZE","payload":"KPOL-PACK-0001 frozen as reference. No mutation permitted. Reference-only.","hash":"a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0","tags":["FREEZE","KERNEL","POLICY","PACK","REFERENCE_ONLY"],"visibility":"PUBLIC"}

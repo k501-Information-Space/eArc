@@ -1,0 +1,91 @@
+t: FRAME
+id: K501-BP09-L0-02-SETTHEORY-AXIOMS-0001
+type: BOOTPACK_SUBMODULE_CONTENT
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L0_FOUNDATIONS
+submodule: L0-02_SET_THEORY
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-TIMEANCHOR-1770060007-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+refs:
+  urls:
+    - "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory"
+
+content:
+  primitive_notions:
+    - symbol: "∈"
+      name: "membership"
+      note: "Grundprädikat der Mengenlehre."
+    - symbol: "="
+      name: "equality"
+      note: "Identität (standard)."
+
+  axiom_systems:
+    - name: "ZF"
+      includes_choice: false
+    - name: "ZFC"
+      includes_choice: true
+
+  axioms_ZF_core:
+    - axiom: EXTENSIONALITY
+      informal: "Gleiche Elemente ⇒ gleiche Menge."
+      fol_shape: "∀x∀y[(∀z(z∈x ↔ z∈y)) → x=y]"
+    - axiom: EMPTY_SET
+      informal: "Es existiert eine leere Menge."
+      fol_shape: "∃x∀z ¬(z∈x)"
+      note: "In manchen Darstellungen aus Separation+anderen ableitbar; hier explizit als Basis."
+    - axiom: PAIRING
+      informal: "Zu x,y existiert {x,y}."
+      fol_shape: "∀x∀y∃z[(x∈z) ∧ (y∈z)]"
+    - axiom: UNION
+      informal: "Für jede Menge von Mengen existiert ihre Vereinigung."
+      fol_shape: "∀F∃A∀x[(∃Y(Y∈F ∧ x∈Y)) → x∈A]"
+    - axiom: POWER_SET
+      informal: "Für jede Menge x existiert P(x)."
+      fol_shape: "∀x∃y∀z[(z⊆x) → z∈y]"
+      definitions:
+        subset: "z⊆x :≡ ∀q(q∈z → q∈x)"
+    - axiom: INFINITY
+      informal: "Es existiert eine unendliche Menge (z.B. enthält ∅ und Nachfolger)."
+      fol_shape: "∃x[∅∈x ∧ ∀y(y∈x → (y∪{y})∈x)]"
+    - axiom_schema: SEPARATION (SPECIFICATION)
+      informal: "Aus einer Menge x kann per Formel φ eine Teilmenge {z∈x | φ(z)} gebildet werden."
+      schema_note: "Für jede Formel φ(z,...) mit Parametern."
+      fol_shape: "∀x∃y∀z[z∈y ↔ (z∈x ∧ φ(z,...))]"
+    - axiom_schema: REPLACEMENT
+      informal: "Bild einer Menge unter definierbarer Funktion ist eine Menge."
+      schema_note: "Für jede definierbare funktionale Relation φ(x,y,...)."
+      fol_shape: "∀x[ (∀a∈x ∃!b φ(a,b,...)) → ∃y ∀b( b∈y ↔ ∃a∈x φ(a,b,...) ) ]"
+    - axiom: FOUNDATION (REGULARITY)
+      informal: "Keine unendlichen ∈-Abstiegsketten; jedes nichtleere x hat ein ∈-minimales Element."
+      fol_shape: "∀x(x≠∅ → ∃y(y∈x ∧ y∩x=∅))"
+
+  axiom_choice_optional:
+    - axiom: CHOICE (AC)
+      system: "ZFC"
+      informal: "Aus jeder Familie nichtleerer Mengen existiert eine Auswahlfunktion."
+      note: "Formulierung variiert; Canon-Form erst später festlegen (separater Strang)."
+
+  derived_notions_L0:
+    - term: "subset"
+      def: "A⊆B :≡ ∀z(z∈A → z∈B)"
+    - term: "union_of_two"
+      def: "A∪B :≡ {z | z∈A ∨ z∈B} (über Separation auf Superset)"
+    - term: "intersection_of_two"
+      def: "A∩B :≡ {z | z∈A ∧ z∈B} (über Separation)"
+
+status:
+  populated: true
+  selected_default_system: "ZF (Choice deferred)"
+  next: "L0-03_RELATIONS (properties) populate"

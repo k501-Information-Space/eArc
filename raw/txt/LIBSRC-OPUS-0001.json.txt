@@ -1,0 +1,45 @@
+{
+  "id": "LIBSRC-OPUS-0001",
+  "type": "LIB_SOURCE",
+  "created_utc": "REPLACE_WITH_UTC_ISO8601_Z",
+  "created_unix": 0,
+  "source": "Iinkognit0",
+  "visibility": "PRIVATE",
+  "refs": [],
+  "payload": {
+    "name": "Opus",
+    "category": "AUDIO_CODEC",
+    "purpose": "Lossy audio codec optimized for speech and music with low latency.",
+    "scope": "REFERENCE_ONLY",
+    "status": "PLANNED",
+    "license": "BSD-3-Clause",
+    "official_homepage": "https://opus-codec.org/",
+    "source_repo": "https://gitlab.xiph.org/xiph/opus",
+    "release_source": "https://downloads.xiph.org/releases/opus/",
+    "download_target": {
+      "artifact_type": "SOURCE_TARBALL",
+      "artifact_name": "opus-REPLACE_WITH_VERSION.tar.gz",
+      "expected_version": "UNKNOWN"
+    },
+    "verification_plan": [
+      "Download source tarball from official release directory.",
+      "Compute SHA256 of the downloaded artifact.",
+      "Verify GPG signature if provided by Xiph.",
+      "Record byte_size and SHA256 in a PROOF frame."
+    ],
+    "no_phantom_rule": "NOT_FACT_UNTIL_DOWNLOADED_AND_HASHED",
+    "tags": [
+      "GEX",
+      "LIB",
+      "OPUS",
+      "AUDIO",
+      "CODEC",
+      "SOURCE",
+      "NO_PHANTOM",
+      "REFERENCE_ONLY",
+      "PLANNED"
+    ],
+    "notes": "Planned as primary speech/music codec; no runtime coupling in Kernel."
+  },
+  "hash": "PLACEHOLDER_SHA256"
+}

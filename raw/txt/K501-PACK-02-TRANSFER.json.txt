@@ -1,0 +1,30 @@
+{
+  "pack_meta": {
+    "id": "K501-PACK-02",
+    "version": "0.1.0",
+    "label": "Epistemic Engine & CLI Tooling",
+    "ts": { "utc": "2026-03-03T11:35:00Z", "unix": 1772537700 },
+    "dependency": "K501-PACK-01",
+    "integrity_hash": "UNSET_RECALCULATE_AFTER_SAVE"
+  },
+  "specification_0300": {
+    "omega_space": {
+      "definition": "Ω = {ω_1, ω_2, ..., ω_n, silence}",
+      "description": "Menge aller im Frame zugelassenen Zustände inklusive epistemischer Stille."
+    },
+    "mu_density": {
+      "formula": "μ = -Σ P(ω) log2 P(ω)",
+      "unit": "bits",
+      "description": "Shannon-Entropie zur Messung semantischer Ambiguität."
+    },
+    "delta_dispersion": {
+      "formula": "δ(P1, P2) = 0.5 * D_KL(P1||M) + 0.5 * D_KL(P2||M)",
+      "method": "Jensen-Shannon Divergence",
+      "description": "Maß für die semantische Distanz zwischen zwei Observern."
+    }
+  },
+  "tooling_0400": {
+    "cli_source": "import json\nimport hashlib\nimport numpy as np\nimport argparse\n\nclass K501Engine:\n    def __init__(self, data):\n        self.data = data\n\n    def verify_integrity(self, expected_hash):\n        canonical = json.dumps(self.data, sort_keys=True, separators=(',', ':'))\n        actual = hashlib.sha256(canonical.encode()).hexdigest()\n        return actual == expected_hash, actual\n\n    def calculate_mu(self, p):\n        p = np.array(p)\n        p = p[p > 0]\n        return -np.sum(p * np.log2(p))\n\n    def calculate_delta(self, p1, p2):\n        p1, p2 = np.array(p1), np.array(p2)\n        m = 0.5 * (p1 + p2)\n        def kl(p, q):\n            return np.sum(np.where(p > 0, p * np.log2(p / q), 0))\n        return 0.5 * kl(p1, m) + 0.5 * kl(p2, m)\n\n# CLI Logic implementation follows standard argparse pattern.",
+    "runtime_requirements": ["python >= 3.8", "numpy"]
+  }
+}

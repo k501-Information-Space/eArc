@@ -1,0 +1,23 @@
+{"frame_id":"SNAP-0001","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"SYSTEM_SNAPSHOT","payload":"Genesis Kernel Status Snapshot v1. Canonical state across Kernel + Layer 2. Reference-only.","hash":"sha256(payload_only)","tags":["SNAPSHOT","KERNEL","STATUS","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0002","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"KERNEL_STATE","payload":"Kernel is CANONICAL. MODE=DEVELOPMENT. EXECUTION=BLOCKED. MUTATION=FORBIDDEN. STORAGE=APPEND_ONLY. REFERENCE=READ_ONLY.","hash":"sha256(payload_only)","tags":["KERNEL","STATE","CANONICAL"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0003","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"TIME_POLICY_STATE","payload":"Time is mandatory. All frames require created_utc (UTC/Zulu ISO-8601) and created_unix (Unix Epoch). Kernel-verified time overrides user input. NTP/Offline/Online comparison required.","hash":"sha256(payload_only)","tags":["TIME","UTC","UNIX","MANDATORY"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0004","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"GENESIS_KERNEL_STATE","payload":"Genesis Kernel UltraPack defined and frozen. Captures CAPTURE-0001..0003 PUBLIC. PACK-0001 + FREEZE. SUPERPACK-0001 + FREEZE. Kernel is read-only reference.","hash":"sha256(payload_only)","tags":["GENESIS","KERNEL","FREEZE"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0005","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"LAYER2_AIKIDO_DEFENSE_STATE","payload":"Aikido Defense Layer v1 complete. Frames AIDK-DEF-0001..0008. Pack + Freeze active. Defensive-only, deny-by-default, anti-phantom enforced.","hash":"sha256(payload_only)","tags":["LAYER2","AIDK","PROOF_OK"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0006","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"LAYER2_TRANSPORT_STATE","payload":"Transport & Identity Layer v1 complete. TLS-only, HMAC ingest, SSH admin, SFTP/SCP file transfer. Proof-Run V2 applied. Status=PROOF_OK.","hash":"sha256(payload_only)","tags":["LAYER2","TRANSPORT","PROOF_OK"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0007","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"LAYER2_INGEST_STATE","payload":"Ingest Layer v1 complete. Append-only API contract, idempotent writes, validation, limits, NDJSON storage. Status=PROOF_OK.","hash":"sha256(payload_only)","tags":["LAYER2","INGEST","PROOF_OK"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0008","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"LAYER2_READ_STATE","payload":"Read Layer v1 proof-run completed. Placeholder hashes removed via V2 frames and Proof-Pack. Status=PROOF_OK.","hash":"sha256(payload_only)","tags":["LAYER2","READ_LAYER","PROOF_OK"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0009","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"KERNEL_RESONANCE_STATE","payload":"Kernel Resonance Policy proof-run completed. V2 frame + Pack + Freeze + Proof-Pack applied. Status=PROOF_OK.","hash":"sha256(payload_only)","tags":["KERNEL_RES","PROOF_OK"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0010","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"GLOBAL_CHECKPOINT_STATE","payload":"GLOBAL-CHECKPOINT-0001 confirmed. All scopes have real SHA256 hashes and valid timestamps. Sequence-Lock conditions satisfied.","hash":"sha256(payload_only)","tags":["CHECKPOINT","GLOBAL","AUDIT_OK"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0011","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"KNOWN_LAGS","payload":"Known LAG: Asset-Set eArc Public Read v1 not yet confirmed/frozen. No other blocking gaps detected.","hash":"sha256(payload_only)","tags":["LAG","ASSETS"],"visibility":"PUBLIC"}
+
+{"frame_id":"SNAP-0012","created_utc":"2026-01-23T12:05:59Z","created_unix":1769169959,"frame_type":"NEXT_STEP_DECLARATION","payload":"Next allowed step (strict sequence): PUBLIC-INDEX v2 (append-only). No export/feed update before index v2 is created and frozen.","hash":"sha256(payload_only)","tags":["NEXT_STEP","PUBLIC_INDEX_V2"],"visibility":"PUBLIC"}

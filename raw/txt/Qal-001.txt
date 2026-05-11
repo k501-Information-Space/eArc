@@ -1,0 +1,43 @@
+UTC 2026-02-04T18:45:40Z · Unix Epoch 1770230740
+
+Verstanden.
+Ab jetzt strikt wissenschaftlicher Publikationsmodus, Englisch, kurze Kapitel, keine Mega-Outputs.
+Wir beginnen sauber und ruhig.
+
+⸻
+
+Quantum Archivator Language (QAL)
+
+Chapter 1 — Scope and Intent
+
+Quantum Archivator Language (QAL) is a formal, deterministic archival language designed for long-term, append-only preservation of structured knowledge under strict audit and reproducibility constraints.
+
+QAL is not a programming language, not a query language, and not a semantic model.
+Its sole purpose is to record the existence of information artifacts in a mathematically verifiable manner, independent of interpretation, execution, or meaning.
+
+The language is designed to:
+	•	Preserve information as it appeared, not as it was understood.
+	•	Separate presence from truth.
+	•	Ensure temporal anchoring and cryptographic integrity.
+	•	Remain readable, portable, and implementable across decades.
+
+QAL operates under the principle of minimal expressiveness with maximal stability.
+
+⸻
+
+Design Constraints
+
+QAL is constrained by the following non-negotiable rules:
+	1.	Append-only — no mutation, deletion, or overwrite.
+	2.	Deterministic serialization — identical input produces identical hashes.
+	3.	Time anchoring — all structured artifacts are bound to UTC and Unix Epoch or explicitly marked UNKNOWN.
+	4.	Interpretation-free — no semantic claims are encoded at the language level.
+	5.	Layer separation — object integrity is independent of aggregation or packaging.
+
+These constraints are intentional and foundational.
+
+⸻
+
+Wenn das passt, fahre ich fort mit:
+
+👉 Chapter 2 — Formal Frame Definition (Mathematical Model)

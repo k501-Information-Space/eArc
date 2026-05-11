@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>eArc Public Read — Canonical Feed</title>
+  <id>urn:earc:public:feed:v1</id>
+  <updated>2026-01-22T18:32:02Z</updated>
+
+  <!-- Self + WebSub (opt-in push) -->
+  <link rel="self" href="https://iinkognit0.de/earc/read/feeds/public.atom" />
+  <link rel="hub"  href="https://iinkognit0.de/earc/read/websub/hub" />
+
+  <!-- Conditional GET helpers (server should emit as headers) -->
+  <!-- Last-Modified: 2026-01-22T18:32:02Z -->
+  <!-- ETag (sha256 refs list): "3b387903b5e15befb75d60d7f8adf6097087777c8f8f6574082a165085570a9b" -->
+
+  <entry>
+    <title>PUBLIC-INDEX-0001 — Canonical Public Index</title>
+    <id>urn:earc:public:index:0001</id>
+    <updated>2026-01-22T18:32:02Z</updated>
+    <link href="https://iinkognit0.de/earc/read/public-index/PUBLIC-INDEX-0001.json" />
+    <summary>Canonical index of PUBLIC reference-only artifacts.</summary>
+  </entry>
+
+  <entry>
+    <title>PACK-0001 — Genesis Light (frozen)</title>
+    <id>urn:earc:pack:0001</id>
+    <updated>2026-01-22T17:46:30Z</updated>
+    <link href="https://iinkognit0.de/earc/read/exports/pack-0001.export.ndjson" />
+    <summary>Export NDJSON + manifest + proofs. Reference-only.</summary>
+  </entry>
+
+  <entry>
+    <title>SUPERPACK-0001 — Genesis Light (frozen aggregation)</title>
+    <id>urn:earc:superpack:0001</id>
+    <updated>2026-01-22T17:46:30Z</updated>
+    <link href="https://iinkognit0.de/earc/read/exports/superpack-0001.export.ndjson" />
+    <summary>Aggregation of frozen reference packs. No interpretation.</summary>
+  </entry>
+
+  <entry>
+    <title>KPOL-PACK-0001 — Kernel Policy Pack v1 (frozen)</title>
+    <id>urn:earc:kpol:pack:0001</id>
+    <updated>2026-01-22T18:13:30Z</updated>
+    <link href="https://iinkognit0.de/earc/read/exports/kpol-pack-0001.export.ndjson" />
+    <summary>Kernel-level policies (resonance/transport/distribution). Reference-only.</summary>
+  </entry>
+
+  <entry>
+    <title>READ-PACK-0001 — Read Layer Pack v1 (frozen)</title>
+    <id>urn:earc:read:pack:0001</id>
+    <updated>2026-01-22T18:22:07Z</updated>
+    <link href="https://iinkognit0.de/earc/read/exports/read-pack-0001.export.ndjson" />
+    <summary>Public Read + Feeds + WebSub + Export Gate. Reference-only.</summary>
+  </entry>
+</feed>

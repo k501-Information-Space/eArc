@@ -1,0 +1,34 @@
+{
+  "pack_meta": {
+    "id": "K501-PACK-01",
+    "ts": { "utc": "2026-03-03T11:27:00Z", "unix": 1772537220 },
+    "label": "Foundation & Canon",
+    "status": "STABLE",
+    "integrity_hash": "693cebfc44b73582ddedd4b14820e243de1958b6940727307753eecdd62392ef"
+  },
+  "content": {
+    "module_0100": {
+      "id": "0100-CORE-FOUNDATIONS",
+      "declaration_ref": "K501-CANON-ALPHA-0.1",
+      "policy": "APPEND_ONLY",
+      "authority": "NONE"
+    },
+    "module_0200": {
+      "id": "0200-FRAME-SPEC",
+      "standard": "V1-MINIMAL",
+      "hashing": "SHA-256_JCS_RFC8785",
+      "time_anchoring": "REQUIRED"
+    }
+  },
+  "canonical_payload": {
+    "id": "K501-CANON-ALPHA-0.1",
+    "version": "0.1.0",
+    "registry": "COMPUTED_STATEMENTS_S0001_TO_S0029",
+    "amendments": ["K501-CANON-AMEND-0001"],
+    "mathematical_state": {
+      "sets": ["KA", "KB", "KC"],
+      "logic": "STRUCTURE_PERP_INTERPRETATION",
+      "consistency": "PASS"
+    }
+  }
+}

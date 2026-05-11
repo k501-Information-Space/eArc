@@ -1,0 +1,32 @@
+{
+  "type": "MANIFEST",
+  "schema": "FN_CANON_V1",
+  "scope": "PACK_EXPORT",
+  "pack_id": "PACK-0001",
+  "freeze_frame": "PACK-FREEZE-0001",
+  "generated_utc": "2026-01-22T17:46:30Z",
+  "generated_unix": 1769103990,
+  "frames": {
+    "included": [
+      "CAPTURE-0001",
+      "CAPTURE-0002",
+      "CAPTURE-0003",
+      "PACK-0001",
+      "PACK-FREEZE-0001"
+    ],
+    "count": 5
+  },
+  "policies": {
+    "append_only": true,
+    "mutation": "FORBIDDEN",
+    "hash_policy": "SHA256(payload only)",
+    "time_policy": "UTC + Unix Epoch required",
+    "visibility": "PUBLIC"
+  },
+  "notes": [
+    "Reference-only export",
+    "No interpretation added",
+    "All payload hashes precomputed",
+    "Safe for public distribution"
+  ]
+}

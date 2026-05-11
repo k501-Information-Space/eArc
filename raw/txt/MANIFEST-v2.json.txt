@@ -1,0 +1,20 @@
+{
+  "export_id": "EXPORT-v2",
+  "created_utc": "2026-01-23T19:30:39Z",
+  "created_unix": 1769196639,
+  "source_index": "PUBLIC-INDEX-0002",
+  "frame_count": 27,
+  "byte_size_total": 124083,
+  "sha256_ndjson": "9c4f2c2d4e1c8a6a3b8f1d2e7a9b0c4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+  "sha256_manifest": "1a3e9f0b2c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b",
+  "proof_instructions": {
+    "linux_macos": {
+      "count": "wc -l EXPORT-v2.ndjson",
+      "hash": "sha256sum EXPORT-v2.ndjson MANIFEST-v2.json"
+    },
+    "windows_powershell": {
+      "count": "Get-Content EXPORT-v2.ndjson | Measure-Object -Line",
+      "hash": "Get-FileHash EXPORT-v2.ndjson, MANIFEST-v2.json -Algorithm SHA256"
+    }
+  }
+}

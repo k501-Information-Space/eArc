@@ -1,0 +1,22 @@
+{
+  "t": "BOOTPACK_CRYPTO_PROOF",
+  "id": "K501-BP-CRYPTO-0001",
+  "scope": "MEGA_BOOT_SPEC",
+  "mode": "REFERENCE_ONLY",
+  "constraints": [
+    "POINTER_ONLY",
+    "NO_CONTENT",
+    "NO_EXECUTION",
+    "NO_INTERPRETATION",
+    "NON_CLAIM"
+  ],
+  "pointers": [
+    "CRYPTO.HASH_FUNCTIONS",
+    "CRYPTO.INTEGRITY_MODELS",
+    "CRYPTO.PROOF_OF_PRESENCE",
+    "CRYPTO.CONTENT_ADDRESSING",
+    "CRYPTO.RECEIPT_LOGGING"
+  ],
+  "notes": "Structural focus on cryptographic primitives used for integrity, presence proofs, and append-only verification. No security guarantees or correctness claims implied.",
+  "g_state": "UNKNOWN"
+}

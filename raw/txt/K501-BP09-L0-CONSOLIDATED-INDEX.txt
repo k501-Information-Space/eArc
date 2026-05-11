@@ -1,0 +1,53 @@
+t: FRAME
+id: K501-BP09-L0-CONSOLIDATED-INDEX-SNAPSHOT-0001
+type: INDEX_SNAPSHOT
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L0_FOUNDATIONS
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-TIMEANCHOR-1770060007-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - SILENCE_IS_VALID
+
+entries:
+  - submodule: L0-01_LOGIC
+    base_frame: K501-BP09-L0-01-LOGIC-POPULATED-0001
+    active_revision: K501-BP09-L0-01-LOGIC-REVISION-0001
+    status: REVIEWED_AND_ALIGNED
+    notes: "Proof rules moved to L1 slot."
+  - submodule: L0-02_SET_THEORY
+    base_frame: K501-BP09-L0-02-SETTHEORY-AXIOMS-0001
+    active_revision: K501-BP09-L0-02-SETTHEORY-REVISION-0001
+    status: REVIEWED_AND_ALIGNED
+    notes: "ZF fol_shape strengthened to standard ↔ forms."
+  - submodule: L0-03_RELATIONS
+    base_frame: K501-BP09-L0-03-RELATIONS-PROPERTIES-0001
+    active_revision: K501-BP09-L0-03-RELATIONS-REVISION-0002
+    status: REVIEWED_AND_ALIGNED
+    notes: "CONNECTED normalized; lemma slots moved to L1."
+  - submodule: L0-04_FUNCTIONS
+    base_frame: K501-BP09-L0-04-FUNCTIONS-EXPANDED-0001
+    active_revision: K501-BP09-L0-04-FUNCTIONS-REVISION-0001
+    status: REVIEWED_AND_ALIGNED
+    notes: "dom/ran definitional; codomain declared; lemma slots moved to L1."
+
+summary:
+  l0_foundations_state: STABLE_DEV_READY
+  fill_level_estimate: 95%
+  open_lemmas_for_L1:
+    - ASYMMETRY_FROM_IRREFLEXIVE_AND_TRANSITIVE
+    - INVERSE_EXISTS_IFF_BIJECTIVE
+  canon_blocked: true
+  next_layer: L1_LOGIC_AND_PROOF
+
+status:
+  acknowledged: true
+  integrity: OK
+  note: "Konsolidierter L0-Index (active revisions). Keine Canonisierung."

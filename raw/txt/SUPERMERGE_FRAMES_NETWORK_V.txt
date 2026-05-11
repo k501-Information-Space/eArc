@@ -1,0 +1,95 @@
+SUPERMERGE_FRAMES_NETWORK_V1
+MODE: REFERENCE_ONLY
+STATUS: CANONICAL
+FREEZE: ON
+EXECUTION: BLOCKED
+AUTOMATION: OFF
+LICENSE: PUBLIC DOMAIN
+
+ZWECK
+Ein offenes, referenzielles Ordnungsformat zur Kopplung von
+Genesis (Interpretation/Rendering/Tooling)
+und
+Frames Network (Archiv/Proof/Append-only),
+ohne Aktion, ohne Override.
+
+ROLLEN
+Frames Network:
+- Wahrheits- und Archivschicht
+- append-only
+- auditierbar
+- Historie bleibt erhalten
+
+Genesis:
+- Anzeige / Interpretation / Visualisierung
+- keine Trigger
+- keine Aktionen
+
+REGEL
+Display never drives action.
+
+ARCHITEKTUR
+INPUT
+  ↓
+FRAMES NETWORK (Archiv · Proof · Append-only)
+  ↓
+BRIDGE LAYER (Mapping · Supersedes-only · kein Override)
+  ↓
+GENESIS (Renderer · Interpreter · UI)
+  ↓
+OUTPUT (Views · Exporte · keine Ausführung)
+
+PRINZIPIEN
+- archive_before_action
+- append_only
+- no_mutation
+- no_execution
+- proof_before_activation
+- silence_is_valid_signal
+- limitation_before_expansion
+
+KONFLIKTREGEL
+KEIN EDIT
+KEIN DELETE
+KEIN OVERRIDE
+NUR:
+→ neuer Frame
+→ refs auf alten Frame
+→ ggf. SUPERSEDES / PROOF / CHECKPOINT
+
+MINIMAL-SCHEMA
+{
+  id,
+  type,
+  created_utc,
+  created_unix,
+  source,
+  payload,
+  hash,
+  refs,
+  visibility
+}
+
+OUTPUT-FORMEN
+Text, JSON, NDJSON, Markdown, Screenshot, Print
+
+NICHT-ZIELE
+Kein Produkt
+Keine Plattform
+Keine Automation
+Kein Action-Trigger
+Keine Black Box
+
+UX-SATZ
+„Ein Gedanke rein – ein Frame raus – archiviert, referenziert, beweisbar – ohne Nacharbeit.“
+
+ENDSTATUS
+Readable · Copyable · Archivable · Auditable
+Human-first · Machine-compatible
+
+IS NOT
+Product · Platform · Automation · Driver of Action
+
+ZUSTAND
+geschlossen · kanonisch · ruhig
+Silence holds. Archive stands.

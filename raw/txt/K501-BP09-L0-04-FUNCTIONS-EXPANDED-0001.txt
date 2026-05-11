@@ -1,0 +1,83 @@
+t: FRAME
+id: K501-BP09-L0-04-FUNCTIONS-EXPANDED-0001
+type: BOOTPACK_SUBMODULE_CONTENT
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L0_FOUNDATIONS
+submodule: L0-04_FUNCTIONS
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-TIMEANCHOR-1770060007-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+refs:
+  urls:
+    - "https://en.wikipedia.org/wiki/Function_%28mathematics%29"
+    - "https://discrete.openmathbooks.org/dmoi2/sec_intro-functions.html"
+
+content:
+  function_as_relation:
+    def: >
+      Eine Funktion f von A nach B ist eine Relation f ⊆ A×B,
+      so dass für jedes a∈A genau ein b∈B existiert mit (a,b)∈f.
+    notation:
+      - "f: A → B"
+      - "f(a)=b :≡ (a,b)∈f"
+
+  basic_components:
+    - term: DOMAIN
+      def: "dom(f)=A"
+    - term: CODOMAIN
+      def: "cod(f)=B"
+    - term: IMAGE (RANGE)
+      def: "im(f) :≡ { b∈B | ∃a∈A: f(a)=b }"
+      note: "im(f) ⊆ B"
+
+  graph_representation:
+    def: "graph(f) :≡ { (a,f(a)) | a∈A } ⊆ A×B"
+
+  equality_of_functions:
+    def: "f=g ⇔ dom(f)=dom(g) ∧ ∀a∈dom(f): f(a)=g(a)"
+    note: "Codomain-Konventionen getrennt halten (kein Phantom-Gleichsetzen)."
+
+  composition:
+    def: "Wenn f: A→B und g: B→C, dann (g∘f): A→C mit (g∘f)(a)=g(f(a))."
+    assoc_note: "Assoziativität ist Theorem (Proof in L1/L2), hier nur Definition."
+
+  identity:
+    def: "id_A: A→A, id_A(a)=a"
+
+  inverse_function:
+    definitional_precondition: "Nur für bijektive Funktionen."
+    def: "f^{-1}: B→A so dass f^{-1}(b)=a ⇔ f(a)=b"
+    note: "Inverse ist Funktion genau dann, wenn f bijektiv."
+
+  injective_surjective_bijective:
+    injective:
+      def: "∀a1,a2∈A: f(a1)=f(a2) → a1=a2"
+    surjective:
+      def: "∀b∈B ∃a∈A: f(a)=b"
+    bijective:
+      def: "injective ∧ surjective"
+
+  restrictions_extensions:
+    restriction:
+      def: "f|_S: S→B für S⊆A, f|_S(a)=f(a)"
+    extension_note:
+      def: "g erweitert f, wenn dom(f)⊆dom(g) und g|_{dom(f)}=f"
+
+  preimage:
+    def: "f^{-1}[T] :≡ { a∈A | f(a)∈T } für T⊆B"
+    note: "Preimage ist definierbar auch ohne Invertierbarkeit."
+
+status:
+  populated: true
+  next: "L0 index update"

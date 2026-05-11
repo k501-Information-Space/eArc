@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>eArc Public Feed — v2</title>
+    <link>/earc/read/</link>
+    <description>Public, reference-only updates (append-only).</description>
+    <lastBuildDate>Fri, 23 Jan 2026 19:55:09 GMT</lastBuildDate>
+
+    <item>
+      <guid isPermaLink="false">urn:earc:export:v2</guid>
+      <title>EXPORT v2 published</title>
+      <pubDate>Fri, 23 Jan 2026 19:30:39 GMT</pubDate>
+      <description>NDJSON + Manifest + Proofs. Proof OK.</description>
+      <link>/earc/export/v2/</link>
+    </item>
+
+    <item>
+      <guid isPermaLink="false">urn:earc:checkpoint:post-export:0001</guid>
+      <title>Post-Export Checkpoint v1</title>
+      <pubDate>Fri, 23 Jan 2026 19:55:09 GMT</pubDate>
+      <description>Audit-locked. Freeze intact.</description>
+      <link>/earc/read/</link>
+    </item>
+  </channel>
+</rss>

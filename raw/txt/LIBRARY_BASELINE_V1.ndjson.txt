@@ -1,0 +1,49 @@
+{"frame_id":"LIB-BASE-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"OS_KERNEL","name":"Linux Kernel","description":"Core operating system kernel providing process, memory, device and filesystem management.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0002","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"OS_USERSPACE","name":"GNU","description":"Free system toolchain and core userland utilities forming the foundation of GNU/Linux systems.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0003","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"COMPILER","name":"GCC","description":"GNU Compiler Collection for C, C++, Fortran and related languages.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0004","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"SYSTEM","name":"glibc","description":"GNU C Library providing standard system calls and runtime interfaces.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0005","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"INIT","name":"systemd","description":"System and service manager for Linux user space.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0006","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"AUDIO","name":"PipeWire","description":"Unified audio and video routing service for low-latency multimedia on Linux.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0007","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"DESKTOP","name":"KDE Plasma","description":"Graphical desktop environment for Linux systems.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0008","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"MULTIMEDIA","name":"FFmpeg","description":"Complete multimedia framework for decoding, encoding and transcoding audio and video.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0009","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"MULTIMEDIA","name":"VLC","description":"Media player and streaming framework built on libVLC.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0010","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"GRAPHICS","name":"SVG","description":"Scalable Vector Graphics standard for resolution-independent visuals.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0011","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"GRAPHICS","name":"Blender","description":"Open-source 3D creation suite supporting modeling, animation and rendering.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0012","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"DOCUMENT","name":"Pandoc","description":"Universal document converter supporting Markdown, PDF, HTML and LaTeX.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0013","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"DOCUMENT","name":"LaTeX","description":"High-quality typesetting system for scientific and technical documents.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0014","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"ARCHIVE","name":"7-Zip","description":"High-compression file archiver supporting multiple formats.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0015","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"EBOOK","name":"Calibre","description":"E-book management, conversion and library system.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0016","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"AUDIO","name":"DAW","description":"Digital Audio Workstation for multitrack audio production.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0017","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"AUDIO","name":"Audio Synthesizers","description":"Software synthesizers for sound generation and music synthesis.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0018","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"EMULATION","name":"C64 Emulator","description":"Commodore 64 emulator for software and archival playback.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0019","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"EMULATION","name":"Atari Emulator","description":"Emulator for classic Atari systems.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0020","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"MOBILE","name":"Android API","description":"Application programming interface for Android-based systems.","status":"OPTIONAL","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0021","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"NETWORK","name":"HTTP/HTTPS","description":"Core web transport protocols for request/response communication.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0022","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"NETWORK","name":"RSS / Atom","description":"Syndication formats for calm, pull-based content distribution.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0023","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"NETWORK","name":"WebSub","description":"Optional push mechanism for feed updates via subscription hubs.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0024","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"SECURITY","name":"TLS","description":"Transport Layer Security for encrypted network communication.","status":"REQUIRED","visibility":"REFERENCE"}
+
+{"frame_id":"LIB-BASE-0025","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","category":"SECURITY","name":"OpenSSL","description":"Cryptographic library providing SSL/TLS and hashing functions.","status":"REQUIRED","visibility":"REFERENCE"}

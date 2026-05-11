@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iinkognit0.de/sitemap.xml

@@ -1,0 +1,22 @@
+{
+  "t": "BOOTPACK_COMPUTER_SCIENCE",
+  "id": "K501-BP-CS-0001",
+  "scope": "MEGA_BOOT_SPEC",
+  "mode": "REFERENCE_ONLY",
+  "constraints": [
+    "POINTER_ONLY",
+    "NO_CONTENT",
+    "NO_EXECUTION",
+    "NO_INTERPRETATION",
+    "NON_CLAIM"
+  ],
+  "pointers": [
+    "CS.SYSTEMS",
+    "CS.INFORMATION_THEORY",
+    "CS.DATA_STRUCTURES",
+    "CS.APPEND_ONLY_LOGS",
+    "CS.CONTENT_ADDRESSING"
+  ],
+  "notes": "Thematic focus on system structure, information handling, and non-semantic computation. No competence or correctness implied.",
+  "g_state": "UNKNOWN"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "MANIFEST",
+  "schema": "FN_CANON_V1",
+  "scope": "GENESIS_KERNEL",
+  "ultrapack": "GENESIS_KERNEL_ULTRAPACK",
+  "generated_utc": "2026-01-22T16:45:50Z",
+  "generated_unix": 1769100350,
+  "frames": {
+    "range": {
+      "start": "GEN-0001",
+      "end": "GEN-0010"
+    },
+    "count": 10
+  },
+  "policies": {
+    "append_only": true,
+    "time": "UTC + Unix Epoch required",
+    "hash": "SHA256(payload only)",
+    "visibility": "PUBLIC",
+    "mutation": "FORBIDDEN"
+  },
+  "notes": [
+    "Genesis Kernel exists exclusively as frames",
+    "Frozen as UltraPack",
+    "Reference-only; execution blocked"
+  ]
+}
