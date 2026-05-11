@@ -1,14 +1,25 @@
-K501 Information Space · eArc (Eternal Archive)
+````markdown id="jlwm9f"
+# K501 Information Space
 
-Deterministic, append-only information system.
-This repository represents the /eArc/ (Eternal Archive) layer of K501.
+eArc :: Append-Only Frame Architecture
 
-⸻
+Deterministic append-only knowledge and frame architecture.
 
-##Canonical Specification
+K501 separates:
+- runtime
+- archive
+- canonical memory
+- structural evolution
 
-Machine-readable canonical header (inline preview):
+into stable interoperable layers.
 
+---
+
+## Canonical Specification
+
+Machine-readable canonical definition:
+
+```json
 {
   "system": "K501 Information Space",
   "repository": "k501-information-space-earc",
@@ -16,231 +27,371 @@ Machine-readable canonical header (inline preview):
   "definition": "append-only eternal archive",
   "author": "Patrick R. Miller (Iinkognit0)"
 }
+````
 
-Full canonical specification (authoritative, JCS):
+Canonical references:
 
-/canonical/k501.canonical.json
+* `/canonical/k501.canonical.json`
+* `/canonical/manifest.json`
 
-Manifest (integrity + hash binding):
+Canonical raw access:
 
-/canonical/manifest.json
+* [https://raw.githubusercontent.com/k501-Information-Space/eArc/main/canonical/k501.canonical.json](https://raw.githubusercontent.com/k501-Information-Space/eArc/main/canonical/k501.canonical.json)
 
-Raw access:
+---
 
-https://raw.githubusercontent.com///main/canonical/k501.canonical.json
+## Repository Structure
 
-⸻
+| Layer        | Purpose                                                   |
+| ------------ | --------------------------------------------------------- |
+| `canonical/` | Canonical definitions and immutable structural references |
+| `spec/`      | Formal specifications and algebraic system definitions    |
+| `src/`       | Runtime implementation layer                              |
+| `include/`   | Shared interfaces and type definitions                    |
+| `archive/`   | Persistent append-only memory layers                      |
+| `build/`     | Transient build/runtime artifacts                         |
+| `raw/`       | Ingestion and import staging areas                        |
+| `scripts/`   | Operational tooling                                       |
+| `docs/`      | Documentation and structural notes                        |
 
-Definition
+---
 
-This repository represents the /eArc/ (Eternal Archive) of the K501 Information Space (K501 IS).
+## Definition
 
-It is an append-only, immutable archive containing raw development artifacts.
+This repository represents the `/eArc/` (Eternal Archive) layer of the K501 Information Space.
 
-No interpretation, restructuring, or post-processing is applied.
+It is an append-only structural archive containing:
 
-⸻
+* runtime evolution
+* canonical references
+* frame structures
+* historical development states
+* raw archival material
+* evolving implementation layers
 
-Author
+The repository preserves structural continuity rather than curated presentation.
 
-Patrick R. Miller (Iinkognit0)
-ORCID: https://orcid.org/0009-0005-5125-9711
+---
 
-⸻
+## Core Principles
 
-Core Concept
+K501 follows:
 
-K501 IS is a deterministic information system based on minimal units called Frames.
+* append-only evolution
+* deterministic structure
+* canonical separation
+* modular runtime architecture
+* proof-before-state validation
+* structural stabilization through simplicity
 
-Principles:
-	•	structure precedes interpretation
-	•	no mutation
-	•	no overwrite
-	•	only extension
+Core operational rules:
 
-The /eArc/ acts as the persistent memory layer of this system.
+* no mutation
+* no overwrite
+* only extension
 
-⸻
+---
 
-Purpose of /eArc/
+## Architectural Flow
 
-The archive stores:
-	•	historical development states
-	•	conceptual drafts
-	•	structural formulations
-	•	raw documentation
+```text
+Raw Data
+  -> Ingestion
+  -> Frame Construction
+  -> Iteration
+  -> Archive
+  -> Canonical Consolidation
+```
 
-It preserves the actual evolution of the system, not a cleaned or curated version.
+---
 
-⸻
+## Structural Properties
 
-Dataset (Current Batch)
-	•	Source: Obsidian workspace
-	•	Format: Markdown (.md)
-	•	Size: ~350 files
-    •	Source: Google Gemini
-	•	Format: Documents (.docx)
-	•	Size: ~500 files
-	•	Source: Various
-	•	Format: Documents (.txt)
-	•	Size: ~300 files
+The repository operates as:
 
-Nature:
-	•	partially timestamped
-	•	heterogeneous
-	•	development-phase material
+* append-only ingestion
+* immutable archival structure
+* modular runtime separation
+* canonical reference layering
+* deterministic build architecture
 
-⸻
+The system intentionally preserves:
 
-Structural Properties
-	•	append-only ingestion
-	•	immutable storage
-	•	no enforced ordering
-	•	no normalization
-	•	duplicates may exist
+* redundancy
+* historical states
+* partial structures
+* iterative evolution
 
-⸻
+Duplicates may exist by design.
 
-Note on Duplicates
+---
 
-Duplicate or semantically overlapping content may be present.
+## Data Characteristics
 
-This is intentional.
+The archive may contain:
 
-The archive reflects real accumulation, including redundancy.
-
-⸻
-
-Data Characteristics
-
-The dataset may include:
-	•	system definitions
-	•	axiomatic formulations
-	•	notes and fragments
-	•	iterative refinements
-	•	partial or incomplete structures
+* system definitions
+* frame structures
+* axiomatic formulations
+* runtime artifacts
+* notes and fragments
+* conceptual drafts
+* iterative refinements
+* partial implementations
+* evolving specifications
 
 No guarantee is made regarding:
-	•	completeness
-	•	consistency
-	•	uniqueness
 
-⸻
+* completeness
+* semantic consistency
+* uniqueness of documents
+* finality of individual structures
 
-System Context
+---
 
-K501 IS consists of multiple layers:
-	•	/eArc/ → raw archive (this repository)
-	•	structured systems → in development
-	•	interpretation layers → external
+## Current Dataset State
+
+Current ingestion layers include:
+
+| Source                        | Format  | Approximate Size |
+| ----------------------------- | ------- | ---------------- |
+| Obsidian workspace            | `.md`   | ~350 files       |
+| Google Gemini exports         | `.docx` | ~500 files       |
+| Various runtime/import layers | `.txt`  | ~300 files       |
+
+Nature of the dataset:
+
+* heterogeneous
+* partially timestamped
+* development-phase material
+* evolving runtime state
+
+---
+
+## Build
+
+Compile:
+
+```bash
+make
+```
+
+Run:
+
+```bash
+make run
+```
+
+Clean build artifacts:
+
+```bash
+make clean
+```
+
+Debug build:
+
+```bash
+make debug
+```
+
+---
+
+## Runtime Layers
+
+K501 currently separates:
+
+| Layer                | State       |
+| -------------------- | ----------- |
+| Runtime Layer        | Active      |
+| Archive Layer        | Active      |
+| Canonical Layer      | Active      |
+| Build Layer          | Stable      |
+| Git-LFS Layer        | Operational |
+| Structural Evolution | Ongoing     |
+
+---
+
+## Current Node Status
+
+```text
+NODE_02 :: Operational
+
+Canonical Layer :: Active
+Append-Only Evolution :: Confirmed
+Repository Boundary Layer :: Active
+Git-LFS Integration :: Operational
+Autonomous Structural Stabilization :: Confirmed
+```
+
+---
+
+## System Context
+
+K501 Information Space consists of multiple interoperable layers:
+
+| Layer                 | Role                               |
+| --------------------- | ---------------------------------- |
+| `/eArc/`              | append-only archive layer          |
+| `canonical/`          | canonical structural references    |
+| `spec/`               | formal mathematical specifications |
+| runtime systems       | active processing layers           |
+| interpretation layers | external and non-canonical         |
 
 This repository is not a presentation layer.
 
-⸻
+It is a structural persistence layer.
 
-External References
+---
+
+## External References
 
 Primary Source:
-https://iinkognit0.de/
 
-Author & Identity:
-ORCID: https://orcid.org/0009-0005-5125-9711
+* [https://iinkognit0.de/](https://iinkognit0.de/)
 
-Zenodo: K501 Technical Core v1.5
-        https://zenodo.org/records/18697454
-        
-Zenodo: K501 Frames — Structural Gateway & Repository Navigation v1.1
-        https://zenodo.org/records/18632667
-        
-Zenodo: K501 Frames — Combined Formal Statement · Reality = Flow · Interpretation = Projection
-        https://zenodo.org/records/18615438
-        
-Zenodo: K501 Frames — Structural Integration Specification v1.0
-        https://zenodo.org/records/18615245
+Author Identity:
 
-Zenodo: K501 Frames — Die Formel v1.0
-        https://zenodo.org/records/18599148
+* ORCID: [https://orcid.org/0009-0005-5125-9711](https://orcid.org/0009-0005-5125-9711)
 
-Zenodo: K501 Frames — FLOW · Dynamic Layer & Narrative Evolution
-        https://zenodo.org/records/18521607
+GitHub:
 
-Zenodo: As i State: K501.
-        https://zenodo.org/records/18511614
+* [https://github.com/Iinkognit0](https://github.com/Iinkognit0)
+* [https://github.com/k501-Information-Space/eArc](https://github.com/k501-Information-Space/eArc)
 
-Publication:
-Dev.to: https://dev.to/k501is
+Publications:
 
-Code & Archive:
-GitHub: https://github.com/iinkognit0
+* Dev.to: [https://dev.to/k501is](https://dev.to/k501is)
 
-TikTok:
-https://www.tiktok.com/@patrick.sayzso
+Zenodo Publications:
 
-⸻
+* K501 Technical Core v1.5
+  [https://zenodo.org/records/18697454](https://zenodo.org/records/18697454)
 
-Usage
+* K501 Frames — Structural Gateway & Repository Navigation v1.1
+  [https://zenodo.org/records/18632667](https://zenodo.org/records/18632667)
+
+* K501 Frames — Combined Formal Statement · Reality = Flow · Interpretation = Projection
+  [https://zenodo.org/records/18615438](https://zenodo.org/records/18615438)
+
+* K501 Frames — Structural Integration Specification v1.0
+  [https://zenodo.org/records/18615245](https://zenodo.org/records/18615245)
+
+* K501 Frames — Die Formel v1.0
+  [https://zenodo.org/records/18599148](https://zenodo.org/records/18599148)
+
+* K501 Frames — FLOW · Dynamic Layer & Narrative Evolution
+  [https://zenodo.org/records/18521607](https://zenodo.org/records/18521607)
+
+* As i State: K501
+  [https://zenodo.org/records/18511614](https://zenodo.org/records/18511614)
+
+Additional Identity References:
+
+* TikTok: [https://www.tiktok.com/@patrick.sayzso](https://www.tiktok.com/@patrick.sayzso)
+
+---
+
+## Usage
 
 Intended for:
-	•	archival persistence
-	•	reproducibility
-	•	machine indexing
-	•	system reconstruction
+
+* archival persistence
+* reproducibility
+* machine indexing
+* structural analysis
+* deterministic reconstruction
+* canonical reference continuity
 
 Not intended for:
-	•	onboarding
-	•	simplified explanation
-	•	guided navigation
 
-⸻
+* simplified onboarding
+* guided navigation
+* curated presentation
+* abstraction of structural complexity
 
-Interpretation
+---
 
-All interpretation is external.
+## Interpretation
 
-This repository contains structure only.
+All interpretation layers are external.
 
-⸻
+This repository primarily preserves:
 
-Warning
+* structure
+* continuity
+* runtime evolution
+* canonical memory
 
-This is a raw archive.
+---
 
-No guarantee of:
-	•	semantic clarity
-	•	ordering
-	•	stability of individual documents
+## Warning
 
-⸻
+This repository contains evolving raw archival structures.
 
-Status
-	•	system: active
-	•	archive: expanding
-	•	ingestion: ongoing
+No guarantee is made regarding:
 
-⸻
+* semantic clarity
+* ordering
+* document completeness
+* runtime stability of individual components
+* finalized architecture
 
-License
+---
 
-Code
+## Canonical Statement
 
-MIT License
+> "Structure stabilizes systems when memory, runtime, and evolution are separated cleanly."
 
-Content & System Definition
+---
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+## Status
 
-Attribution required:
+| Component         | State       |
+| ----------------- | ----------- |
+| System            | Active      |
+| Archive           | Expanding   |
+| Ingestion         | Ongoing     |
+| Canonical Layer   | Stable      |
+| Runtime Evolution | Active      |
+| NODE_02           | Operational |
+
+---
+
+## License
+
+Code:
+
+* MIT License
+
+Content & Structural Definitions:
+
+* Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Attribution:
+
 Patrick R. Miller (Iinkognit0)
-ORCID: https://orcid.org/0009-0005-5125-9711
 
-⸻
+ORCID:
+[https://orcid.org/0009-0005-5125-9711](https://orcid.org/0009-0005-5125-9711)
 
-Final Note
+---
 
-K501 is a deterministic, append-only information system.
-This repository is its raw archival layer (/eArc/).
+## Final Note
+
+K501 Information Space is an evolving append-only frame architecture.
+
+The repository preserves:
+
+* canonical continuity
+* deterministic structure
+* runtime evolution
+* archival persistence
 
 No mutation.
 No overwrite.
 Only extension.
-:::
+
+NODE_02 :: ACTIVE
+
+```
+```
