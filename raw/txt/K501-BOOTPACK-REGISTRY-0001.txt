@@ -1,0 +1,83 @@
+{
+  "t": "BOOTPACK_REGISTRY",
+  "id": "K501-BOOTPACK-REGISTRY-0001",
+  "scope": "MEGA_BOOT_SPEC",
+  "mode": "REFERENCE_ONLY",
+  "constraints": [
+    "NO_EXECUTION",
+    "NO_INTERPRETATION",
+    "NON_CLAIM"
+  ],
+  "registered_bootpacks": [
+    {
+      "name": "BOOTPACK_MATH",
+      "id": "K501-BP-MATH-0001",
+      "pointers": [
+        "MATH.LOGIC",
+        "MATH.ANALYSIS",
+        "MATH.PROBABILITY"
+      ]
+    },
+    {
+      "name": "BOOTPACK_PHYSICS",
+      "id": "K501-BP-PHYSICS-0001",
+      "pointers": [
+        "PHYSICS.CLASSICAL",
+        "PHYSICS.QUANTUM",
+        "PHYSICS.RELATIVITY"
+      ]
+    },
+    {
+      "name": "BOOTPACK_FRAMES",
+      "id": "K501-BP-FRAMES-0001",
+      "pointers": [
+        "FRAMES.AXIOMS",
+        "FRAMES.QUANTUM_HEADERS",
+        "FRAMES.ARCHIVATOR"
+      ]
+    },
+    {
+      "name": "BOOTPACK_LITERATURE",
+      "id": "K501-BP-LIT-0001",
+      "pointers": [
+        "BOOKS.WORLD_CLASSICS",
+        "BOOKS.CHILDRENS"
+      ]
+    },
+    {
+      "name": "BOOTPACK_COMPUTER_SCIENCE",
+      "id": "K501-BP-CS-0001",
+      "pointers": [
+        "CS.SYSTEMS",
+        "CS.INFORMATION_THEORY",
+        "CS.DATA_STRUCTURES",
+        "CS.APPEND_ONLY_LOGS",
+        "CS.CONTENT_ADDRESSING"
+      ]
+    },
+    {
+      "name": "BOOTPACK_CRYPTO_PROOF",
+      "id": "K501-BP-CRYPTO-0001",
+      "pointers": [
+        "CRYPTO.HASH_FUNCTIONS",
+        "CRYPTO.INTEGRITY_MODELS",
+        "CRYPTO.PROOF_OF_PRESENCE",
+        "CRYPTO.CONTENT_ADDRESSING",
+        "CRYPTO.RECEIPT_LOGGING"
+      ]
+    },
+    {
+      "name": "BOOTPACK_ARCHIVAL",
+      "id": "K501-BP-ARCHIVAL-0001",
+      "pointers": [
+        "ARCHIVAL.APPEND_ONLY",
+        "ARCHIVAL.AUDIT_TRAILS",
+        "ARCHIVAL.OFFLINE_STORAGE",
+        "ARCHIVAL.PACKBLOCK_BUNDLES",
+        "ARCHIVAL.FREEZE_MARKERS"
+      ]
+    }
+  ],
+  "notes": "Registry defines thematic focus areas via pointer-only bootpacks. Registration does not imply loading, execution, completeness, or correctness.",
+  "g_state": "UNKNOWN"
+}

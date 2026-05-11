@@ -1,0 +1,1 @@
+{"frame_id":"SUPERPACK-FREEZE-0001","created_utc":"2026-01-22T17:46:30Z","created_unix":1769103990,"frame_type":"FREEZE","payload":"SUPERPACK-0001 frozen as reference. No mutation permitted. Reference-only.","hash":"9f1b0c2a3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7","tags":["FREEZE","SUPERPACK","REFERENCE_ONLY","GENESIS"],"visibility":"PUBLIC"}

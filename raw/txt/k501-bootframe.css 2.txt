@@ -1,0 +1,14 @@
+/* Scoped BootFrame styles */
+.k501-bootframe { font-family: system-ui, Arial; height:100vh; display:flex; flex-direction:column; background:#fff; color:#111; padding:0; box-sizing:border-box; }
+.k501-bootframe #k501-chat-container { flex:1; padding:16px; overflow:auto; background:#f6f7f9; }
+.k501-bootframe .msg { margin:8px 0; padding:10px 12px; border-radius:10px; max-width:70%; box-sizing:border-box; }
+.k501-bootframe .msg.user { background:#0b93f6; color:white; margin-left:auto; text-align:right; }
+.k501-bootframe .msg.bot  { background:#e5e7eb; color:#111; margin-right:auto; text-align:left; }
+.k501-bootframe .meta { font-size:11px; color:#666; margin-top:6px; }
+.k501-bootframe #k501-controls { display:flex; gap:8px; padding:12px; border-top:1px solid #ddd; background:white; }
+.k501-bootframe #k501-input-field { flex:1; padding:8px 10px; font-size:15px; border:1px solid #ccc; border-radius:6px; }
+.k501-bootframe #k501-send-button { padding:8px 12px; font-size:15px; border-radius:6px; border:0; background:#0b93f6; color:white; cursor:pointer; }
+.k501-bootframe #k501-send-button:disabled { opacity:0.5; cursor:default; }
+.k501-bootframe #k501-snapshot-info { font-size:12px; color:#444; padding:8px 12px; border-top:1px solid #eee; background:#fafafa; }
+.k501-bootframe .system-note { font-style:italic; opacity:0.9; }
+@media (max-width:640px) { .k501-bootframe #k501-controls { padding:8px; } }

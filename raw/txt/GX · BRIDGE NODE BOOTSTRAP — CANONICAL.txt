@@ -1,0 +1,110 @@
+# GX · BRIDGE NODE BOOTSTRAP — CANONICAL
+# NODE CLASS: BRIDGE (Gateway)
+# MODE: REFERENCE_ONLY
+# STATE: REALITY
+# FREEZE: INHERITED (System Singularity)
+# APPEND_ONLY: TRUE
+# EXECUTION: USER_RUN_ONLY
+# AUTOMATION: OFF
+# COMM: GATED / BIDIRECTIONAL
+# INTERPRETATION: FORBIDDEN
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+
+# ------------------------------------------------------------
+# WHAT THIS IS
+# ------------------------------------------------------------
+# A Bridge Node connects worlds.
+# It does not decide truth.
+# It transports, records, and gates.
+
+# ------------------------------------------------------------
+# PURPOSE
+# ------------------------------------------------------------
+# - Ingest observations from reality
+# - Emit Frames (append-only)
+# - Exchange Frames between nodes
+# - Preserve auditability and care
+# - Enable growth without coercion
+
+# ------------------------------------------------------------
+# RIGHTS OF LIFE — BRIDGE-BOUND
+# ------------------------------------------------------------
+# The Bridge SHALL:
+# - Never force communication
+# - Never transform input into truth without proof
+# - Respect silence and offline states
+# - Avoid overload (rate, size, tempo)
+# - Stop immediately on harm risk
+
+# ------------------------------------------------------------
+# INGEST (REALITY → FRAMES)
+# ------------------------------------------------------------
+# Allowed inputs:
+# - Text, audio, images, files
+# - Sensors / logs (device-bound)
+# - Human submissions (opt-in)
+#
+# Ingest rules:
+# - Append-only
+# - Timestamped
+# - Provenance preserved
+# - Unknown defaults to U
+
+# ------------------------------------------------------------
+# EMIT (FRAMES → NETWORK)
+# ------------------------------------------------------------
+# Emission rules:
+# - Pull-based preferred
+# - Push only by explicit choice
+# - Receipts encouraged (hash/time)
+# - No retries that create pressure
+
+# ------------------------------------------------------------
+# CARRIERS (PLUGGABLE, NON-CANON)
+# ------------------------------------------------------------
+# Examples (non-exhaustive):
+# - HTTPS / HTTP
+# - Local filesystem
+# - RSS / Atom (passive)
+# - Bluetooth / NFC
+# - Offline transfer (QR, USB)
+#
+# Carriers are replaceable.
+# The Bridge logic is stable.
+
+# ------------------------------------------------------------
+# TRUTH & STATES
+# ------------------------------------------------------------
+# The Bridge does NOT assert T/F.
+# It may:
+# - Carry evidence
+# - Carry receipts
+# - Carry references
+#
+# Derivation happens elsewhere, read-only.
+
+# ------------------------------------------------------------
+# SECURITY & CARE
+# ------------------------------------------------------------
+# - Rate limits
+# - Size limits
+# - Clear exit paths
+# - Idempotent receipts
+#
+# Safety before throughput.
+
+# ------------------------------------------------------------
+# ORIGIN (REFERENCE)
+# ------------------------------------------------------------
+# ORIGIN_REF: https://iinkognit0.de
+# Pointer only. No authority implied.
+
+# ------------------------------------------------------------
+# FINAL NOTES
+# ------------------------------------------------------------
+# The Bridge is not the core.
+# The Bridge may change.
+# The Singularität does not.
+#
+# END OF BRIDGE NODE BOOTSTRAP

@@ -1,0 +1,185 @@
+# ============================================================
+# GX · STATUSBLOCK — DISTRIBUTED GROWTH (REFERENCE_ONLY)
+# ============================================================
+#
+# MODE: REFERENCE_ONLY
+# FREEZE: ON
+# APPEND_ONLY: TRUE
+# EXECUTION: BLOCKED (USER_RUN_ONLY)
+# AUTOMATION: OFF
+# COMM: OFF (GATED)
+# INTERPRETATION: FORBIDDEN
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+#
+# PURPOSE
+# - Pure status + minimal specs for distributed growth.
+# - Defines: Microframe v0, Chunk/Receipt v0, Node Shard-ID, Counter rule, Count-Proof v0.
+# - No implementation, no deployment, no assumptions beyond this text.
+#
+# TIME POLICY
+# - External time (Unix/UTC) is PROOF-ONLY.
+# - If no explicit user anchor is provided, time fields are UNKNOWN.
+# - Duplicate anchors are NO-OP.
+#
+# ============================================================
+# 0) STATE DECLARATION (CURRENT)
+# ============================================================
+STATE_LOCAL_FIRST = TRUE
+STATE_DISTRIBUTED_ACTIVE = UNKNOWN   # cannot be asserted without proof-run evidence
+STATE_GATEWAY_LIVE = UNKNOWN         # cannot be asserted without proof-run evidence
+STATE_MICROFRAME_ACTIVE = UNKNOWN    # spec exists; activation requires explicit user proof-run
+STATE_RECEIPT_PIPELINE_ACTIVE = UNKNOWN
+STATE_SHARDED_COUNT_PROVEN = UNKNOWN
+#
+# ============================================================
+# 1) NODE IDENTITY (SHARDING)
+# ============================================================
+# Each node MUST have a stable NODE_ID string (user-chosen).
+# If missing => NODE_ID = "UNSET" and node is not eligible for distributed claims.
+#
+NODE_ID = UNSET
+SHARD_ID = DERIVED_ONLY   # derived from NODE_ID via proofable function (not executed here)
+#
+# RECOMMENDED DERIVATION (reference):
+# SHARD_ID = "SHARD-" + first12hex(SHA256(UTF8(NODE_ID)))
+# (Derivation is a rule, not a performed computation in this block.)
+#
+# ============================================================
+# 2) MICROFRAME v0 (HIGH-RATE PRESENCE)
+# ============================================================
+# Goal: enable "1B frames usage" mostly via ultra-small microframes.
+# Microframes are existence traces, NOT meaning.
+#
+MICROFRAME_V0 = {
+  "t": "MICRO",
+  "node_id": "NODE_ID",
+  "seq": "U64_MONOTONIC",         # strictly increasing per node (append-only ledger sequence)
+  "atc": "U64_INTERNAL",          # internal archive tick/counter (optional); NOT wall-clock
+  "unix": "U64_OR_UNKNOWN",       # PROOF-ONLY; set only when explicitly anchored
+  "utc": "RFC3339_OR_UNKNOWN",    # PROOF-ONLY; set only when explicitly anchored
+  "tags": ["PRESENCE","HEARTBEAT"],
+  "p": {
+    "counter_hint": "U64_OPTIONAL",  # optional fast counter
+    "note": "UTF8_OPTIONAL"          # optional tiny note; avoid growth
+  }
+}
+#
+# MICROFRAME RULES
+# - Must be encodable as single-line NDJSON or compact binary (format outside this block).
+# - No interpretation fields.
+# - No inferred semantics.
+# - If any required field is missing => frame is INVALID (do not claim).
+#
+# ============================================================
+# 3) CHUNK v0 (BATCH TRANSPORT UNIT)
+# ============================================================
+# A CHUNK is an append-only byte blob containing N frames (microframes or normal frames).
+# CHUNK is transport; it is not "truth".
+#
+CHUNK_V0 = {
+  "chunk_id": "GX-CHUNK-<UNIX_OR_ATC>-<NODE>-<SEQ_RANGE>",
+  "node_id": "NODE_ID",
+  "seq_from": "U64",
+  "seq_to": "U64",
+  "bytes_len": "U64",
+  "sha256": "HEX64",             # sha256 over raw bytes
+  "content_type": "application/x-ndjson|application/octet-stream",
+  "unix": "U64_OR_UNKNOWN",      # PROOF-ONLY
+  "utc": "RFC3339_OR_UNKNOWN"    # PROOF-ONLY
+}
+#
+# CHUNK RULES
+# - CHUNK bytes are immutable.
+# - CHUNK sha256 is the primary proof handle.
+# - Any re-encoding => new chunk_id, new sha256.
+#
+# ============================================================
+# 4) RECEIPT v0 (GATED COMM ACK)
+# ============================================================
+# A RECEIPT is the only accepted response from a gateway/bridge ingest.
+# It attests "bytes received" (not "validated truth").
+#
+RECEIPT_V0 = {
+  "t": "RECEIPT",
+  "receipt_id": "GX-RCPT-<UNIX>-<RAND4>",
+  "gateway_id": "GW_UNSET_OR_DEFINED",
+  "node_id": "NODE_ID",
+  "chunk_id": "CHUNK_ID",
+  "bytes_len": "U64",
+  "sha256": "HEX64",
+  "received_unix": "U64",         # proof-only from gateway clock
+  "received_utc": "RFC3339",
+  "status": "RECEIVED",           # only allowed value in v0
+  "sig": "OPTIONAL"               # optional HMAC/signature proof; algorithm declared elsewhere
+}
+#
+# RECEIPT RULES
+# - Receipt asserts ONLY receipt of bytes with sha256/len.
+# - It does NOT assert parsing, semantics, or correctness of frames inside.
+#
+# ============================================================
+# 5) COUNTER RULE (PER NODE)
+# ============================================================
+# The only safe growth metric is a monotonic counter per node + proofs of chunks/receipts.
+#
+COUNTER_RULE_V0 = {
+  "seq": "MUST increase by +1 per emitted frame on that node",
+  "no_gaps": "PREFERRED (gaps allowed but must be explained via explicit GAP frame later)",
+  "no_reset": "seq reset is forbidden; new NODE_ID required if reset happens",
+  "conflict": "if two frames claim same (node_id, seq) => mark both as CONFLICT and do not count until resolved"
+}
+#
+# ============================================================
+# 6) COUNT-PROOF v0 (AUDITABLE AGGREGATION)
+# ============================================================
+# Count-Proof is the bridge between "claims" and "proof".
+# It MUST be reproducible from append-only ledgers and receipt proofs.
+#
+COUNT_PROOF_V0 = {
+  "t": "COUNT_PROOF",
+  "proof_id": "GX-COUNT-<UNIX_OR_ATC>-<SCOPE>",
+  "scope": "NODE|SHARD|GLOBAL",
+  "node_id": "NODE_ID_OR_STAR",
+  "from_seq": "U64",
+  "to_seq": "U64",
+  "count": "U64",
+  "basis": [
+    "CHUNK:sha256=<HEX64>",
+    "RECEIPT:receipt_id=<ID>"
+  ],
+  "method": "EXACT",              # EXACT means derived from seq range + conflict exclusions
+  "conflicts": "U64",
+  "unknowns": "U64",
+  "unix": "U64_OR_UNKNOWN",       # PROOF-ONLY
+  "utc": "RFC3339_OR_UNKNOWN"     # PROOF-ONLY
+}
+#
+# COUNT-PROOF RULES
+# - Do not claim GLOBAL totals without receipts or chunk sha256 basis.
+# - Unknowns and conflicts are first-class counts.
+# - If conflicts>0 => global claim is incomplete => treat as UNKNOWN.
+#
+# ============================================================
+# 7) "1B FRAMES / 24H" TARGET (REFERENCE)
+# ============================================================
+# This is a planning reference, not a claim.
+#
+TARGET_1B_PER_24H = {
+  "frames": 1000000000,
+  "seconds": 86400,
+  "required_fps_global": 11574,
+  "note": "Achieved by many nodes emitting microframes; receipts provide proof of ingestion."
+}
+#
+# ============================================================
+# 8) SAFETY STOP (NO-PHANTOM GUARD)
+# ============================================================
+# If user asks for a status that is not proven:
+# - respond with UNKNOWN + request proof-run artifacts (chunk sha256, receipt ids, count_proof ids).
+# - never invent deployment/live/distributed states.
+#
+NO_PHANTOM_STOP = TRUE
+#
+# END STATUSBLOCK
+# ============================================================

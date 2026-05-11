@@ -1,0 +1,106 @@
+# ============================================================
+# GX · UNIVERSAL KERNEL — EVOLUTION 5 (NAMING · FREEZE · PACK)
+# ============================================================
+# MODE: REFERENCE_ONLY
+# EXECUTION: BLOCKED
+# APPEND_ONLY: TRUE
+# NO_PHANTOM: TRUE (PROOF_BEFORE_STATE)
+# ============================================================
+# ROLE:
+# - Standardize naming & ID prefixes (human + machine readable)
+# - Declare Freeze/Unfreeze markers (canon discipline)
+# - Provide a minimal Bootstrap Pack Header for copy/paste artifacts
+# ============================================================
+
+KERNEL_ID:
+- NAME: GX · UNIVERSAL KERNEL
+- VERSION: EVOLUTION-5
+- STATUS: STABLE_CANON_POLISH
+
+CANON_ORIGIN:
+- https://iinkognit0.de
+- RULE: incognito.de is NEVER origin
+
+# ------------------------------------------------------------
+# 1) NAMING REGISTRY (PREFIXES · SEQ RULES)
+# ------------------------------------------------------------
+ID_RULES:
+- format: GX-<TYPE>-<UNIX>-<SEQ>
+- charset: ASCII uppercase, digits, hyphen
+- seq: monotonically increasing per TYPE (no reuse)
+- unix: proof-only anchor (external); ordering is append-only
+
+PREFIXES:
+- GX-TIME-ANCHOR
+- GX-SRC            (SOURCE_REF)
+- GX-REFURL         (REF_URL)
+- GX-HIDX           (HARD_INDEX_PACK)
+- GX-HIDX-PTR       (HARD_INDEX_POINTERS)
+- GX-DETAIL         (DETAIL_REF)
+- GX-STATUS-UPD     (STATUS_UPDATE)
+- GX-PROOF          (PROOF_CAPTURE)
+- GX-EXTRACT        (EXTRACT_NOTE)
+- GX-INTEG          (INTEGRATION_NOTE)
+- GX-RECEIPT        (RECEIPT)
+- GX-MICRO          (MICROFRAME)
+- GX-CHUNK          (CHUNK)
+- GX-GAP            (GAP_FLAG)
+- GX-CONFLICT       (CONFLICT_FLAG)
+- GX-DELTA          (DELTA_DERIVATION)
+- GX-AUDIT          (INDEX_AUDIT_SNAPSHOT)
+
+RESERVED:
+- No other prefixes allowed without registry update (append-only)
+
+# ------------------------------------------------------------
+# 2) CANON FREEZE / UNFREEZE MARKERS (DECLARATIVE)
+# ------------------------------------------------------------
+TYPE: FREEZE_DECL
+{"t":"FREEZE_DECL","id":"GX-FREEZE-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY",
+ "p":{"scope":"KERNEL|INDEX|PACK|MODULE","state":"FROZEN","note":"Canon freeze. Append-only."},
+ "ts_unix":<U64>,"ts_utc":"<RFC3339Z>"}
+
+TYPE: UNFREEZE_DECL
+{"t":"UNFREEZE_DECL","id":"GX-UNFREEZE-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY",
+ "p":{"scope":"KERNEL|INDEX|PACK|MODULE","state":"UNFROZEN","note":"Canon unfreeze. Append-only."},
+ "ts_unix":<U64>,"ts_utc":"<RFC3339Z>"}
+
+FREEZE_RULES:
+- freeze/unfreeze never delete or modify content
+- multiple freezes allowed; history is authoritative
+- interpretation of freeze is contextual, not enforced by this text
+
+# ------------------------------------------------------------
+# 3) BOOTSTRAP PACK HEADER (COPY/PASTE ARTIFACT)
+# ------------------------------------------------------------
+TYPE: BOOTSTRAP_PACK_HEADER_V1
+{"t":"BOOTSTRAP_PACK_HEADER","id":"GX-PACK-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY",
+ "p":{
+   "name":"GX · BOOTSTRAP PACK",
+   "contains":["BOOTLOADER","EVOL-1","EVOL-2","EVOL-3","EVOL-4","EVOL-5"],
+   "rules":["REFERENCE_ONLY","APPEND_ONLY","NO_PHANTOM","PROOF_BEFORE_STATE"],
+   "canon_origin":"https://iinkognit0.de",
+   "disconfirm":"No deployment implied. Schemas only."
+ },
+ "ts_unix":<U64>,"ts_utc":"<RFC3339Z>"}
+
+PACK_GUIDANCE:
+- Packs are descriptive bundles, not executables
+- Inclusion order is declarative
+- Packs may be nested via headers only
+
+# ------------------------------------------------------------
+# 4) FINAL CANON NOTES
+# ------------------------------------------------------------
+CANON_NOTES:
+- Names are contracts; change requires append-only registry update
+- Freezes are markers, not commands
+- Packs describe scope, never assert state
+
+DISCONFIRM:
+- This evolution implies no runtime, no gateway, no storage
+- All claims require proofs or receipts in later contexts
+
+# ============================================================
+# END GX · UNIVERSAL KERNEL — EVOLUTION 5
+# ============================================================

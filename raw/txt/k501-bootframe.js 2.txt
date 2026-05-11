@@ -1,0 +1,172 @@
+(function(){
+  // Scoped selectors under .k501-bootframe
+  const root = document.querySelector('.k501-bootframe');
+  if (!root) return;
+  const chatContainer = root.querySelector('#k501-chat-container');
+  const inputField = root.querySelector('#k501-input-field');
+  const sendButton = root.querySelector('#k501-send-button');
+  const snapshotInfo = root.querySelector('#k501-snapshot-info');
+
+  // Config
+  const STORAGE_KEY = 'simple_chat_snapshot_v1';
+  const MAX_MESSAGES = 200;
+  const MAX_TOTAL_SIZE = 300_000;
+  const MAX_RAW_LOAD = 1_000_000;
+  const PRUNE_MAX_ITER = 1000;
+
+  function nowISO(){ return new Date().toISOString(); }
+  function formatTime(iso){ const d=new Date(iso); return d.toLocaleString(); }
+
+  function isQuotaExceededError(e){
+    if(!e) return false;
+    if(e instanceof DOMException){
+      return e.code===22 || e.code===1014 || e.name==='QuotaExceededError' || e.name==='NS_ERROR_DOM_QUOTA_REACHED';
+    }
+    return e && e.number === -2147024882;
+  }
+
+  function safeSetItem(key,value){
+    try{ localStorage.setItem(key,value); return true; } catch(e){
+      if(isQuotaExceededError(e)){ console.warn('localStorage quota exceeded'); try{ localStorage.removeItem(key); } catch(_){}; return false; }
+      console.warn('localStorage write failed', e); return false;
+    }
+  }
+
+  function notifyEviction(count){
+    if(!count || count<=0) return;
+    const el = document.createElement('div');
+    el.className = 'msg bot system-note';
+    el.style.opacity = '0.95';
+    const inner = document.createElement('div');
+    inner.textContent = `Hinweis: ${count} ältere Nachricht(en) wurde(n) entfernt, um Speicherplatz zu sparen.`;
+    const meta = document.createElement('div');
+    meta.className = 'meta';
+    meta.textContent = `system · ${formatTime(nowISO())}`;
+    el.appendChild(inner);
+    el.appendChild(meta);
+    chatContainer.appendChild(el);
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+    setTimeout(()=>{ try{ el.remove(); } catch(e){} },6000);
+  }
+
+  function renderMessage(text, who='user', isoTs=null, persist=true){
+    const el = document.createElement('div');
+    el.className = 'msg ' + (who === 'user' ? 'user' : 'bot');
+    const txt = document.createElement('div'); txt.textContent = text;
+    const meta = document.createElement('div'); meta.className = 'meta'; meta.textContent = `${who} · ${formatTime(isoTs || nowISO())}`;
+    el.appendChild(txt); el.appendChild(meta);
+    chatContainer.appendChild(el);
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+    if(persist) saveSnapshot();
+  }
+
+  function createSnapshot(){
+    const messages = Array.from(chatContainer.querySelectorAll('.msg')).map((m,idx)=>{
+      const who = m.classList.contains('user') ? 'user' : 'bot';
+      const text = (m.querySelector('div') && m.querySelector('div').textContent) || '';
+      const ts = nowISO();
+      return { who, text, ts, idx };
+    });
+    return { messages, inputFieldValue: inputField.value, lastSaved: nowISO() };
+  }
+
+  function pruneSnapshot(snap){
+    if(!snap || !Array.isArray(snap.messages)) return snap;
+    let initialLen = snap.messages.length;
+    if(snap.messages.length > MAX_MESSAGES){
+      const users = snap.messages.filter(m=>m.who==='user');
+      const bots = snap.messages.filter(m=>m.who!=='user');
+      const keepCount = MAX_MESSAGES;
+      const keepUsers = users.slice(-keepCount);
+      const remaining = Math.max(0, keepCount - keepUsers.length);
+      const keepBots = bots.slice(-remaining);
+      snap.messages = [...keepUsers, ...keepBots].sort((a,b)=> (new Date(a.ts) - new Date(b.ts)));
+    }
+    let payload;
+    try{ payload = JSON.stringify(snap); } catch(e){ payload = ''; }
+    let iterations = 0;
+    while(payload.length > MAX_TOTAL_SIZE && snap.messages.length > 0 && iterations < PRUNE_MAX_ITER){
+      snap.messages.shift();
+      iterations++;
+      try{ payload = JSON.stringify(snap); } catch(e){ break; }
+    }
+    if(iterations >= PRUNE_MAX_ITER) console.warn('pruneSnapshot reached max iterations');
+    const evicted = initialLen - snap.messages.length;
+    snap._evicted = evicted > 0 ? evicted : 0;
+    return snap;
+  }
+
+  function saveSnapshot(){
+    try{
+      let snap = createSnapshot();
+      snap = pruneSnapshot(snap);
+      const ok = safeSetItem(STORAGE_KEY, JSON.stringify(snap));
+      snapshotInfo.textContent = ok ? `Snapshot gespeichert: ${formatTime(snap.lastSaved)}` : 'Speichern fehlgeschlagen (Quota)';
+      if(snap._evicted) notifyEviction(snap._evicted);
+    } catch(e){
+      console.warn('Snapshot save failed', e);
+      snapshotInfo.textContent = 'Speichern fehlgeschlagen';
+    }
+  }
+
+  function loadSnapshot(){
+    try{
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if(!raw || raw.length > MAX_RAW_LOAD) return false;
+      const snap = JSON.parse(raw);
+      if(!snap || typeof snap !== 'object' || !Array.isArray(snap.messages)) return false;
+      const msgs = (snap.messages||[]).map(m=>({
+        who: m && m.who === 'user' ? 'user' : 'bot',
+        text: m && typeof m.text === 'string' ? m.text : '',
+        ts: m && m.ts ? m.ts : nowISO()
+      }));
+      snap.messages = msgs;
+      const before = snap.messages.length;
+      pruneSnapshot(snap);
+      const evicted = (before - snap.messages.length) || snap._evicted || 0;
+      chatContainer.innerHTML = '';
+      (snap.messages||[]).forEach(m=>{
+        const el = document.createElement('div');
+        el.className = 'msg ' + (m.who === 'user' ? 'user' : 'bot');
+        const txt = document.createElement('div'); txt.textContent = m.text || '';
+        const meta = document.createElement('div'); meta.className = 'meta'; meta.textContent = `${m.who || 'bot'} · ${formatTime(m.ts || nowISO())}`;
+        el.appendChild(txt); el.appendChild(meta);
+        chatContainer.appendChild(el);
+      });
+      inputField.value = snap.inputFieldValue || '';
+      snapshotInfo.textContent = `Snapshot geladen: ${formatTime(snap.lastSaved || nowISO())}`;
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+      if(evicted) notifyEviction(evicted);
+      return true;
+    } catch(e){
+      console.warn('Snapshot load failed', e);
+      snapshotInfo.textContent = 'Laden fehlgeschlagen';
+      return false;
+    }
+  }
+
+  // Init
+  if(!loadSnapshot()){
+    renderMessage('Willkommen! Dies ist der K501 Universal BootFrame Chatstart.', 'bot', nowISO(), false);
+    saveSnapshot();
+  }
+
+  function sendCurrent(){
+    const msg = inputField.value.trim();
+    if(!msg) return;
+    renderMessage(msg, 'user');
+    inputField.value = '';
+    inputField.focus();
+    setTimeout(()=>{ renderMessage('Antwort (simuliert): ' + msg, 'bot'); }, 300);
+  }
+
+  sendButton.addEventListener('click', sendCurrent);
+  inputField.addEventListener('keydown', (e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); sendCurrent(); } });
+
+  setInterval(saveSnapshot, 5000);
+
+  // Optional debug
+  window.k501 = { save: saveSnapshot, load: loadSnapshot, key: STORAGE_KEY };
+  inputField.focus();
+
+})();

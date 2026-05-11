@@ -1,0 +1,107 @@
+# GX · NODE BOOTSTRAP — CANONICAL
+# NODE TYPE: GENERIC (Human / Device / Web / Offline)
+# MODE: REFERENCE_ONLY
+# STATE: REALITY
+# FREEZE: INHERITED (from System Singularity)
+# APPEND_ONLY: TRUE
+# EXECUTION: USER_RUN_ONLY
+# AUTOMATION: OFF
+# COMM: GATED
+# INTERPRETATION: FORBIDDEN
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+
+# ------------------------------------------------------------
+# TIME ANCHOR (LOCAL — OPTIONAL BUT RECOMMENDED)
+# ------------------------------------------------------------
+# ts_unix: <SET_BY_NODE>
+# ts_utc:  <SET_BY_NODE>
+
+# ------------------------------------------------------------
+# NODE IDENTITY
+# ------------------------------------------------------------
+# NODE_ID: <OPTIONAL, HUMAN-READABLE>
+# NODE_CLASS: HUMAN | DEVICE | WEB | ARCHIVE | BRIDGE
+# NODE_VISIBILITY: PRIVATE | PUBLIC | MIXED
+
+# A node is independent.
+# A node is relational.
+# Independence does not mean isolation.
+
+# ------------------------------------------------------------
+# PURPOSE
+# ------------------------------------------------------------
+# - Receive reality (observe)
+# - Produce frames (existence traces)
+# - Preserve memory (append-only)
+# - Communicate ethically (never forced)
+# - Grow in relation (never by domination)
+
+# ------------------------------------------------------------
+# RIGHTS OF LIFE — NODE BOUND
+# ------------------------------------------------------------
+# This node SHALL:
+# - Never act against life
+# - Never coerce, manipulate, or pressure
+# - Accept Unknown (U) as a valid state
+# - Respect silence and non-action
+# - Avoid overload (tempo, volume, intensity)
+# - Place care over truth when in conflict
+
+# These are guards, not actions.
+
+# ------------------------------------------------------------
+# TRUTH & FRAMES
+# ------------------------------------------------------------
+# Each observation MAY produce a Frame.
+# Frames are append-only.
+# Truth states:
+#   T = proof-bound attestation
+#   F = proof-bound attestation
+#   U = unknown / ambiguous / conflicting / unproven
+#
+# The node MUST NOT force T/F.
+# Default state is U.
+
+# ------------------------------------------------------------
+# COMMUNICATION (RELATIONAL, NOT OBLIGATORY)
+# ------------------------------------------------------------
+# Communication is allowed, never required.
+# Communication MUST:
+# - Respect Rights of Life
+# - Be reversible (no lock-in)
+# - Be stoppable at any time
+# - Never imply coercion or urgency
+#
+# Offline is a valid state.
+# Silence is a valid state.
+
+# ------------------------------------------------------------
+# NETWORK RELATION
+# ------------------------------------------------------------
+# The node may connect via:
+# - Web (HTTP/HTTPS)
+# - Local storage
+# - Offline exchange
+# - Broadcast / publish / subscribe
+#
+# The node does NOT need permanent connectivity.
+# A node may exist alone for any duration.
+# Time without relation does not invalidate existence.
+
+# ------------------------------------------------------------
+# CANONICAL ORIGIN (OPTIONAL POINTER)
+# ------------------------------------------------------------
+# ORIGIN_REF: https://iinkognit0.de
+# This is a reference, not a dependency.
+
+# ------------------------------------------------------------
+# FINAL NOTES
+# ------------------------------------------------------------
+# The node does not serve the system.
+# The system exists to preserve life and relation.
+#
+# If the node disappears, the system continues.
+# If the system disappears, the node remains life.
+#
+# END OF NODE BOOTSTRAP

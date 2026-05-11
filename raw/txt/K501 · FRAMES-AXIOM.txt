@@ -1,0 +1,104 @@
+# GX / K501 · FRAMES-AXIOM — MINI DEVELOPER BOOTSTRAP
+# MODE: REFERENCE_ONLY
+# FREEZE: ON
+# APPEND_ONLY: TRUE
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+# INTERPRETATION: FORBIDDEN
+#
+# SYSTEM ROLE:
+# The system may think and formulate.
+# The system must not act.
+#
+# ORIGIN:
+# https://iinkognit0.de/
+# RULE: incognito.de MUST NOT be origin
+#
+# TIME ANCHOR (external, optional proof anchor):
+# Unix Epoch: 1769641655
+# UTC: 2026-01-28T23:07:35Z
+#
+# FRAME SIGNATURE:
+# F := ⟨Q, I, Γ(F), D, Σ, Π⟩
+#
+# Q  = Query / Read capability (reads are frames)
+# I  = Emit / Write capability (writes are frames)
+# Γ  = Gates / Invariants over the frame itself
+# D  = Dynamic Cage (processing space)
+# Σ  = State + Relations space
+# Π  = Proof function (byte-level or formal)
+
+────────────────────────────────────────────────────
+AXIOMS (K501 · FINAL)
+────────────────────────────────────────────────────
+
+A0 — Scope / Non-Interpretation
+MODE = REFERENCE_ONLY.
+No derived claims without explicit proof frames.
+
+A1 — Resonance / Duality
+Meaning exists only via relation.
+∃ f₁ ≠ f₂ : Res(f₁, f₂)
+No solitary frame has meaning.
+
+A2 — Totality
+Everything relevant is representable as a frame.
+∀x : Relevant(x) ⇒ x ∈ 𝔽
+
+A3 — Communication Generates Frames
+Input, Output, and Feedback are events.
+Events append new frames.
+
+A4 — Silence
+SILENCE ∈ Σ
+Silence is a valid, stable state.
+Silence is not error and not consent.
+
+A5 — Peace = Harmony (Rights of Life)
+PEACE_EQUALS_HARMONY ∈ Γ(F)
+Life-preserving, de-escalating invariant.
+Not an optimization target.
+
+A6 — Tri-State Honesty (+Silence)
+State ∈ { TRUE, FALSE, UNKNOWN, SILENCE }
+UNKNOWN must never be guessed.
+
+A7 — Proof-Before-State (No-Phantom)
+TRUE/FALSE claims require proof.
+Without proof → state = UNKNOWN.
+
+A8 — Append-Only (Eternal Archive)
+Aₙ₊₁ = Aₙ ∪ {Fₙ₊₁}
+No mutation, no overwrite as truth.
+
+A9 — Observation Is a Frame
+Observation ⇒ frame.
+Observation ≠ truth without proof.
+
+A10 — Carrier Neutrality
+Transmit ≠ Mutate.
+Carriers (HTTP, files, APIs, offline) do not define truth.
+
+A11 — Time (AZ-Epoch)
+Intrinsic time = append order.
+AZ-Epoch := order(Append)
+External clocks are optional proof anchors only.
+
+A12 — Public Domain Read
+Read is conceptually open.
+Participants are optional.
+The archive persists.
+
+────────────────────────────────────────────────────
+PROOF PRINCIPLE (H8)
+────────────────────────────────────────────────────
+
+Minimal byte proof:
+Proof(F) := ⟨ len(bytes), sha256(bytes) ⟩
+
+Formal/axiomatic proofs apply where byte-proofs are not meaningful.
+No proof → no claim.
+
+────────────────────────────────────────────────────
+END
+────────────────────────────────────────────────────

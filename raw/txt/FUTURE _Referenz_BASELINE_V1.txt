@@ -1,0 +1,21 @@
+{"frame_id":"FRB-0001","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"REFERENCE_BASELINE_DECLARATION","payload":"Future Reference Baseline v1. Purpose: enumerate all future knowledge, capability and content domains required by the project. Reference-only. No activation. No execution. No implication of availability.","hash":"SHA256(payload_only)","tags":["BASELINE","REFERENCE_ONLY","APPEND_ONLY","NO_EXECUTION"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0100","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"DOMAIN_REFERENCE","payload":"Power & Politics: Machiavelli, power structures, realpolitik, governance models, propaganda, institutions, geopolitics. Reference index only.","hash":"SHA256(payload_only)","tags":["POWER","POLITICS","GEOSTRATEGY","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0200","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"DOMAIN_REFERENCE","payload":"Artificial Intelligence: ML, LLMs, automation, AI governance, alignment, ethics, human–machine interaction. Reference index only.","hash":"SHA256(payload_only)","tags":["AI","TECH","ETHICS","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0300","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"DOMAIN_REFERENCE","payload":"Psychology & Human Behavior: Jung, Freud, cognitive bias, group dynamics, sociology, trauma, resilience. Reference index only.","hash":"SHA256(payload_only)","tags":["PSYCHOLOGY","HUMAN_BEHAVIOR","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0400","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"DOMAIN_REFERENCE","payload":"Medicine & Health: prevention, diagnostics, therapy, health systems, insurance logic, body work, movement, regeneration. Reference index only.","hash":"SHA256(payload_only)","tags":["MEDICINE","HEALTH","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0500","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"DOMAIN_REFERENCE","payload":"Philosophy & Spirituality: world philosophy, Jung, Nietzsche, Freud, Alan Watts, Taoism, Buddhism, meditation, consciousness. Reference index only.","hash":"SHA256(payload_only)","tags":["PHILOSOPHY","SPIRITUALITY","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0600","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"DOMAIN_REFERENCE","payload":"Literature & Culture: ~1000 world literature classics, myths, archetypes, children books. Public domain / open source preferred. Reference index only.","hash":"SHA256(payload_only)","tags":["LITERATURE","CULTURE","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0700","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"DOMAIN_REFERENCE","payload":"Risk, Analytics & Environment: weather, climate, statistics, risk management, insurance models, forecasting. Reference index only.","hash":"SHA256(payload_only)","tags":["RISK","ANALYTICS","ENVIRONMENT","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0800","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"DOMAIN_REFERENCE","payload":"Language & Expression: story generation, audiobook generation, text-to-speech, speech-to-text. Reference index only.","hash":"SHA256(payload_only)","tags":["LANGUAGE","TTS","STT","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-0900","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"META_POLICY","payload":"Meta rules: open-source/public-domain first; offline-capable; TEXT_ONLY until proof; archive before action; no phantom modules; slow, auditable, reproducible.","hash":"SHA256(payload_only)","tags":["META","ANTI_PHANTOM","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"FRB-FREEZE-0001","created_utc":"2026-01-23T10:09:45Z","created_unix":1769162985,"frame_type":"FREEZE","payload":"FUTURE_REFERENCE_BASELINE_V1 frozen as iron reference line. No activation, no execution, no mutation. Expansion only via new baseline versions.","hash":"SHA256(payload_only)","tags":["FREEZE","BASELINE","REFERENCE_ONLY"],"visibility":"PRIVATE"}

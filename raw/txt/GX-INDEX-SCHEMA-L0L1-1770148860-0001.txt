@@ -1,0 +1,142 @@
+{
+  "t":"INDEX_SCHEMA",
+  "id":"GX-INDEX-SCHEMA-L0L1-1770148860-0001",
+  "mode":"REFERENCE_ONLY",
+  "ts":{"unix":1770148860,"utc":"2026-02-03T20:01:00Z","tz":"UTC","anchor":false},
+  "src":{"origin":"LLM_CHAT","agent":"K501","channel":"chat","scope":"INDEX_SCHEMA"},
+  "h":{"alg":"NONE","self":"NONE","prev":"NONE"},
+  "p":{
+    "schema":"INDEX_SCHEMA_L0_L1_v1.0",
+    "status":"DRAFT_FREEZE_READY",
+    "purpose":"Define L0/L1 index snapshots as structural inventories for append-only frame sequences.",
+    "constraints":[
+      "APPEND_ONLY",
+      "NO_EXECUTION",
+      "NO_INTERPRETATION",
+      "CLAIMS_NONE",
+      "PRESENCE_NEQ_TRUTH",
+      "RECEIPT_NEQ_CLAIM"
+    ],
+    "roles":{
+      "L0":"Pointer-only inventory (existence listing). No hashes required.",
+      "L1":"Hash-verified inventory (integrity + order listing). Hashes present when available."
+    },
+    "format_rules":{
+      "ndjson":"one JSON object per line (for PackBlocks / FrameBlocks).",
+      "index_frame":"INDEX_SNAPSHOT frames are normal frames; they may be included in PackBlocks.",
+      "ordering":"Index snapshots do not reorder frames; they only list what is present under declared scope."
+    },
+    "required_fields_index_snapshot":{
+      "t":"INDEX_SNAPSHOT",
+      "id":"GX-INDEX-SNAPSHOT-<unix>-<seq>",
+      "mode":"REFERENCE_ONLY",
+      "ts":"{unix, utc, tz, anchor:false}",
+      "src":"{origin, agent, channel, scope}",
+      "h":"{alg, self, prev}",
+      "p":"payload object (see L0/L1 payload schemas)"
+    },
+    "payload_schema_L0":{
+      "snapshot_level":"L0",
+      "scope":"string (e.g., LOCKER | SCI_PROOF | DOC_TEMPLATE | APPENDIX_EVIDENCE)",
+      "frames_listed":"array of frame IDs OR array of objects; MUST be consistent within one snapshot",
+      "counts":{
+        "frames_total":"integer",
+        "types":"optional map {TYPE: count}"
+      },
+      "integrity":{
+        "schema":"FRAME_SCHEMA_FINAL_v1.0",
+        "ndjson":"OK|UNKNOWN",
+        "hashes_present":"false"
+      },
+      "notes":"string (optional)"
+    },
+    "payload_schema_L1":{
+      "snapshot_level":"L1",
+      "scope":"string",
+      "frames_listed":"array of objects {id, t, h} where h is self-hash or marker string",
+      "counts":{
+        "frames_total":"integer",
+        "types":"map {TYPE: count}"
+      },
+      "integrity":{
+        "schema":"FRAME_SCHEMA_FINAL_v1.0",
+        "ndjson":"OK|UNKNOWN",
+        "hashes_present":"true",
+        "chain_tail":"string (self-hash of last hashed frame in the listed append chain)"
+      },
+      "notes":"string (optional)"
+    },
+    "listing_rules":{
+      "L0_frames_listed_allowed_forms":[
+        "FORM_A: array of strings (frame IDs only)",
+        "FORM_B: array of objects {id,t,h} (h MAY be 'NONE'/'SIMULATED' at L0 but hashes_present MUST remain false)"
+      ],
+      "L1_frames_listed_required_form":"array of objects {id,t,h}",
+      "L1_hash_requirement":"If h.alg=sha256 is used in the chain, then each listed object MUST carry the corresponding self-hash in h. If unknown/unavailable, use explicit marker 'MISSING' and set hashes_present=false (then it is not L1).",
+      "type_consistency":"If 'types' map is present, it MUST sum to frames_total."
+    },
+    "chain_rules":{
+      "chain_definition":"Append chain is defined by per-frame linkage (frame[i].h.prev == frame[i-1].h.self) when hashes exist.",
+      "index_vs_chain":"INDEX_SNAPSHOT does not create the chain; it references observed chain state.",
+      "tail_definition":"chain_tail = self-hash of the last frame in the verified chain at time of snapshot."
+    },
+    "serialization_boundary_rule":{
+      "principle":"Index schema is independent of canonical JSON choice.",
+      "note":"Self-hash verification requires a declared canonical serialization; until declared, indices may record hashes as provided by the local hashrun procedure without asserting cross-tool equivalence."
+    },
+    "minimum_verification_hooks":{
+      "L0":"wc -l, deterministic presence listing, optional grep for '{' line starts",
+      "L1":"prev->self linkage check + optional checksum/pack verification"
+    }
+  }
+}
+{
+  "t":"FREEZE_MARKER",
+  "id":"GX-FREEZE-INDEX-SCHEMA-1770148860-0001",
+  "mode":"REFERENCE_ONLY",
+  "ts":{"unix":1770148860,"utc":"2026-02-03T20:01:00Z","tz":"UTC","anchor":false},
+  "src":{"origin":"LLM_CHAT","agent":"K501","channel":"chat","scope":"INDEX_SCHEMA"},
+  "h":{"alg":"NONE","self":"NONE","prev":"NONE"},
+  "p":{
+    "target":"INDEX_SCHEMA_L0_L1_v1.0",
+    "status":"FROZEN",
+    "reason":"L0/L1 index snapshot schema finalized; structural-only; canonicalization decision remains open; append-only evolution via new versions only."
+  }
+}
+{
+  "t":"STATUS_SNAPSHOT",
+  "id":"GX-STATUS-SNAPSHOT-1770148860-0007",
+  "mode":"REFERENCE_ONLY",
+  "ts":{"unix":1770148860,"utc":"2026-02-03T20:01:00Z","tz":"UTC","anchor":false},
+  "src":{"origin":"LLM_CHAT","agent":"K501","channel":"chat","scope":"INDEX_SCHEMA"},
+  "h":{"alg":"NONE","self":"NONE","prev":"NONE"},
+  "p":{
+    "index_schema":"INDEX_SCHEMA_L0_L1_v1.0",
+    "index_schema_status":"FROZEN",
+    "index_levels":["L0","L1"],
+    "claims":"NONE",
+    "execution":"NONE",
+    "mutation":"APPEND_ONLY",
+    "notes":"L0 pointer inventory; L1 hash-verified inventory with chain_tail. Canonical JSON choice deferred."
+  }
+}
+{
+  "t":"INDEX_SNAPSHOT",
+  "id":"GX-INDEX-SNAPSHOT-1770148860-0008",
+  "mode":"REFERENCE_ONLY",
+  "ts":{"unix":1770148860,"utc":"2026-02-03T20:01:00Z","tz":"UTC","anchor":false},
+  "src":{"origin":"LLM_CHAT","agent":"K501","channel":"chat","scope":"INDEX_SCHEMA"},
+  "h":{"alg":"NONE","self":"NONE","prev":"NONE"},
+  "p":{
+    "snapshot_level":"L0",
+    "scope":"INDEX_SCHEMA",
+    "frames_listed":[
+      "GX-INDEX-SCHEMA-L0L1-1770148860-0001",
+      "GX-FREEZE-INDEX-SCHEMA-1770148860-0001",
+      "GX-STATUS-SNAPSHOT-1770148860-0007"
+    ],
+    "counts":{"frames_total":3,"types":{"INDEX_SCHEMA":1,"FREEZE_MARKER":1,"STATUS_SNAPSHOT":1}},
+    "integrity":{"schema":"FRAME_SCHEMA_FINAL_v1.0","ndjson":"OK","hashes_present":false},
+    "notes":"Freeze record for L0/L1 Index Schema."
+  }
+}

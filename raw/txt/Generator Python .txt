@@ -1,0 +1,127 @@
+#!/usr/bin/env python3
+import json
+import hashlib
+from datetime import datetime, timezone
+
+# ====== INPUT ======
+START_EPOCH = 1769063848
+END_EPOCH   = 1769067570   # inclusive -> 3723 frames at 1 fps
+
+OUT_NDJSON  = "auto_frames_since_marker.ndjson"
+OUT_MANIFEST = "manifest.json"
+OUT_PROOF   = "count_proof.txt"
+
+# ====== HELPERS ======
+def iso_utc(epoch: int) -> str:
+    return datetime.fromtimestamp(epoch, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+def sha256_bytes(b: bytes) -> str:
+    return hashlib.sha256(b).hexdigest()
+
+def sha256_text(s: str) -> str:
+    return sha256_bytes(s.encode("utf-8"))
+
+def file_sha256(path: str) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+# ====== VALIDATION ======
+assert END_EPOCH >= START_EPOCH, "END_EPOCH must be >= START_EPOCH"
+
+# ====== GENERATE NDJSON ======
+count = 0
+with open(OUT_NDJSON, "w", encoding="utf-8") as f:
+    for epoch in range(START_EPOCH, END_EPOCH + 1):
+        created = iso_utc(epoch)
+
+        # Payload: minimaler Heartbeat (kanonisch ruhig)
+        payload = f"auto heartbeat @ {created}"
+
+        frame = {
+            "frame_id": f"FRM-AUTO-{epoch}",
+            "created_utc": created,
+            "created_unix": epoch,
+
+            "frame_type": "LOG",
+            "status": "CONFIRMED",
+            "source": "Iinkognit0",
+
+            "payload_type": "TEXT",
+            "payload": payload,
+
+            "tags": ["AUTO", "BASIC_LOG", "APPEND_ONLY", "HEARTBEAT"],
+            "content_hash_sha256": sha256_text(payload),
+            "byte_size": len(payload.encode("utf-8")),
+
+            "visibility": "PRIVATE"
+        }
+
+        f.write(json.dumps(frame, ensure_ascii=False, separators=(",", ":")) + "\n")
+        count += 1
+
+# ====== MANIFEST ======
+generated_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+ndjson_hash = file_sha256(OUT_NDJSON)
+
+manifest = {
+    "type": "MANIFEST",
+    "schema": "FN_CANON_V1",
+    "generator": "auto_frames_generator_v1",
+    "generated_utc": generated_utc,
+
+    "range": {
+        "start_epoch": START_EPOCH,
+        "end_epoch": END_EPOCH,
+        "fps": 1,
+        "count": count
+    },
+
+    "artifact": {
+        "file": OUT_NDJSON,
+        "sha256": ndjson_hash,
+        "format": "NDJSON",
+        "line_count": count
+    },
+
+    "notes": [
+        "append-only",
+        "content_hash_sha256 hashes payload only (UTF-8)",
+        "raw-body hash for ingest dedupe should be computed server-side"
+    ]
+}
+
+with open(OUT_MANIFEST, "w", encoding="utf-8") as f:
+    json.dump(manifest, f, ensure_ascii=False, indent=2)
+
+# ====== COUNT PROOF ======
+proof = f"""COUNT PROOF — AUTO FRAMES
+--------------------------------
+file: {OUT_NDJSON}
+expected_count: {count}
+start_epoch: {START_EPOCH}
+end_epoch: {END_EPOCH}
+sha256(file): {ndjson_hash}
+
+VERIFY (Linux/macOS):
+  wc -l {OUT_NDJSON}
+  sha256sum {OUT_NDJSON}
+
+VERIFY (Windows PowerShell):
+  (Get-Content {OUT_NDJSON}).Count
+  Get-FileHash {OUT_NDJSON} -Algorithm SHA256
+
+manifest:
+  {OUT_MANIFEST}
+"""
+
+with open(OUT_PROOF, "w", encoding="utf-8") as f:
+    f.write(proof)
+
+print(f"WROTE: {OUT_NDJSON}")
+print(f"WROTE: {OUT_MANIFEST}")
+print(f"WROTE: {OUT_PROOF}")
+print(f"COUNT: {count}")
+print(f"SHA256: {ndjson_hash}")

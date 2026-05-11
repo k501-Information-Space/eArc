@@ -1,0 +1,19 @@
+{"frame_id":"GEN-0001","created_utc":"UTC_ISO","created_unix":0,"frame_type":"KERNEL_DECLARATION","payload":"Kernel exists as frames, not code.","hash":"PAYLOAD_SHA256","tags":["GENESIS","KERNEL"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0002","created_utc":"UTC_ISO","created_unix":0,"frame_type":"AXIOM","payload":"ARCHIVE_BEFORE_ACTION","hash":"PAYLOAD_SHA256","tags":["AXIOM"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0003","created_utc":"UTC_ISO","created_unix":0,"frame_type":"AXIOM","payload":"FRAME_BEFORE_INTERFACE","hash":"PAYLOAD_SHA256","tags":["AXIOM"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0004","created_utc":"UTC_ISO","created_unix":0,"frame_type":"AXIOM","payload":"APPEND_ONLY","hash":"PAYLOAD_SHA256","tags":["AXIOM"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0005","created_utc":"UTC_ISO","created_unix":0,"frame_type":"SCHEMA","payload":"Canonical Frame Schema v1","hash":"PAYLOAD_SHA256","tags":["SCHEMA","V1"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0006","created_utc":"UTC_ISO","created_unix":0,"frame_type":"TIME_POLICY","payload":"UTC + Unix Epoch required","hash":"PAYLOAD_SHA256","tags":["TIME"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0007","created_utc":"UTC_ISO","created_unix":0,"frame_type":"HASH_POLICY","payload":"Payload hash only (SHA256)","hash":"PAYLOAD_SHA256","tags":["HASH"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0008","created_utc":"UTC_ISO","created_unix":0,"frame_type":"INGEST_POLICY","payload":"Single capture channel: input→frame→store","hash":"PAYLOAD_SHA256","tags":["INGEST"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0009","created_utc":"UTC_ISO","created_unix":0,"frame_type":"NODE_POLICY","payload":"Each node stores locally and independently","hash":"PAYLOAD_SHA256","tags":["NODE"],"visibility":"PUBLIC"}
+
+{"frame_id":"GEN-0010","created_utc":"UTC_ISO","created_unix":0,"frame_type":"FREEZE_INTENT","payload":"Genesis Kernel will be frozen as UltraPack","hash":"PAYLOAD_SHA256","tags":["FREEZE","ULTRAPACK"],"visibility":"PUBLIC"}

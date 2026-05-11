@@ -1,0 +1,23 @@
+{
+  "t": "ACTIVE_BOOTPACK",
+  "id": "K501-ACTIVE-BOOTPACK-0001",
+  "scope": "MEGA_BOOT_SPEC",
+  "mode": "REFERENCE_ONLY",
+  "constraints": [
+    "NO_EXECUTION",
+    "NO_INTERPRETATION",
+    "NON_CLAIM"
+  ],
+  "active_bootpacks": [
+    "BOOTPACK_MATH",
+    "BOOTPACK_PHYSICS",
+    "BOOTPACK_FRAMES",
+    "BOOTPACK_LITERATURE",
+    "BOOTPACK_COMPUTER_SCIENCE",
+    "BOOTPACK_CRYPTO_PROOF",
+    "BOOTPACK_ARCHIVAL"
+  ],
+  "selection_rule": "ALL_REGISTERED_BOOTPACKS_ACTIVE",
+  "notes": "Active bootpacks define current thematic focus only. Activation does not imply loading, execution, competence, completeness, or correctness.",
+  "g_state": "UNKNOWN"
+}

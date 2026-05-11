@@ -1,0 +1,58 @@
+K501 / FRAMES
+TECHNICAL BOOTFRAME v1.0
+
+UTC 2026-02-12T21:42:29Z
+Unix Epoch 1770932549
+
+MODE
+REFERENCE_ONLY
+APPEND_ONLY
+NO_EXECUTION
+NO_INTERPRETATION
+
+PURPOSE
+Frames are append-only structural reference units.
+Structure precedes meaning; meaning precedes interpretation.
+Interpretation remains external.
+
+CORE OBJECTS
+
+FRAME
+- id
+- ts {utc, unix}
+- src
+- payload
+- h {alg, self, prev}
+
+INDEX
+- Presence (L0)
+- Type/Scope (L1)
+
+PROOF
+- Canonical JSON (RFC 8785 / JCS)
+- SHA-256 hash binding
+- Manifest / count verification
+- receipt ≠ claim
+
+PACK / BLOCK
+- NDJSON frame set
+- Manifest
+- Block hash
+- Aggregation only
+
+TIME POLICY
+UTC + Unix required.
+TIMELESS must be explicit.
+
+READER PROTOCOL
+1 INGEST
+2 EMIT
+3 VERIFY
+4 EXPORT
+
+CONSTRAINTS
+Append-only.
+No mutation.
+No invented hashes.
+No phantom modules.
+Interpretation external.

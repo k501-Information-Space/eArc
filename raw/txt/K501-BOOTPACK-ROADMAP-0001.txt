@@ -1,0 +1,120 @@
+t: FRAME
+id: K501-BOOTPACK-ROADMAP-0001
+type: BOOTPACK_ROADMAP
+kernel: K501
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-TIMEANCHOR-1770060007-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - SILENCE_IS_VALID
+
+context:
+  description: >
+    Überblick über sinnvolle, nächste Bootpacks zur Erweiterung von K501.
+    Fokus: Wissensräume, Referenzfähigkeit, klare Trennung von Canon/Research/LAB.
+    Keine Inhalte, nur Benennung + Zielrichtung.
+
+proposed_bootpacks:
+
+  - name: BP-07_LITERATURE_CANON
+    status: PROPOSED
+    scope: REFERENCE
+    purpose: >
+      Literatur als strukturierter Wissensraum.
+      Werke, Ausgaben, Übersetzungen, Public-Domain-Status, Zitate.
+    notes:
+      - "Keine Interpretation"
+      - "Text ≠ Aussage"
+      - "Ideal für Philosophie, Klassiker, Wissenschaftsgeschichte"
+
+  - name: BP-08_PHYSICS
+    status: PROPOSED
+    scope: RESEARCH_REFERENCE
+    purpose: >
+      Physik als Modellraum: Klassisch, Relativität, Quanten.
+      Trennung von Modell, Messung, Interpretation.
+    notes:
+      - "Axiome ≠ Natur"
+      - "Modelle konkurrieren"
+
+  - name: BP-09_MATHEMATICS
+    status: PROPOSED
+    scope: CANON_CANDIDATE
+    purpose: >
+      Mathematik als stabiler Referenzraum.
+      Definitionen, Beweise, Strukturen.
+    notes:
+      - "Hohe Canon-Tauglichkeit"
+      - "Proof-first ideal anwendbar"
+
+  - name: BP-10_PHILOSOPHY
+    status: PROPOSED
+    scope: REFERENCE
+    purpose: >
+      Philosophische Systeme, Begriffe, Schulen.
+      Keine Wahrheitsentscheidung, nur Struktur & Vergleich.
+    notes:
+      - "Begriffsgeschichte"
+      - "Konflikte sichtbar halten"
+
+  - name: BP-11_LAW_AND_RIGHTS
+    status: PROPOSED
+    scope: REFERENCE_RESEARCH
+    purpose: >
+      Recht, Menschenrechte, Verfassungen, Verträge.
+      Zeit- und Kontextabhängigkeit explizit.
+    notes:
+      - "Kein normativer Anspruch"
+      - "Dokumentation statt Bewertung"
+
+  - name: BP-12_BIOLOGY_LIFE
+    status: PROPOSED
+    scope: RESEARCH
+    purpose: >
+      Biologie, Evolution, Leben.
+      Hypothesen, Modelle, Daten.
+    notes:
+      - "Hohe Unsicherheit"
+      - "LAB-lastig"
+
+  - name: BP-13_HISTORY
+    status: PROPOSED
+    scope: REFERENCE
+    purpose: >
+      Historische Ereignisse als Frame-Ketten.
+      Quellenkonflikte explizit.
+    notes:
+      - "Zeitanker zentral"
+      - "Narrative vermeiden"
+
+  - name: BP-14_ART_CULTURE
+    status: PROPOSED
+    scope: REFERENCE
+    purpose: >
+      Kunst, Musik, Kulturgeschichte.
+      Werke, Epochen, Einflüsse.
+    notes:
+      - "Keine Wertung"
+      - "Beziehungen statt Rankings"
+
+selection_hints:
+  good_next_candidates:
+    - BP-07_LITERATURE_CANON
+    - BP-09_MATHEMATICS
+    - BP-08_PHYSICS
+  rationale: >
+    Hoher Erkenntniswert, gute Strukturierbarkeit,
+    geringe Konfliktgefahr mit bestehendem Canon.
+
+status:
+  acknowledged: true
+  integrity: OK
+  note: >
+    Roadmap-Frame. Keine Entscheidung impliziert.
+    Nächster Schritt: Auswahl eines Bootpacks zur Ausarbeitung.
