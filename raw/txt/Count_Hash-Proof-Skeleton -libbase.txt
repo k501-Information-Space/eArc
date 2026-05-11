@@ -1,0 +1,25 @@
+/earc/kernel/frames/LIB_BASELINE_V1.proof.txt
+COUNT / HASH PROOF — LIB_BASELINE_V1
+-----------------------------------
+artifacts:
+- LIB_BASELINE_V1.ndjson
+- LIB_BASELINE_V1.freeze.ndjson
+- LIB_BASELINE_V1.manifest.json
+
+expected:
+- freeze_frame: LIB-BASE-FREEZE-0001
+- pack_id: LIB-BASE-PACK-0001
+
+VERIFY (Linux/macOS):
+  wc -l LIB_BASELINE_V1.ndjson
+  wc -l LIB_BASELINE_V1.freeze.ndjson
+  sha256sum LIB_BASELINE_V1.ndjson
+  sha256sum LIB_BASELINE_V1.freeze.ndjson
+  sha256sum LIB_BASELINE_V1.manifest.json
+
+VERIFY (Windows PowerShell):
+  (Get-Content LIB_BASELINE_V1.ndjson).Count
+  (Get-Content LIB_BASELINE_V1.freeze.ndjson).Count
+  Get-FileHash LIB_BASELINE_V1.ndjson -Algorithm SHA256
+  Get-FileHash LIB_BASELINE_V1.freeze.ndjson -Algorithm SHA256
+  Get-FileHash LIB_BASELINE_V1.manifest.json -Algorithm SHA256

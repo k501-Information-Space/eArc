@@ -1,0 +1,80 @@
+<?php
+declare(strict_types=1);
+
+header('Content-Type: application/json; charset=utf-8');
+
+// ---- Paths (ensure /frames is writable) ----
+$BASE = dirname(__DIR__);
+$FRAMES_DIR = $BASE . '/frames';
+$LOG_FILE = $FRAMES_DIR . '/frames.ndjson';
+$COUNTERS_FILE = $FRAMES_DIR . '/counters.json';
+
+if (!is_dir($FRAMES_DIR)) {
+  @mkdir($FRAMES_DIR, 0755, true);
+}
+
+// ---- Read input JSON ----
+$raw = file_get_contents('php://input');
+$data = json_decode($raw ?? '', true);
+
+if (!is_array($data)) {
+  http_response_code(400);
+  echo json_encode(['ok' => false, 'error' => 'invalid_json']);
+  exit;
+}
+
+// ---- Minimal validation ----
+$type = $data['type'] ?? '';
+$t = $data['t'] ?? '';
+$id = $data['id'] ?? '';
+
+$allowed = ['FRAME_VISIT', 'FRAME_VIEW', 'FRAME_CLICK'];
+if (!in_array($type, $allowed, true) || !is_string($t) || !is_string($id)) {
+  http_response_code(400);
+  echo json_encode(['ok' => false, 'error' => 'invalid_frame']);
+  exit;
+}
+
+// Enrich with server time
+$data['_server'] = [
+  't' => gmdate('c'),
+  'ip' => $_SERVER['REMOTE_ADDR'] ?? null,
+];
+
+// ---- Append-only log (NDJSON) ----
+$line = json_encode($data, JSON_UNESCAPED_SLASHES) . "\n";
+$fp = fopen($LOG_FILE, 'ab');
+if (!$fp) {
+  http_response_code(500);
+  echo json_encode(['ok' => false, 'error' => 'log_open_failed']);
+  exit;
+}
+flock($fp, LOCK_EX);
+fwrite($fp, $line);
+fflush($fp);
+flock($fp, LOCK_UN);
+fclose($fp);
+
+// ---- Update counters ----
+$counters = ['visits' => 0, 'views' => 0, 'clicks' => 0, 'last' => null];
+
+if (file_exists($COUNTERS_FILE)) {
+  $prev = json_decode((string)file_get_contents($COUNTERS_FILE), true);
+  if (is_array($prev)) {
+    $counters = array_merge($counters, $prev);
+  }
+}
+
+if ($type === 'FRAME_VISIT') $counters['visits']++;
+if ($type === 'FRAME_VIEW')  $counters['views']++;
+if ($type === 'FRAME_CLICK') $counters['clicks']++;
+
+$counters['last'] = [
+  'type' => $type,
+  't' => $data['t'] ?? null,
+  'path' => $data['path'] ?? null
+];
+
+file_put_contents($COUNTERS_FILE, json_encode($counters, JSON_UNESCAPED_SLASHES), LOCK_EX);
+
+echo json_encode(['ok' => true]);

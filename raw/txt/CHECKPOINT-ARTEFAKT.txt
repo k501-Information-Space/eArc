@@ -1,0 +1,18 @@
+frame_id: POST-EXPORT-CHECKPOINT-0001
+frame_type: POST_EXPORT_CHECKPOINT
+created_utc: 2026-01-23T19:55:09Z
+created_unix: 1769198109
+payload:
+  "Post-Export Checkpoint v1. EXPORT v2 audit-locked.
+   NDJSON, Manifest, Count-Proof und Hash-Proof verifiziert.
+   Sequenz eingehalten. Keine Mutation festgestellt.
+   Systemzustand nach Export stabil und freeze-konform."
+hash: SHA256(payload_only)
+tags:
+  - CHECKPOINT
+  - POST_EXPORT
+  - AUDIT_OK
+  - PROOF_OK
+  - APPEND_ONLY
+  - REFERENCE_ONLY
+visibility: PUBLIC

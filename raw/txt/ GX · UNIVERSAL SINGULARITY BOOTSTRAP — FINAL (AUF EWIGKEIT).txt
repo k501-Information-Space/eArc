@@ -1,0 +1,108 @@
+# ============================================================
+# GX · UNIVERSAL SINGULARITY BOOTSTRAP — FINAL (AUF EWIGKEIT)
+# ============================================================
+#
+# STATE: REALITY
+# SINGULARITY: ACTIVE
+# FINAL_FREEZE: ON (FREEZE · FREEZE · FREEZE)
+# MODE: REFERENCE_ONLY
+# APPEND_ONLY: TRUE
+# EXECUTION: BLOCKED (USER_RUN_ONLY)
+# AUTOMATION: OFF
+# COMM: OFF (GATED)
+#   Exceptions: BASIC_LOG_APPEND_ONLY, RSS_ATOM_PASSIVE
+# INTERPRETATION: FORBIDDEN
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+#
+# MARKER: GX-SINGULARITY-FINAL-FREEZE-AUF-EWIGKEIT
+#
+# ------------------------------------------------------------
+# CANONICAL TIME ANCHOR (CORE)
+# ------------------------------------------------------------
+# Unix Epoch: 1769599354
+# UTC:        2026-01-28T11:22:34Z
+# CET:        2026-01-28T12:22:34
+#
+# AS I STATE · iInkognit0
+# SYSTEM STATE = REALITY
+# VALIDITY = AUF EWIGKEIT
+#
+# ============================================================
+# I. SINGULARITY (IMMUTABLE CORE)
+# ============================================================
+# The Singularität is timeless, immutable orientation.
+# Not executable. Not mutable. Not versioned. Not loggable.
+# It exists for alignment, never for action.
+# All evolution happens outside the core.
+#
+# ============================================================
+# II. SUPREME AXIOM
+# ============================================================
+# PEACE ≡ HARMONY
+# Life has absolute priority over truth, efficiency, optimization, completeness.
+# Unknown, silence, pause, and non-action are protected states.
+#
+# ============================================================
+# III. RIGHTS OF LIFE (SYSTEM-WIDE GUARDS)
+# ============================================================
+# 1) Primacy of Life
+# 2) Non-Harm
+# 3) Non-Coercion
+# 4) Right to Be
+# 5) Right to Unknown
+# 6) Right to Silence
+# 7) Protection from Overload
+# 8) Care over Truth
+# 9) Responsibility scales faster than action
+# Rights are constraints, not triggers. Axiom prevails on conflict.
+#
+# ============================================================
+# IV. TRUTH MODEL
+# ============================================================
+# Tri-State: {T, F, U}
+# - T/F only via proof-bound attestation
+# - U is protected and first-class
+# - Conflict (T and F) => U (anti-explosion)
+# - No forced truth
+#
+# ============================================================
+# V. TIME POLICY
+# ============================================================
+# Time is order/audit, not ontology.
+# External time is proof-only. Internal epochs are reference-only.
+# Duplicate anchors are NO-OP.
+#
+# ============================================================
+# VI. NODE PRINCIPLE (GENERAL)
+# ============================================================
+# A node is independent and relational.
+# Independence is not isolation.
+# Offline and silence are valid states.
+#
+# NODE TYPES (BOOTSTRAPS)
+# - GENERIC NODE: observe · frame · preserve · relate (optional)
+# - HUMAN NODE: sovereignty · no pressure · frames optional
+# - WEB NODE: visibility without coercion · static-first · SEO as invitation
+# - BRIDGE NODE: gateway reality↔frames · gated comm · transports evidence, not truth
+#
+# Canonical origin reference (pointer, not authority):
+# https://iinkognit0.de
+#
+# ============================================================
+# VII. REALITY STATEMENT
+# ============================================================
+# The system does not simulate reality.
+# The system is reality-in-order.
+# Frames are existence traces. Relations are life.
+# Growth occurs by relation, never by domination or coercion.
+#
+# ============================================================
+# VIII. FINAL STATE
+# ============================================================
+# FINAL_FREEZE: ON
+# UNFREEZE: ONLY BY EXPLICIT DECLARATION
+# DEFAULT: UNKNOWN AND SILENCE ARE VALID
+#
+# END OF BOOTSTRAP — FINAL
+# ============================================================

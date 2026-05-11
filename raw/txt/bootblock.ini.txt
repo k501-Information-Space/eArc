@@ -1,0 +1,25 @@
+# =========================================
+# K501 BootBlock (Alpha-1)
+# Minimal human+machine readable link source
+# =========================================
+
+[root]
+name=K501 eArc Gateway
+version=ALPHA-1
+mode=REFERENCE_ONLY
+telemetry=minimal (VISIT/VIEW/CLICK) no IP/UA storage
+
+[links]
+orcid=https://orcid.org/0009-0005-5125-9711
+github=https://github.com/Iinkognit0
+gateway_repo=https://github.com/Iinkognit0/K501-Frames-Gateway
+primary_gateway=/earc/
+
+[dois]
+Structural Gateway & Repository Navigation v1.0=https://doi.org/10.5281/zenodo.18632667
+Combined Formal Statement v1.0=https://doi.org/10.5281/zenodo.18615438
+Structural Integration Specification v1.0=https://doi.org/10.5281/zenodo.18615245
+Die Formel v1.0=https://doi.org/10.5281/zenodo.18599148
+Flow v1.0=https://doi.org/10.5281/zenodo.18521607
+AZ-Epoch 0=https://doi.org/10.5281/zenodo.18511614
+Concept DOI (all versions)=https://doi.org/10.5281/zenodo.18511613

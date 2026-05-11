@@ -1,0 +1,43 @@
+HARD_INDEX_ENTRY {
+  id:            FRAMES.QH256.FORMAL_DEFINITION
+  type:          REFERENCE_ONLY
+  status:        NON_CANONICAL_REFERENCE
+  scope:         STRUCTURAL_TOPOLOGY
+  execution:     NONE
+  mutation:      FORBIDDEN
+  interpretation: FORBIDDEN
+
+  title:         "QH256 — Formal Definition"
+  description:   "Structural topology for the Quantum Header in FRAMES.
+                  Defines fixed-size segments, 2-bit cell encoding,
+                  canonical vs non-canonical separation, and epistemic constraints.
+                  No semantic, truth, or execution claims."
+
+  components:
+    - QH56   (canonical, frame-local structure)
+    - QH112  (canonical, hard-index ordering; index-bound)
+    - QHC64  (non-canonical, dynamic descriptor)
+    - QHI24  (canonical, interface & boundary gating)
+
+  excluded:
+    - QAI (Quantum Access Interface)
+    - QAC (Quantum Access Control / Cage)
+
+  invariants:
+    - total_size_bits: 256
+    - cell_encoding: 2-bit (00 UNKNOWN, 01 FALSE, 10 TRUE, 11 INVALID)
+    - deterministic_reading: TRUE
+    - semantics: NONE
+    - truth_claims: NONE
+
+  epistemic_state:
+    g_state: UNKNOWN
+
+  references:
+    - FRAMES.AXIOMS
+    - FRAMES.QUANTUM_HEADERS
+    - FRAMES.CLAIM_BOUNDARIES
+
+  time_anchor:
+    inherited_from_context: TRUE
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:earc:feed:public:v2</id>
+  <title>eArc Public Feed — v2</title>
+  <updated>2026-01-23T19:55:09Z</updated>
+  <author><name>eArc</name></author>
+  <link rel="self" href="/earc/read/feed/atom.xml"/>
+  <link rel="alternate" href="/earc/read/"/>
+
+  <entry>
+    <id>urn:earc:export:v2</id>
+    <title>EXPORT v2 published</title>
+    <updated>2026-01-23T19:30:39Z</updated>
+    <summary>EXPORT v2 released. NDJSON + Manifest + Proofs. Append-only. Proof OK.</summary>
+    <link rel="alternate" href="/earc/export/v2/"/>
+  </entry>
+
+  <entry>
+    <id>urn:earc:checkpoint:post-export:0001</id>
+    <title>Post-Export Checkpoint v1</title>
+    <updated>2026-01-23T19:55:09Z</updated>
+    <summary>Audit-locked. Proof OK. Freeze intact.</summary>
+    <link rel="alternate" href="/earc/read/"/>
+  </entry>
+</feed>

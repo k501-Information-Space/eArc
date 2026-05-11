@@ -1,0 +1,170 @@
+============================================================
+FRAMES · FRAME_SCHEMA_FINAL · v1.0
+============================================================
+MODE        : REFERENCE_ONLY
+EXECUTION   : NONE
+INTERPRETATION : FORBIDDEN (IN-FRAME)
+MUTATION    : APPEND_ONLY
+FORMAT      : NDJSON (1 JSON object per line, UTF-8)
+
+------------------------------------------------------------
+0) DEFINITIONS
+------------------------------------------------------------
+• Frame = atomic record (single JSON object) written once.
+• Append-only = never edit; only add new frames.
+• Presence ≠ Truth. Receipt ≠ Claim.
+• Reader/Interpretation is external to the frame.
+
+------------------------------------------------------------
+1) TOP-LEVEL FIELDS (ALLOWED)
+------------------------------------------------------------
+REQUIRED (MUST)
+- "t"    : string   | frame type label (UPPER_SNAKE recommended)
+- "id"   : string   | globally unique frame id
+- "mode" : string   | must be "REFERENCE_ONLY"
+- "ts"   : object   | time block (see §2)
+- "src"  : object   | origin/source block (see §3)
+- "h"    : object   | hash/proof block (see §4)
+- "p"    : object   | payload (schema depends on "t") (see §5)
+
+OPTIONAL (MAY)
+- "v"    : integer  | schema version (default 1)
+- "tags" : array    | list of short string tags
+- "rel"  : array    | relations to other frames (see §6)
+- "note" : string   | short, non-interpretive remark (max 240 chars)
+
+FORBIDDEN (MUST NOT)
+- Any field that encodes interpretation, opinion, meaning, or advice.
+- Any hidden execution directives ("run", "cmd", "eval", "action", etc.).
+- Any non-UTF8 content.
+- NaN/Infinity, exponent-number formats if they break strict JSON parsers.
+
+------------------------------------------------------------
+2) TIME BLOCK "ts"
+------------------------------------------------------------
+"ts": {
+  "unix" : integer | Unix epoch seconds OR -1 if unknown
+  "utc"  : string  | ISO 8601 UTC time OR "UNKNOWN"
+  "tz"   : string  | IANA timezone string OR "UNKNOWN"
+  "anchor": boolean | true if this frame is a TIME_ANCHOR frame
+}
+
+RULES
+• If no verified time anchor exists: unix=-1, utc="UNKNOWN", tz="UNKNOWN".
+• Time anchors are explicit frames; other frames must not fake certainty.
+
+------------------------------------------------------------
+3) SOURCE BLOCK "src"
+------------------------------------------------------------
+"src": {
+  "origin" : string | e.g. "iinkognit0.de" or "LLM_CHAT"
+  "agent"  : string | e.g. "K501"
+  "channel": string | e.g. "chat", "shell", "web", "scanner"
+  "scope"  : string | user-declared scope label (free text)
+}
+
+RULES
+• Source describes provenance only. No claims.
+
+------------------------------------------------------------
+4) HASH / PROOF BLOCK "h"
+------------------------------------------------------------
+"h": {
+  "alg"  : string  | e.g. "sha256"
+  "self" : string  | hex digest of canonical serialization of THIS frame
+  "prev" : string  | hex digest of previous frame in the local append sequence OR "NONE"
+  "proof": object  | optional proof sub-block (see below)
+}
+
+OPTIONAL proof sub-block:
+"h": { ..., "proof": {
+  "kind": string | e.g. "PRESENCE", "RECEIPT", "INDEX_SNAPSHOT"
+  "ref" : string | referenced id or external pointer
+  "sum" : object | short numeric summary only (counts/bytes), no interpretation
+}}
+
+RULES
+• Hashing is post-write. If not available, set:
+  alg="NONE", self="NONE", prev="NONE"
+• "prev" links local order (audit chain), not truth.
+
+------------------------------------------------------------
+5) PAYLOAD BLOCK "p"
+------------------------------------------------------------
+"p" is type-dependent and MUST be JSON-safe.
+
+GLOBAL RULES FOR "p"
+• No executable instructions.
+• No interpretive conclusions.
+• Allowed: raw data, structural facts, pointers, counts, bytes, ids, urls (as strings).
+• If external content is referenced: use pointers in "p" + relation in "rel".
+
+EXAMPLE MINIMAL PAYLOAD
+"p": { "data": "..." }
+
+------------------------------------------------------------
+6) RELATIONS ARRAY "rel" (OPTIONAL)
+------------------------------------------------------------
+"rel": [
+  {
+    "k"  : string | relation kind ("REFS","DERIVES","SUPERCEDES","PROVES","ANCHORS")
+    "to" : string | target frame id
+    "h"  : string | target hash (if known) else "UNKNOWN"
+  }
+]
+
+RULES
+• Relations are pointers only, never content import.
+
+------------------------------------------------------------
+7) CANONICAL ID RULES
+------------------------------------------------------------
+"id" MUST:
+• be unique
+• be ASCII-safe
+• avoid spaces
+RECOMMENDED FORMAT:
+  GX-<TYPE>-<UNIXorUNKNOWN>-<SEQ4>
+Examples:
+  GX-TIME-ANCHOR-1770108747-0001
+  GX-FRAME-UNKNOWN-0007
+
+------------------------------------------------------------
+8) FRAME TYPE "t" (RECOMMENDED BASE SET)
+------------------------------------------------------------
+CORE
+- TIME_ANCHOR
+- STATUS_SNAPSHOT
+- INDEX_SNAPSHOT
+- POINTER_NAMESPACE
+- RECEIPT
+- PROOF
+- POLICY
+- NOTE (still non-interpretive)
+
+DOMAIN (examples)
+- BOOK_REF
+- URL_REF
+- PACK_MANIFEST
+- PRESENCE_SCAN
+
+RULES
+• New types allowed, but must obey the same non-exec, non-interpretation constraints.
+
+------------------------------------------------------------
+9) NDJSON / SERIALIZATION RULES
+------------------------------------------------------------
+• One frame = one line.
+• No multi-line JSON.
+• Keys must be unique (no duplicates).
+• Deterministic key order recommended for hashing:
+  t,id,mode,ts,src,h,p,v,tags,rel,note
+
+------------------------------------------------------------
+10) MINIMAL VALID FRAME (TEMPLATE)
+------------------------------------------------------------
+{"t":"NOTE","id":"GX-NOTE-UNKNOWN-0001","mode":"REFERENCE_ONLY","ts":{"unix":-1,"utc":"UNKNOWN","tz":"UNKNOWN","anchor":false},"src":{"origin":"LLM_CHAT","agent":"K501","channel":"chat","scope":"USER"},"h":{"alg":"NONE","self":"NONE","prev":"NONE"},"p":{"data":"minimal frame"}}
+
+============================================================
+END · FRAME_SCHEMA_FINAL · v1.0
+============================================================

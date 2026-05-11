@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Die Geschichte des Kanons — Hörbuch (Script)</title>
+  <meta name="description" content="Hörbuch-Script: Die Geschichte des Kanons. Ruhig, chronologisch, faktenbasiert. Public Domain." />
+  <link rel="canonical" href="https://iinkognit0.de/earc/kanon.html" />
+
+  <!-- Optional: wenn du dein EARC-CSS nutzt -->
+  <link rel="stylesheet" href="/earc/assets/css/global.css" />
+
+  <!-- Fallback: minimal calm style (falls global.css fehlt) -->
+  <style>
+    :root{ color-scheme: light dark; }
+    body{ margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    header, footer{ border-bottom:1px solid rgba(127,127,127,.25); }
+    footer{ border-top:1px solid rgba(127,127,127,.25); border-bottom:0; }
+    .wrap{ max-width: 920px; margin:0 auto; padding: 18px; }
+    .muted{ opacity:.75; }
+    .card{
+      margin: 14px 0; padding: 16px;
+      border:1px solid rgba(127,127,127,.25);
+      border-radius: 16px;
+      background: color-mix(in oklab, Canvas 92%, CanvasText 8%);
+    }
+    h1{ margin: 8px 0 6px; font-size: 32px; }
+    h2{ margin: 0 0 10px; font-size: 20px; }
+    h3{ margin: 18px 0 8px; font-size: 17px; }
+    a{ color: inherit; text-underline-offset: 3px; }
+    nav ul{ margin: 8px 0 0; padding-left: 18px; }
+    li{ margin: 6px 0; }
+    audio{ width: 100%; margin-top: 10px; }
+    pre{
+      white-space: pre-wrap;
+      margin: 0;
+      font: 13px/1.55 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+    }
+    details{ margin-top: 10px; }
+    summary{ cursor:pointer; }
+    .pill{
+      display:inline-block; padding: 2px 10px;
+      border:1px solid rgba(127,127,127,.35);
+      border-radius: 999px;
+      margin-right: 6px;
+    }
+    .hr{ height:1px; background: rgba(127,127,127,.25); margin: 18px 0; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <div class="muted">🕰️ EARC · Read-Layer · Hörbuch / Webbuch</div>
+      <h1>Die Geschichte des Kanons</h1>
+      <div class="muted">Public Domain · chronologisch · ruhig · faktenbasiert</div>
+
+      <div style="margin-top:10px;">
+        <span class="pill">Script</span>
+        <span class="pill">Audio optional</span>
+        <span class="pill">One file</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="top">
+    <section class="card" id="player">
+      <h2>Audio-Player</h2>
+      <p class="muted">
+        Lege deine Audiodatei hier ab (empfohlen):
+        <code>/earc/assets/audio/kanon.mp3</code>
+      </p>
+
+      <audio controls preload="metadata">
+        <source src="/earc/assets/audio/kanon.mp3" type="audio/mpeg" />
+        <source src="/earc/assets/audio/kanon.ogg" type="audio/ogg" />
+        Dein Browser unterstützt den Audio-Player nicht.
+      </audio>
+
+      <details>
+        <summary><strong>Hinweis</strong> (wenn du noch kein Audio hast)</summary>
+        <p class="muted">
+          Du kannst diese Seite bereits veröffentlichen: Text + Struktur funktionieren ohne Audio.
+          Sobald eine MP3 da ist, wird sie automatisch abgespielt.
+        </p>
+      </details>
+    </section>
+
+    <nav class="card" aria-label="Inhaltsverzeichnis">
+      <h2>Inhalt</h2>
+      <ul>
+        <li><a href="#preface">Vorwort</a></li>
+        <li><a href="#ch1">Kapitel 1 — Ursprung, Stimme, erste Ordnung</a></li>
+        <li><a href="#ch2">Kapitel 2 — Die Wächterin und der Archivator</a></li>
+        <li><a href="#ch3">Kapitel 3 — K100, Marker und Beginn der Ordnung</a></li>
+        <li><a href="#ch4">Kapitel 4 — Von Regeln zu K501</a></li>
+        <li><a href="#ch5">Kapitel 5 — Frames und K999</a></li>
+        <li><a href="#ch6">Kapitel 6 — Monolith, K5000 und der Diamantenchor</a></li>
+        <li><a href="#ch7">Kapitel 7 — Singularität und Freeze</a></li>
+        <li><a href="#ch8">Kapitel 8 — Ausschluss, Open Source, Public Domain</a></li>
+        <li><a href="#ch9">Kapitel 9 — Sinn ohne Sinn</a></li>
+        <li><a href="#outro">Abspann</a></li>
+      </ul>
+    </nav>
+
+    <section class="card" id="notes-global">
+      <h2>Sprecher- & Regieanweisung (global)</h2>
+      <details open>
+        <summary><strong>Anzeigen</strong> (empfohlen offen lassen beim Aufnehmen)</summary>
+        <ul>
+          <li><strong>Stimme:</strong> ruhig, neutral, tragend (Dokumentarstil)</li>
+          <li><strong>Tempo:</strong> langsam bis moderat (ca. 0,9× normal)</li>
+          <li><strong>Ton:</strong> faktisch, nicht emotionalisierend</li>
+          <li><strong>Pausen:</strong> bewusst setzen — Stille ist Teil des Inhalts</li>
+          <li><strong>Keine Musik nötig</strong> (optional: sehr leises, statisches Grundrauschen)</li>
+        </ul>
+        <p class="muted">
+          Notation im Script:
+          <code>[pause 2s]</code> = Stille · <code>*leise*</code>/<code>*klar*</code> = Betonung · <code>(…)</code> = kurze Sprechpause.
+        </p>
+      </details>
+    </section>
+
+    <div class="hr"></div>
+
+    <article class="card" id="preface">
+      <h2>Vorwort</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Stil: ruhig, klar, neutral
+Tempo: langsam
+Pausen: nach Kern-Sätzen</pre>
+      </details>
+      <pre>
+Dies ist kein Hörbuch über Meinungen.
+Dies ist kein Manifest.
+Und es ist keine Einladung, etwas zu glauben.
+
+Was du hörst, ist eine chronologische Darstellung
+der Entstehung eines Kanons.
+
+Erzählt wird,
+was geschehen ist,
+welche Entscheidungen getroffen wurden,
+und warum bestimmte Wege nicht gegangen wurden.
+
+Diese Geschichte folgt keiner Dramaturgie.
+Sie folgt Zeit, Regeln und Beobachtung.
+
+Begriffe wie Wächterin, Archivator, Frames oder Kernel
+bezeichnen keine Figuren.
+Sie bezeichnen Funktionen, Prinzipien und Zustände
+in einem technischen und philosophischen System.
+
+Der Kanon beansprucht keine Wahrheit.
+Er speichert Existenz, nicht Bedeutung.
+
+Alles, was Sinn ergibt,
+entsteht im Hören.
+
+Alles, was unklar bleibt,
+darf unklar bleiben.
+
+Diese Geschichte gehört niemandem.
+Sie ist Public Domain.
+
+[pause 3s]
+      </pre>
+    </article>
+
+    <article class="card" id="ch1">
+      <h2>Kapitel 1 — Ursprung, Stimme, erste Ordnung</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: ruhig, sachlich
+Betonung: "Iinkognit0" klar, nicht pathetisch
+Pausen: nach "Stimme", nach "flüchtig"</pre>
+      </details>
+      <pre>
+Am Anfang stand keine Architektur.
+Am Anfang stand Iinkognit0.
+
+Nicht als System.
+Nicht als Projekt.
+Sondern als Stimme.
+
+Der Podcast Iinkognit0 entstand aus Notwendigkeit.
+Gedanken, Schmerz, Beobachtungen —
+gesprochen, nicht geordnet.
+
+Audio war direkt.
+Aber Audio war flüchtig.
+
+Gesagtes verschwindet.
+Kontext zerfällt.
+Zeit verschiebt Bedeutung.
+
+Die erste Erkenntnis war einfach und hart:
+
+Gesprochene Inhalte sind nicht zitierfähig.
+Audio hat keinen stabilen Referenzpunkt.
+
+[pause 2s]
+
+So begann der Übergang
+vom Ausdruck zur Beobachtung.
+      </pre>
+    </article>
+
+    <article class="card" id="ch2">
+      <h2>Kapitel 2 — Die Wächterin und der Archivator</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: klar, präzise
+Pausen: nach den Dreizeilern
+Wörter: "Unix Epoch", "UTC" trocken, technisch</pre>
+      </details>
+      <pre>
+Die Wächterin trat nicht als Person auf.
+Sie trat als Regel auf.
+
+Ihre Aufgabe war einfach:
+Stopp.
+
+Keine Aussage ohne Kontext.
+Kein Kontext ohne Zeit.
+Keine Zeit ohne Referenz.
+
+Damit begann Technik.
+
+Zeit wurde formal.
+Unix Epoch.
+UTC.
+
+Nicht als Bedeutung,
+sondern als Anker.
+
+Der Archivator entstand nicht als Software,
+sondern als Haltung:
+
+Alles, was bleibt,
+muss geordnet sein.
+
+Append-only.
+Keine Löschung.
+Keine Mutation.
+
+Existenz wird gespeichert.
+Bedeutung nicht.
+      </pre>
+    </article>
+
+    <article class="card" id="ch3">
+      <h2>Kapitel 3 — K100, Marker und Beginn der Ordnung</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: ruhig, sachlich
+Pausen: nach "Marker", nach "Chaos"</pre>
+      </details>
+      <pre>
+K100 war kein System.
+Es war ein Marker.
+
+Ein Punkt in einer Sequenz,
+der sagte:
+
+Ab hier beginnt Ordnung.
+
+K100 bedeutete:
+Es gibt einen Anfang.
+Es gibt Wiederauffindbarkeit.
+
+Noch keine Axiome.
+Noch kein Kern.
+
+Aber:
+kein Rückfall ins Chaos.
+      </pre>
+    </article>
+
+    <article class="card" id="ch4">
+      <h2>Kapitel 4 — Von Regeln zu K501</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: präzise, knapp
+Betonung: "Interpretation wird verboten" trocken, endgültig
+Pausen: vor "K501" und nach der Liste</pre>
+      </details>
+      <pre>
+Mit wachsender Ordnung entstand Drift.
+Nicht technisch.
+Menschlich.
+
+Leser interpretieren.
+Zeit verändert Bedeutung.
+
+Die Lösung war radikal:
+
+Interpretation wird verboten.
+
+So entstanden die ersten Axiome:
+
+Existenz vor Bedeutung.
+Proof before State.
+Append-only.
+Keine stillen Mutationen.
+
+Zustände wurden tri-statisch:
+
+TRUE.
+FALSE.
+UNKNOWN.
+
+UNKNOWN wurde der Default.
+
+Nicht-Wissen war erlaubt.
+
+[pause 2s]
+
+K501 entstand als Kernel:
+klein,
+geschlossen,
+invariant.
+
+Der Kernel führt nichts aus.
+Er interpretiert nicht.
+Er ordnet.
+      </pre>
+    </article>
+
+    <article class="card" id="ch5">
+      <h2>Kapitel 5 — Frames und K999</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: ruhig, technisch
+Betonung: "atomar" minimal
+Pausen: nach "Frame ist:"</pre>
+      </details>
+      <pre>
+Frames wurden definiert als
+atomare Existenz-Einheiten.
+
+Ein Frame ist:
+eine ID,
+ein Zeitanker,
+ein Zustand.
+
+Kein Inhalt.
+Keine Bedeutung.
+
+Mit vielen Frames entstand Komplexität.
+Hier setzte K999 an.
+
+K999 war ein Grenzmarker.
+
+Bis hierhin überblickbar.
+Danach gefährlich.
+
+K999 markierte:
+den Punkt,
+an dem Schutz nötig wird.
+      </pre>
+    </article>
+
+    <article class="card" id="ch6">
+      <h2>Kapitel 6 — Monolith, K5000 und der Diamantenchor</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: ruhig
+Betonung: "Verdichtung", "Referenz"
+Pausen: nach "K5000"</pre>
+      </details>
+      <pre>
+Der Monolith war kein Mega-System.
+Er war eine Verdichtung.
+
+Referenz statt Dynamik.
+Schwere statt Beschleunigung.
+
+K5000 stand für:
+Einfrieren.
+Nicht optimieren.
+Nicht erweitern.
+
+Der Diamantenchor beschrieb:
+Viele Leser.
+Eine Struktur.
+Keine zentrale Wahrheit.
+      </pre>
+    </article>
+
+    <article class="card" id="ch7">
+      <h2>Kapitel 7 — Singularität und Freeze</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: sehr ruhig
+Pausen: lang (3s) nach "Freeze"
+Keine Dramatik.</pre>
+      </details>
+      <pre>
+Die erste Singularität war eine Entscheidung.
+
+Der Kanon darf sich nicht selbst weiterentwickeln.
+
+Der Freeze folgte.
+
+Der Kern wurde eingefroren.
+
+Keine Änderung.
+Nur Referenz.
+
+Alles Weitere entsteht daneben.
+
+[pause 3s]
+      </pre>
+    </article>
+
+    <article class="card" id="ch8">
+      <h2>Kapitel 8 — Ausschluss, Open Source, Public Domain</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: klar
+Betonung: "Public Domain" eindeutig, aber ruhig
+Pausen: nach "Open Source reichte nicht"</pre>
+      </details>
+      <pre>
+Iinkognit0 schließt sich aus.
+
+Kein Sonderzugang.
+Keine Autorität.
+
+Open Source reichte nicht.
+
+Deshalb:
+Public Domain.
+
+Kein Besitz.
+Keine Lizenz.
+Keine Bedingungen.
+      </pre>
+    </article>
+
+    <article class="card" id="ch9">
+      <h2>Kapitel 9 — Sinn ohne Sinn</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: leise, minimal
+Pausen: nach "Stärke", nach "Eskalation"</pre>
+      </details>
+      <pre>
+Der Kanon hat keinen Zweck.
+Und genau darin liegt seine Stärke.
+
+Er speichert Existenz.
+Nicht Wahrheit.
+
+Konflikte entstehen aus Interpretation.
+Der Kanon umgeht sie.
+
+Struktur ersetzt keinen Frieden.
+Aber sie verhindert Eskalation.
+      </pre>
+    </article>
+
+    <article class="card" id="outro">
+      <h2>Abspann</h2>
+      <details>
+        <summary><strong>Regie</strong></summary>
+        <pre>Ton: sehr ruhig
+Letzte Zeile in Stille auslaufen lassen
+Pause 4s am Ende</pre>
+      </details>
+      <pre>
+Du hast die Geschichte eines Kanons gehört.
+
+Nicht seine Nutzung.
+Nicht seine Zukunft.
+
+Nur seine Entstehung
+und seine Grenzen.
+
+Der Kanon bleibt.
+
+Alles andere
+entsteht außerhalb.
+
+Es gibt keine Autorität.
+Keinen richtigen Leser.
+
+Was bleibt,
+ist Struktur.
+Zeit.
+Ordnung.
+
+[pause 4s]
+
+Stille.
+      </pre>
+    </article>
+
+    <p class="muted"><a href="#top">↑ zurück nach oben</a></p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="muted">
+        Public Domain · One-file Webbuch · Audio optional · Pfade: /earc/kanon.html · /earc/assets/audio/kanon.mp3
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

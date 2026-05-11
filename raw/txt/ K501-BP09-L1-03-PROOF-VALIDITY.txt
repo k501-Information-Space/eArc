@@ -1,0 +1,173 @@
+t: FRAME
+id: K501-BP09-L1-03-PROOF-VALIDITY-CONDITIONS-0001
+type: SPECIFICATION
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L1_LOGIC_AND_PROOF
+submodule: L1-03_PROOF_VALIDITY_CONDITIONS
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-SESSION-RESUME-TIMEANCHOR-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+purpose:
+  description: >
+    Definiert die formalen Gültigkeitsbedingungen (Validity) für L1-Proofs.
+    Ziel: deterministische, mechanisch prüfbare Proofs ohne implizite Annahmen.
+    Diese Regeln definieren "VALID/INVALID" für ein Proof-Objekt nach L1-01,
+    unter Verwendung der Rule-Registry aus L1-02.
+
+bindings:
+  proof_object_format: K501-BP09-L1-01-PROOF-OBJECT-FORMAT-0001
+  inference_rule_registry: K501-BP09-L1-02-INFERENCE-RULE-REGISTRY-0001
+
+validity_result_space:
+  - VALID
+  - INVALID
+  - UNKNOWN
+  note: >
+    UNKNOWN ist nur erlaubt, wenn externe Referenzen/Inputs fehlen
+    (z.B. referenced frames absent). Für vollständige Inputs muss
+    Validität deterministisch VALID oder INVALID ergeben.
+
+core_principle:
+  no_phantom_on_proof_level: >
+    Jede Begründung muss vollständig explizit sein:
+    Rule-ID, Premise-Refs, Side-Conditions. Nichts wird "mitgemeint".
+
+V0_well_formedness_checks:
+  V0-01_REQUIRED_FIELDS:
+    rule: "Alle required_fields aus L1-01 sind vorhanden."
+    invalid_if: "Fehlendes Feld ⇒ INVALID"
+  V0-02_LANGUAGE_ALLOWED:
+    rule: "proof.language ∈ allowed (FOL)."
+    invalid_if: "Sonst INVALID"
+  V0-03_WFF_CHECK:
+    rule: "goal, assumptions, alle step.formula sind wff."
+    invalid_if: "Sonst INVALID"
+  V0-04_SYMBOL_SCOPE:
+    rule: "Alle Symbole stammen aus L0-Sprache (keine fremden Operatoren)."
+    invalid_if: "Sonst INVALID"
+
+V1_goal_and_closure_checks:
+  V1-01_GOAL_CLOSED:
+    rule: "goal hat keine freien Variablen."
+    invalid_if: "Sonst INVALID"
+  V1-02_CONCLUSION_MATCHES_GOAL:
+    rule: "proof.conclusion ist syntaktisch identisch zum goal (string/AST-equal)."
+    note: >
+      Äquivalenz per Umformung ist L2 (optional). In L1 gilt: exakt gleich.
+    invalid_if: "Sonst INVALID"
+  V1-03_CLOSURE_MARKERS:
+    rule: "closure enthält PROOF_CLOSED und ASSUMPTIONS_DISCHARGED."
+    invalid_if: "Sonst INVALID"
+
+V2_reference_integrity_checks:
+  V2-01_REFERENCE_RESOLUTION:
+    rule: "Jede 'from' Referenz zeigt auf existierende A<i> oder S<j> mit j<i."
+    invalid_if: "Sonst INVALID"
+  V2-02_NO_FORWARD_REFERENCES:
+    rule: "Keine Referenz auf spätere Schritte."
+    invalid_if: "Sonst INVALID"
+  V2-03_NO_DUPLICATE_STEP_IDS:
+    rule: "step_id ist eindeutig."
+    invalid_if: "Sonst INVALID"
+
+V3_rule_application_checks:
+  V3-01_RULE_REGISTERED:
+    rule: "justification.rule ist registriert in L1-02."
+    invalid_if: "Sonst INVALID"
+  V3-02_PREMISE_ARITY_MATCH:
+    rule: "Anzahl/Typ der Premissen passt zum Rule-Schema."
+    invalid_if: "Sonst INVALID"
+  V3-03_CONCLUSION_FOLLOWS_RULE:
+    rule: >
+      step.formula ist exakt die aus rule + Premissen resultierende Konklusion,
+      inkl. syntaktischer Substitution (wenn Rule dies vorsieht).
+    invalid_if: "Sonst INVALID"
+  V3-04_SIDE_CONDITIONS_EXPLICIT:
+    rule: "Wenn Rule Side-Conditions fordert, müssen sie im Schritt angegeben sein."
+    invalid_if: "Fehlende Side-Conditions ⇒ INVALID"
+
+V4_discharge_and_scope_checks:
+  V4-01_DISCHARGE_TRACKING:
+    rule: >
+      Regeln mit Discharge (→-Intro, ¬-Intro, ∨-Elim, ∃-Elim) müssen
+      die entladene Annahme explizit identifizieren.
+    invalid_if: "Discharge-Regel ohne explizite discharged_assumption ⇒ INVALID"
+  V4-02_NO_OPEN_ASSUMPTIONS_AT_END:
+    rule: "Am Ende sind alle temporären Annahmen entladen."
+    invalid_if: "Sonst INVALID"
+  V4-03_ASSUMPTION_SCOPE:
+    rule: "Schritte dürfen eine Annahme nur innerhalb ihres Gültigkeitsbereiches nutzen."
+    invalid_if: "Scope-Verletzung ⇒ INVALID"
+
+required_step_fields_extension:
+  note: >
+    L1-01 hat justification.side_conditions optional gemacht.
+    Für Discharge- und Quantor-Regeln wird ein zusätzlicher Slot verpflichtend.
+
+  justification_extension_v1:
+    fields:
+      - discharged_assumption: "A<i> | TEMP_A<k> (optional, required if discharge)"
+      - instantiation_term: "t (required for ∀-elim, ∃-intro)"
+      - fresh_constant: "c (required for ∃-elim)"
+      - substitution_map: "optional (e.g., x->t)"
+    rule: "Diese Felder sind nur verpflichtend, wenn die Rule es verlangt."
+
+V5_quantifier_hygiene_checks:
+  V5-01_FREE_FOR_SUBSTITUTION:
+    rule: >
+      Bei ∀-Elim und =-Substitution muss 'free for' erfüllt und explizit bestätigt sein
+      (side_conditions enthält FREE_FOR(x,t,φ)).
+    invalid_if: "Sonst INVALID"
+  V5-02_FRESHNESS_FOR_EXISTS_ELIM:
+    rule: >
+      Bei ∃-Elim: fresh_constant c darf nicht in offenen Annahmen oder ψ vorkommen.
+      Muss als side_condition explizit angegeben werden.
+    invalid_if: "Sonst INVALID"
+  V5-03_GENERALIZATION_RESTRICTION:
+    rule: >
+      Bei ∀-Intro: Variable x darf nicht frei in offenen Annahmen sein.
+      Muss als side_condition explizit angegeben werden.
+    invalid_if: "Sonst INVALID"
+
+V6_equality_hygiene_checks:
+  V6-01_SUBSTITUTION_SOUNDNESS_SLOT:
+    rule: >
+      Für RULE_EQUALITY_SUBSTITUTION muss angegeben werden,
+      in welchem Kontext φ(t) vorkommt (side_conditions).
+    invalid_if: "Unklarer Kontext ⇒ INVALID"
+
+validator_algorithm:
+  description: >
+    Deterministischer Prüflauf in Schichten:
+      1) V0 (WFF+Fields)
+      2) V1 (Goal/Closure)
+      3) V2 (Referenzen)
+      4) V3 (Rule-Check)
+      5) V4 (Scopes/Discharge)
+      6) V5 (Quantoren-Hygiene)
+      7) V6 (Gleichheits-Hygiene)
+    Erste Verletzung ⇒ INVALID.
+    Fehlende externe Referenz (frame absent) ⇒ UNKNOWN.
+
+outputs:
+  - "VALIDATION_REPORT Frame (VALID|INVALID|UNKNOWN + reasons[])"
+  - "Optional: minimal counterexample pointer (first failing step_id)"
+
+status:
+  completed: true
+  readiness: READY
+  next: "L1-04_PROOF_COMPOSITION_RULES"
+  note: >
+    L1-03 ist vollständig: Validitätsraum, Prüfregeln, Discharge-Tracking,
+    Quantoren- und Gleichheits-Hygiene, deterministischer Validator-Flow.

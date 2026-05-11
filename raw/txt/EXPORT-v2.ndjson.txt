@@ -1,0 +1,36 @@
+{"frame_id":"PUBLIC-INDEX-0001", ...}
+{"frame_id":"PUBLIC-INDEX-0002", ...}
+{"frame_id":"PUBLIC-INDEX-FREEZE-0002", ...}
+
+{"frame_id":"PACK-0001", ...}
+{"frame_id":"PACK-FREEZE-0001", ...}
+{"frame_id":"SUPERPACK-0001", ...}
+{"frame_id":"SUPERPACK-FREEZE-0001", ...}
+
+{"frame_id":"KPOL-PACK-0001-V2", ...}
+{"frame_id":"KPOL-PACK-FREEZE-0001-V2", ...}
+
+{"frame_id":"READ-PACK-0001-V2", ...}
+{"frame_id":"READ-PROOF-PACK-0001", ...}
+{"frame_id":"READ-PROOF-PACK-FREEZE-0001", ...}
+{"frame_id":"READ-HARD-PACK-0001", ...}
+{"frame_id":"READ-HARD-PACK-FREEZE-0001", ...}
+
+{"frame_id":"TRANS-PACK-0001-V2", ...}
+{"frame_id":"TRANS-PACK-FREEZE-0001-V2", ...}
+{"frame_id":"TRANS-PROOF-PACK-0001", ...}
+{"frame_id":"TRANS-PROOF-PACK-FREEZE-0001", ...}
+
+{"frame_id":"AIDK-PACK-0001", ...}
+{"frame_id":"AIDK-PACK-FREEZE-0001", ...}
+
+{"frame_id":"INGEST-PACK-0001", ...}
+{"frame_id":"INGEST-PACK-FREEZE-0001", ...}
+
+{"frame_id":"KRES-PROOF-PACK-0001", ...}
+{"frame_id":"KRES-PROOF-PACK-FREEZE-0001", ...}
+
+{"frame_id":"LIB-BASE-PACK-0001", ...}
+{"frame_id":"LIB-BASE-FREEZE-0001", ...}
+
+{"frame_id":"GLOBAL-CHECKPOINT-0001", ...}

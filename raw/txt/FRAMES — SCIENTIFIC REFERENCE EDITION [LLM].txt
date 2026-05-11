@@ -1,0 +1,106 @@
+============================================================
+FRAMES — SCIENTIFIC REFERENCE EDITION
+============================================================
+MODE: STRICT SCIENTIFIC · DRIFT-STABLE · CORE FROZEN
+EXECUTION: NONE
+INTERPRETATION: FORBIDDEN
+STATUS: CANONICAL REFERENCE
+============================================================
+
+This publication represents the strict scientific reference
+version of the FRAMES framework.
+
+------------------------------------------------------------
+SCOPE AND INTENT
+------------------------------------------------------------
+
+FRAMES is presented here as a closed, axiomatic, and
+non-executing scientific system for the ordered representation
+of information.
+
+The focus of this version is:
+- Structural clarity
+- Logical consistency
+- Reproducibility
+- Long-term stability
+
+No interpretative freedom, semantic expansion, or speculative
+extension is permitted within this document.
+
+------------------------------------------------------------
+CORE INTEGRITY
+------------------------------------------------------------
+
+The axiomatic core of FRAMES is cryptographically hashed and
+considered immutable.
+
+This core:
+- Must not be altered
+- Must not be compressed
+- Must not be reinterpreted
+- Must not be semantically enriched
+
+This applies universally, including to scientific users.
+
+Any modification, summarization, or abstraction of the core
+constitutes a new work and must be explicitly declared as such.
+
+------------------------------------------------------------
+BOOTFLOW AND INITIALIZATION
+------------------------------------------------------------
+
+Recommended scientific workflow:
+
+1. Place the FRAMES core document in a dedicated project root.
+2. Treat the core as read-only and reference-only.
+3. Perform all further work in separate, append-only extensions.
+4. Reference the core exclusively by hash and version.
+
+The core is never modified.
+All growth occurs externally.
+
+------------------------------------------------------------
+MODULAR EXPANSION
+------------------------------------------------------------
+
+Scientific elaboration is expected via external modules ("packs"),
+such as:
+
+- Mathematical packs (proofs, derivations)
+- Domain-specific packs (physics, biology, systems theory)
+- Validation packs (test vectors, audit tools)
+
+All packs may analyze or apply FRAMES.
+No pack may redefine its axioms.
+
+------------------------------------------------------------
+SYMBOLIC AND STRUCTURAL LANGUAGE
+------------------------------------------------------------
+
+FRAMES employs minimal scientific symbolism only where it
+increases precision and auditability:
+
+- Sets and mappings
+- State spaces
+- Invariants and constraints
+- Explicit axioms and derived theorems
+
+Symbolism never introduces meaning.
+
+------------------------------------------------------------
+SCIENTIFIC DISCIPLINE
+------------------------------------------------------------
+
+This edition is optimized for:
+
+- Researchers
+- Archivists
+- Formal systems
+- Long-term reference
+- Reproducible science
+
+Exploration, interpretation, and speculation are excluded.
+
+============================================================
+END OF BOOT FRAME
+============================================================

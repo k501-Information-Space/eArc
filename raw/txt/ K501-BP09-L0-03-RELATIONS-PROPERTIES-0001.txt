@@ -1,0 +1,78 @@
+t: FRAME
+id: K501-BP09-L0-03-RELATIONS-PROPERTIES-0001
+type: BOOTPACK_SUBMODULE_CONTENT
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L0_FOUNDATIONS
+submodule: L0-03_RELATIONS
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-TIMEANCHOR-1770060007-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+refs:
+  urls:
+    - "https://en.wikipedia.org/wiki/Binary_relation"
+    - "https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/handouts/060%20Relations.pdf"
+    - "https://files.ifi.uzh.ch/ee/fileadmin/user_upload/teaching/hs09/L6_Relations.pdf"
+
+content:
+  base_definition:
+    relation:
+      def: "Eine (binäre) Relation R von A nach B ist eine Teilmenge R ⊆ A×B."
+    relation_on_set:
+      def: "Relation auf A: R ⊆ A×A."
+    notation:
+      - "a R b :≡ (a,b) ∈ R"
+
+  properties_on_A:
+    - name: REFLEXIVE
+      def: "∀a∈A: aRa"
+    - name: IRREFLEXIVE
+      def: "∀a∈A: ¬(aRa)"
+    - name: SYMMETRIC
+      def: "∀a,b∈A: aRb → bRa"
+    - name: ASYMMETRIC
+      def: "∀a,b∈A: aRb → ¬(bRa)"
+    - name: ANTISYMMETRIC
+      def: "∀a,b∈A: (aRb ∧ bRa) → a=b"
+    - name: TRANSITIVE
+      def: "∀a,b,c∈A: (aRb ∧ bRc) → aRc"
+    - name: TOTAL (CONNECTED)
+      def: "∀a,b∈A: aRb ∨ bRa"
+      note: "Hier als Vergleichbarkeit/Verbundenheit; getrennt von 'total relation' in anderen Skripten."
+
+  standard_classes:
+    equivalence_relation:
+      def: "R ist Äquivalenzrelation ⇔ reflexiv ∧ symmetrisch ∧ transitiv."
+      induced_structure:
+        - "Äquivalenzklasse [a] :≡ {x∈A | xRa}"
+        - "Quotientenmenge A/R :≡ { [a] | a∈A }"
+    partial_order:
+      def: "R ist (nicht-strikte) Halbordnung ⇔ reflexiv ∧ antisymmetrisch ∧ transitiv."
+      structure_name: "poset (A,R)"
+    strict_partial_order:
+      def: "R ist strikte Halbordnung ⇔ irreflexiv ∧ transitiv."
+      note: "Asymmetrie folgt aus irreflexiv+transitiv."
+    total_order:
+      def: "R ist totale Ordnung ⇔ partial_order ∧ connected(total)."
+    strict_total_order:
+      def: "R ist strikte totale Ordnung ⇔ strict_partial_order ∧ connected(total)."
+
+  operations:
+    inverse_relation:
+      def: "R^{-1} :≡ { (b,a) | (a,b)∈R }"
+    composition:
+      def: "S∘R :≡ { (a,c) | ∃b: (a,b)∈R ∧ (b,c)∈S }"
+
+status:
+  populated: true
+  next: "L0-04_FUNCTIONS expand"

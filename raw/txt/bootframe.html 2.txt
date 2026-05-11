@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>K501 Universal BootFrame — Chat</title>
+  <link rel="stylesheet" href="/css/k501-bootframe.css">
+</head>
+<body>
+  <div class="k501-bootframe">
+    <div id="k501-chat-container" aria-live="polite"></div>
+
+    <div id="k501-controls">
+      <input id="k501-input-field" placeholder="Schreiben und Enter drücken..." autocomplete="off" />
+      <button id="k501-send-button">Senden</button>
+    </div>
+
+    <div id="k501-snapshot-info"></div>
+  </div>
+
+  <script src="/js/k501-bootframe.js" defer></script>
+</body>
+</html>

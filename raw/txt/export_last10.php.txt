@@ -1,0 +1,71 @@
+<?php
+// /api/export_last10.php
+// K501 Export: last N frames as NDJSON (append-only view)
+// GET-only. Reads from: k501_frames(id, frame_id, type, t, path, payload, created_at)
+
+header('Content-Type: application/x-ndjson; charset=utf-8');
+header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+header('Pragma: no-cache');
+
+if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
+  http_response_code(405);
+  header('Content-Type: application/json; charset=utf-8');
+  echo json_encode(["ok"=>false, "status"=>"DEGRADED", "error"=>"METHOD_NOT_ALLOWED"]);
+  exit;
+}
+
+// ---- DB CONFIG (fill manually) ----
+$DB_HOST = 'database-5019903725.webspace-host.com';
+$DB_NAME = 'dbs15376261';
+$DB_USER = 'dbu4297260';
+$DB_PASS = 'PUT_PASSWORD_HERE'; // <-- set manually
+// ----------------------------------
+
+// N parameter (optional)
+$n = 10;
+if (isset($_GET['n'])) {
+  $n = (int)$_GET['n'];
+}
+if ($n < 1) $n = 1;
+if ($n > 50) $n = 50; // hard cap
+
+try {
+  $dsn = "mysql:host={$DB_HOST};dbname={$DB_NAME};charset=utf8mb4";
+  $pdo = new PDO($dsn, $DB_USER, $DB_PASS, [
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+  ]);
+
+  $stmt = $pdo->prepare("
+    SELECT id, frame_id, type, t, path, payload, created_at
+    FROM k501_frames
+    ORDER BY created_at DESC, id DESC
+    LIMIT :n
+  ");
+  $stmt->bindValue(':n', $n, PDO::PARAM_INT);
+  $stmt->execute();
+  $rows = $stmt->fetchAll();
+
+  // Output NDJSON newest->oldest (stable, simple). If you want oldest->newest, reverse here.
+  foreach ($rows as $r) {
+    $out = [
+      "id" => (int)$r["id"],
+      "frame_id" => (string)$r["frame_id"],
+      "type" => (string)$r["type"],
+      "t" => (string)$r["t"],
+      "path" => (string)$r["path"],
+      "payload" => (string)$r["payload"],
+      "created_at" => (string)$r["created_at"],
+    ];
+    echo json_encode($out, JSON_UNESCAPED_UNICODE) . "\n";
+  }
+
+} catch (Throwable $e) {
+  // NDJSON error line (still machine-readable)
+  http_response_code(200);
+  echo json_encode([
+    "ok" => false,
+    "status" => "DEGRADED",
+    "error" => "DB_EXPORT_FAILED"
+  ], JSON_UNESCAPED_UNICODE) . "\n";
+}

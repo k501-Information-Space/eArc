@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>eArc Public Read — Canonical Feed</title>
+  <subtitle>PUBLIC reference-only artifacts. Append-only. No ranking. Pull-first. WebSub opt-in.</subtitle>
+
+  <id>urn:earc:public:feed:v1</id>
+  <updated>2026-01-22T18:32:02Z</updated>
+
+  <!-- Primary read portal -->
+  <link rel="alternate" href="https://iinkognit0.de/earc/read/" type="text/html" />
+
+  <!-- Feed endpoints -->
+  <link rel="self" href="https://iinkognit0.de/earc/read/feeds/public.atom" type="application/atom+xml" />
+  <link rel="alternate" href="https://iinkognit0.de/earc/read/feeds/public.rss" type="application/rss+xml" />
+
+  <!-- WebSub (opt-in push) -->
+  <link rel="hub" href="https://iinkognit0.de/earc/read/websub/hub" />
+
+  <!-- Identity / provenance (minimal, non-tracking) -->
+  <author>
+    <name>Iinkognit0</name>
+    <uri>https://iinkognit0.de/</uri>
+  </author>
+
+  <!-- Lightweight metadata -->
+  <generator uri="https://iinkognit0.de/earc/read/" version="v1">eArc Read Layer</generator>
+  <rights>Public Domain (where declared). Reference-only distribution.</rights>
+
+  <!-- Optional-but-useful: visual identity (if files exist) -->
+  <icon>https://iinkognit0.de/earc/read/assets/icon.png</icon>
+  <logo>https://iinkognit0.de/earc/read/assets/logo.png</logo>
+
+  <!-- Categories (no algorithms; purely descriptive) -->
+  <category term="earc" label="eArc" />
+  <category term="frames-network" label="Frames Network" />
+  <category term="reference-only" label="Reference Only" />
+
+  <!-- Conditional GET helpers (server should emit as HTTP headers) -->
+  <!-- Last-Modified: 2026-01-22T18:32:02Z -->
+  <!-- ETag: "3b387903b5e15befb75d60d7f8adf6097087777c8f8f6574082a165085570a9b" -->
+
+  <entry>
+    <title>PUBLIC-INDEX-0001 — Canonical Public Index</title>
+    <id>urn:earc:public:index:0001</id>
+    <updated>2026-01-22T18:32:02Z</updated>
+
+    <link rel="alternate" href="https://iinkognit0.de/earc/read/public-index/PUBLIC-INDEX-0001.json" type="application/json" />
+    <summary>Canonical index of PUBLIC reference-only artifacts.</summary>
+  </entry>
+
+  <entry>
+    <title>PACK-0001 — Genesis Light (frozen)</title>
+    <id>urn:earc:pack:0001</id>
+    <updated>2026-01-22T17:46:30Z</updated>
+
+    <link rel="alternate" href="https://iinkognit0.de/earc/read/exports/pack-0001.export.ndjson" type="application/x-ndjson" />
+    <summary>Export NDJSON + manifest + proofs. Reference-only.</summary>
+  </entry>
+
+  <entry>
+    <title>SUPERPACK-0001 — Genesis Light (frozen aggregation)</title>
+    <id>urn:earc:superpack:0001</id>
+    <updated>2026-01-22T17:46:30Z</updated>
+
+    <link rel="alternate" href="https://iinkognit0.de/earc/read/exports/superpack-0001.export.ndjson" type="application/x-ndjson" />
+    <summary>Aggregation of frozen reference packs. No interpretation.</summary>
+  </entry>
+
+  <entry>
+    <title>KPOL-PACK-0001 — Kernel Policy Pack v1 (frozen)</title>
+    <id>urn:earc:kpol:pack:0001</id>
+    <updated>2026-01-22T18:13:30Z</updated>
+
+    <link rel="alternate" href="https://iinkognit0.de/earc/read/exports/kpol-pack-0001.export.ndjson" type="application/x-ndjson" />
+    <summary>Kernel-level policies (resonance/transport/distribution). Reference-only.</summary>
+  </entry>
+
+  <entry>
+    <title>READ-PACK-0001 — Read Layer Pack v1 (frozen)</title>
+    <id>urn:earc:read:pack:0001</id>
+    <updated>2026-01-22T18:22:07Z</updated>
+
+    <link rel="alternate" href="https://iinkognit0.de/earc/read/exports/read-pack-0001.export.ndjson" type="application/x-ndjson" />
+    <summary>Public Read + Feeds + WebSub + Export Gate. Reference-only.</summary>
+  </entry>
+</feed>

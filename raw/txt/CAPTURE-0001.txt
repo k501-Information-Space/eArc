@@ -1,0 +1,1 @@
+{"frame_id":"CAPTURE-0001","created_utc":"2026-01-22T16:45:50Z","created_unix":1769100350,"frame_type":"MANUAL","payload":"As I State iInkognit0 Declare: „Das Ewige Archiv“ Equal’s Eternity.","hash":"72578a547b9646b819bb1420ec121e99775492062c1e73b550d0547569444836","tags":["MANUAL","TEXT","GENESIS_CAPTURE"],"visibility":"PRIVATE"}

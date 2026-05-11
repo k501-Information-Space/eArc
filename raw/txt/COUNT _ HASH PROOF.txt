@@ -1,0 +1,17 @@
+COUNT PROOF — GENESIS KERNEL
+--------------------------------
+frames: GEN-0001 … GEN-0010
+count: 10
+freeze_frame: GEN-FREEZE-0001
+created_unix: 1769100350
+created_utc: 2026-01-22T16:45:50Z
+
+POLICY:
+- append-only: true
+- mutation: forbidden
+- reference-only: true
+- execution: blocked
+
+STATUS:
+- Genesis Kernel: FROZEN
+- UltraPack: ACTIVE

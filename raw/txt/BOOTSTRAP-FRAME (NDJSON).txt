@@ -1,0 +1,1 @@
+{"frame_id":"BOOT-0001","created_utc":"2026-01-22T16:45:50Z","created_unix":1769100350,"frame_type":"BOOTSTRAP","payload":"Node booted using Genesis Kernel UltraPack (read-only).","hash":"1f4a8b1a9d3c7c8c5c1c0f9f7c4f1b8a6a7f3e2d9c0b6a5e4d3c2b1a0f9e8d","tags":["BOOT","NODE","REFERENCE_READ"],"visibility":"PRIVATE"}
