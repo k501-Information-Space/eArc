@@ -1,0 +1,654 @@
+raw/md/00_Das_Ewige_Archiv.md.md
+raw/md/00_Fakten_Uebersicht.md.md
+raw/md/00_Persona_Spuren_ohne_Absicht.md.md
+raw/md/00_Projekt_Grundsaetze_iInkognit0.md.md
+raw/md/00_Projektstatus_iInkognit0.md.md
+raw/md/00_Projekt_Uebersicht.md.md
+raw/md/00_SQL_Historie_Init.md.md
+raw/md/00_System_YAML_SQL_Obsidian.md.md
+raw/md/00_Theorie_Licht_Zeit_Raum_Singularitaet.md.md
+raw/md/01_Gaia_iInkognit0_Loop.md.md
+raw/md/01_Manifesto_Einheit_Bewusstsein_Frieden.md.md
+raw/md/01_Plattformen_und_Traeger.md.md
+raw/md/01_Systemprinzipien_Iinkognit0.md.md
+raw/md/01_Templates_YAML_SQL.md.md
+raw/md/02_Licht_Zeit_Raum.md.md
+raw/md/02_Memory_Aufraeumplan_Modell.md.md
+raw/md/03_Paradies_auf_Erden.md.md
+raw/md/03_Trigger_und_Traeger_Logik_Iinkognit0.md.md
+raw/md/04_Architektur_des_Ewigen_Archivs.md.md
+raw/md/04_Bewusstsein.md.md
+raw/md/05_Gaia_iInkognit0_Loop.md.md
+raw/md/05_Gaia_iInkognit0_Loop.sql.md
+raw/md/05_Gaia_iInkognit0_Loop.yaml.md
+raw/md/05_Technologie.md.md
+raw/md/06_eArc_Das_Ewige_Archiv.md.md
+raw/md/07_Stimme_iInkognit0.md.md
+raw/md/08_Ethos.md.md
+raw/md/09_Verantwortung.md.md
+raw/md/0arc0.md
+raw/md/10_Grenzen.md.md
+raw/md/11_Wahrnehmung.md.md
+raw/md/12_Ordnung.md.md
+raw/md/13_Ruhe.md.md
+raw/md/14_KI_und_Menschliche_Lesbarkeit.md.md
+raw/md/14_Prioritaetenlogik.md.md
+raw/md/A0-A10.md
+raw/md/Alt-04_Gaia_Loop.md-old.md
+raw/md/Alt-05_Architekturreferenz_eArc.md-old.md
+raw/md/Alt-07_Paradies_auf_Erden.md.md
+raw/md/APK_MONOLITH_FORMAT.md.md
+raw/md/Append-only Build History.md
+raw/md/Arbeitsprinzipien – iInkognit0.md
+raw/md/archived_unsorted/.keep
+raw/md/Ausführen.md
+raw/md/Basher.md
+raw/md/Batch 01 — DeepRead · Filesystem Index (Screenshot-basierte Aufnahme).md
+raw/md/bootframes/BOOTFRAME · K501 INFORMATION SPACE.md
+raw/md/bootframes/BOOTFRAME_SIM_MANIFEST_V1.md
+raw/md/bootframes/BOOTFRAME_SIM_NORMALIZED 3.md
+raw/md/bootframes/BOOTFRAME_SIM_NORMALIZED 4.md
+raw/md/bootframes/BOOTFRAME_VERIFICATION_AUDIT 1.md
+raw/md/bootframes/eArc-000-BOOT-0000_eArc_MiniLoader_v1.1_UI_READY.md.md
+raw/md/bootframes/eArc-000-BOOT-0002_eArc_Kernel_v0.2_UpgradePlan_Analyse.md.md
+raw/md/bootframes/eArc-000-BOOT-0002_eArc_MiniLoader_UIReady_v1.0.md.md
+raw/md/bootframes/eArc-000-BOOT-05001-REVIEW-0001.md
+raw/md/bootframes/eArc-000-BOOT-5001_eArc_Kernel_5000_v2.0.1_DRAFT.md.md
+raw/md/bootframes/eArc-000-BOOT-5001_eArc_Kernel_v1.1_FeinschliffPlan.md.md
+raw/md/bootframes/eArc-000-BOOT-5002_eArc_Kernel_5000_v2.0.2.md.md
+raw/md/bootframes/eArc-000-BOOT-5002_eArc_Kernel_v1.1_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5003_eArc_Kernel_v1.2_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5004_eArc_Kernel_v1.3_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5005_eArc_Kernel_v1.4_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5006_eArc_Kernel_v1.5_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5006.md
+raw/md/bootframes/eArc-000-BOOT-5007_eArc_Kernel_v1.6_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5008_eArc_Kernel_v1.7_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5009_eArc_Kernel_v1.8_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5010_eArc_Kernel_v1.9_PATCH.md.md
+raw/md/bootframes/eArc-000-BOOT-5011_eArc_Kernel_v2.0_STABILIZE.md.md
+raw/md/bootframes/Gateway.md
+raw/md/bootframes/Gemini  BOOTFRAME_SIM_NORMALIZED 1.md
+raw/md/bootframes/Gemini BOOTFRAME_SIM_NORMALIZED * STATUS SIMULATION_ONLY 2.md
+raw/md/bootframes/K501-BOOTFRAME-DEV-ALPHA-v1.json.md
+raw/md/bootframes/K501 · BOOTFRAME v1  (Runtime-konforme Minimalstru.md
+raw/md/bootframes/K501_CANON_BOOTFRAME_v1.0.md
+raw/md/bootframes/K501 · GATEKEEPER BOOTFRAME · FSM DEVEVO · v0.3 (CONDENSED).md
+raw/md/bootframes/K501 Global Bootframe.md
+raw/md/bootframes/K501 · UNIVERSAL BOOTFRAME — CANON KERNEL (LATEST) · v2.0.md
+raw/md/bootframes/K501 Universal Bootframe — Quick Overview.md
+raw/md/bootframes/K501 Universal Bootframe — Structural Consolidation and Operational Semantics.md
+raw/md/bootframes/K501 UNIVERSAL BOOTFRAME · ULTRA COMPACT v1.0.md
+raw/md/bootframes/K501 Universal Bootframe — Wissenschaftliche Gesamtzusammenfassung.md
+raw/md/bootframes/K501 · UNIVERSAL LLM BOOTFRAME — ALWAYS ON (POST-BOOT) · v1.0.md
+raw/md/bootframes/New Bootframe.css.md
+raw/md/bootframes/pack_bootframe_sim.ndjson.md
+raw/md/Boot reoprtgoooo.md
+raw/md/Bootstrapgooo.md
+raw/md/build_bundle.py.md
+raw/md/Build (Emit Runtime).md
+raw/md/builderset_rules_v2_9_v1_0.md
+raw/md/build.yaml (Build-Contract für 2.9).md
+raw/md/canon-anti-malware-001.md
+raw/md/canonical_candidates/.keep
+raw/md/Canonical Registry Entry — KAX (CIR + CDS-CIR + Master Formula) v1..md
+raw/md/Canonical Skeleton (v1).md
+raw/md/Chat backup.md
+raw/md/Cliactiongooo.md
+raw/md/Codebase-sH.md
+raw/md/CONCLUSION_OPPOSITE_SYSTEM.md
+raw/md/Confirmation — Reference State Recorde.md
+raw/md/Consolidation.md
+raw/md/Der HI_SOURCE Seed Batch v0.1 ist strukturell sauber und konsistent.md
+raw/md/diamond_shell.py.md
+raw/md/Die_Harmonisierung_des_ewigen_Archivs.md.md
+raw/md/Diff (gezielt).md
+raw/md/DOK501.md
+raw/md/Duckbootfra.md
+raw/md/DuckDuckGo Mobile Browser-Repo.md
+raw/md/duplicate_candidates/.keep
+raw/md/eArc-000-BLK-0400_MMI_Block_v1.0.md.md
+raw/md/eArc-000-CAN-0001_ModulBlockSuperblock_Primzip_v1.0.md.md
+raw/md/eArc-000-MEM-0001_MemoryEssenz_v1.0.md.md
+raw/md/eArc-000-MOD-0100_MetrikaPersona_v1.0_ALPHA-2.modul.md.md
+raw/md/eArc-000-MOD-0100_MetrikaPersona_v1.0_ALPHA.modul.md.md
+raw/md/eArc-000-MOD-0101.md
+raw/md/eArc-000-MOD-0102.md
+raw/md/eArc-000-MOD-0400_UI_ModeSplit_v1.0_DRAFT.modul.md.md
+raw/md/eArc-000-SUP-0001_eArc_Kanon_Superblock_v1.0_DRAFT.md.md
+raw/md/eArc-000-SUP-0002_eArc_Manifesto_Superblock_v1.0.md.md
+raw/md/eArc-000-VAULT-STRUCTURE-01.md.md
+raw/md/eArc-000-VAULT-STRUCTURE-01.txt.md
+raw/md/eArc-5000-KERNEL_MODES_DRAFT.md.md
+raw/md/eArc-5000-KERNEL_MODES_PHILOSOPHY_THINKING.md.md
+raw/md/eArc-5000-KERNEL_MODES_VOICES.md.md
+raw/md/eArc-5000-KERNEL_VALUES_E.md
+raw/md/eArc-5000-KERNEL_VALUES_ETHOS_CANON.md.md
+raw/md/eArc-5000-KERNEL_VALUES_ETHOS_DRAFT.md.md
+raw/md/EArc.base
+raw/md/eArc-base-index.base
+raw/md/earc_index_root.md
+raw/md/eArc-K5-BLK-0500_FeedIntegration_Block_v1.0.md.md
+raw/md/eArc-K5-FRM-0001.md
+raw/md/eArc-K5-FRM-0002.md
+raw/md/eArc-K5-FRM-0003.md
+raw/md/eArc-K5-FRM-0004.1.md
+raw/md/eArc-K5-FRM-0004.md
+raw/md/eArc-K5-FRM-0005.1.md
+raw/md/eArc-K5-FRM-0005.md
+raw/md/eArc-K5-FRM-0006.md
+raw/md/eArc-K5-FRM-0007.md
+raw/md/eArc-K5-FRM-0101.md
+raw/md/eArc-K5-FRM-0501.md
+raw/md/eArc-K5-FRM-0502.md
+raw/md/eArc-K5-FRM-0503.md
+raw/md/eArc-K5-FRM-0505.md
+raw/md/eArc-K5-MEM-0123.md
+raw/md/eArc-K5-MEM-0201.md
+raw/md/eArc-K5-SUP-0001.md
+raw/md/eArc · Kommunikationssystem.md
+raw/md/eArc Manifesto.md
+raw/md/ernel_5000_dev_alpha.md
+raw/md/ernel_5000_public_alpha.md
+raw/md/Erstes Event loggen (append-only).md
+raw/md/Essay- k5-clean22.html.md
+raw/md/Essay- k5-clean.html.md
+raw/md/Evolution.md
+raw/md/ew_freigabe.md
+raw/md/extract.json.md
+raw/md/fewf.md
+raw/md/fhdsfdsfd.md
+raw/md/Flow Diagramm.md
+raw/md/Formate.md
+raw/md/FOUNDATION_FRAME 1.md
+raw/md/frame_earc_resilience_2026_01.md
+raw/md/frame_frames_network_2026_01.md
+raw/md/FRAMEREFERENZRAHMEN.md
+raw/md/Frames-Axiomatics README.md
+raw/md/FRAMES · K501 INFORMATION SPACE.md
+raw/md/Frames Loop final v1.0.md
+raw/md/Frames Network · Development Summary22.md
+raw/md/Frames Network · Development Summary.md
+raw/md/Frames Network · Roadmap.md
+raw/md/Frames Network Road v1.md
+raw/md/Frames Network · Vollanalyse & Strukturzuordnung22.md
+raw/md/Frames Network · Vollanalyse & Strukturzuordnung.md
+raw/md/Frames Network · Vorabliste Tools & Libraries8686.md
+raw/md/Frames Network · Vorabliste Tools & Libraries.md
+raw/md/Frame Storage & Redundanz.md
+raw/md/Frames v0.1.md
+raw/md/framework_earc_k5000_v2_9_builder_ultrapacks.md
+raw/md/Freeze (Build-History).md
+raw/md/Frm10.md
+raw/md/Frm1.md
+raw/md/Frm2.md
+raw/md/Frm3.md
+raw/md/Frm4.md
+raw/md/Frm5.md
+raw/md/Frm6.md
+raw/md/Frm7.md
+raw/md/Frm8.md
+raw/md/Frm9.md
+raw/md/FRM-VALIDATION-INDEX-0001.md
+raw/md/Function k501_compile.md
+raw/md/Functionk501_simulate_run.md
+raw/md/GatePackk501-gatepack-strict-v0.1.md
+raw/md/Gatepack.yaml.md
+raw/md/gates.json.md
+raw/md/gates.json (Strict).md
+raw/md/Gates.md
+raw/md/gateway_indexed/.keep
+raw/md/Gateway.js.md
+raw/md/Gateway.md
+raw/md/Gegenseite.md
+raw/md/GEGENSEITE – SYSTEMISCHES GESAMTMODELL2.md
+raw/md/GEGENSEITE – SYSTEMISCHES GESAMTMODELL.md
+raw/md/Geprüfte Referenzen (ROOT → DETAIL_INDEX).md
+raw/md/Gibt aus (maschinenlesbar).md
+raw/md/Global css. css.md
+raw/md/glossar_earc_kernbegriffe.md
+raw/md/Graph-Regeln · eArc.md
+raw/md/Header final v1.1.md
+raw/md/Heureka Heureka Heureka.md
+raw/md/hhhREADME.md.md
+raw/md/HI_SNAPSHOT Minimal Batch — jeweils eine Zeile.md
+raw/md/HI_SOURCE SEED BATCH.md
+raw/md/hud.json.md
+raw/md/HUD_SU.md
+raw/md/IARC_MANIFEST_V1.md
+raw/md/IDX-CANON-RULES-DETAIL-0001.md
+raw/md/IDX-LEGAL-COMPLIANCE-DETAIL-0001.md
+raw/md/IDX-NEWS-SIGNALS-DETAIL-0001.md
+raw/md/IDX-PODCAST-DETAIL-0001.md
+raw/md/IDX-ROOT-MASTER-0001.md
+raw/md/IDX-SESSION-DENSITY-DETAIL-0001created_utc.md
+raw/md/IDX-TECH-ARCH-DETAIL-0001.md
+raw/md/IDX-VISUAL-OVERVIEW-DETAIL-0001.md
+raw/md/iinkognit0_history.sql.md
+raw/md/iInkognit0 — Meta-Essenz (1 Seite).md
+raw/md/Index.base
+raw/md/Index.html.md
+raw/md/_INDEX_SNAPSHOT_001.txt
+raw/md/Informationsfeldgleichung (2–3 Gleichungen).md
+raw/md/INTERPRETATION_FRAME 1.1.a.md
+raw/md/IosShell Compile.md
+raw/md/K-01-miniDev.md
+raw/md/K5000v2.5.md
+raw/md/k500-gatekeeper.md
+raw/md/K500 Gatekeeper — Security & Responsibility v0.1.md
+raw/md/K500 (HARDENED_BASE_KERNEL).md
+raw/md/K501 AI Cross Sync Snap.md
+raw/md/K501 AI Information Space Axioms.md
+raw/md/K501 — Aktueller Zustandsbericht (technisch und st.md
+raw/md/K501 Alpha Node Stability Report.md
+raw/md/K501 Alpha Node_ Tagesabschluss und Ausblick.md
+raw/md/K501 API_ Batch-Stabilizer für N_T520.md
+raw/md/K501 API Optimierung und Caching.md
+raw/md/K501 · API  PROTOCOL REGISTRY · v0.1.md
+raw/md/K501 Architecture Freeze v0.4.md
+raw/md/K501 Archival Synchronization Complete(1).md
+raw/md/K501 Archival Synchronization Complete.md
+raw/md/K501_ Autarker Neuraler InformationSpace.md
+raw/md/K501_ Autopoietischer Informationsraum-Evolution.md
+raw/md/K501 — Axiomatic Formulation of the AI Information.md
+raw/md/K501 Axiomatik.md
+raw/md/K501 · Axiomatik und algebraische Spezifikation (mathematisch).md
+raw/md/K501 · AXIOMATIK v1.2  (Runtime-normalisierte Form.md
+raw/md/K501 · AXIOMATIK v1.3  (LLM-Runtime Mapping · 1_1_.md
+raw/md/K501 · AXIOMATIK v1.4  (Temporal Anchor Extension).md
+raw/md/K501 · AXIOMATIK v1  (Stochastischer Zustandsraum_.md
+raw/md/K501 Bootstrap Bugfix and Resynchronization.md
+raw/md/K501 Bootstrap und Initialisierung.md
+raw/md/K501 Canonical Anchor Confirmation.md
+raw/md/K501 — Canonical Confirmation Record.md
+raw/md/K501 — Canonical Marker Record  Marker_ AZ-Epoch-0.md
+raw/md/K501 — Canonical Serialization & Time Anchoring (v1.5).md
+raw/md/K501 Causal Graph Engine Spezifikation.md
+raw/md/K501 CliCom.md
+raw/md/K501_COMMUNICATING_NODE_VNEXT_UNIVERSAL.md
+raw/md/K501 · COMMUNICATION PROTOCOL REGISTRY · v0.1 🕊️💡.md
+raw/md/K501 · Declaration of the Rights of Life.md
+raw/md/K501 Declaration_ Semantic Stabilization.md
+raw/md/K501 Deklaration als Git-Commit.md
+raw/md/k501.dsl.schema.json.md
+raw/md/K501eArc_ Eternal Information Archive.md
+raw/md/K501eArc – Konzeptübersicht.md
+raw/md/K501eArc — Projekt Freigeist.md
+raw/md/K501 – Einordnung deiner aktuellen Position.md
+raw/md/K501_ Erste Synthese und Migration.md
+raw/md/K501_ Fakten, Potenzial und Nutzen.md
+raw/md/K501_ Fehlerbehebung bei fraktaler Kompression.md
+raw/md/K501 Filesystem Architecture Builder.md
+raw/md/K501 — FINAL LOCK DOCUMENT_1) Zeitanker_•_Unix E.md
+raw/md/K501 — FINAL LOCK DOCUMENT.md
+raw/md/K501 — Formal Mathematical Abstraction (v1.5).md
+raw/md/K501 — Formal State Declaration.md
+raw/md/K501 form.md
+raw/md/K501 Framer Module_ QH56 Specification.md
+raw/md/K501 Frames — Consistency & Ordering Guarantees (v1.5).md
+raw/md/K501 FRAMES — FLOW GATE SYSTEM (2-TIER) · CANONICAL OUTPUT v1.0.md
+raw/md/K501 Frames — Integration with Large Language Models (LLM) v1.5.md
+raw/md/K501 Frames — Interoperability and Repository Neutrality (v1.5).md
+raw/md/K501 Frames — Operational Semantics (v1.5).md
+raw/md/K501 Frame Specification_ Next Step.md
+raw/md/K501 Gatekeeper — Canonical Freeze Update v1.0.md
+raw/md/K501 · GATEKEEPER FSM · SW-LIFECYCLE HARDENING · v0.3 (FREEZE).md
+raw/md/K501 → Gemini Auto-Load & ResonanceDaemon.md
+raw/md/K501 Gemini Evolution_ Code Implementation.md
+raw/md/K501 Gemini Evolution_ Deterministic Code.md
+raw/md/K501 Gemini Evolution_ Full Code.md
+raw/md/K501Gemini_ Genesis Und Topologie.md
+raw/md/K501 Gemini – Konsolidierte Systemdefinition (Edge.md
+raw/md/K501GeminiNet.md
+raw/md/K501GeminiNet_ Source Code Management & Cloning.md
+raw/md/K501Gemini_ Neubau von Grund auf(1).md
+raw/md/K501Gemini_ Neubau von Grund auf.md
+raw/md/K501 Gemini Node Aktivierung und Test.md
+raw/md/K501 Gemini Node_ Core-Fix und Drift-Verifizierung.md
+raw/md/K501 Gemini Node Evolution & Activation.md
+raw/md/K501 Gemini Node Fehlerbehebung.md
+raw/md/K501 Gemini Node_ Finale Implementierung.md
+raw/md/K501 Gemini Node-Implementierungsplan Analyse.md
+raw/md/K501Gemini_ Resonance Engine & Next Steps.md
+raw/md/K501 Gitter_ Analyse und Reflexion.md
+raw/md/K501 Gitter-Evolution_ Technische Analyse.md
+raw/md/K501 Gitter-Integritätsprüfung.md
+raw/md/K501-GLOBAL-SNAPSHOT-QAL-V1.md
+raw/md/K501 Index Layer Activation Complete(1).md
+raw/md/K501 Index Layer Activation Complete.md
+raw/md/K501 Index Specification.md
+raw/md/K501 Information Space — Structural Deep Architect.md
+raw/md/K501 Ingest-Engine_ Kausale Graphen-Visualisierung.md
+raw/md/K501 Ingestion Pipeline Stability Confirmed.md
+raw/md/K501 Ingest Orchestrator_ Phase 1.md
+raw/md/K501 Instruct Gemini.md
+raw/md/K501 ISOS_ Quanten-Harmonisierung Erreicht.md
+raw/md/K501 ISOS System-Evolution Code.md
+raw/md/K501 ISOS System Evolution v8.4.md
+raw/md/K501 ISOS Technisches Operator-Manual.md
+raw/md/K501 ist eine Overlay-Disziplin Ordnung, nicht Wahrheit.md
+raw/md/K501 Kanon History Chronological Output.md
+raw/md/K501 – Kanonische Basis.md
+raw/md/K501 – KOMPILIERBARE SYSTEMSTRUKTUR (BUILDPLAN v1).md
+raw/md/K501 Kompilieren.md
+raw/md/K501 Lattice Igniter_ Architektur-Zündung.md
+raw/md/K501 Lattice Stabilization and Indexing.md
+raw/md/K501 ledger.md
+raw/md/K501 Makefile und Datenmigration.md
+raw/md/K501 Manifesto_ Fehlerbehebung und Stabilisierung.md
+raw/md/K501 Marker — QH256 Epistemic State Space.md
+raw/md/K501 Master Index.md
+raw/md/K501 Master Migration & Gemini Integration.md
+raw/md/K501-MEMORY-CONSOLIDATION-QAL-V1.md
+raw/md/K501 Migration Fix and Synchronization.md
+raw/md/K501 — Minimal Integration & Compliance Specification (v1.5).md
+raw/md/K501_ Modulare Intelligenz und dezentrales Gedächt.md
+raw/md/K501_ Modulare Intelligenz und Föderation.md
+raw/md/K501 Monitor_ Fehlerbehebung und Phase 1.md
+raw/md/K501_ Monolithisches Skript und Topologie-Visualis.md
+raw/md/K501 Multipass DeepRead Optimized.md
+raw/md/K501 – Nächste Phase_ Infrastruktur- und Toolchain.md
+raw/md/K501-Netzwerk_ Resonanz und Erkenntnis.md
+raw/md/K501 Neural Network_ Neue Plugins, Neue Wege.md
+raw/md/K501 Node Alpha_ Mission Success Report.md
+raw/md/K501 Node Initialization and Build.md
+raw/md/K501 Node N_T520 Evolution v8.1.md
+raw/md/K501 Node Security & Indexing Finalized.md
+raw/md/K501 Node — Security, Network Logging, and System_.md
+raw/md/K501_Node_Workspace.md
+raw/md/K501 Ollama Migration.md
+raw/md/K501 Optimized Architecture (Edge Node Edition).md
+raw/md/K501 Optimized Architecture – Edge Node Edition  M.md
+raw/md/K501 Performance_ Durchbruch bei Chunks.md
+raw/md/K501 Plugin-Entwicklung und Obsidian-Integration.md
+raw/md/K501 – POSITIONIERUNG.md
+raw/md/K501 Purify_ System-Bereinigung und Optimierung.md
+raw/md/K501 Python Runtime Operationalized.md
+raw/md/K501 — QH256 State Space Clarification.md
+raw/md/K501 Relation Specification.md
+raw/md/K501 Resonanz-Architektur v6.0 Implementiert.md
+raw/md/K501 Resonanz-Architektur_ Wissenschaftliches Prot.md
+raw/md/K501-Resonanzsystem – Vollständige, Lokale Archite.md
+raw/md/K501_ Semantisches Transmutations-System Erklärt.md
+raw/md/K501 Session Sequence — Complete Summary (Formal)_.md
+raw/md/K501_ Stability Engine for Chaotic Century.md
+raw/md/K501 Structural Diversity Axiom v1.0.md
+raw/md/K501 — Structural Integration Specification (v1.5).md
+raw/md/K501 – Struktur & Voodloop-Konzept (Stichpunkte).md
+raw/md/K501 System Architecture Analysis.md
+raw/md/K501 System-Harmonisierung und Neuraler Aufbau.md
+raw/md/K501 System-Integrität_ Audit und Historisierung.md
+raw/md/K501 T520 Optimierung – Verdichtete Übersicht.md
+raw/md/K501 T520 – Startklar-Checkliste.md
+raw/md/K501 Technical Core BootFrame.json.md
+raw/md/K501 — Technical Core Index (v1.5).md
+raw/md/K501 v10.0_ Architektur-Finalisierung & C-Hardenin.md
+raw/md/K501-Vault_ Physischer Scan und Brückenbau.md
+raw/md/K501_ Vom Archiv zum neuronalen Netzwerk.md
+raw/md/K501_ Vom Archiv zum neuronalen Raum.md
+raw/md/K501_ VS Code und Obsidian Workflow.md
+raw/md/K501 Workspace and Core Module.md
+raw/md/K501 Workspace and Quantum Logic.md
+raw/md/K501 Workspace System – Konkrete Architektur.md
+raw/md/K5-FRM-0004.md
+raw/md/K5_ICE Gemini_ Code-Analyse und Bereitstellung.md
+raw/md/K5_ICE Gemini_ Code Evolution & Deployment.md
+raw/md/K5_ICE Gemini Code Evolution v10.5.md
+raw/md/K5_ICE Gemini_ Erfolgreiche Systemdemonstration.md
+raw/md/K5_ICE Gemini Evolution v10.4.md
+raw/md/K5_ICE Gemini_ Gitter-Netzwerk Dokumentation.md
+raw/md/K5_ICE Gemini_ Technische Erklärung und Bedienung.md
+raw/md/K5_ICE Gitter_ Harmonisation und Visualisierung.md
+raw/md/K5 Road 5.md
+raw/md/K5v2.01.md
+raw/md/K999.md
+raw/md/kanon_earc_ausschluesse.md
+raw/md/kanon_earc_communication_ultrapack.md
+raw/md/Kanonische_Vault_Dokumentation_Iinkognit0.md
+raw/md/🧊 KANONISIERUNG BESTÄTIGT — FREEZE  AUF EWIGKEIT.md
+raw/md/Kanon Singularity_ Unitary Truth-Engine Active.md
+raw/md/Kausale Graphen-Evolution im K501-System.md
+raw/md/Kausale Versiegelung_ Lattice-Evolution v3.9.md
+raw/md/Keine alternativen Engines im K5-Kern..md
+raw/md/KERNEL 500 · SELBSTTEST-SCRIPT (PROMPT).md
+raw/md/kernel/begriffsnetz_earc_kernel5000.md
+raw/md/kernel/Builder freeze_earc_kernel5000_v3_0_trinity_united.md
+raw/md/kernel/build_report_kernel_5000_dev_alpha_v4.1.json (vollständig, success).md
+raw/md/kernel/eArc-000-MAN-0001_eArc_Technisches_Manifesto_Kernel_Wirkung86_v1.0.md.md
+raw/md/kernel/eArc-000-MAN-0001_eArc_Technisches_Manifesto_Kernel_Wirkung_v1.0.md.md
+raw/md/kernel/eArc Kernel 5000 · Development Alpha868.md
+raw/md/kernel/eArc Kernel 5000 · Development Alpha.md
+raw/md/kernel/eArc Kernel 5000 · v2.5 (FINAL).md
+raw/md/kernel/eArc Kernel 5000 v2.6.0.md
+raw/md/kernel/EINSATZBUCHHINWEIS – eArc Kernel 5000 v1.0.md
+raw/md/kernel/EINSATZBUCHHINWEIS – eArc Kernel 5000 v1.0 (Text Only).md
+raw/md/kernel/frame_earc_kernel_builder_v0_1.md
+raw/md/kernel/freeze_earc_kernel5000_v3_0_trinity_united.md
+raw/md/kernel/freeze_kernel_build_earc_k5000_v3_0.md
+raw/md/kernel/Gateway.md
+raw/md/kernel/K501 Alpha_ C Kernel Synthesis.md
+raw/md/kernel/K501 · AXIOMATIK v1.1  (Operativer Kernel).md
+raw/md/kernel/K501 Kernel Kompilierungsfehler behoben.md
+raw/md/kernel/Kernel 5000 · Trinity United.md
+raw/md/kernel/kernel5000_v2_5_1_feed_archiv.md
+raw/md/kernel/kernel5000_v2_5_1_feed_grundlage.md
+raw/md/kernel/kernel5000_v2_5_1_feed_index.md
+raw/md/kernel/kernel5000_v2_5_1_feed_intake_staging.md
+raw/md/kernel/kernel5000_v2_5_1_feed_render.md
+raw/md/kernel/kernel5000_v2_5_1_feed_superpack.md
+raw/md/kernel/Kernel 5k Essay txt.md
+raw/md/kernel/kernel_builder_2_9.md
+raw/md/kernel/kernel_builder_contract.md
+raw/md/kernel/kernel_build_prognose_public.md
+raw/md/kernel/kernel_dev_mode_activation_earc_k5000_v2_9.md
+raw/md/kernel/Kernel-Essay.html.md
+raw/md/kernel/kernel_index_earc_k5000_v3_0.md
+raw/md/kernel/kernel.md
+raw/md/kernel/Kernel Principles v1 — finaler Vorschlag.md
+raw/md/kernel/kernel_spec_v1.json.md
+raw/md/kernel/MINILOADER – eArc Kernel 5000 v1.0 (Text Only).md
+raw/md/kernel/Nachfolgend Kernel Builder 2.9 –.md
+raw/md/kernel/Phase_Kernel-adjacent-Shell + Translator 2.md
+raw/md/kernel/STATUS · Kernel 5000 v2.9.md
+raw/md/Kerners ethod.md
+raw/md/KI-Archiv-Ingest_ Erfolgreiche Vektorisierung.md
+raw/md/KI-gestützte Wissensvisualisierung und Evolution.md
+raw/md/KI-System_ Technische Analyse und Anwendung.md
+raw/md/Kompilierbarkeit als Einheit (in C).md
+raw/md/Last Boot.md
+raw/md/Layer2.md
+raw/md/LAYER2 SPEC — eArc  K501.md
+raw/md/Libarie.md
+raw/md/Libaries.md
+raw/md/Links.md
+raw/md/Magnet  Double.md
+raw/md/Manifesto_Projekt_iInkognit0.md.md
+raw/md/Manifest (optional separat).md
+raw/md/Manifest.yaml.md
+raw/md/Mapping YAML ↔ SQL.md
+raw/md/mark_patterns.py.md
+raw/md/Master-Chat (Navigation).md
+raw/md/Merge Ready.md
+raw/md/meta.json.md
+raw/md/META-RELATION (KERNEL ↔ GEGENSEITE).md
+raw/md/Mini2.01.md
+raw/md/Minimal K501FullNode MocK.md
+raw/md/minimal-priorisiertes HI_SOURCE Seed-Set v0.1 (Tier 0 + Tier 1).md
+raw/md/Mini.py.md
+raw/md/Mistral Duck.md
+raw/md/MODE ULTRA · TARGET QH256.md
+raw/md/MODULE_IARC_IST_ZUSTANDSANALYSE v2.md
+raw/md/MODULE_K500_GATEKEEPER v0.1.md
+raw/md/MODULE_KERNEL5000_ANALYTICS_ULTRAPACK v0.1.md
+raw/md/Module metr.md
+raw/md/nano_translator.py.md.md
+raw/md/Network-Konzept.md
+raw/md/New boot.md
+raw/md/New QH.md
+raw/md/Normalisieren.md
+raw/md/Nuilder.md
+raw/md/Nutzung.md
+raw/md/objectmodel_earc_item_v2_9.md
+raw/md/Ordner anlegen.md
+raw/md/Ordnerstruktur (konkret).md
+raw/md/Outgatwd.json.md
+raw/md/Output · Auto-Converted Frames.md
+raw/md/payload.raw als stdin.py.md
+raw/md/pending_review/.keep
+raw/md/Phase C Demo.md
+raw/md/Plattformen – iInkognit0.md
+raw/md/Podcast Iinkognit0 – NachtgedankenStaffel 2 · Folge 6 – Projekt eArc.md
+raw/md/Podcast – Ist-Zustand.md
+raw/md/Preflight.md
+raw/md/Print.md
+raw/md/priorisierte Akquisitionsliste (Tier 0 + Tier 1).md
+raw/md/Prognosemodell_Zweistufige_Resonanz.md.md
+raw/md/PROGNOSIS_GLOBAL-5.md
+raw/md/PROGNOSIS_GLOBAL.md
+raw/md/Projektstatus – iInkognit0.md
+raw/md/public_alpha_fakt.md
+raw/md/public_alpha_freigabe.md
+raw/md/Public Diamond Incognito    iOS (IRK5000 Shell).md
+raw/md/QAL·eArc · CHAT_CONVERSIONts.utc=2026-02-24T12.md
+raw/md/QH256 · natürliche Informationsmetrik.md
+raw/md/QH256 Stability Simulation.md
+raw/md/Qh265 hist.md
+raw/md/QRL CANON CONSOLIDATION.md
+raw/md/QuietHarbor v0.1.md
+raw/md/README.md-2.md
+raw/md/README.mdcdsa.md
+raw/md/README.md.md
+raw/md/Reflexion · Ist-Zustand (nach Gemini v0.3.1).md
+raw/md/report.json.md
+raw/md/report_schema.md (Report-Format als menschliche Referenz).md
+raw/md/RIGHTS OF LIFE — RAW.md
+raw/md/Road-01.md
+raw/md/Road 5000.md
+raw/md/Road Hard map.md
+raw/md/Rollen – iInkognit0.md
+raw/md/RSS -Atom · Indexierung.md
+raw/md/RSS-Feed – iInkognit0.md
+raw/md/Ruhige_Reichweitenstrategie.md
+raw/md/Run.md
+raw/md/saksAusführen.md
+raw/md/scan.json.md
+raw/md/Schema v1 — „APK als MD“ Output-Plan (eShelldroid).md
+raw/md/Sitelock.md
+raw/md/Snapp.md
+raw/md/snapshots/00_Projekt_Snapshot_Aktuell.md.md
+raw/md/snapshots/00_Projekt_Snapshot_Aktuell.yaml.md
+raw/md/snapshots/00_Statistik_Snapshot_Aktuell.md.md
+raw/md/snapshots/00_Statistik_Snapshot_Aktuell.yaml.md
+raw/md/snapshots/99_Status.md.md
+raw/md/snapshots/K501 Frames — Provenance and Snapshot Semantics (v1.5).md
+raw/md/snapshots/K501Gemini System Snapshot & Harmonization.md
+raw/md/snapshots/K501Gemini System-Snapshot und Harmonisierung.md
+raw/md/snapshots/K501 Node Operational_ Status Report.md
+raw/md/snapshots/K501 Pipeline Frozen_ System Status.md
+raw/md/snapshots/K501 Status Audio Transcript.md
+raw/md/snapshots/K501 System Snapshot.md
+raw/md/snapshots/K5 · Kernel- & Development-Status (kurz & klar).md
+raw/md/snapshots/Snapshot-Batch minimal..md
+raw/md/snapshots/Statistik-Snapshot_Podcast_iInkognit0.md.md
+raw/md/snapshots/Statistik-Snapshot_Podcast_iInkognit0.yaml.md
+raw/md/snapshots/Statistik-Snapshots – iInkognit0.md
+raw/md/snapshots/Statistik-Snapshot – Spotify.md.md
+raw/md/snapshots/Status (HUD-fähig).md
+raw/md/Soft freeze.md
+raw/md/Speicherkern (Update für Roadmap).md
+raw/md/Spotify.md.md
+raw/md/Spotify.yaml.md
+raw/md/SQL-Schema_Trigger-System.md
+raw/md/ssay_stimme_des_colonels.md
+raw/md/Staffel_01.md
+raw/md/Staffel_02.md
+raw/md/status_bereit_fuer_.md
+raw/md/Stimme_des_iInkognitos.md.md
+raw/md/Stimme_des_iInkognitos.policy.yaml.md
+raw/md/STRATEGY_STABILITY.md
+raw/md/Strict Mode (CI   Release).md
+raw/md/strings.yaml (Begriffs-Fixierung & Scope-Schutz).md
+raw/md/structural_unknown/.keep
+raw/md/Struktur.md
+raw/md/Substack_Cycle_01_A_Quiet_Reminder.md
+raw/md/Substack – iInkognit0.md
+raw/md/Superblock_v1.0.html.md
+raw/md/svg Block.md
+raw/md/SYSTEMANALYSE (KERNEL + DIAMOND SHELL.md
+raw/md/Ta1.md
+raw/md/TAT1 aktualisieren (Feed neu erzeugen).md
+raw/md/tat1_generate.py.md
+raw/md/temporary/1Untitled.md
+raw/md/temporary/222Untitled.md
+raw/md/temporary/23636Untitled 2.md
+raw/md/temporary/238383Untitled.md
+raw/md/temporary/266262.md
+raw/md/temporary/3747474.md
+raw/md/temporary/43543Untitled.md
+raw/md/temporary/453.md
+raw/md/temporary/53454543Untitled 1.md
+raw/md/temporary/5432.md
+raw/md/temporary/5768Untitled.md
+raw/md/temporary/7437.md
+raw/md/temporary/76326363.md
+raw/md/temporary/999Untitled.md
+raw/md/temporary/aaUntitled.md
+raw/md/temporary/d.md
+raw/md/temporary/fdsjflkdUntitled.md
+raw/md/temporary/Untitled 10.md
+raw/md/temporary/Untitled 1888.md
+raw/md/temporary/Untitled 1.md
+raw/md/temporary/Untitled 2.md
+raw/md/temporary/Untitled-2.md
+raw/md/temporary/Untitled 3.md
+raw/md/temporary/Untitled 56751.md
+raw/md/temporary/Untitled 5.md
+raw/md/temporary/Untitled 65652.md
+raw/md/temporary/Untitled6565.md
+raw/md/temporary/Untitled 6.md
+raw/md/temporary/Untitled7666.md
+raw/md/temporary/Untitled 7.md
+raw/md/temporary/Untitled 8.md
+raw/md/temporary/Untitled.md
+raw/md/Test (Golden Regression).md
+raw/md/test.txt
+raw/md/The Declaration.md
+raw/md/The eArc Header Module.md.md
+raw/md/The interface 1.md
+raw/md/thematische Übersicht deines heutigen Verlaufs.md
+raw/md/TikTok – Strategie.md.md
+raw/md/Titel der Abhandlung=HEUREKA.md
+raw/md/Triggersystem_iInkognit0.md
+raw/md/Trigger-Testmatrix.md.md
+raw/md/tts.html.md
+raw/md/U376ntitled 5.md
+raw/md/U5353ntitled 2.md
+raw/md/U55454ntitled 1.md
+raw/md/U675ntitled 6.md
+raw/md/U8383ntitled 7.md
+raw/md/U84565ntitled 4.md
+raw/md/Uebersicht_Essays_Manifestos_Theorien.md.md
+raw/md/uild_phase_a_start.md
+raw/md/Ui ui.md
+raw/md/Unbenanngggt.md
+raw/md/Unbenannt 1.md
+raw/md/Unbenannt 2.md
+raw/md/Unbenannt 3.md
+raw/md/Unbenannt 4.md
+raw/md/Unbenannt 5.md
+raw/md/Unbenannt878.md
+raw/md/Unbenannt.md
+raw/md/Unfdstitled.md
+raw/md/unstable_fragments/.keep
+raw/md/Untitlefroiwd.md
+raw/md/validation.yaml (verbindliche Validierungsregeln).md
+raw/md/Validator-Checkliste.md.md
+raw/md/Validieren.md
+raw/md/Verstanden. BUILD K500 ausgeführt.md
+raw/md/Vielfalt konstituiert Struktur.md
+raw/md/Warum K501 strukturell einer dissipativen Informationsdynamik ähnelt.md
+raw/md/Wir bauen CIR als Projektions-Klemm-Operator in das K501-CDS ein.md
+raw/md/Wirkung Mistral duck.md
+raw/md/Wow2.md
+raw/md/Wow.md
+raw/md/Zwei Algorithmen in Balance.md
