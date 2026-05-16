@@ -1,0 +1,17 @@
+.
+./_ANALYSIS
+./archive
+./archive/ledger_k501
+./archive/ledger_root
+./archive/little_alpha_storage
+./_FREEZE_CANONICAL
+./.git
+./.git/branches
+./.git/hooks
+./.git/info
+./.git/logs
+./.git/objects
+./.git/refs
+./include
+./_REMOTE_TREE
+./src
