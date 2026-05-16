@@ -1,0 +1,36 @@
+ _ANALYSIS/runtime_state.txt                        |   21 +
+ _FREEZE_CANONICAL/git_commit.txt                   |    1 +
+ _FREEZE_CANONICAL/k501_core.sha256                 |    1 +
+ _FREEZE_CANONICAL/topology_dirs.txt                |   17 +
+ _FREEZE_CANONICAL/topology_files.txt               |   23 +
+ _REMOTE_TREE/full_remote_tree.txt                  | 2019 ++++++++++++++++++++
+ _REMOTE_TREE/local_dirs_lvl2.txt                   |   22 +
+ _REMOTE_TREE/raw_tree.txt                          | 1525 +++++++++++++++
+ _REMOTE_TREE/remote_dirs.txt                       |   44 +
+ .../manifests/indexed_utf8_candidates.tsv          |    0
+ .../manifests/rename_manifest_preview.tsv          |  448 +++++
+ .../reports/final_namespace_state.txt              |    4 +
+ .../reports/normalized_candidate_paths.txt         |  448 +++++
+ .../reports/utf8_escape_candidates.txt             |    0
+ _remote_audit/full_remote_tree_v2.txt              | 2019 ++++++++++++++++++++
+ _remote_audit/local_runtime_tree.txt               |   18 +
+ _remote_audit/local_runtime_tree_clean.txt         |   12 +
+ _remote_audit/raw_namespace.txt                    | 1525 +++++++++++++++
+ _remote_audit/remote_include_tree.txt              |    6 +
+ _remote_audit/remote_src_tree.txt                  |    6 +
+ _remote_audit/reports/normalized_duplicates.txt    |    0
+ _remote_audit/reports/quoted_paths.txt             |  448 +++++
+ _remote_audit/reports/raw_namespace_stats.txt      |    6 +
+ _remote_audit/reports/remote_root.txt              |   15 +
+ _runtime_seal/manifests/runtime_seal_manifest.txt  |    4 +
+ _runtime_seal/reports/runtime_binaries.txt         |    1 +
+ _runtime_seal/reports/runtime_hash.txt             |    1 +
+ _runtime_seal/reports/runtime_sources.txt          |   12 +
+ _topology_map/manifests/canonical_roots.txt        |   21 +
+ .../reports/archive_namespace_topology.txt         |    9 +
+ _topology_map/reports/full_workspace_dirs.txt      |   44 +
+ _topology_map/reports/full_workspace_files.txt     |   50 +
+ _topology_map/reports/raw_namespace_topology.txt   |   19 +
+ _topology_map/reports/topology_state.txt           |    4 +
+ k501                                               |    1 -
+ 35 files changed, 8793 insertions(+), 1 deletion(-)
