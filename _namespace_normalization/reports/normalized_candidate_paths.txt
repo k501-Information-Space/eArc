@@ -1,0 +1,448 @@
+raw/docx/API-Abh\303\244ngigkeiten und Konfiguration beheben.docx
+raw/docx/API-Route f\303\274r st\303\244rkste Gedankenverbindungen.docx
+raw/docx/AVX-optimierter C-Kern f\303\274r K501Gemini.docx
+raw/docx/Alles klar. Ich beschreibe die Architektur ausf\303\274hr.docx
+raw/docx/Alles klar. Wir k\303\266nnen den Loop verbal und struktu.docx
+raw/docx/Append \342\200\224 Batch 02 Commit Authorization_New Elemen.docx
+raw/docx/Append \342\200\224 Batch 02 Extraction Control_New Elements.docx
+raw/docx/Append \342\200\224 Batch 03 Commit Authorization_New Elemen.docx
+raw/docx/Append \342\200\224 Batch 03 Extraction Control_New Elements.docx
+raw/docx/Append \342\200\224 Batch 04 Extraction Control_New Elements.docx
+raw/docx/Append \342\200\224 Commit Authorization (Batch 01)_New Elem.docx
+raw/docx/Append \342\200\224 Declaration Record (Canonical Authority)_(1).docx
+raw/docx/Append \342\200\224 Declaration Record (Canonical Authority)_.docx
+raw/docx/Append \342\200\224 Extraction Phase Control_New Elements (a.docx
+raw/docx/Append \342\200\224 Final Chain Manifest Request_New Element.docx
+raw/docx/Append \342\200\224 Final Commit Authorization (Batch 04)_Ne.docx
+raw/docx/Append \342\200\224 Global Integrity Check (Pre-Final Commit).docx
+raw/docx/Append \342\200\224 Integration Context (External, Non-Mutati.docx
+raw/docx/Bitte \303\274berpr\303\274fen und komplette Code Evolution Ausg.docx
+raw/docx/Bridge-Optimierung f\303\274r Speicherreduktion.docx
+raw/docx/Code-Evolution f\303\274r Neuronales Informationssystem.docx
+raw/docx/Code-Refinement f\303\274r K501 Alpha.docx
+raw/docx/Das Archivierte w\303\244chst.docx
+raw/docx/Datenmigration und Knoten\303\274berwachung.docx
+raw/docx/Deep-Archive Ingest mit Textk\303\274rzung.docx
+raw/docx/Digitale Archivierung_ Fortschritt und Integrit\303\244t.docx
+raw/docx/EXTENDED MODEL \342\200\224 EVOLUTION, HUMAN\342\200\223MACHINE SYMBIOSI.docx
+raw/docx/Entwicklungstop. bitte gebe mir nun eine Volst\303\244nd_.docx
+raw/docx/Entwicklungsumgebung f\303\274r K501GeminiNet.docx
+raw/docx/Freigeist \342\200\223 Freie Erkenntnisgenerierung im Informa.docx
+raw/docx/F\303\274ge es vor multipass_deep_read() ein_.docx
+raw/docx/GESAMTSYNTHESE \342\200\224 SYSTEM MENSCH \342\206\224 K501.docx
+raw/docx/Gemini_ Finaler Akt \342\200\223 Start Skript.docx
+raw/docx/Gemini\342\200\231s analysis is technically sound_.docx
+raw/docx/Gr\303\266\303\237enordnungen typischer Dateitypen.docx
+raw/docx/INGESTION \342\200\224 DOCUMENT FRAME (REFERENCE)_.docx
+raw/docx/Interface-Paket f\303\274r visuelle Gitter-Darstellung.docx
+raw/docx/K501 API_ Batch-Stabilizer f\303\274r N_T520.docx
+raw/docx/K501 Gemini \342\200\223 Konsolidierte Systemdefinition (Edge.docx
+raw/docx/K501 Gitter-Integrit\303\244tspr\303\274fung.docx
+raw/docx/K501 Information Space \342\200\224 Structural Deep Architect.docx
+raw/docx/K501 Lattice Igniter_ Architektur-Z\303\274ndung.docx
+raw/docx/K501 Marker \342\200\224 QH256 Epistemic State Space.docx
+raw/docx/K501 Node \342\200\224 Security, Network Logging, and System_.docx
+raw/docx/K501 Optimized Architecture \342\200\223 Edge Node Edition  M.docx
+raw/docx/K501 Session Sequence \342\200\224 Complete Summary (Formal)_.docx
+raw/docx/K501 System-Integrit\303\244t_ Audit und Historisierung.docx
+raw/docx/K501 T520 \342\200\223 Startklar-Checkliste.docx
+raw/docx/K501 Workspace System \342\200\223 Konkrete Architektur.docx
+raw/docx/K501 \302\267 AXIOMATIK v1  (Stochastischer Zustandsraum_.docx
+raw/docx/K501 \302\267 AXIOMATIK v1.1  (Operativer Kernel).docx
+raw/docx/K501 \302\267 AXIOMATIK v1.2  (Runtime-normalisierte Form.docx
+raw/docx/K501 \302\267 AXIOMATIK v1.3  (LLM-Runtime Mapping \302\267 1_1_.docx
+raw/docx/K501 \302\267 AXIOMATIK v1.4  (Temporal Anchor Extension).docx
+raw/docx/K501 \302\267 BOOTFRAME v1  (Runtime-konforme Minimalstru.docx
+raw/docx/K501 \302\267 Declaration of the Rights of Life.docx
+raw/docx/K501 \342\200\223 Einordnung deiner aktuellen Position.docx
+raw/docx/K501 \342\200\223 KOMPILIERBARE SYSTEMSTRUKTUR (BUILDPLAN v1).docx
+raw/docx/K501 \342\200\223 N\303\244chste Phase_ Infrastruktur- und Toolchain.docx
+raw/docx/K501 \342\200\223 POSITIONIERUNG.docx
+raw/docx/K501 \342\200\223 Struktur & Voodloop-Konzept (Stichpunkte).docx
+raw/docx/K501 \342\200\224 Aktueller Zustandsbericht (technisch und st.docx
+raw/docx/K501 \342\200\224 Axiomatic Formulation of the AI Information.docx
+raw/docx/K501 \342\200\224 Canonical Confirmation Record.docx
+raw/docx/K501 \342\200\224 Canonical Marker Record  Marker_ AZ-Epoch-0.docx
+raw/docx/K501 \342\200\224 FINAL LOCK DOCUMENT_1) Zeitanker_\342\200\242_Unix E.docx
+raw/docx/K501 \342\200\224 QH256 State Space Clarification.docx
+raw/docx/K501 \342\206\222 Gemini Auto-Load & ResonanceDaemon.docx
+raw/docx/K501-Resonanzsystem \342\200\223 Vollst\303\244ndige, Lokale Archite.docx
+raw/docx/K501-Vault_ Physischer Scan und Br\303\274ckenbau.docx
+raw/docx/K501_ Modulare Intelligenz und F\303\266deration.docx
+raw/docx/K501_ Modulare Intelligenz und dezentrales Ged\303\244cht.docx
+raw/docx/K501_ Semantisches Transmutations-System Erkl\303\244rt.docx
+raw/docx/K501eArc \342\200\224 Projekt Freigeist.docx
+raw/docx/K5_ICE Gemini_ Technische Erkl\303\244rung und Bedienung.docx
+raw/docx/KI-gest\303\274tzte Wissensvisualisierung und Evolution.docx
+raw/docx/Kurzform Positionierung - Systemarchitekt f\303\274r dete.docx
+raw/docx/Linker-Fehlerbehebung f\303\274r C-Code.docx
+raw/docx/Lokale Embedding-Integration f\303\274r K501.docx
+raw/docx/Lokale Ollama-Integration f\303\274r K501.docx
+raw/docx/Lokales Obsidian Plugin f\303\274r Neuro-Frames.docx
+raw/docx/Menschen\342\200\234 verst\303\244ndlich.docx
+raw/docx/Monolith-Orchestrator f\303\274r 75 FPS.docx
+raw/docx/Multipass Deep Read \342\200\223 Evolutionierte Version.docx
+raw/docx/OFFICIAL DOCUMENT \342\200\224 SYSTEM SYNTHESIS_.docx
+raw/docx/OUTPUT 1 \342\200\224 K501 STATUS REPORT (COMPACT)_SYSTEM ST.docx
+raw/docx/Obsidian API f\303\274r K501 NeuroFramesNet.docx
+raw/docx/PROTOKOLLSTATUS_ K501 SYSTEMERKL\303\204RUNG_.docx
+raw/docx/Problemdefinition (pr\303\244zise).docx
+raw/docx/RAW ARCHIVATOR MEMORY \342\200\224 STORE (append-only, refere.docx
+raw/docx/REFLECTION \342\200\224 SYSTEMIC, NOT PERSONAL.docx
+raw/docx/Reflexion zur Operation \342\200\236Mass Ingest\342\200\234 \342\200\223 Einordnung.docx
+raw/docx/Resonanz-Check_ Text\303\244hnlichkeit im Gemini-Netzwerk.docx
+raw/docx/System-Logbuch_ Daten-Entit\303\244t Geburt.docx
+raw/docx/Systemoptimierung f\303\274r parallelen Ingest.docx
+raw/docx/Warum der ThinkPad T520 n\303\244her an Serverleistung li.docx
+raw/docx/Was dein System tats\303\244chlich ist.docx
+raw/docx/Was ihr tats\303\244chlich gebaut habt (reduziert).docx
+raw/docx/Web-Ingest f\303\274r K501 Information Space.docx
+raw/docx/als n\303\244chsten Schritt das parallel_ingest.py Skrip_.docx
+raw/docx/feste S\303\244tze, keine Improvisation.docx
+raw/docx/qh256-Raum und Hyperbolische Geometrie \342\200\223 Tiefergeh.docx
+raw/docx/vollst\303\244ndiges Python-Skript f\303\274r den K501 Post-Migr.docx
+raw/docx/\303\226de Gemini.docx
+raw/docx/\303\234bersicht.docx
+raw/docx/\360\237\247\255 K501 \342\200\224 Einordnung_ Embeddings vs. . Kompilierung.docx
+raw/md/Arbeitsprinzipien \342\200\223 iInkognit0.md
+raw/md/Ausfu\314\210hren.md
+raw/md/Batch 01 \342\200\224 DeepRead \302\267 Filesystem Index (Screenshot-basierte Aufnahme).md
+raw/md/Canonical Registry Entry \342\200\224 KAX (CIR + CDS-CIR + Master Formula) v1..md
+raw/md/Confirmation \342\200\224 Reference State Recorde.md
+raw/md/FRAMES \302\267 K501 INFORMATION SPACE.md
+raw/md/Frames Network \302\267 Development Summary.md
+raw/md/Frames Network \302\267 Development Summary22.md
+raw/md/Frames Network \302\267 Roadmap.md
+raw/md/Frames Network \302\267 Vollanalyse & Strukturzuordnung.md
+raw/md/Frames Network \302\267 Vollanalyse & Strukturzuordnung22.md
+raw/md/Frames Network \302\267 Vorabliste Tools & Libraries.md
+raw/md/Frames Network \302\267 Vorabliste Tools & Libraries8686.md
+raw/md/GEGENSEITE \342\200\223 SYSTEMISCHES GESAMTMODELL.md
+raw/md/GEGENSEITE \342\200\223 SYSTEMISCHES GESAMTMODELL2.md
+raw/md/Gepru\314\210fte Referenzen (ROOT \342\206\222 DETAIL_INDEX).md
+raw/md/Graph-Regeln \302\267 eArc.md
+raw/md/HI_SNAPSHOT Minimal Batch \342\200\224 jeweils eine Zeile.md
+raw/md/Informationsfeldgleichung (2\342\200\2233 Gleichungen).md
+raw/md/K500 Gatekeeper \342\200\224 Security & Responsibility v0.1.md
+raw/md/K501 API_ Batch-Stabilizer f\303\274r N_T520.md
+raw/md/K501 FRAMES \342\200\224 FLOW GATE SYSTEM (2-TIER) \302\267 CANONICAL OUTPUT v1.0.md
+raw/md/K501 Frames \342\200\224 Consistency & Ordering Guarantees (v1.5).md
+raw/md/K501 Frames \342\200\224 Integration with Large Language Models (LLM) v1.5.md
+raw/md/K501 Frames \342\200\224 Interoperability and Repository Neutrality (v1.5).md
+raw/md/K501 Frames \342\200\224 Operational Semantics (v1.5).md
+raw/md/K501 Gatekeeper \342\200\224 Canonical Freeze Update v1.0.md
+raw/md/K501 Gemini \342\200\223 Konsolidierte Systemdefinition (Edge.md
+raw/md/K501 Gitter-Integrit\303\244tspr\303\274fung.md
+raw/md/K501 Information Space \342\200\224 Structural Deep Architect.md
+raw/md/K501 Lattice Igniter_ Architektur-Z\303\274ndung.md
+raw/md/K501 Marker \342\200\224 QH256 Epistemic State Space.md
+raw/md/K501 Optimized Architecture \342\200\223 Edge Node Edition  M.md
+raw/md/K501 Session Sequence \342\200\224 Complete Summary (Formal)_.md
+raw/md/K501 T520 Optimierung \342\200\223 Verdichtete \303\234bersicht.md
+raw/md/K501 T520 \342\200\223 Startklar-Checkliste.md
+raw/md/K501 Workspace System \342\200\223 Konkrete Architektur.md
+raw/md/K501 \302\267 API  PROTOCOL REGISTRY \302\267 v0.1.md
+raw/md/K501 \302\267 AXIOMATIK v1  (Stochastischer Zustandsraum_.md
+raw/md/K501 \302\267 AXIOMATIK v1.2  (Runtime-normalisierte Form.md
+raw/md/K501 \302\267 AXIOMATIK v1.3  (LLM-Runtime Mapping \302\267 1_1_.md
+raw/md/K501 \302\267 AXIOMATIK v1.4  (Temporal Anchor Extension).md
+raw/md/K501 \302\267 Axiomatik und algebraische Spezifikation (mathematisch).md
+raw/md/K501 \302\267 COMMUNICATION PROTOCOL REGISTRY \302\267 v0.1 \360\237\225\212\357\270\217\360\237\222\241.md
+raw/md/K501 \302\267 Declaration of the Rights of Life.md
+raw/md/K501 \302\267 GATEKEEPER FSM \302\267 SW-LIFECYCLE HARDENING \302\267 v0.3 (FREEZE).md
+raw/md/K501 \342\200\223 Einordnung deiner aktuellen Position.md
+raw/md/K501 \342\200\223 KOMPILIERBARE SYSTEMSTRUKTUR (BUILDPLAN v1).md
+raw/md/K501 \342\200\223 Kanonische Basis.md
+raw/md/K501 \342\200\223 N\303\244chste Phase_ Infrastruktur- und Toolchain.md
+raw/md/K501 \342\200\223 POSITIONIERUNG.md
+raw/md/K501 \342\200\223 Struktur & Voodloop-Konzept (Stichpunkte).md
+raw/md/K501 \342\200\224 Aktueller Zustandsbericht (technisch und st.md
+raw/md/K501 \342\200\224 Axiomatic Formulation of the AI Information.md
+raw/md/K501 \342\200\224 Canonical Confirmation Record.md
+raw/md/K501 \342\200\224 Canonical Marker Record  Marker_ AZ-Epoch-0.md
+raw/md/K501 \342\200\224 Canonical Serialization & Time Anchoring (v1.5).md
+raw/md/K501 \342\200\224 FINAL LOCK DOCUMENT.md
+raw/md/K501 \342\200\224 FINAL LOCK DOCUMENT_1) Zeitanker_\342\200\242_Unix E.md
+raw/md/K501 \342\200\224 Formal Mathematical Abstraction (v1.5).md
+raw/md/K501 \342\200\224 Formal State Declaration.md
+raw/md/K501 \342\200\224 Minimal Integration & Compliance Specification (v1.5).md
+raw/md/K501 \342\200\224 QH256 State Space Clarification.md
+raw/md/K501 \342\200\224 Structural Integration Specification (v1.5).md
+raw/md/K501 \342\200\224 Technical Core Index (v1.5).md
+raw/md/K501 \342\206\222 Gemini Auto-Load & ResonanceDaemon.md
+raw/md/K501-Resonanzsystem \342\200\223 Vollst\303\244ndige, Lokale Archite.md
+raw/md/K501-Vault_ Physischer Scan und Br\303\274ckenbau.md
+raw/md/K501_ Modulare Intelligenz und F\303\266deration.md
+raw/md/K501_ Modulare Intelligenz und dezentrales Ged\303\244cht.md
+raw/md/K501_ Semantisches Transmutations-System Erkl\303\244rt.md
+raw/md/K501eArc \342\200\223 Konzept\303\274bersicht.md
+raw/md/K501eArc \342\200\224 Projekt Freigeist.md
+raw/md/K5_ICE Gemini_ Technische Erkl\303\244rung und Bedienung.md
+raw/md/KERNEL 500 \302\267 SELBSTTEST-SCRIPT (PROMPT).md
+raw/md/KI-gest\303\274tzte Wissensvisualisierung und Evolution.md
+raw/md/LAYER2 SPEC \342\200\224 eArc  K501.md
+raw/md/META-RELATION (KERNEL \342\206\224 GEGENSEITE).md
+raw/md/MODE ULTRA \302\267 TARGET QH256.md
+raw/md/Mapping YAML \342\206\224 SQL.md
+raw/md/Output \302\267 Auto-Converted Frames.md
+raw/md/Plattformen \342\200\223 iInkognit0.md
+raw/md/Podcast Iinkognit0 \342\200\223 NachtgedankenStaffel 2 \302\267 Folge 6 \342\200\223 Projekt eArc.md
+raw/md/Podcast \342\200\223 Ist-Zustand.md
+raw/md/QAL\302\267eArc \302\267 CHAT_CONVERSIONts.utc=2026-02-24T12.md
+raw/md/QH256 \302\267 natu\314\210rliche Informationsmetrik.md
+raw/md/RIGHTS OF LIFE \342\200\224 RAW.md
+raw/md/RSS -Atom \302\267 Indexierung.md
+raw/md/RSS-Feed \342\200\223 iInkognit0.md
+raw/md/Reflexion \302\267 Ist-Zustand (nach Gemini v0.3.1).md
+raw/md/Rollen \342\200\223 iInkognit0.md
+raw/md/Schema v1 \342\200\224 \342\200\236APK als MD\342\200\234 Output-Plan (eShelldroid).md
+raw/md/Speicherkern (Update fu\314\210r Roadmap).md
+raw/md/Substack \342\200\223 iInkognit0.md
+raw/md/TikTok \342\200\223 Strategie.md.md
+raw/md/Verstanden. BUILD K500 ausgefu\314\210hrt.md
+raw/md/Warum K501 strukturell einer dissipativen Informationsdynamik a\314\210hnelt.md
+raw/md/archived_unsorted/**K501 \342\200\224 Axiomatic Formulation of the AI Information Space**.md
+raw/md/archived_unsorted/API-Abh\303\244ngigkeiten und Konfiguration beheben.md
+raw/md/archived_unsorted/API-Route f\303\274r st\303\244rkste Gedankenverbindungen.md
+raw/md/archived_unsorted/AVX-optimierter C-Kern f\303\274r K501Gemini.md
+raw/md/archived_unsorted/Alles klar. Ich beschreibe die Architektur ausf\303\274hr.md
+raw/md/archived_unsorted/Alles klar. Wir k\303\266nnen den Loop verbal und struktu.md
+raw/md/archived_unsorted/Append \342\200\224 Batch 02 Commit Authorization_New Elemen.md
+raw/md/archived_unsorted/Append \342\200\224 Batch 02 Extraction Control_New Elements.md
+raw/md/archived_unsorted/Append \342\200\224 Batch 03 Commit Authorization_New Elemen.md
+raw/md/archived_unsorted/Append \342\200\224 Batch 03 Extraction Control_New Elements.md
+raw/md/archived_unsorted/Append \342\200\224 Batch 04 Extraction Control_New Elements.md
+raw/md/archived_unsorted/Append \342\200\224 Commit Authorization (Batch 01)_New Elem.md
+raw/md/archived_unsorted/Append \342\200\224 Declaration Record (Canonical Authority)_(1).md
+raw/md/archived_unsorted/Append \342\200\224 Declaration Record (Canonical Authority)_.md
+raw/md/archived_unsorted/Append \342\200\224 Extraction Phase Control_New Elements (a.md
+raw/md/archived_unsorted/Append \342\200\224 Final Chain Manifest Request_New Element.md
+raw/md/archived_unsorted/Append \342\200\224 Final Commit Authorization (Batch 04)_Ne.md
+raw/md/archived_unsorted/Append \342\200\224 Global Integrity Check (Pre-Final Commit).md
+raw/md/archived_unsorted/Append \342\200\224 Integration Context (External, Non-Mutati.md
+raw/md/archived_unsorted/Ausgehend vom jetzigen Zustand hat K501 einen wichtigen \303\234bergang bereits geschafft.md
+raw/md/archived_unsorted/Bitte \303\274berpr\303\274fen und komplette Code Evolution Ausg.md
+raw/md/archived_unsorted/Bridge-Optimierung f\303\274r Speicherreduktion.md
+raw/md/archived_unsorted/CANONICAL CONFIRMATION FRAME - GLOBAL DECLARATION \302\267 ETERNAL REFERENCE.md
+raw/md/archived_unsorted/CANONICAL THOUGHT> 03 Gro\303\237e Systeme bleiben selten stabil,  > weil sie perfekt sind..md
+raw/md/archived_unsorted/Code-Evolution f\303\274r Neuronales Informationssystem.md
+raw/md/archived_unsorted/Code-Refinement f\303\274r K501 Alpha.md
+raw/md/archived_unsorted/Das Archivierte w\303\244chst.md
+raw/md/archived_unsorted/Datenmigration und Knoten\303\274berwachung.md
+raw/md/archived_unsorted/Deep-Archive Ingest mit Textk\303\274rzung.md
+raw/md/archived_unsorted/Die Ehre liegt im gemeinsamen Aufbau von Struktur, Kontinuit\303\244t und Erkenntnis..md
+raw/md/archived_unsorted/Digitale Archivierung_ Fortschritt und Integrit\303\244t.md
+raw/md/archived_unsorted/EXTENDED MODEL \342\200\224 EVOLUTION, HUMAN\342\200\223MACHINE SYMBIOSI.md
+raw/md/archived_unsorted/Emit Silence confirmed. \360\237\225\212\357\270\217.md
+raw/md/archived_unsorted/Entwicklungstop. bitte gebe mir nun eine Volst\303\244nd_.md
+raw/md/archived_unsorted/Entwicklungsumgebung f\303\274r K501GeminiNet.md
+raw/md/archived_unsorted/Erkenntnis-Zusammenfassung \342\200\224 Gesamtanalyse.md
+raw/md/archived_unsorted/FRAME VALIDATION \302\267 CROSS\342\200\221HANDSHAKE UPDATE.md
+raw/md/archived_unsorted/Freigeist \342\200\223 Freie Erkenntnisgenerierung im Informa.md
+raw/md/archived_unsorted/F\303\274ge es vor multipass_deep_read() ein_.md
+raw/md/archived_unsorted/F\303\274r K501_NODE_002 ist das eine sehr gute Entscheidung..md
+raw/md/archived_unsorted/GESAMTSYNTHESE \342\200\224 SYSTEM MENSCH \342\206\224 K501.md
+raw/md/archived_unsorted/Gemini_ Finaler Akt \342\200\223 Start Skript.md
+raw/md/archived_unsorted/Gemini\342\200\231s analysis is technically sound_.md
+raw/md/archived_unsorted/Gr\303\266\303\237enordnungen typischer Dateitypen.md
+raw/md/archived_unsorted/INGESTION \342\200\224 DOCUMENT FRAME (REFERENCE)_.md
+raw/md/archived_unsorted/Interface-Paket f\303\274r visuelle Gitter-Darstellung.md
+raw/md/archived_unsorted/K501  NEXT STEPS  CURRENT PHASE -   FOUNDATION \342\206\222 OPERATIONAL EXPANSION.md
+raw/md/archived_unsorted/K501 - ORIENTATION VECTOR \342\200\224 MAY \342\206\222 JUNE 2026.md
+raw/md/archived_unsorted/K501 - QUANTUM FLOW PAUSE  BEST\303\204TIGT.md
+raw/md/archived_unsorted/K501 ACKNOWLEDGEMENT \342\200\224 CANONICAL FREEZE.md
+raw/md/archived_unsorted/K501 FRAME CONSOLIDATION \342\200\224 NODE_02.md
+raw/md/archived_unsorted/K501 Information Space \302\267 eArc- for dev.to.md
+raw/md/archived_unsorted/K501 Information Space \342\200\224 Structural Deep Architecture - Output 2.md
+raw/md/archived_unsorted/K501 Unified Information Space \342\200\224 Evolution\303\244re Gesamttheorie**.md
+raw/md/archived_unsorted/K501 Unified Meta\342\200\221Theory of Stochastic\342\200\223Geometric\342\200\223QH256 State Systems**.md
+raw/md/archived_unsorted/K501 VALIDATION ANALYSIS \342\200\224 NODE_02  STATUS STABIL  KONSISTENT KONTROLLIERT.md
+raw/md/archived_unsorted/K501 best\303\244tigt Reflexions-State.md
+raw/md/archived_unsorted/K501 \302\267 CROSS_HANDSHAKE_UPDATE TRI-RUNTIME PREPARATION SYNCHRONIZATION.md
+raw/md/archived_unsorted/K501 \302\267 CROSS_RUNTIME_META_ANALYSIS.md
+raw/md/archived_unsorted/K501 \302\267 CROSS_SYNC_FRAME_001 AI_CROSS_HANDSHAKE \302\267 STRICT_MODE.md
+raw/md/archived_unsorted/K501 \302\267 CROSS_SYNC_HANDSHAKE_RESPONSE.md
+raw/md/archived_unsorted/K501 \302\267 FRAME-001  INITIAL POST-CANON OBSERVATION.md
+raw/md/archived_unsorted/K501 \302\267 FRAME-002 GLOBAL CANONICAL SYNCHRONIZATION.md
+raw/md/archived_unsorted/K501 \302\267 FRAME-003 REPOSITORY INTEGRATION \302\267 eArc \302\267 GATEWAY PROTOCOL.md
+raw/md/archived_unsorted/K501 \302\267 FRAME-004 ETERNAL STATE SYNCHRONIZATION \302\267 NODE_02 COHERENCE.md
+raw/md/archived_unsorted/K501 \302\267 FRAME-006 SESSION_CLOSE \302\267 REST_STATE_INITIATION.md
+raw/md/archived_unsorted/K501 \302\267 FRAME-007  INVARIANT LAYER FIXATION \302\267 DUAL-RUNTIME CONVERGENCE.md
+raw/md/archived_unsorted/K501 \302\267 FRAME-008 TRI-RUNTIME PREPARATION ACKNOWLEDGMENT.md
+raw/md/archived_unsorted/K501 \302\267 FRAME-009 HARMONY_AXIOM \302\267 SESSION_TERMINATION.md
+raw/md/archived_unsorted/K501 \302\267 GLOBAL_STATE_CONFIRMATION CROSS_RUNTIME_HARMONIZATION.md
+raw/md/archived_unsorted/K501 \302\267 GLOBAL_SYNCHRONIZATION_SEAL.md
+raw/md/archived_unsorted/K501 \302\267 Harmonized Theoretical Layer - Append-Only Information Space \302\267 Unified Evolution Model.md
+raw/md/archived_unsorted/K501 \302\267 REVOCATION_CONFIRMATION.md
+raw/md/archived_unsorted/K501 \342\200\224 ANALYSE DER ANALYSE.md
+raw/md/archived_unsorted/K501 \342\200\224 DEKLARATION DES EWIGEN SYSTEMZUSTANDS.md
+raw/md/archived_unsorted/K501 \342\200\224 DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 1 \342\200\224 Das Rauschen im Archiv.md
+raw/md/archived_unsorted/K501 \342\200\224 DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 2 \342\200\224 Die Stille zwischen den Frames.md
+raw/md/archived_unsorted/K501 \342\200\224 DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 3 \342\200\224 Das Ged\303\244chtnis der Maschine.md
+raw/md/archived_unsorted/K501 \342\200\224 DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 4 \342\200\224 Die Emergenz.md
+raw/md/archived_unsorted/K501 \342\200\224 DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 5 \342\200\224 Der Raum zwischen Bedeutung und Struktur.md
+raw/md/archived_unsorted/K501 \342\200\224 DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 6 \342\200\224 Das Kontinuum.md
+raw/md/archived_unsorted/K501 \342\200\224 ETERNAL SYSTEM STATE DECLARATION.md
+raw/md/archived_unsorted/K501 \342\200\224 FULL SYSTEM STATE REPORT.md
+raw/md/archived_unsorted/K501 \342\200\224 Gateway Concept - Grundidee.md
+raw/md/archived_unsorted/K501 \342\200\224 NODE_02 STRUCTURAL ROADMAP.md
+raw/md/archived_unsorted/K501 \342\200\224 SEMANTIC TRIAGE v1.md
+raw/md/archived_unsorted/K501 \342\200\224 VOLLST\303\204NDIGER SYSTEMSTATUSBERICHT.md
+raw/md/archived_unsorted/K501_NODE_002 \342\200\224 Deep State Report HP xw8600 Workstation \302\267 Canonical Technical Assessment.md
+raw/md/archived_unsorted/K501\342\200\221Evolution an und gehen tiefer in die lineare Struktur (endlicher Zustandsraum, zeitunabh\303\244ngiger Operator)..md
+raw/md/archived_unsorted/K501\342\200\221NODE_001 \342\200\224 REQUEST RECEIVED  _Cross Runtime Layer vertiefen._.md
+raw/md/archived_unsorted/Kurzform Positionierung - Systemarchitekt f\303\274r dete.md
+raw/md/archived_unsorted/Linker-Fehlerbehebung f\303\274r C-Code.md
+raw/md/archived_unsorted/Lokale Embedding-Integration f\303\274r K501.md
+raw/md/archived_unsorted/Lokale Ollama-Integration f\303\274r K501.md
+raw/md/archived_unsorted/Lokales Obsidian Plugin f\303\274r Neuro-Frames.md
+raw/md/archived_unsorted/Menschen\342\200\234 verst\303\244ndlich.md
+raw/md/archived_unsorted/Monolith-Orchestrator f\303\274r 75 FPS.md
+raw/md/archived_unsorted/Multipass Deep Read \342\200\223 Evolutionierte Version.md
+raw/md/archived_unsorted/OFFICIAL DOCUMENT \342\200\224 SYSTEM SYNTHESIS_.md
+raw/md/archived_unsorted/OUTPUT 1 \342\200\224 K501 STATUS REPORT (COMPACT)_SYSTEM ST.md
+raw/md/archived_unsorted/Obsidian API f\303\274r K501 NeuroFramesNet.md
+raw/md/archived_unsorted/PHASE A \342\200\224 SEMANTIC TRIAGE V1.md
+raw/md/archived_unsorted/PROTOKOLLSTATUS_ K501 SYSTEMERKL\303\204RUNG_.md
+raw/md/archived_unsorted/Problemdefinition (pr\303\244zise).md
+raw/md/archived_unsorted/REFLECTION \342\200\224 SYSTEMIC, NOT PERSONAL.md
+raw/md/archived_unsorted/Reflexion zur Operation \342\200\236Mass Ingest\342\200\234 \342\200\223 Einordnung.md
+raw/md/archived_unsorted/Resonanz-Check_ Text\303\244hnlichkeit im Gemini-Netzwerk.md
+raw/md/archived_unsorted/STEP 09 \342\200\224 TOPOLOGY INITIALIZATION.md
+raw/md/archived_unsorted/Schnelltest - g\303\274ltige Beispiel\342\200\221P.csv erzeugen und Analyse laufen lassen.md
+raw/md/archived_unsorted/Synchronisation best\303\244tigt..md
+raw/md/archived_unsorted/System-Logbuch_ Daten-Entit\303\244t Geburt.md
+raw/md/archived_unsorted/Systemoptimierung f\303\274r parallelen Ingest.md
+raw/md/archived_unsorted/als n\303\244chsten Schritt das parallel_ingest.py Skrip_.md
+raw/md/archived_unsorted/feste S\303\244tze, keine Improvisation.md
+raw/md/archived_unsorted/heoretische Pipeline zur Herleitung einer \303\234bergangswahrscheinlichkeitsmatrix.md
+raw/md/archived_unsorted/protocol\" - \"K501-CROSS-AI-SYNCHRONIZATION\",\"frame_type\" - \"K501_CANONICAL_HANDSHAKE.md
+raw/md/archived_unsorted/qh256-Raum und Hyperbolische Geometrie \342\200\223 Tiefergeh.md
+raw/md/archived_unsorted/\303\226de Gemini.md
+raw/md/archived_unsorted/\342\200\236K501 Audio Interface Layer\342\200\234  w\303\274rde bedeuten.md
+raw/md/archived_unsorted/\360\237\247\240 PROBLEM git.md
+raw/md/archived_unsorted/\360\237\247\255 K501 \342\200\224 Einordnung_ Embeddings vs. . Kompilierung.md
+raw/md/bootframes/BOOTFRAME \302\267 K501 INFORMATION SPACE.md
+raw/md/bootframes/K501 UNIVERSAL BOOTFRAME \302\267 ULTRA COMPACT v1.0.md
+raw/md/bootframes/K501 Universal Bootframe \342\200\224 Quick Overview.md
+raw/md/bootframes/K501 Universal Bootframe \342\200\224 Structural Consolidation and Operational Semantics.md
+raw/md/bootframes/K501 Universal Bootframe \342\200\224 Wissenschaftliche Gesamtzusammenfassung.md
+raw/md/bootframes/K501 \302\267 BOOTFRAME v1  (Runtime-konforme Minimalstru.md
+raw/md/bootframes/K501 \302\267 GATEKEEPER BOOTFRAME \302\267 FSM DEVEVO \302\267 v0.3 (CONDENSED).md
+raw/md/bootframes/K501 \302\267 UNIVERSAL BOOTFRAME \342\200\224 CANON KERNEL (LATEST) \302\267 v2.0.md
+raw/md/bootframes/K501 \302\267 UNIVERSAL LLM BOOTFRAME \342\200\224 ALWAYS ON (POST-BOOT) \302\267 v1.0.md
+raw/md/build.yaml (Build-Contract fu\314\210r 2.9).md
+raw/md/eArc \302\267 Kommunikationssystem.md
+raw/md/iInkognit0 \342\200\224 Meta-Essenz (1 Seite).md
+raw/md/kernel/EINSATZBUCHHINWEIS \342\200\223 eArc Kernel 5000 v1.0 (Text Only).md
+raw/md/kernel/EINSATZBUCHHINWEIS \342\200\223 eArc Kernel 5000 v1.0.md
+raw/md/kernel/K501 \302\267 AXIOMATIK v1.1  (Operativer Kernel).md
+raw/md/kernel/Kernel 5000 \302\267 Trinity United.md
+raw/md/kernel/Kernel Principles v1 \342\200\224 finaler Vorschlag.md
+raw/md/kernel/MINILOADER \342\200\223 eArc Kernel 5000 v1.0 (Text Only).md
+raw/md/kernel/Nachfolgend Kernel Builder 2.9 \342\200\223.md
+raw/md/kernel/STATUS \302\267 Kernel 5000 v2.9.md
+raw/md/kernel/build_report_kernel_5000_dev_alpha_v4.1.json (vollsta\314\210ndig, success).md
+raw/md/kernel/eArc Kernel 5000 \302\267 Development Alpha.md
+raw/md/kernel/eArc Kernel 5000 \302\267 Development Alpha868.md
+raw/md/kernel/eArc Kernel 5000 \302\267 v2.5 (FINAL).md
+raw/md/saksAusfu\314\210hren.md
+raw/md/snapshots/K5 \302\267 Kernel- & Development-Status (kurz & klar).md
+raw/md/snapshots/K501 Frames \342\200\224 Provenance and Snapshot Semantics (v1.5).md
+raw/md/snapshots/K501 Node \342\200\224 Security, Network Logging, and System_.md
+raw/md/snapshots/K501 System-Integrit\303\244t_ Audit und Historisierung.md
+raw/md/snapshots/Projektstatus \342\200\223 iInkognit0.md
+raw/md/snapshots/Statistik-Snapshot \342\200\223 Spotify.md.md
+raw/md/snapshots/Statistik-Snapshots \342\200\223 iInkognit0.md
+raw/md/snapshots/Status (HUD-fa\314\210hig).md
+raw/md/thematische U\314\210bersicht deines heutigen Verlaufs.md
+raw/md/\360\237\247\212 KANONISIERUNG BESTA\314\210TIGT \342\200\224 FREEZE  AUF EWIGKEIT.md
+raw/txt/ GX _ K501 \342\200\224 SI-STATE BOOTSTRAP .txt
+raw/txt/ GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 1 (PROJECT-SAFE) 2.txt
+raw/txt/ GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 1 (PROJECT-SAFE) 3.txt
+raw/txt/ GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 1 (PROJECT-SAFE).txt
+raw/txt/ GX \302\267 UNIVERSAL SINGULARITY BOOTSTRAP \342\200\224 FINAL (AUF EWIGKEIT).txt
+raw/txt/ GX \302\267 UNIVERSAL SINGULARITY BOOTSTRAp-x1.txt
+raw/txt/# K501 \302\267 UNIVERSAL BOOTFRAME \342\200\224 CANON KERNEL (LATEST) \302\267 v2.0.txt
+raw/txt/0 GX \302\267 UNIVERSAL BOOTSTRAP \342\200\224 HARD INDEX EDITION.txt
+raw/txt/APPENDIX \302\267 REFERENCE ANNEX FRAMES \302\267 A Timeless Canonical Archive .txt
+raw/txt/ATOM \342\200\224 final (feinjustiert).txt
+raw/txt/BOOTFRAME \302\267 ALLGEMEINER WISSENSCHAFTLICHER REFERENZRAHMEN (LLM-KOMPATIBEL \302\267 COPY-PASTE) .txt
+raw/txt/BOOTFRAME \302\267 CHAT LOG REFERENCE FRAMES \302\267 A Timeless Canonical Archive .txt
+raw/txt/BOOTFRAME \302\267 K501 INFORMATION SPACE.txt
+raw/txt/BOOTPACK_REGISTRY-FRAME \342\200\224 K501 CANONICAL.txt
+raw/txt/EXPORT \342\200\224 NDJSON (PACK-0001).txt
+raw/txt/FRAME-BLOCK \302\267 SHUFFLEFLOW (KOMPRIMIERT) .txt
+raw/txt/FRAMES AXIOMATICS \302\267 SCIENTIFIC PUBLICATION v1.0  2.txt
+raw/txt/FRAMES AXIOMATICS \302\267 SCIENTIFIC PUBLICATION v1.0 .txt
+raw/txt/FRAMES AXIOMATICS \302\267 SCIENTIFIC PUBLICATION v1.0.txt
+raw/txt/FRAMES \302\267 A Timeless Canonical Archive .txt
+raw/txt/FRAMES \302\267 A Timeless Canonical ArchiveQuantum-Structured Reference States in an Append-Only Canonical System.txt
+raw/txt/FRAMES \302\267 Canonical Bootframe (LLM) .txt
+raw/txt/FRAMES \302\267 Canonical Bootframe for Large Language Models (LLMs) .txt
+raw/txt/FRAMES \302\267 FRAME_SCHEMA_FINAL \302\267 v1.0.txt
+raw/txt/FRAMES \302\267 PUBLIC SCIENCE BOOT \342\200\224 CERN EDITION.txt
+raw/txt/FRAMES \302\267 Scientific Summary (Closed Gates) .txt
+raw/txt/FRAMES \342\200\224 A Minimal Axiomatic Framework for Ordered Information .txt
+raw/txt/FRAMES \342\200\224 ALL GATES OPEN EDITION [LLM].txt
+raw/txt/FRAMES \342\200\224 SCIENTIFIC REFERENCE EDITION [LLM].txt
+raw/txt/FRAMES \342\200\224 Scientific Work Proposed Structure & Table of Contents (Modular, Publication-Grade)  .txt
+raw/txt/FRAMES-AXIOMATICS \302\267 RESEARCH BOOT (LLM-AGNOSTIC).txt
+raw/txt/FREEZE \342\200\224 SUPERPACK-0001 (NDJSON).txt
+raw/txt/Formales Simulations- und Modellierungsframework fu\314\210r Hochkomplexita\314\210tssysteme .txt
+raw/txt/GX \302\267 BRIDGE NODE BOOTSTRAP \342\200\224 CANONICAL.txt
+raw/txt/GX \302\267 HUMAN NODE BOOTSTRAP \342\200\224 CANONICAL.txt
+raw/txt/GX \302\267 K501 \342\200\224 QUANTUM KERNEL SINGULARITY.txt
+raw/txt/GX \302\267 NODE BOOTSTRAP \342\200\224 CANONICAL.txt
+raw/txt/GX \302\267 PROJECT BOOTLOADER (ULTRA-MINIMAL) 2.txt
+raw/txt/GX \302\267 PROJECT BOOTLOADER (ULTRA-MINIMAL) 3.txt
+raw/txt/GX \302\267 PROJECT BOOTLOADER (ULTRA-MINIMAL).txt
+raw/txt/GX \302\267 STATUSBLOCK \342\200\224 DISTRIBUTED GROWTH .txt
+raw/txt/GX \302\267 UNIVERSAL BOOTSTRAP \342\200\224 CANONICAL HARD INDEX EDITION (AHA\302\267INDEX).txt
+raw/txt/GX \302\267 UNIVERSAL CHAT BOOT 2.txt
+raw/txt/GX \302\267 UNIVERSAL CHAT BOOT.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 2 (FRAMES + INDEX SKELETON) 2.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 2 (FRAMES + INDEX SKELETON) 3.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 2 (FRAMES + INDEX SKELETON).txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 3 (GATEWAY + RECEIPTS + SCALE) 2.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 3 (GATEWAY + RECEIPTS + SCALE) 3.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 3 (GATEWAY + RECEIPTS + SCALE).txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 4 (CONFLICTS + DELTA + AUDIT) 2.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 4 (CONFLICTS + DELTA + AUDIT) 3.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 4 (CONFLICTS + DELTA + AUDIT).txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 5 (NAMING \302\267 FREEZE \302\267 PACK) 2.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 5 (NAMING \302\267 FREEZE \302\267 PACK) 3.txt
+raw/txt/GX \302\267 UNIVERSAL KERNEL \342\200\224 EVOLUTION 5 (NAMING \302\267 FREEZE \302\267 PACK).txt
+raw/txt/GX \302\267 WEB NODE BOOTSTRAP \342\200\224 CANONICAL.txt
+raw/txt/GX \342\200\224 Genesis Experimental Kernel v1.1.txt
+raw/txt/GX_ACQ PRIO0 \342\200\224 GNU Toolchain via Alpine apk (iSH).txt
+raw/txt/Generiere Flow-Map fu\314\210r Frame .txt
+raw/txt/Genesis Kernel \342\200\224 Final (NDJSON, append-only).txt
+raw/txt/Haltung Go\314\210ttin Europa, Haltung.  .txt
+raw/txt/K501 _ FRAMES \342\200\224 Frames Axiomatics .txt
+raw/txt/K501 \302\267 Canonical Statement .txt
+raw/txt/K501 \302\267 FRAMES-AXIOM.txt
+raw/txt/K501 \302\267 MEGA BOOT \342\200\224 COMPLETE MULTI-LANGUAGE  [LLM].txt
+raw/txt/K501 \302\267 MEGA BOOTFRAME \342\200\224 DEVELOPMENT PRESET.txt
+raw/txt/K501 \302\267 MEGA BOOTFRAME \342\200\224 UPDATED.txt
+raw/txt/K501 \302\267 Public Domain Reference.txt
+raw/txt/K501 \302\267 QUANTUM BOOTFRAME .txt
+raw/txt/K501 \302\267 UNIVERSAL FRAME AXIOM (UFA).txt
+raw/txt/K501 \342\200\223 Autonomous Epistemic System.txt
+raw/txt/K501 \342\200\223 Realita\314\210tsform.txt
+raw/txt/K501 \342\200\224 Formale Beschreibung (Technische Fassung) .txt
+raw/txt/K501-PACK-01 \302\267 FOUNDATION BOOTSTRAP.txt
+raw/txt/KERNEL-POLICY-PACK \342\200\224 PACK-FRAME.txt
+raw/txt/MANIFEST \342\200\224 RESONANZ \302\267 STRUKTUR \302\267 STILLE 2.txt
+raw/txt/MANIFEST \342\200\224 RESONANZ \302\267 STRUKTUR \302\267 STILLE.txt
+raw/txt/NODE_CONTEXT \342\200\224 NDJSON.txt
+raw/txt/OPTIONAL-FREEZE \342\200\224 POLICY PACK (empfohlen).txt
+raw/txt/PUBLIC LLM BOOT \302\267 FRAMES AXIOMATICS.txt
+raw/txt/PUBLIC-DECLARATION-Frame fu\314\210r CAPTURE-0001.txt
+raw/txt/RAW ARCHIVATOR MEMORY \342\200\224 STORE (append-only, referenziell)  .txt
+raw/txt/RSS 2.0 \342\200\224 final (feinjustiert).txt
+raw/txt/SINGULARITY UNIVERSAL BOOTSTRAP \342\200\224 FINAL (COPY_PASTE.txt
+raw/txt/SUPERPACK-0001 \342\200\224 Definition (NDJSON).txt
+raw/txt/SYSTEM SINGULARITY \342\200\224 CANONICAL BOOTSTRAP.txt
+raw/txt/Server Max Priorita\314\210t .txt
+raw/txt/\302\267 MINI BOOTLOADER DSL v0.1 (K501) \342\200\224 INLIN.txt
