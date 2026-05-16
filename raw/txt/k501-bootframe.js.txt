@@ -1,0 +1,67 @@
+// k501-bootframe.js
+
+/**
+ * BootFrame management and communication with the Gateway.
+ */
+
+// Configuration
+const BOOTFRAME_CONFIG = {
+  IFRAME_ID: 'k501-bootframe-iframe',
+  PARENT_ORIGIN: window.parent.origin,
+  MESSAGE_HANDLERS: {
+    'init': handleInit,
+    'ready': handleReady,
+    'error': handleError
+  }
+};
+
+// Utility functions
+function log(message) {
+  console.log(`[K501 BootFrame] ${message}`);
+}
+
+function handleInit(data) {
+  log('Received init message:', data);
+  // Initialize BootFrame
+  postMessage('ready', { message: 'BootFrame initialized' });
+}
+
+function handleReady(data) {
+  log('Received ready message:', data);
+  // Handle BootFrame ready state
+}
+
+function handleError(data) {
+  log('Received error message:', data);
+  // Handle BootFrame error state
+}
+
+// Event listeners
+window.addEventListener('message', (event) => {
+  if (event.origin === BOOTFRAME_CONFIG.PARENT_ORIGIN) {
+    const { type, data } = event.data;
+    if (BOOTFRAME_CONFIG.MESSAGE_HANDLERS[type]) {
+      BOOTFRAME_CONFIG.MESSAGE_HANDLERS[type](data);
+    }
+  }
+});
+
+// Post messages to parent
+function postMessage(type, data) {
+  window.parent.postMessage({ type, data }, BOOTFRAME_CONFIG.PARENT_ORIGIN);
+}
+
+// Initialize BootFrame
+function initBootFrame() {
+  const iframe = document.getElementById(BOOTFRAME_CONFIG.IFRAME_ID);
+  if (iframe) {
+    log('BootFrame iframe found');
+    // Initialize iframe communication
+    postMessage('init', { message: 'BootFrame initialized' });
+  } else {
+    log('BootFrame iframe not found', 'error');
+  }
+}
+
+// Start BootFrame
+initBootFrame();

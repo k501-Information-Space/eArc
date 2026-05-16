@@ -1,0 +1,203 @@
+t: SPEC
+id: K501-BOOTFRAME-SCHEMA-0001
+spec: BOOTFRAME_SCHEMA_V1
+kernel: K501
+mode: DEVELOPMENT
+visibility: LOCAL
+canon: READ_ONLY
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - NO_IMPLICIT_CANON
+
+goal:
+  description: >
+    Definiert ein einheitliches Schema für Bootframes inkl. ID- und Versionsregeln,
+    sowie Profile-Varianten (LAB, DEVELOPMENT, INCOGNITO).
+
+definitions:
+  bootframe:
+    meaning: >
+      Ein Bootframe ist ein formaler Startzustand/Profilträger für K501.
+      Bootframes sind deklarativ, append-only, und beschreiben Gates/Regeln/Scope.
+    non_goals:
+      - "Kein implizites Ausführen/Deployen/Mutieren"
+      - "Kein Truth-Claim ohne Proof"
+      - "Keine Canon-Mutation durch Bootframe"
+
+id_and_versioning:
+  id_format:
+    required: true
+    format: "K501-BOOTFRAME-<PROFILE>-V<MAJOR>.<MINOR>-<SEQ4>"
+    charset: "ASCII_UPPERCASE_DIGITS_DASH_DOT"
+    examples:
+      - "K501-BOOTFRAME-DEVELOPMENT-V1.0-0001"
+      - "K501-BOOTFRAME-LAB-V1.0-0001"
+      - "K501-BOOTFRAME-INCOGNITO-V1.0-0001"
+  seq_rules:
+    seq4: "0001..9999"
+    monotonic: true
+    scope: "per PROFILE stream"
+  version_rules:
+    v_major:
+      meaning: "Breaking schema/profile change"
+      increment_when:
+        - "Neues Pflichtfeld"
+        - "Semantik der Gates ändert sich"
+        - "ID-Format ändert sich"
+    v_minor:
+      meaning: "Non-breaking refinement"
+      increment_when:
+        - "Neue optionale Felder"
+        - "Neue erlaubte Gate-States ohne Semantikbruch"
+  alias_rules:
+    allowed: true
+    purpose: "Menschenlesbarer Kurzname"
+    examples:
+      - "K501 Bootframe 01"
+      - "K501 Bootframe LAB"
+      - "K501 Bootframe DEVELOPMENT"
+      - "Incognito Bootframe"
+
+bootframe_fields_v1:
+  required:
+    - t
+    - id
+    - kernel
+    - profile
+    - mode
+    - visibility
+    - state
+    - canon
+    - constraints
+    - tristate
+    - gates
+    - zoom_policy
+    - purpose
+    - status
+  optional:
+    - time_anchor
+    - bootpacks_loaded
+    - bootpacks_available
+    - lab_rules
+    - integrity
+    - notes
+  field_semantics:
+    t: "MUSS 'BOOTFRAME' sein (bei Instanzen)"
+    kernel: "MUSS 'K501' sein"
+    profile: "Profil-Name, steuert Default-Gates/Scope"
+    mode: "DEVELOPMENT|REFERENCE_ONLY|WORKING (hier primär DEVELOPMENT)"
+    visibility: "LOCAL|PUBLIC (persönlich i.d.R. LOCAL)"
+    state: "ACTIVE|INACTIVE"
+    canon: "READ_ONLY|REQUEST_ONLY (Bootframe mutiert Canon nie)"
+    constraints:
+      required_contains:
+        - APPEND_ONLY
+        - NO_PHANTOM
+        - NO_IMPLICIT_CANON
+    tristate:
+      states: [TRUE, FALSE, UNKNOWN, SILENCE]
+      default: UNKNOWN
+    gates:
+      meaning: "Erlaubte Aktionen (nur deklarativ)"
+      allowed_gate_states: [OPEN, CLOSED, BLOCKED, REQUEST_ONLY, OPEN_LOCAL, OPEN_LAB_TAGGED]
+    zoom_policy:
+      allowed: [Z0, Z1, Z2, Z3, Z4]
+      restricted: [Z0, Z1, Z2, Z3, Z4]
+      note: "Explizit festlegen; keine impliziten Übergänge"
+    purpose: "Kurzbeschreibung des Boot-Ziels"
+    status:
+      readiness: "READY|DRAFT|BLOCKED"
+      canon_integrity: "INTACT|UNKNOWN"
+
+profiles_registry_v1:
+  - profile: DEVELOPMENT
+    description: "Standard-Dev-Boot für persönliche Arbeit, konservativ."
+    defaults:
+      gates:
+        observe: OPEN
+        experiment: OPEN
+        draft: OPEN
+        emit: OPEN_LAB_TAGGED
+        index: OPEN_LOCAL
+        reference: REQUEST_ONLY
+        canonize: BLOCKED
+        freeze: BLOCKED
+      zoom_policy:
+        allowed: [Z0, Z1, Z2]
+        restricted: [Z3, Z4]
+
+  - profile: LAB
+    description: "Experimental LAB, All Gates Open (innerhalb LAB), maximaler Arbeitsraum."
+    defaults:
+      gates:
+        observe: OPEN
+        experiment: OPEN
+        draft: OPEN
+        emit: OPEN_LAB_TAGGED
+        index: OPEN_LOCAL
+        reference: REQUEST_ONLY
+        canonize: BLOCKED
+        freeze: BLOCKED
+      lab_rules:
+        deletion_allowed: LAB_ONLY
+        rewrite_allowed: LAB_ONLY
+        merge_allowed: LAB_ONLY
+      zoom_policy:
+        allowed: [Z0, Z1, Z2]
+        restricted: [Z3, Z4]
+
+  - profile: INCOGNITO
+    description: >
+      Spezielle Variante (Incognito Bootframe): "kann alles" innerhalb des deklarativen Rahmens.
+      Bedeutet: maximale Gate-Öffnung (inkl. Reference/Canonize/FREEZE) NUR als Profilbeschreibung.
+      Realer Übergang bleibt proof- und user-gated (NO_PHANTOM bleibt immer aktiv).
+    defaults:
+      gates:
+        observe: OPEN
+        experiment: OPEN
+        draft: OPEN
+        emit: OPEN
+        index: OPEN
+        reference: REQUEST_ONLY
+        canonize: REQUEST_ONLY
+        freeze: REQUEST_ONLY
+      zoom_policy:
+        allowed: [Z0, Z1, Z2, Z3, Z4]
+        restricted: []
+    invariants:
+      - "NO_PHANTOM bleibt aktiv (niemals abschaltbar)"
+      - "PROOF_BEFORE_STATE bleibt aktiv (niemals abschaltbar)"
+      - "REQUEST_ONLY bedeutet: nur auf expliziten Nutzer-Gate-Request"
+
+instance_template_v1:
+  yaml_example: |
+    t: BOOTFRAME
+    id: K501-BOOTFRAME-<PROFILE>-V1.0-0001
+    kernel: K501
+    profile: <DEVELOPMENT|LAB|INCOGNITO>
+    mode: DEVELOPMENT
+    visibility: LOCAL
+    state: ACTIVE
+    canon: READ_ONLY
+    constraints: [APPEND_ONLY, NO_PHANTOM, PROOF_BEFORE_STATE, NO_IMPLICIT_CANON, SILENCE_IS_VALID]
+    tristate:
+      states: [TRUE, FALSE, UNKNOWN, SILENCE]
+      default: UNKNOWN
+    gates:
+      observe: OPEN
+      experiment: OPEN
+      draft: OPEN
+      emit: OPEN_LAB_TAGGED
+      index: OPEN_LOCAL
+      reference: REQUEST_ONLY
+      canonize: BLOCKED
+      freeze: BLOCKED
+    zoom_policy:
+      allowed: [Z0, Z1, Z2]
+      restricted: [Z3, Z4]
+    purpose:
+      description: "<one-liner>"
+    status:
+      readiness: READY
+      canon_integrity: INTACT

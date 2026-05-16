@@ -1,0 +1,2 @@
+/earc/kernel/frames/LIB_BASELINE_V1.freeze.ndjson
+{"frame_id":"LIB-BASE-FREEZE-0001","created_utc":"2026-01-22T21:39:20Z","created_unix":1769117960,"frame_type":"FREEZE","payload":"LIB-BASE-PACK-0001 (Library Baseline Pack v1) is frozen as reference. No mutation permitted. Reference-only. Anti-phantom rule applies: modules are not REAL/ACTIVE without proof-frames.","hash":"SHA256(payload_only)","tags":["FREEZE","LIB_BASELINE","V1","REFERENCE_ONLY","ANTI_PHANTOM"],"visibility":"PUBLIC"}

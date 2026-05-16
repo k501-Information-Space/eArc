@@ -1,0 +1,18 @@
+frame_id: FEED-UPDATE-0002
+frame_type: FEED_UPDATE
+created_utc: 2026-01-23T19:55:09Z
+created_unix: 1769198109
+payload:
+  "Feed Update v2 published (Atom + RSS).
+   ETag and Last-Modified set.
+   References EXPORT v2 and POST-EXPORT-CHECKPOINT-0001.
+   Read-Layer only. No mutation."
+hash: SHA256(payload_only)
+tags:
+  - FEED
+  - UPDATE
+  - V2
+  - READ_LAYER
+  - APPEND_ONLY
+  - REFERENCE_ONLY
+visibility: PUBLIC

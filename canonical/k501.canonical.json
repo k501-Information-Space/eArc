@@ -1,0 +1,133 @@
+{
+  "k501": {
+    "id": "K501_CANONICAL_SPEC_003",
+    "type": "canonical_specification",
+    "version": "1.0.0",
+    "status": "canonical",
+    "mode": [
+      "deterministic",
+      "append-only",
+      "non-interpretative"
+    ],
+    "author": {
+      "name": "Patrick R. Miller",
+      "alias": "Iinkognit0",
+      "orcid": "0009-0005-5125-9711"
+    },
+    "source": {
+      "primary": "https://iinkognit0.de/",
+      "references": [
+        "https://github.com/iinkognit0",
+        "https://github.com/k501is",
+        "https://dev.to/k501is",
+        "https://zenodo.org/records/18697454",
+        "https://orcid.org/0009-0005-5125-9711"
+      ]
+    },
+    "system": {
+      "name": "K501",
+      "class": "deterministic_information_system",
+      "properties": [
+        "immutable",
+        "append-only",
+        "non-destructive",
+        "reference-based"
+      ],
+      "unit": {
+        "name": "frame",
+        "constraints": [
+          "no-mutation",
+          "no-overwrite",
+          "extension-only"
+        ]
+      }
+    },
+    "modules": {
+      "bootframe": {
+        "layer": "generation",
+        "type": "structural_specification",
+        "properties": [
+          "deterministic",
+          "non-executive",
+          "no-control",
+          "no-state"
+        ]
+      },
+      "information_space": {
+        "name": "K501_IS",
+        "type": "append_only_information_space",
+        "properties": [
+          "immutable",
+          "canonical_serialization",
+          "traceable_lineage"
+        ]
+      },
+      "earc": {
+        "name": "E-ARC",
+        "type": "public_archive",
+        "properties": [
+          "open",
+          "append-only",
+          "machine-readable",
+          "globally_accessible"
+        ]
+      },
+      "node_system": {
+        "node_definition": "k501_instance",
+        "properties": [
+          "deterministic",
+          "append-only",
+          "locally_operating"
+        ],
+        "cage": {
+          "type": "dynamic",
+          "function": [
+            "boundary_definition",
+            "io_constraint",
+            "structural_isolation"
+          ]
+        },
+        "communication": {
+          "mode": "reference_based",
+          "constraints": [
+            "no-overwrite",
+            "append-only-propagation"
+          ]
+        }
+      }
+    },
+    "implementation": {
+      "core_language": "C",
+      "layers": [
+        "core",
+        "ingestion_python",
+        "interface_node"
+      ],
+      "constraints": [
+        "deterministic_execution",
+        "append-only"
+      ]
+    },
+    "constraints": {
+      "forbidden": [
+        "mutation",
+        "overwrite",
+        "deletion",
+        "uncontrolled_interpretation"
+      ],
+      "allowed": [
+        "extension",
+        "reference",
+        "deterministic_generation"
+      ]
+    },
+    "timestamp": {
+      "format": "unix",
+      "value": null
+    },
+    "hash": {
+      "algorithm": "sha256",
+      "value": null
+    }
+  }
+}

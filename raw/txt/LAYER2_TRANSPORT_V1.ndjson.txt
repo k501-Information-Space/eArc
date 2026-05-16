@@ -1,0 +1,15 @@
+{"frame_id":"TRANS-DEF-0001","created_utc":"2026-01-23T07:35:12Z","created_unix":1769153712,"frame_type":"TRANSPORT_BASELINE","payload":"Transport Layer v1: secure-by-default. All traffic over HTTPS/TLS. No plaintext. Reference-only; no execution.","hash":"sha256(payload_only)","tags":["TRANS","BASELINE","TLS","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}
+
+{"frame_id":"TRANS-DEF-0002","created_utc":"2026-01-23T07:35:12Z","created_unix":1769153712,"frame_type":"TLS_POLICY","payload":"TLS policy: TLS 1.2+ only; strong ciphers; HSTS recommended; certificate rotation supported.","hash":"sha256(payload_only)","tags":["TRANS","TLS","SECURITY","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}
+
+{"frame_id":"TRANS-DEF-0003","created_utc":"2026-01-23T07:35:12Z","created_unix":1769153712,"frame_type":"INGEST_AUTH_POLICY","payload":"Ingest auth: HMAC (primary). Idempotent writes; rate/size limits; clock skew tolerance.","hash":"sha256(payload_only)","tags":["TRANS","INGEST","HMAC","AUTH","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}
+
+{"frame_id":"TRANS-DEF-0004","created_utc":"2026-01-23T07:35:12Z","created_unix":1769153712,"frame_type":"KEY_HANDLING_POLICY","payload":"Key handling: generate/store outside repo; rotate on schedule or incident; never log secrets; audit trail required.","hash":"sha256(payload_only)","tags":["TRANS","KEYS","ROTATION","AUDIT","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}
+
+{"frame_id":"TRANS-DEF-0005","created_utc":"2026-01-23T07:35:12Z","created_unix":1769153712,"frame_type":"ADMIN_ACCESS_POLICY","payload":"Admin transport: SSH only; key-based auth; no passwords; limited users; session logging.","hash":"sha256(payload_only)","tags":["TRANS","SSH","ADMIN","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}
+
+{"frame_id":"TRANS-DEF-0006","created_utc":"2026-01-23T07:35:12Z","created_unix":1769153712,"frame_type":"FILE_TRANSFER_POLICY","payload":"File transfer: SFTP/SCP only; checksums required; no FTP/FTPS.","hash":"sha256(payload_only)","tags":["TRANS","SFTP","SCP","CHECKSUM","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}
+
+{"frame_id":"TRANS-PACK-0001","created_utc":"2026-01-23T07:35:12Z","created_unix":1769153712,"frame_type":"TRANSPORT_LAYER_PACK","payload":"Transport & Identity Layer Pack v1 — TLS, ingest auth, admin access, file transfer. Reference-only.","hash":"sha256(payload_only)","refs":["TRANS-DEF-0001","TRANS-DEF-0002","TRANS-DEF-0003","TRANS-DEF-0004","TRANS-DEF-0005","TRANS-DEF-0006"],"tags":["TRANS","PACK","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}
+
+{"frame_id":"TRANS-PACK-FREEZE-0001","created_utc":"2026-01-23T07:35:12Z","created_unix":1769153712,"frame_type":"FREEZE","payload":"TRANS-PACK-0001 frozen as reference. No mutation permitted.","hash":"sha256(payload_only)","tags":["FREEZE","TRANS","PACK","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}

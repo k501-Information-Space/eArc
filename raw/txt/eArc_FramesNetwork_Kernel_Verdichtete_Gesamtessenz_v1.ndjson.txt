@@ -1,0 +1,35 @@
+{"type":"ESSENCE_REF","project":"Iinkognit0 / eArc / Frames Network","version":"v1","status":"CANONICAL_CORE","note":"Verdichtete Gesamtreferenz. Append-only. Read-only."}
+
+{"section":"PURPOSE","value":"Quiet reference system for durable knowledge. Archive before action. Truth over virality."}
+
+{"section":"TARGET_UX","value":"Thought in → Frame out → auto-stored → time/space anchored → visibility declared → retrievable. No copy-paste. No afterwork."}
+
+{"section":"FRAME","rules":["append-only","immutable","UTC+UnixEpoch","sha256(payload)","text-first","audit-ready"]}
+
+{"section":"STRUCTURE","levels":["FRAME","PACK","SUPERPACK","ULTRAPACK"]}
+
+{"section":"KERNEL","state":"FROZEN_ULTRAPACK","properties":["read-only","non-executing","immutable"],"boot":"LOGICAL_BOOT_OK"}
+
+{"section":"BOOTSTRAP","done":["GENESIS_FRAMES","FREEZE","BOOT_FRAME","NODE_CONTEXT"]}
+
+{"section":"NODE_CONTEXT","defaults":{"visibility":"PRIVATE","capture":"TEXT→FRAME","storage":"append-only"}}
+
+{"section":"CAPTURES","public":["CAPTURE-0001","CAPTURE-0002","CAPTURE-0003"]}
+
+{"section":"PACKS","public":["PACK-0001","SUPERPACK-0001"],"frozen":true}
+
+{"section":"RESONANCE_POLICY_V1","rules":["pull-first","RSS/Atom","WebSub opt-in","no ranking","no realtime","silence-valid","HTTPS/TLS","conditional GET"]}
+
+{"section":"READ_LAYER","state":"ENABLED","outputs":["HTML","JSON","RSS","ATOM"],"gate":"EXPORT_ONLY"}
+
+{"section":"PUBLIC_INDEX","state":"CANONICAL","scope":"PUBLIC_REFERENCE_ONLY"}
+
+{"section":"ASSETS","status":"LAG","note":"Asset-Set v1 not confirmed"}
+
+{"section":"INFRA_PLAN","steps":["Buy PC","Rent VPS (Debian)","Minimal ingest","Bind read-layer","Automate last"]}
+
+{"section":"STATUS","kernel":"CANONICAL","read_layer":"CANONICAL","feeds":"CANONICAL","assets":"OPEN","infra":"PENDING"}
+
+{"section":"NEXT_ACTION","value":"Acquire PC or VPS. Resume ingest thereafter."}
+
+{"type":"END","signature":"As I State Iinkognit0."}

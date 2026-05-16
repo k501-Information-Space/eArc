@@ -1,0 +1,48 @@
+{"meta":"FRAMES_KERNEL_CANONICAL_CONTEXT","status":"CANONICAL","mode":"READ_ONLY_REFERENCE","append_only":true,"execution":"BLOCKED","last_anchor_utc":"2026-01-22T21:13:57Z","last_anchor_unix":1769116437}
+
+{"id":"GEN-0001","type":"KERNEL_DECLARATION","value":"Kernel exists as frames, not code"}
+{"id":"GEN-0002","type":"AXIOM","value":"ARCHIVE_BEFORE_ACTION"}
+{"id":"GEN-0003","type":"AXIOM","value":"FRAME_BEFORE_INTERFACE"}
+{"id":"GEN-0004","type":"AXIOM","value":"APPEND_ONLY"}
+{"id":"GEN-0005","type":"SCHEMA","value":"Canonical Frame Schema v1"}
+{"id":"GEN-0006","type":"TIME_POLICY","value":"UTC + Unix Epoch required"}
+{"id":"GEN-0007","type":"HASH_POLICY","value":"SHA256(payload only)"}
+{"id":"GEN-0008","type":"INGEST_POLICY","value":"TEXT → FRAME → STORE"}
+{"id":"GEN-0009","type":"NODE_POLICY","value":"Local, independent storage"}
+{"id":"GEN-0010","type":"FREEZE_INTENT","value":"Genesis Kernel UltraPack"}
+
+{"id":"GEN-FREEZE-0001","type":"FREEZE","scope":"GENESIS_KERNEL_ULTRAPACK"}
+
+{"id":"BOOT-0001","type":"BOOTSTRAP","mode":"READ_ONLY_REFERENCE"}
+
+{"id":"NODE-CTX-0001","type":"NODE_CONTEXT","default_visibility":"PRIVATE","capture":"TEXT"}
+
+{"id":"CAPTURE-0001","type":"MANUAL","visibility":"PUBLIC"}
+{"id":"CAPTURE-0002","type":"MANUAL","visibility":"PUBLIC"}
+{"id":"CAPTURE-0003","type":"MANUAL","visibility":"PUBLIC"}
+
+{"id":"PACK-0001","type":"PACK","refs":["CAPTURE-0001","CAPTURE-0002","CAPTURE-0003"]}
+{"id":"PACK-FREEZE-0001","type":"FREEZE","scope":"PACK-0001"}
+
+{"id":"SUPERPACK-0001","type":"SUPERPACK","refs":["PACK-0001"]}
+{"id":"SUPERPACK-FREEZE-0001","type":"FREEZE","scope":"SUPERPACK-0001"}
+
+{"id":"KERNEL-RES-0001","type":"RESONANCE_POLICY_V1","feeds":["RSS","ATOM"],"websub":"OPT_IN","rules":["PULL_FIRST","NO_RANKING","NO_REALTIME","SILENCE_IS_VALID_SIGNAL"]}
+
+{"id":"KPOL-PACK-0001","type":"KERNEL_POLICY_PACK","refs":["KERNEL-RES-0001"]}
+{"id":"KPOL-PACK-FREEZE-0001","type":"FREEZE","scope":"KPOL-PACK-0001"}
+
+{"id":"READ-DECL-0001","type":"READ_LAYER_DECLARATION","mode":"READ_ONLY"}
+{"id":"FEED-DEF-0001","type":"FEED_DEFINITION","formats":["RSS","ATOM"],"conditional_get":true}
+{"id":"WEBSUB-DEF-0001","type":"WEBSUB_DECLARATION","mode":"OPT_IN"}
+{"id":"EXPORT-GATE-0001","type":"EXPORT_GATE_POLICY","rule":"PUBLIC_ONLY_BY_DECLARATION"}
+
+{"id":"READ-PACK-0001","type":"READ_LAYER_PACK","refs":["READ-DECL-0001","FEED-DEF-0001","WEBSUB-DEF-0001","EXPORT-GATE-0001"]}
+{"id":"READ-PACK-FREEZE-0001","type":"FREEZE","scope":"READ-PACK-0001"}
+
+{"id":"PUBLIC-INDEX-0001","type":"PUBLIC_INDEX","status":"CANONICAL"}
+
+{"id":"LIB-BASE-0001","type":"LIBRARY_BASELINE_V1","scope":"GNU_LINUX_OPEN_SOURCE_REAL_LIBS_ONLY"}
+{"id":"LIB-BASE-FREEZE-0001","type":"FREEZE","scope":"LIBRARY_BASELINE_V1"}
+
+{"final_status":"KERNEL_CANONICAL","mutation":"FORBIDDEN","reference":"ON_ETERNITY"}

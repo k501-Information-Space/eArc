@@ -1,0 +1,146 @@
+t: FRAME
+id: K501-BP09-L1-01-PROOF-OBJECT-FORMAT-0001
+type: SPECIFICATION
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L1_LOGIC_AND_PROOF
+submodule: L1-01_PROOF_OBJECT_FORMAT
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-SESSION-RESUME-TIMEANCHOR-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+purpose:
+  description: >
+    Definiert das kanonische Proof-Objekt-Format für L1.
+    Ziel: formale, überprüfbare Beweise ohne implizite Annahmen.
+    Keine neuen Axiome/Definitionen – nur Struktur.
+
+scope:
+  applies_to:
+    - "Alle L1-Proofs (Lemmas, Theoreme)"
+    - "Ableitungen aus L0-Definitionen"
+  non_goals:
+    - "Automatische Beweisführung"
+    - "Optimierung/Abkürzung von Beweisen"
+    - "Semantische Interpretation"
+
+proof_object:
+  schema_version: "L1-PROOF-v1"
+  required_fields:
+    - proof_id
+    - language
+    - goal
+    - assumptions
+    - steps
+    - conclusion
+    - closure
+
+language:
+  allowed:
+    - "FIRST_ORDER_LOGIC (FOL)"
+  reference:
+    - "L0-01_LOGIC (Syntax + minimale Semantik)"
+
+goal:
+  definition: "Zu beweisende Formel (geschlossen, wff)"
+  constraints:
+    - "Keine freien Variablen"
+    - "Referenziert nur L0-Symbole"
+
+assumptions:
+  description: >
+    Explizite Annahmen/Prämissen des Beweises.
+  rules:
+    - "Jede Annahme ist eine wff"
+    - "Annahmen sind nummeriert (A1, A2, …)"
+    - "Keine stillschweigenden Annahmen"
+    - "Temporäre Annahmen müssen geschlossen werden"
+
+steps:
+  description: >
+    Lineare Sequenz nummerierter Beweisschritte.
+  step_schema:
+    step_id: "S<n>"
+    formula: "wff"
+    justification:
+      rule: "InferenceRuleID"
+      from:
+        - "A<i> | S<j>"
+      side_conditions:
+        - "optional, explizit"
+  constraints:
+    - "Jeder Schritt referenziert nur frühere Schritte/Annahmen"
+    - "Jede Inferenzregel muss in L1-02 registriert sein"
+    - "Side-Conditions sind Teil des Schritts (kein implizites Wissen)"
+
+inference_reference:
+  binding: "L1-02_INFERENCE_RULE_REGISTRY"
+  note: "Dieses Dokument definiert nur das Referenzfeld, nicht die Regeln selbst."
+
+conclusion:
+  definition: >
+    Letzter Schritt oder explizit benannte Formel,
+    die logisch mit dem Ziel übereinstimmt.
+  constraints:
+    - "conclusion ≡ goal (syntaktisch oder via registrierter Äquivalenz)"
+
+closure:
+  markers:
+    - PROOF_CLOSED
+    - ASSUMPTIONS_DISCHARGED
+  validation:
+    - "Keine offenen Annahmen"
+    - "Alle Side-Conditions erfüllt"
+    - "Alle Referenzen auflösbar"
+
+proof_metadata:
+  optional_fields:
+    - author
+    - timestamp
+    - source_frames
+  note: "Reine Metadaten, ohne Wahrheitswirkung."
+
+validation_rules:
+  no_phantom_guards:
+    - "Keine Referenz auf nicht existierende Schritte"
+    - "Keine unregistrierten Regeln"
+    - "Keine freien Variablen im Ziel"
+  determinism:
+    - "Gleiche Inputs ⇒ gleicher Proof-Status"
+
+example_stub:
+  minimal_example:
+    proof_id: "EXAMPLE-001"
+    language: "FOL"
+    goal: "φ → φ"
+    assumptions:
+      - id: A1
+        formula: "φ"
+    steps:
+      - step_id: S1
+        formula: "φ"
+        justification:
+          rule: ASSUMPTION
+          from: ["A1"]
+    conclusion: "φ"
+    closure:
+      - PROOF_CLOSED
+      - ASSUMPTIONS_DISCHARGED
+  note: "Nur Format-Demo, kein vollständiger Beweis."
+
+status:
+  completed: true
+  readiness: READY
+  next: "L1-02_INFERENCE_RULE_REGISTRY"
+  note: >
+    L1-01 ist vollständig spezifiziert.
+    Nächster Schritt: Inferenzregeln sauber registrieren.

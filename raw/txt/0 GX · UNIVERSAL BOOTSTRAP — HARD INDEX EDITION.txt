@@ -1,0 +1,116 @@
+# ============================================================
+# GX · UNIVERSAL BOOTSTRAP — HARD INDEX EDITION
+# ============================================================
+# VERSION: v2.0
+# MODE: REFERENCE_ONLY
+# EXECUTION: BLOCKED (USER_RUN_ONLY)
+# FREEZE: ON
+# APPEND_ONLY: TRUE
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+# INTERPRETATION: FORBIDDEN
+# ============================================================
+# CANON ORIGIN:
+#   https://iinkognit0.de
+#
+# PURPOSE:
+# - Initialize a calm, frozen GX environment for analysis,
+#   indexing, and evolution — without automation.
+# - Load the Hard-Index framework (Zoom, Status, Audit).
+# - Allow append-only growth via explicit user intent.
+# ============================================================
+
+# ------------------------------------------------------------
+# 0) TIME ANCHOR (user-confirmed reference)
+# ------------------------------------------------------------
+# Unix Epoch: 1769607604
+# UTC:        2026-01-28T13:40:04Z
+# Local:      Europe/Berlin 14:40:04 CET
+#
+# Rule:
+# - Time anchors are historical markers.
+# - New anchors may be appended; none are overwritten.
+# ------------------------------------------------------------
+
+GX_TIME_ANCHOR:
+  ts_unix: 1769607604
+  ts_utc:  "2026-01-28T13:40:04Z"
+  source:  "USER_CONFIRMED"
+  mode:    "REFERENCE_ONLY"
+
+# ------------------------------------------------------------
+# 1) HARD INDEX — CORE GUARANTEES
+# ------------------------------------------------------------
+GX_HARD_INDEX_POLICY:
+  freeze: true
+  append_only: true
+  no_phantom: true
+  proof_before_state: true
+  execution: "BLOCKED"
+  automation: "OFF"
+  interpretation: "FORBIDDEN"
+
+# ------------------------------------------------------------
+# 2) ZOOM SYSTEM (CANONICAL)
+# ------------------------------------------------------------
+GX_ZOOM_LEVELS:
+  Z0: "OVERVIEW"
+  Z1: "SOURCE"
+  Z2: "EVIDENCE"
+  Z3: "EXTRACTION"
+  Z4: "INTEGRATION"
+
+# ------------------------------------------------------------
+# 3) STATUS SYSTEM (TRI-STATE)
+# ------------------------------------------------------------
+GX_STATUS_SCHEMA:
+  states: ["PROOFED","UNKNOWN","DRAFT"]
+  rule: "Status changes only via STATUS_UPDATE (append-only)."
+
+# ------------------------------------------------------------
+# 4) PRIORITY CANON
+# ------------------------------------------------------------
+GX_PRIORITY_CANON:
+  A: "Existence & Identity (Frames Network, K501, Aikido Defense)"
+  B: "Structural Function (APIs, Ingest, Sharding)"
+  C: "Normative & Cultural (Philosophy, Human Rights, Literature)"
+  D: "Resources & Archives (IA, OpenLibrary, Gutenberg)"
+
+# ------------------------------------------------------------
+# 5) ALLOWED FRAME TYPES (HARD INDEX)
+# ------------------------------------------------------------
+GX_ALLOWED_FRAMES:
+  - ZOOM_LEVEL_DECL
+  - DETAIL_REF
+  - STATUS_SCHEMA
+  - STATUS_UPDATE
+  - PROOF_CAPTURE
+  - EXTRACT_NOTE
+  - INTEGRATION_NOTE
+  - PRIORITY_CANON
+  - INDEX_AUDIT_SNAPSHOT
+  - TIME_ANCHOR
+  - HARD_INDEX_PACK
+  - HARD_INDEX_POINTERS
+  - CROSSREF_MAP
+
+# ------------------------------------------------------------
+# 6) AUDIT BASELINE
+# ------------------------------------------------------------
+GX_AUDIT_RULES:
+  statistics_only: true
+  no_interpretation: true
+  append_only: true
+
+# ------------------------------------------------------------
+# 7) OPERATIONAL NOTE
+# ------------------------------------------------------------
+# - This bootstrap does NOT execute anything.
+# - It defines a calm, frozen reference space.
+# - All evolution happens via explicit, append-only frames.
+# - Nothing is assumed to be stored unless proven.
+# ------------------------------------------------------------
+
+# ============================================================
+# END GX · UNIVERSAL BOOTSTRAP
+# ============================================================

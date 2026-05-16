@@ -1,0 +1,164 @@
+t: FRAME
+id: K501-BP09-L1-02-INFERENCE-RULE-REGISTRY-0001
+type: SPECIFICATION
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L1_LOGIC_AND_PROOF
+submodule: L1-02_INFERENCE_RULE_REGISTRY
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-SESSION-RESUME-TIMEANCHOR-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+purpose:
+  description: >
+    Registry aller zulässigen Inferenzregeln für L1-Proofs.
+    Diese Registry ist die einzige Quelle erlaubter Schlussregeln.
+    Proof-Schritte dürfen ausschließlich auf hier registrierte Regeln verweisen.
+
+scope:
+  applies_to:
+    - "Alle Proof-Schritte in L1"
+    - "Alle Lemma- und Theorem-Beweise"
+  non_goals:
+    - "Vollständigkeitsbeweise des Systems"
+    - "Alternative Logiken (nur FOL)"
+    - "Automatisierte Beweisstrategien"
+
+registry_meta:
+  registry_id: "L1-INFERENCE-RULES-v1"
+  logic_system: "FIRST_ORDER_LOGIC (FOL)"
+  proof_style: "NATURAL_DEDUCTION (linearized)"
+  extensibility:
+    allowed: true
+    rule_addition_policy: "Append-only, explizite SPECIFICATION erforderlich"
+
+rule_schema:
+  rule_id: "RULE_<NAME>"
+  premises: ["wff", "..."]
+  conclusion: "wff"
+  side_conditions:
+    - "optional, explizit"
+  note: "Regel ist syntaktisch, keine Semantikannahmen."
+
+registered_rules:
+
+  - rule_id: RULE_ASSUMPTION
+    premises: []
+    conclusion: "φ"
+    usage: "Einführen einer Annahme A<n>"
+    side_conditions:
+      - "φ ist eine wff"
+    note: "Erlaubt nur im assumptions-Block oder temporär."
+
+  - rule_id: RULE_MODUS_PONENS
+    premises: ["φ", "φ → ψ"]
+    conclusion: "ψ"
+    note: "Klassische →-Elimination."
+
+  - rule_id: RULE_IMPLICATION_INTRO
+    premises: ["[φ] ⊢ ψ"]
+    conclusion: "φ → ψ"
+    side_conditions:
+      - "Annahme φ muss entladen werden"
+    note: "→-Einführung (Discharge-Regel)."
+
+  - rule_id: RULE_CONJUNCTION_INTRO
+    premises: ["φ", "ψ"]
+    conclusion: "φ ∧ ψ"
+
+  - rule_id: RULE_CONJUNCTION_ELIM_LEFT
+    premises: ["φ ∧ ψ"]
+    conclusion: "φ"
+
+  - rule_id: RULE_CONJUNCTION_ELIM_RIGHT
+    premises: ["φ ∧ ψ"]
+    conclusion: "ψ"
+
+  - rule_id: RULE_DISJUNCTION_INTRO_LEFT
+    premises: ["φ"]
+    conclusion: "φ ∨ ψ"
+
+  - rule_id: RULE_DISJUNCTION_INTRO_RIGHT
+    premises: ["ψ"]
+    conclusion: "φ ∨ ψ"
+
+  - rule_id: RULE_DISJUNCTION_ELIM
+    premises: ["φ ∨ ψ", "[φ] ⊢ χ", "[ψ] ⊢ χ"]
+    conclusion: "χ"
+    side_conditions:
+      - "Beide Annahmen φ und ψ müssen entladen werden"
+
+  - rule_id: RULE_NEGATION_INTRO
+    premises: ["[φ] ⊢ ⊥"]
+    conclusion: "¬φ"
+    side_conditions:
+      - "Annahme φ wird entladen"
+
+  - rule_id: RULE_NEGATION_ELIM
+    premises: ["φ", "¬φ"]
+    conclusion: "⊥"
+
+  - rule_id: RULE_BOTTOM_ELIM
+    premises: ["⊥"]
+    conclusion: "ψ"
+    note: "Ex falso quodlibet"
+
+  - rule_id: RULE_UNIVERSAL_ELIM
+    premises: ["∀x φ(x)"]
+    conclusion: "φ(t)"
+    side_conditions:
+      - "t ist ein term"
+      - "t frei für x in φ"
+
+  - rule_id: RULE_UNIVERSAL_INTRO
+    premises: ["φ(x)"]
+    conclusion: "∀x φ(x)"
+    side_conditions:
+      - "x nicht frei in offenen Annahmen"
+
+  - rule_id: RULE_EXISTENTIAL_INTRO
+    premises: ["φ(t)"]
+    conclusion: "∃x φ(x)"
+    side_conditions:
+      - "t ist ein term"
+
+  - rule_id: RULE_EXISTENTIAL_ELIM
+    premises: ["∃x φ(x)", "[φ(c)] ⊢ ψ"]
+    conclusion: "ψ"
+    side_conditions:
+      - "c ist frisch"
+      - "c kommt nicht in ψ oder offenen Annahmen vor"
+      - "Annahme φ(c) wird entladen"
+
+  - rule_id: RULE_EQUALITY_REFLEXIVE
+    premises: []
+    conclusion: "t = t"
+
+  - rule_id: RULE_EQUALITY_SUBSTITUTION
+    premises: ["t = s", "φ(t)"]
+    conclusion: "φ(s)"
+    side_conditions:
+      - "s frei für t in φ"
+
+validation_rules:
+  - "Jeder Proof-Schritt referenziert genau eine RULE_<ID>"
+  - "Alle Side-Conditions müssen explizit erfüllt sein"
+  - "Keine impliziten Regeln außerhalb dieser Registry"
+
+status:
+  completed: true
+  readiness: READY
+  next: "L1-03_PROOF_VALIDITY_CONDITIONS"
+  note: >
+    L1-02 ist vollständig definiert.
+    Inferenzregeln sind explizit, minimal und ausreichend
+    für alle offenen Lemmas aus L0.

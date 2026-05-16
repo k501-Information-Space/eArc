@@ -1,0 +1,1 @@
+{"frame_id":"CAPTURE-0002","created_utc":"2026-01-22T16:45:50Z","created_unix":1769100350,"frame_type":"MANUAL","payload":"Light means live says Iinkognit0","hash":"d2a4bdfb63a5c2c9e9c3c6b5f2e3a0c1d8f0e4a7b9c6a2e1f3d4b5c7a8e9","tags":["MANUAL","TEXT","GENESIS_CAPTURE"],"visibility":"PRIVATE"}

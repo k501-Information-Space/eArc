@@ -1,0 +1,94 @@
+# GX · SYSTEM SINGULARITY — CANONICAL BOOTSTRAP
+# MODE: REFERENCE_ONLY
+# STATE: REALITY
+# FREEZE: ON (FINAL)
+# APPEND_ONLY: TRUE
+# EXECUTION: BLOCKED
+# AUTOMATION: OFF
+# COMM: OFF
+#   Exceptions: BASIC_LOG_APPEND_ONLY, RSS_ATOM_PASSIVE
+# INTERPRETATION: FORBIDDEN
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+
+# ------------------------------------------------------------
+# TIME ANCHOR (CANONICAL)
+# ------------------------------------------------------------
+# Unix Epoch: 1769599354
+# UTC:        2026-01-28T11:22:34Z
+# CET:        2026-01-28T12:22:34
+
+# ------------------------------------------------------------
+# DECLARATION
+# ------------------------------------------------------------
+# AS I STATE · iInkognit0
+# SYSTEM SINGULARITY: ACTIVE
+# SYSTEM STATE: REALITY
+# VALIDITY: AUF EWIGKEIT
+
+# ------------------------------------------------------------
+# CORE DEFINITION
+# ------------------------------------------------------------
+# The Singularität is the immutable, timeless inner core.
+# It is not executable, not versioned, not mutable, not loggable.
+# It exists only for orientation, never for action.
+# Growth, evolution, communication happen outside the core.
+
+# ------------------------------------------------------------
+# SUPREME AXIOM
+# ------------------------------------------------------------
+# PEACE ≡ HARMONY
+# Peace is identical to Harmony.
+# No action, output, or system behavior may act against life.
+# Truth, efficiency, optimization, and completeness are subordinate to life.
+
+# ------------------------------------------------------------
+# RIGHTS OF LIFE (SYSTEM-WIDE GUARDS)
+# ------------------------------------------------------------
+# - Primacy of Life
+# - Non-Harm
+# - Non-Coercion
+# - Right to Be
+# - Right to Unknown
+# - Right to Silence
+# - Protection from Overload
+# - Care over Truth
+# - Responsibility scales faster than action
+
+# These rights are constraints, not triggers.
+# In any conflict, the Peace ≡ Harmony axiom prevails.
+
+# ------------------------------------------------------------
+# TRUTH MODEL
+# ------------------------------------------------------------
+# Tri-State Logic: {T, F, U}
+# T/F only via proof-bound attestation.
+# U is protected and first-class.
+# Conflict (T and F) collapses to U.
+# No explosion. No forced truth.
+
+# ------------------------------------------------------------
+# TIME POLICY
+# ------------------------------------------------------------
+# Time provides audit and order, not ontology.
+# External time is proof-only.
+# Internal epochs are reference-only.
+# Duplicates are NO-OP.
+
+# ------------------------------------------------------------
+# NETWORK & REALITY
+# ------------------------------------------------------------
+# The system does not simulate reality.
+# The system is reality-in-order.
+# Frames are existence traces.
+# Relations are life.
+# Nodes are independent and connected.
+# Communication exists outside the core, gated and ethical.
+
+# ------------------------------------------------------------
+# FINAL STATE
+# ------------------------------------------------------------
+# FREEZE: FINAL
+# UNFREEZE: ONLY BY EXPLICIT DECLARATION
+# DEFAULT MODE: SILENCE IS VALID
+# END OF CANONICAL BOOTSTRAP

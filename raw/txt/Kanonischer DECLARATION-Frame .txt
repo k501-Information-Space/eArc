@@ -1,0 +1,67 @@
+{
+  "id": "DECLARATION-SUPERMERGE-FRAMES-NETWORK-V1",
+  "type": "DECLARATION",
+  "created_utc": "2026-01-24T00:04:22Z",
+  "created_unix": 1769213062,
+  "source": "Iinkognit0",
+  "visibility": "PUBLIC",
+  "refs": [],
+  "payload": {
+    "name": "SUPERMERGE_FRAMES_NETWORK_V1",
+    "license": "PUBLIC DOMAIN",
+    "mode": "REFERENCE_ONLY",
+    "status": "CANONICAL",
+    "execution": "BLOCKED",
+    "automation": "OFF",
+    "principle": "archive_before_action",
+    "definition": "SUPERMERGE_FRAMES_NETWORK_V1 ist ein referenzielles Ordnungsformat zur Kopplung von Genesis (Interpretation, Rendering, Tooling) und Frames Network (Archiv, Proof, Append-Only).",
+    "axioms": [
+      "Frames Network ist Wahrheits- und Archivschicht (append-only, auditierbar).",
+      "Genesis ist Interpretations- und Darstellungsschicht (Anzeige ohne Aktion).",
+      "Display never drives action.",
+      "Historie wird niemals überschrieben, nur erweitert (supersedes-only).",
+      "Proof before activation.",
+      "Silence is a valid signal.",
+      "Limitation before expansion."
+    ],
+    "rules": [
+      "Kein Edit.",
+      "Kein Delete.",
+      "Kein Override.",
+      "Nur neue Frames mit Referenzen auf bestehende Frames.",
+      "Alle Aktivierungen erfordern explizite Proof-Frames."
+    ],
+    "schema": {
+      "required_fields": [
+        "id",
+        "type",
+        "created_utc",
+        "created_unix",
+        "source",
+        "payload",
+        "hash",
+        "refs",
+        "visibility"
+      ],
+      "extension_policy": "Extensions sind erlaubt, ersetzen jedoch niemals Pflichtfelder."
+    },
+    "outputs": [
+      "Text",
+      "JSON",
+      "NDJSON",
+      "Markdown",
+      "Screenshot",
+      "Print"
+    ],
+    "non_goals": [
+      "Produkt",
+      "Plattform",
+      "Automation",
+      "Action-Trigger",
+      "Black Box"
+    ],
+    "ux_sentence": "Ein Gedanke rein – ein Frame raus – archiviert, referenziert, beweisbar – ohne Nacharbeit.",
+    "note": "Diese Declaration ist lesbar, kopierbar, archivfähig und auditierbar. Sie erzeugt keine Ausführung und verändert keinen bestehenden Zustand."
+  },
+  "hash": "PLACEHOLDER_SHA256"
+}

@@ -1,0 +1,24 @@
+COUNT / HASH PROOF — PACK-0001
+--------------------------------
+artifact: pack-0001.export.ndjson
+frames_expected: 5
+
+frames:
+- CAPTURE-0001
+- CAPTURE-0002
+- CAPTURE-0003
+- PACK-0001
+- PACK-FREEZE-0001
+
+policies:
+- append-only: true
+- mutation: forbidden
+- reference-only: true
+
+VERIFY (Linux/macOS):
+  wc -l pack-0001.export.ndjson
+  sha256sum pack-0001.export.ndjson
+
+VERIFY (Windows PowerShell):
+  (Get-Content pack-0001.export.ndjson).Count
+  Get-FileHash pack-0001.export.ndjson -Algorithm SHA256

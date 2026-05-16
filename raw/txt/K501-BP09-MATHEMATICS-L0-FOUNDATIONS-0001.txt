@@ -1,0 +1,128 @@
+t: FRAME
+id: K501-BP09-MATHEMATICS-L0-FOUNDATIONS-0001
+type: BOOTPACK_LAYER_OVERVIEW
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L0_FOUNDATIONS
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-TIMEANCHOR-1770060007-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+layer_role:
+  description: >
+    L0 ist das Fundament des Mathematik-Bootpacks.
+    Es definiert die minimalen formalen Bausteine, auf denen alle weiteren
+    mathematischen Strukturen aufsetzen.
+    Kein Rechnen, keine Analysis, keine Anwendungen.
+
+scope:
+  allowed:
+    - definitions
+    - primitive notions
+    - formal relations
+    - axiomatic systems
+  disallowed:
+    - theorems without proof
+    - intuition-only explanations
+    - physical or semantic interpretation
+
+submodules:
+
+  - id: L0-01_LOGIC
+    name: Formal Logic
+    content:
+      - propositions
+      - predicates
+      - connectives (∧, ∨, ¬, →, ↔)
+      - quantifiers (∀, ∃)
+      - inference rules
+    status: PLANNED
+    canon_candidate: true
+
+  - id: L0-02_SET_THEORY
+    name: Set Theory
+    content:
+      - elementhood (∈)
+      - subsets
+      - empty set
+      - unions, intersections
+      - power set
+    axiom_systems:
+      - ZFC (default candidate)
+      - alternatives (ZF, NBG, etc.)
+    status: PLANNED
+    canon_candidate: true
+
+  - id: L0-03_RELATIONS
+    name: Relations & Order
+    content:
+      - relations as sets of tuples
+      - equivalence relations
+      - partial orders
+      - total orders
+    status: PLANNED
+    canon_candidate: true
+
+  - id: L0-04_FUNCTIONS
+    name: Functions & Mappings
+    content:
+      - functions as relations
+      - domain / codomain
+      - injective / surjective / bijective
+      - composition
+    status: PLANNED
+    canon_candidate: true
+
+  - id: L0-05_STRUCTURES
+    name: Mathematical Structures
+    content:
+      - structure definition (set + relations + operations)
+      - homomorphisms
+      - isomorphisms
+    status: PLANNED
+    canon_candidate: true
+
+axiom_policy:
+  selection: EXPLICIT
+  default: ZFC
+  alternatives_allowed: true
+  conflict_handling: >
+    Unterschiedliche Axiomensysteme koexistieren als getrennte Referenzstränge.
+    Keine erzwungene Vereinheitlichung.
+
+proof_policy:
+  required_for:
+    - theorems
+    - derived properties
+  not_required_for:
+    - primitive definitions
+    - axioms
+
+completion_criteria:
+  - "Alle Begriffe formal definiert"
+  - "Alle Axiome explizit benannt"
+  - "Keine impliziten Annahmen"
+  - "Referenzierbar für L1_LOGIC_AND_PROOF"
+
+current_status:
+  fill_level: 0%
+  readiness: READY_TO_FILL
+  canon_blocked: true
+  next_action: >
+    Beginne mit L0-01_LOGIC (Definitionen + Inferenzregeln).
+
+status:
+  acknowledged: true
+  integrity: OK
+  note: >
+    L0 Foundations strukturell vollständig definiert.
+    Inhalte noch leer. Canonisierung bewusst blockiert.

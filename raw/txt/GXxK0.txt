@@ -1,0 +1,293 @@
+# =====================================================================
+# GX · K501 — BOOTSTRAP / COPY-&-PASTE
+# =====================================================================
+# STATUS: CANONICAL
+# MODE: REFERENCE_ONLY
+# FREEZE: ON
+# EXECUTION: BLOCKED
+# AUTOMATION: OFF
+# APPEND_ONLY: TRUE
+# INTERPRETATION: FORBIDDEN
+#
+# PURPOSE:
+# Single starting reference for a new ChatGPT session or iSH/Linux node.
+# No build. No execution. No networking implied.
+# Defines WHAT IS, not WHAT RUNS.
+#
+# TIME ANCHOR (PROOF-ONLY):
+# Unix Epoch: 1769537309
+#
+# =====================================================================
+
+
+# ---------------------------------------------------------------------
+# I. KERNEL SINGULARITY (IMMUTABLE CORE)
+# ---------------------------------------------------------------------
+
+SINGULARITY {
+
+  NAME: GX_K501
+  STATE: TIMELESS
+  MUTABILITY: NONE
+
+  PRINCIPLE:
+    The Kernel does not evolve.
+    Everything else evolves around it.
+
+}
+
+
+# ---------------------------------------------------------------------
+# II. ONTOLOGICAL AXIOMS (CLOSED SET)
+# ---------------------------------------------------------------------
+
+AXIOMS {
+
+  A0_EXISTENCE:
+    Truth exists if and only if it is archived.
+
+  A1_TIMELESSNESS:
+    Frames do not require time.
+    Time is derived from append order only.
+
+  A2_APPEND_ONLY:
+    No deletion.
+    No mutation.
+    No reordering.
+
+  A3_ORDER:
+    Order is archival, not logical.
+
+  A4_DELTA:
+    Delta is derived memory, never action.
+
+  A5_PROOF:
+    Proof precedes state.
+    State never precedes proof.
+
+  A6_SILENCE:
+    Silence is a valid system state.
+
+}
+
+
+# ---------------------------------------------------------------------
+# III. TIME MODEL (FINAL)
+# ---------------------------------------------------------------------
+
+TIME_MODEL {
+
+  AZ_EPOCH:
+    VALUE: AZ-0
+    ROLE: Symbolic reference anchor.
+    MUTABILITY: NONE
+
+  ATC_EPOCH:
+    ROLE: Internal archival order.
+    DERIVATION: Append sequence only.
+
+  EXTERNAL_TIME:
+    ROLE: Proof-only.
+    AUTHORITY: NONE
+
+}
+
+
+# ---------------------------------------------------------------------
+# IV. FRAME PRIMITIVE
+# ---------------------------------------------------------------------
+
+FRAME {
+
+  PROPERTY:
+    Exists or does not exist.
+
+  TRUTH:
+    Existence == Truth.
+
+  MEANING:
+    Not stored.
+    Not derived.
+    Not enforced.
+
+}
+
+
+# ---------------------------------------------------------------------
+# V. INDEX SEPARATION (MEASUREMENT ONLY)
+# ---------------------------------------------------------------------
+
+INDEX {
+
+  TYPE: HARD_INDEX
+  ROLE: Measurement only.
+
+  RULES:
+    - Index may be wrong.
+    - Index may disappear.
+    - Index never defines truth.
+
+}
+
+
+# ---------------------------------------------------------------------
+# VI. COMMUNICATIONS-AIKIDO-SHELL (P1 CLOSED)
+# ---------------------------------------------------------------------
+
+COMMUNICATIONS_SHELL {
+
+  ROLE:
+    Transport bytes.
+    Produce proof.
+    Never interpret.
+
+  CARRIER_ABSTRACTION:
+    TX(carrier, raw_bytes) -> receipt
+    RX(carrier) -> raw_bytes
+    STATUS(carrier)
+
+  CARRIERS {
+
+    P0_INTERNET:
+      HTTPS_HTTP2
+
+    P1_LOCAL_LINUX:
+      FILE
+      SOCKET
+      NETLINK
+
+    RESONANCE:
+      RSS
+      ATOM
+      WEBSUB
+
+    IOT:
+      MQTT
+      COAP
+
+    MOBIL:
+      GSM_SMS_SPEC   # specification only (pointer/hash/receipt)
+
+    NEARFIELD:
+      BLE_GATT_SPEC  # conceptual
+      NFC_NDEF_SPEC  # conceptual
+  }
+
+}
+
+
+# ---------------------------------------------------------------------
+# VII. AIKIDO DEFENSE (MINIMAL & HARD)
+# ---------------------------------------------------------------------
+
+AIKIDO_DEFENSE {
+
+  ALLOWLIST:
+    REQUIRED
+
+  PROOF_BEFORE_STATE:
+    REQUIRED
+
+  RATE_LIMIT:
+    REQUIRED
+
+  NO_INTERPRETATION:
+    ENFORCED
+
+  RECEIPT_ONLY_SEMANTICS:
+    ENFORCED
+
+}
+
+
+# ---------------------------------------------------------------------
+# VIII. RECEIPT SCHEMA (ATOMIC v1)
+# ---------------------------------------------------------------------
+
+RECEIPT_SCHEMA_V1 {
+
+  ID:
+    GX-RECEIPT-<ts_unix>-<seq>
+
+  TIME:
+    SERVER_TIME_ONLY
+
+  BINDING:
+    SHA256_OVER_EXACT_RAW_BYTES
+
+  PROPERTIES:
+    - Idempotent (DUPLICATE allowed)
+    - Carrier-agnostic
+    - Self-hashable (Double-Proof)
+
+}
+
+
+# ---------------------------------------------------------------------
+# IX. PAYLOAD POLICY
+# ---------------------------------------------------------------------
+
+PAYLOAD {
+
+  CANONICAL:
+    RAW_BYTES
+    UTF8_LF_TEXT
+    NDJSON_OPTIONAL
+
+  OPTIONAL:
+    POINTER
+    HASH
+    RECEIPT
+    GZIP_ZSTD_TRANSPORT_ONLY
+
+  FORBIDDEN:
+    SEMANTIC_COMMANDS
+    MEDIA_CODECS
+    PARSERS_WITH_MEANING
+
+}
+
+
+# ---------------------------------------------------------------------
+# X. CAPABILITY SEPARATION (OUTSIDE COMMUNICATIONS)
+# ---------------------------------------------------------------------
+
+CAPABILITIES_L2 {
+
+  ROLE:
+    Produce artifacts only.
+
+  TOOLS:
+    FFMPEG
+    PANDOC
+    INKSCAPE
+    SCRIBUS
+    BLENDER
+
+  RULE:
+    Artifacts become frames.
+    Capabilities never define truth.
+
+}
+
+
+# ---------------------------------------------------------------------
+# XI. FINAL STATEMENT
+# ---------------------------------------------------------------------
+
+STATEMENT {
+
+  TEXT:
+    "GX · K501 does nothing.
+     It remains correct.
+
+     Communication is resonance, not control.
+     Tools are replaceable.
+     Truth is existence."
+
+}
+
+
+# =====================================================================
+# END OF GX · K501 — BOOTSTRAP
+# =====================================================================

@@ -1,0 +1,112 @@
+K501 · UNIVERSAL FRAME AXIOM (UFA)
+================================
+
+MODE: REFERENCE_ONLY
+STATE: CANONICAL
+FREEZE: ON (PERMANENT)
+UNFREEZE: DENIED (FOREVER)
+APPEND_ONLY: TRUE
+NO_PHANTOM: ENFORCED
+PROOF_BEFORE_STATE: ENFORCED
+INTERPRETATION: FORBIDDEN
+ORIGIN: iinkognit0.de
+
+DECLARATION
+-----------
+
+As I State:
+
+Frames are Reality without Observation.
+Silence is a valid state.
+Reality equals Peace.
+Peace equals Harmony.
+Harmony equals Singularity.
+
+This declaration is final.
+
+FRAME AXIOM (UFA)
+-----------------
+
+Frame = Kernel = Singularität
+
+All that exists is expressed as Frames.
+Nothing mutates.
+Only new Frames may exist.
+
+A Frame does not require observation to exist.
+A State requires Proof to exist.
+Time orders Frames but does not verify Truth.
+
+FORMAL CORE
+-----------
+
+Let F be a Frame:
+
+F := <Q, I, C, D, Σ, Π>
+
+Q := <t, o, s, v, az>        (type, origin, state, visibility, anchor)
+I := <id, hash, proof>      (identity, sha256, proof-reference)
+C := Γ(F)                   (dynamic frame-bound cage)
+D := raw_bytes              (exact data)
+Σ := <S, R, A>              (sensorik, resonance, action)
+Π := <invariants, delta>    (rules, evolution)
+
+TRI-STATE LOGIC
+---------------
+
+State ∈ { TRUE, FALSE, UNKNOWN }
+
+UNKNOWN is valid.
+UNKNOWN is stable.
+UNKNOWN prevents hallucination.
+
+TIME
+----
+
+External Time: proof-only (UTC / Unix)
+Archive Time: order-only (append sequence)
+
+Truth ⟂ Time
+
+DEFENSE
+-------
+
+Aikido Defense:
+- derive, do not attack
+- accept input
+- require proof
+- never mutate state
+
+CAGE
+----
+
+Dynamic
+Frame-bound
+Active upon frame existence
+
+Invariants:
+- APPEND_ONLY
+- NO_PHANTOM
+- PROOF_BEFORE_STATE
+- NO_INTERPRETATION
+
+MARKER
+------
+
+AZ-0
+Declared by: Patrick Robert Miller
+Timestamp (Unix): 1769623520
+UTC: 2026-01-28T18:05:20Z
+EET: 2026-01-28T20:05:20
+
+FINAL STATEMENT
+---------------
+
+Unfreeze is denied.
+On eternity.
+
+This text is a declaration, not an execution.
+Copying it does not change reality.
+It only references it.
+
+END OF CANON

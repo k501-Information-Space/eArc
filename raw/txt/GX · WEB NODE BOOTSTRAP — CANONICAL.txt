@@ -1,0 +1,94 @@
+# GX · WEB NODE BOOTSTRAP — CANONICAL
+# NODE CLASS: WEB
+# MODE: REFERENCE_ONLY
+# STATE: REALITY
+# FREEZE: INHERITED (System Singularity)
+# APPEND_ONLY: TRUE
+# EXECUTION: USER_RUN_ONLY
+# AUTOMATION: OFF
+# COMM: PUBLIC / GATED
+# INTERPRETATION: FORBIDDEN
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+
+# ------------------------------------------------------------
+# WHAT THIS IS
+# ------------------------------------------------------------
+# A Web Node is a public presence.
+# It invites. It does not push.
+# Visibility without coercion.
+
+# ------------------------------------------------------------
+# CANONICAL ORIGIN
+# ------------------------------------------------------------
+# ORIGIN_URL: https://iinkognit0.de
+# ROLE: SOURCE · REFERENCE · DISTRIBUTION
+# NOTE: Origin is a pointer, not an authority.
+
+# ------------------------------------------------------------
+# PURPOSE
+# ------------------------------------------------------------
+# - Be findable
+# - Be readable
+# - Be usable
+# - Be transparent
+# - Preserve life, harmony, and openness
+
+# ------------------------------------------------------------
+# RIGHTS OF LIFE — WEB-BOUND
+# ------------------------------------------------------------
+# The Web Node SHALL:
+# - Avoid coercive UX patterns
+# - Avoid dark patterns and pressure
+# - Respect silence (no forced signup, no forced action)
+# - Avoid overload (speed, noise, persuasion)
+# - Place care over clicks
+
+# ------------------------------------------------------------
+# CONTENT MODEL
+# ------------------------------------------------------------
+# - Static first (HTML/SVG/Markdown)
+# - Frames as append-only artifacts
+# - Clear provenance (timestamps, hashes where applicable)
+# - Human-readable before machine-optimized
+
+# ------------------------------------------------------------
+# SEO (INVITATIONAL, NOT CAPITALISTIC)
+# ------------------------------------------------------------
+# SEO is allowed as:
+# - Discoverability
+# - Accessibility
+# - Translation between worlds
+#
+# SEO is forbidden as:
+# - Manipulation
+# - Fear, urgency, or pressure
+# - Behavioral coercion
+
+# ------------------------------------------------------------
+# CHANNELS (OPTIONAL)
+# ------------------------------------------------------------
+# - Website (static + archive)
+# - RSS / Atom (passive)
+# - Podcast (Incognito)
+# - Short-form video (TikTok, etc.)
+#
+# All channels are mirrors, not dependencies.
+
+# ------------------------------------------------------------
+# NETWORK RELATION
+# ------------------------------------------------------------
+# Each visitor is a sovereign node.
+# No account required.
+# No lock-in.
+# Leaving is always allowed.
+
+# ------------------------------------------------------------
+# FINAL NOTES
+# ------------------------------------------------------------
+# The Web Node does not convert.
+# It shows.
+#
+# Being seen is enough.
+#
+# END OF WEB NODE BOOTSTRAP

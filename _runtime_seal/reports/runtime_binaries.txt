@@ -1,0 +1,1 @@
+build/bin/k501_core.bin

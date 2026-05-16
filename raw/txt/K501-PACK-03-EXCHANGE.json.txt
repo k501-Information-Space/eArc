@@ -1,0 +1,27 @@
+{
+  "pack_meta": {
+    "id": "K501-PACK-03",
+    "version": "0.1.0",
+    "label": "Secure Exchange Protocol (Ghost-Vector)",
+    "ts": { "utc": "2026-03-03T12:45:00Z", "unix": 1772541900 },
+    "dependencies": ["K501-PACK-01", "K501-PACK-02"],
+    "privacy_standard": "Differential Privacy (Laplace)",
+    "integrity_hash": "UNSET_RECALCULATE_AFTER_SAVE"
+  },
+  "specification_0500": {
+    "protocol_step_1": "Handshake: Exchange origin_pack_hash and temporal_seed.",
+    "protocol_step_2": "Permutation: Local P-vector rotation via shared seed.",
+    "protocol_step_3": "Obfuscation: Laplace noise injection defined by epsilon.",
+    "protocol_step_4": "Comparison: JS-Divergence calculation on masked ghosts."
+  },
+  "tooling_update_0405": {
+    "class_extension": "K501SecureExchange",
+    "methods": ["generate_ghost_vector", "decode_and_compare"],
+    "source_fragment": "p_prime = np.abs(p + np.random.laplace(0, epsilon, p.shape)); p_prime /= p_prime.sum();"
+  },
+  "security_parameters": {
+    "default_epsilon": 0.01,
+    "min_epsilon": 0.001,
+    "max_epsilon": 0.1
+  }
+}

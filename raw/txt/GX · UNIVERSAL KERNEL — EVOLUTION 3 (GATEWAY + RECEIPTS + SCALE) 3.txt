@@ -1,0 +1,138 @@
+# ============================================================
+# GX · UNIVERSAL KERNEL — EVOLUTION 3 (GATEWAY + RECEIPTS + SCALE)
+# ============================================================
+# MODE: REFERENCE_ONLY
+# EXECUTION: BLOCKED
+# APPEND_ONLY: TRUE
+# NO_PHANTOM: TRUE (PROOF_BEFORE_STATE)
+# ============================================================
+# ROLE:
+# - Define gateway ingest as schema (no code)
+# - Standardize Receipt v1 as Reality Proof
+# - Introduce Microframe/Chunk/Sharding for distributed growth
+# - Keep project-safe: declarative, compact, no tooling
+# ============================================================
+
+KERNEL_ID:
+- NAME: GX · UNIVERSAL KERNEL
+- VERSION: EVOLUTION-3
+- STATUS: STABLE_GATEWAY_SCHEMA
+
+CANON_ORIGIN:
+- https://iinkognit0.de
+- RULE: incognito.de is NEVER origin
+
+# ------------------------------------------------------------
+# 1) GATEWAY (MINIMAL) — CONCEPTUAL SCHEMA (NO CODE)
+# ------------------------------------------------------------
+GATEWAY_ROLE:
+- accepts RAW payload (bytes) from nodes
+- stores append-only (raw + receipts)
+- returns Receipt only (proof-first)
+- no commands, no automation, no interpretation
+
+GATEWAY_CONSTRAINTS:
+- allowlist (node_id / key / token)
+- size limit (bytes_len hard cap)
+- content types allowed: application/octet-stream | application/x-ndjson
+- response: JSON receipt only
+- failure returns: error receipt (still a receipt)
+
+# ------------------------------------------------------------
+# 2) RECEIPT v1 — REALITY PROOF (REQUIRED FOR STATE)
+# ------------------------------------------------------------
+RECEIPT_V1:
+{"t":"RECEIPT","id":"GX-RCPT-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY",
+ "p":{
+   "gateway_id":"<GW_ID>",
+   "status":"RECEIVED|REJECTED",
+   "bytes_len":<U64>,
+   "sha256":"<HEX64>",
+   "content_type":"application/x-ndjson|application/octet-stream",
+   "node_id":"<NODE_ID_OPTIONAL>",
+   "chunk_id":"<CHUNK_ID_OPTIONAL>"
+ },
+ "ts_unix":<U64>,"ts_utc":"<RFC3339Z>"
+}
+
+REALITY_RULE:
+- Only receipts can upgrade a claim into an externally observed event
+- No RECEIPT => Status remains UNKNOWN/DRAFT
+
+FORMALLY:
+Proofed(State) ⇒ ∃ Receipt
+¬∃Receipt ⇒ Status ∈ {UNKNOWN,DRAFT}
+
+# ------------------------------------------------------------
+# 3) MICROFRAME v0 — EXISTENCE TRACE (DISTRIBUTED HEARTBEAT)
+# ------------------------------------------------------------
+MICROFRAME_V0:
+{"t":"MICRO","id":"GX-MICRO-<NODE>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY",
+ "p":{
+   "node_id":"<STRING>",
+   "seq":<U64_MONO_PLUS1>,
+   "atc":<U64_INTERNAL>,          # internal archive tick/counter
+   "unix":<U64_ANCHOR_OPTIONAL>,  # proof-only if present
+   "tags":["PRESENCE","HEARTBEAT"],
+   "note":"<UTF8_OPTIONAL>"
+ }}
+
+MICRO_RULES:
+- (node_id, seq) must be unique; duplicates => CONFLICT (append-only flag)
+- gaps => UNKNOWN (no invented frames)
+
+# ------------------------------------------------------------
+# 4) CHUNK v0 — TRANSPORT UNIT (NDJSON BYTES)
+# ------------------------------------------------------------
+CHUNK_V0:
+{"t":"CHUNK","id":"GX-CHUNK-<UNIX>-<NODE>-<RANGE>","vis":"PUBLIC","mode":"REFERENCE_ONLY",
+ "p":{
+   "node_id":"<NODE_ID>",
+   "range":"<SEQ_FROM>-<SEQ_TO>",
+   "bytes_len":<U64>,
+   "sha256":"<HEX64>",
+   "content_type":"application/x-ndjson"
+ },
+ "ts_unix":<U64>,"ts_utc":"<RFC3339Z>"
+}
+
+CHUNK_RULE:
+- CHUNK is only PROOFED when accompanied by RECEIPT for identical sha256/bytes_len
+
+# ------------------------------------------------------------
+# 5) SHARDING RULE (LIGHTWEIGHT)
+# ------------------------------------------------------------
+SHARD_RULE:
+- shard_id = "SHARD-" + first12hex( sha256( utf8(node_id) ) )
+
+PURPOSE:
+- stable distribution key
+- does not imply routing implementation
+
+# ------------------------------------------------------------
+# 6) GROWTH TARGET REFERENCE (NON-BINDING)
+# ------------------------------------------------------------
+SCALE_REFERENCE:
+- 1B frames / 24h => 11,574 frames/sec globally (reference only)
+- achieved by distributed shards (N nodes)
+- principle: stability first, then scale
+
+# ------------------------------------------------------------
+# 7) OPTIONAL: SERIES TEMPLATE (SEO MODULE POINTER)
+# ------------------------------------------------------------
+SERIES_TEMPLATE_V1 (OPTIONAL):
+- On-Screen (persistent): "Wahrheit · Logik · kritisches Denken"
+- Caption keywords: truth, proof, tri-state, append-only
+- Hashtags (5): #DasewigeArchiv #KritischesDenken #Philosophie #KI #Mathematik
+
+# ------------------------------------------------------------
+# 8) DISCONFIRM / NON-ACTION CLAUSE
+# ------------------------------------------------------------
+DISCONFIRM:
+- This kernel defines schemas only.
+- No gateway exists unless proven by receipts/log proofs.
+- No deployment is implied by this text.
+
+# ============================================================
+# END GX · UNIVERSAL KERNEL — EVOLUTION 3
+# ============================================================

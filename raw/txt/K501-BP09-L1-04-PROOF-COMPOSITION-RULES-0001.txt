@@ -1,0 +1,94 @@
+t: FRAME
+id: K501-BP09-L1-04-PROOF-COMPOSITION-RULES-0001
+type: SPECIFICATION
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L1_LOGIC_AND_PROOF
+submodule: L1-04_PROOF_COMPOSITION_RULES
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-SESSION-RESUME-TIMEANCHOR-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+purpose:
+  description: >
+    Definiert Regeln zur Komposition, Wiederverwendung und Verkettung
+    von Proof-Objekten in L1, ohne neue Inferenzregeln einzuführen.
+    Ziel: Modularität, Wiederholbarkeit, kein Beweis-Duplikat.
+
+scope:
+  applies_to:
+    - "Lemma → Theorem Verkettung"
+    - "Proof-Import (Referenzierter Proof als Sub-Beweis)"
+  non_goals:
+    - "Makros oder Abkürzungen"
+    - "Automatische Beweis-Synthese"
+
+composition_principles:
+  C1_reference_only:
+    rule: "Proofs werden referenziert, nicht kopiert."
+    note: "Kein Inlining ohne explizite Expansion."
+  C2_goal_alignment:
+    rule: "Konklusion des referenzierten Proofs muss exakt einer benötigten Premisse entsprechen."
+  C3_no_hidden_assumptions:
+    rule: "Referenzierter Proof muss ASSUMPTIONS_DISCHARGED haben."
+  C4_language_consistency:
+    rule: "Gleiche Sprache (FOL) und Symbolbasis (L0)."
+
+composition_methods:
+  - method: PROOF_IMPORT
+    description: >
+      Nutzung eines abgeschlossenen Proofs als atomare Ableitung.
+    schema:
+      import:
+        proof_ref: "<PROOF_ID>"
+        provides: "<wff>"
+    constraints:
+      - "import.provides == proof.conclusion"
+      - "Proof muss VALID sein (per L1-03)"
+
+  - method: LEMMA_APPLICATION
+    description: >
+      Anwendung eines Lemmas als Regel-ähnlicher Schritt.
+    schema:
+      lemma_ref: "<LEMMA_ID>"
+      instantiation:
+        substitution_map: "optional"
+    constraints:
+      - "Lemma ist abgeschlossen (keine offenen Annahmen)"
+      - "Instanziierung erfüllt FREE_FOR-Bedingungen"
+
+  - method: PROOF_CHAINING
+    description: >
+      Sequentielle Verkettung mehrerer Proofs, deren Konklusionen
+      jeweils als Premissen im nächsten Proof dienen.
+    constraints:
+      - "Jeder Zwischenschritt ist VALID"
+      - "Keine zyklischen Referenzen"
+
+integrity_rules:
+  - "Keine Selbst-Referenz eines Proofs"
+  - "Keine Zyklen im Proof-Referenzgraphen"
+  - "Alle referenzierten Proofs müssen existieren"
+
+validation_binding:
+  validator: "L1-03_PROOF_VALIDITY_CONDITIONS"
+  additional_checks:
+    - "Referenzgraph azyklisch"
+    - "Alle Imports resolved"
+
+status:
+  completed: true
+  readiness: READY
+  next: "L1-INDEX-SNAPSHOT"
+  note: >
+    L1-04 abgeschlossen. L1 ist nun strukturell vollständig
+    (Format, Regeln, Validität, Komposition).

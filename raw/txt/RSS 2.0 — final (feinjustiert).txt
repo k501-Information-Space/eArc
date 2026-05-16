@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>eArc Public Read — Canonical Feed</title>
+    <link>https://iinkognit0.de/earc/read/</link>
+    <description>PUBLIC reference-only artifacts. Append-only. No ranking. Pull-first. WebSub opt-in.</description>
+    <language>en</language>
+
+    <!-- Quiet polling hint (minutes). Clients may ignore. -->
+    <ttl>720</ttl>
+
+    <lastBuildDate>Thu, 22 Jan 2026 18:32:02 GMT</lastBuildDate>
+
+    <!-- Self + alternate + WebSub (opt-in push) -->
+    <atom:link rel="self" href="https://iinkognit0.de/earc/read/feeds/public.rss" type="application/rss+xml" />
+    <atom:link rel="hub"  href="https://iinkognit0.de/earc/read/websub/hub" />
+    <atom:link rel="alternate" href="https://iinkognit0.de/earc/read/feeds/public.atom" type="application/atom+xml" />
+
+    <!-- Provenance (minimal) -->
+    <generator>eArc Read Layer v1</generator>
+    <managingEditor>noreply@iinkognit0.de (Iinkognit0)</managingEditor>
+    <webMaster>noreply@iinkognit0.de (Iinkognit0)</webMaster>
+
+    <!-- Visual identity (if files exist) -->
+    <image>
+      <url>https://iinkognit0.de/earc/read/assets/logo.png</url>
+      <title>eArc Public Read</title>
+      <link>https://iinkognit0.de/earc/read/</link>
+    </image>
+
+    <!-- Conditional GET helpers (server should emit as HTTP headers) -->
+    <!-- Last-Modified: Thu, 22 Jan 2026 18:32:02 GMT -->
+    <!-- ETag: "3b387903b5e15befb75d60d7f8adf6097087777c8f8f6574082a165085570a9b" -->
+
+    <item>
+      <title>PUBLIC-INDEX-0001 — Canonical Public Index</title>
+      <guid isPermaLink="false">urn:earc:public:index:0001</guid>
+      <pubDate>Thu, 22 Jan 2026 18:32:02 GMT</pubDate>
+      <link>https://iinkognit0.de/earc/read/public-index/PUBLIC-INDEX-0001.json</link>
+      <description>Canonical index of PUBLIC reference-only artifacts.</description>
+    </item>
+
+    <item>
+      <title>PACK-0001 — Genesis Light (frozen)</title>
+      <guid isPermaLink="false">urn:earc:pack:0001</guid>
+      <pubDate>Thu, 22 Jan 2026 17:46:30 GMT</pubDate>
+      <link>https://iinkognit0.de/earc/read/exports/pack-0001.export.ndjson</link>
+      <description>Export NDJSON + manifest + proofs. Reference-only.</description>
+    </item>
+
+    <item>
+      <title>SUPERPACK-0001 — Genesis Light (frozen aggregation)</title>
+      <guid isPermaLink="false">urn:earc:superpack:0001</guid>
+      <pubDate>Thu, 22 Jan 2026 17:46:30 GMT</pubDate>
+      <link>https://iinkognit0.de/earc/read/exports/superpack-0001.export.ndjson</link>
+      <description>Aggregation of frozen reference packs. No interpretation.</description>
+    </item>
+
+    <item>
+      <title>KPOL-PACK-0001 — Kernel Policy Pack v1 (frozen)</title>
+      <guid isPermaLink="false">urn:earc:kpol:pack:0001</guid>
+      <pubDate>Thu, 22 Jan 2026 18:13:30 GMT</pubDate>
+      <link>https://iinkognit0.de/earc/read/exports/kpol-pack-0001.export.ndjson</link>
+      <description>Kernel-level policies (resonance/transport/distribution). Reference-only.</description>
+    </item>
+
+    <item>
+      <title>READ-PACK-0001 — Read Layer Pack v1 (frozen)</title>
+      <guid isPermaLink="false">urn:earc:read:pack:0001</guid>
+      <pubDate>Thu, 22 Jan 2026 18:22:07 GMT</pubDate>
+      <link>https://iinkognit0.de/earc/read/exports/read-pack-0001.export.ndjson</link>
+      <description>Public Read + Feeds + WebSub + Export Gate. Reference-only.</description>
+    </item>
+
+  </channel>
+</rss>

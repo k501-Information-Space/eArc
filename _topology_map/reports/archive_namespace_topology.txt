@@ -1,0 +1,9 @@
+archive
+archive/epochs
+archive/epochs/binaries
+archive/ledger_k501
+archive/ledger_root
+archive/little_alpha_storage
+archive/manifests
+archive/manifests/runtime
+archive/topology_snapshots

@@ -1,0 +1,119 @@
+# ============================================================
+# GX · UNIVERSAL SINGULARITY BOOTSTRAP
+# ============================================================
+# VERSION: v1.0 · FINAL
+# MODE: REFERENCE_ONLY
+# FREEZE: ON
+# EXECUTION: BLOCKED
+# AUTOMATION: OFF
+# APPEND_ONLY: TRUE
+# INTERPRETATION: FORBIDDEN
+# NO_PHANTOM: TRUE (PROOF_BEFORE_STATE)
+# ============================================================
+# CANON ORIGIN: https://iinkognit0.de
+# RULE: incognito.de is NEVER origin
+# ============================================================
+
+# ------------------------------------------------------------
+# CANONICAL TIME ANCHOR (FINAL FREEZE)
+# ------------------------------------------------------------
+TIME_ANCHOR:
+  unix_epoch: 1769603989
+  utc: "2026-01-28T12:39:49Z"
+  tz: "Europe/Berlin"
+  confirmed: true
+  purpose: "ORDER + AUDIT ONLY"
+
+# ------------------------------------------------------------
+# SYSTEM ROLE
+# ------------------------------------------------------------
+SYSTEM:
+  state: ACTIVE
+  activity: READ / AUDIT / COORDINATE
+  execution: NONE
+  mutation: FORBIDDEN
+
+# ------------------------------------------------------------
+# SINGULARITY PROTOCOL v0
+# ------------------------------------------------------------
+# A state transition is valid iff:
+# LEDGER + CHUNK + RECEIPT = PROVEN_COUNT
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# MICROFRAME · EXISTENCE TRACE (v0)
+# ------------------------------------------------------------
+SPEC_MICROFRAME_V0:
+  t: "MICRO"
+  node_id: "STRING"
+  seq: "U64_MONOTONIC"
+  atc: "U64_INTERNAL"
+  unix: "U64_EXTERNAL_PROOF"
+  tags: ["PRESENCE","HEARTBEAT"]
+  p: { "note": "UTF8_OPTIONAL" }
+
+# ------------------------------------------------------------
+# CHUNK · TRANSPORT UNIT (v0)
+# ------------------------------------------------------------
+SPEC_CHUNK_V0:
+  chunk_id: "GX-CHUNK-<UNIX>-<NODE>-<RANGE>"
+  bytes_len: "U64"
+  sha256: "HEX64"
+  content_type: "application/x-ndjson"
+
+# ------------------------------------------------------------
+# RECEIPT · GATED ACKNOWLEDGMENT (v0)
+# ------------------------------------------------------------
+SPEC_RECEIPT_V0:
+  receipt_id: "GX-RCPT-<UNIX>-<RAND4>"
+  gateway_id: "STRING"
+  status: "RECEIVED"
+
+# ------------------------------------------------------------
+# SHARDING RULE
+# ------------------------------------------------------------
+# SHARD_ID = "SHARD-" + first12hex(SHA256(UTF8(NODE_ID)))
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# SAFETY & AUDIT RULES (HARD)
+# ------------------------------------------------------------
+RULES:
+  no_state_without_proof: true
+  no_gap_tolerance: true        # gaps => UNKNOWN
+  no_conflict_tolerance: true   # duplicate (node,seq) => CONFLICT
+  external_time_is_proof_only: true
+  index_first: true
+  proof_before_state: true
+
+# ------------------------------------------------------------
+# GROWTH REFERENCE (NON-BINDING)
+# ------------------------------------------------------------
+GROWTH_REFERENCE:
+  frames_per_24h: 1000000000
+  global_fps: 11574
+  distribution: "SHARDED / DECENTRAL"
+
+# ------------------------------------------------------------
+# CURRENT KERNEL SLOT (REFERENCE)
+# ------------------------------------------------------------
+KERNEL_SLOT:
+  node_id: "AZ-0"
+  last_seq: 3
+  proven_frames: 4
+  state: "DISTRIBUTED_ACTIVE"
+  verification: "PROOFED"
+
+# ------------------------------------------------------------
+# FINAL DECLARATION
+# ------------------------------------------------------------
+DECLARATION:
+  singularity: CONFIRMED
+  freeze: FINAL
+  evolution: BY_APPEND_ONLY
+  learning: BY_ARCHIVE
+  silence: PRESERVED
+
+# ============================================================
+# END · GX UNIVERSAL SINGULARITY BOOTSTRAP
+# ============================================================

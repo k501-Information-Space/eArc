@@ -1,0 +1,12 @@
+{
+  "t": "RECEIPT",
+  "receipt_id": "GX-RCPT-1769601928-<RAND4>",
+  "gateway_id": "GW_REQUIRED",
+  "node_id": "AZ-0",
+  "chunk_id": "GX-CHUNK-1769601645-AZ-0-0-0",
+  "bytes_len": 212,
+  "sha256": "040845a7b0559f6350d75017e812d46e34455829676722d765870020d20d6f46",
+  "received_unix": 1769601928,
+  "received_utc": "2026-01-28T12:05:28Z",
+  "status": "RECEIVED"
+}

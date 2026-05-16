@@ -1,0 +1,14 @@
+kernel/
+  spec/
+    kernel.yaml
+    schemas/
+      kernel_spec_v1.json
+  build/
+    kernel.normalized.yaml
+    kernel.runtime.json
+    kernel.hash.sha256
+    kernel.manifest.yaml
+    kernel.report.md
+  tests/
+    vectors/
+    expected/

@@ -1,0 +1,6 @@
+76493d6 (HEAD -> recovery_reconciliation_v001, origin/recovery_reconciliation_v001) merge preparation seal v001
+8ab7090 canonical runtime seal v001
+33f36b9 canonical topology map v001
+77a08ce namespace normalization audit v001
+297df3b remote topology audit v001
+6fe5c87 K501 recovery stabilization v001

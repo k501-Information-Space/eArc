@@ -1,0 +1,172 @@
+A  K501_ANALYSIS_INDEX.md
+A  K501_ARCHITECTURE_METRICS.md
+A  K501_COMPLETE_FILE_SUMMARY.md
+A  K501_DEVELOPMENT_ANALYSIS.md
+A  raw/md/Gateway.md
+A  raw/md/_INDEX_SNAPSHOT_001.txt
+A  raw/md/archived_unsorted/.keep
+R  "raw/md/BOOTFRAME \302\267 K501 INFORMATION SPACE.md" -> "raw/md/bootframes/BOOTFRAME \302\267 K501 INFORMATION SPACE.md"
+R  raw/md/BOOTFRAME_SIM_MANIFEST_V1.md -> raw/md/bootframes/BOOTFRAME_SIM_MANIFEST_V1.md
+R  "raw/md/BOOTFRAME_SIM_NORMALIZED 3.md" -> "raw/md/bootframes/BOOTFRAME_SIM_NORMALIZED 3.md"
+R  "raw/md/BOOTFRAME_SIM_NORMALIZED 4.md" -> "raw/md/bootframes/BOOTFRAME_SIM_NORMALIZED 4.md"
+R  "raw/md/BOOTFRAME_VERIFICATION_AUDIT 1.md" -> "raw/md/bootframes/BOOTFRAME_VERIFICATION_AUDIT 1.md"
+A  raw/md/bootframes/Gateway.md
+R  "raw/md/Gemini  BOOTFRAME_SIM_NORMALIZED 1.md" -> "raw/md/bootframes/Gemini  BOOTFRAME_SIM_NORMALIZED 1.md"
+R  "raw/md/Gemini BOOTFRAME_SIM_NORMALIZED * STATUS SIMULATION_ONLY 2.md" -> "raw/md/bootframes/Gemini BOOTFRAME_SIM_NORMALIZED * STATUS SIMULATION_ONLY 2.md"
+R  "raw/md/K501 Global Bootframe.md" -> "raw/md/bootframes/K501 Global Bootframe.md"
+R  "raw/md/K501 UNIVERSAL BOOTFRAME \302\267 ULTRA COMPACT v1.0.md" -> "raw/md/bootframes/K501 UNIVERSAL BOOTFRAME \302\267 ULTRA COMPACT v1.0.md"
+R  "raw/md/K501 Universal Bootframe \342\200\224 Quick Overview.md" -> "raw/md/bootframes/K501 Universal Bootframe \342\200\224 Quick Overview.md"
+R  "raw/md/K501 Universal Bootframe \342\200\224 Structural Consolidation and Operational Semantics.md" -> "raw/md/bootframes/K501 Universal Bootframe \342\200\224 Structural Consolidation and Operational Semantics.md"
+R  "raw/md/K501 Universal Bootframe \342\200\224 Wissenschaftliche Gesamtzusammenfassung.md" -> "raw/md/bootframes/K501 Universal Bootframe \342\200\224 Wissenschaftliche Gesamtzusammenfassung.md"
+R  "raw/md/K501 \302\267 BOOTFRAME v1  (Runtime-konforme Minimalstru.md" -> "raw/md/bootframes/K501 \302\267 BOOTFRAME v1  (Runtime-konforme Minimalstru.md"
+R  "raw/md/K501 \302\267 GATEKEEPER BOOTFRAME \302\267 FSM DEVEVO \302\267 v0.3 (CONDENSED).md" -> "raw/md/bootframes/K501 \302\267 GATEKEEPER BOOTFRAME \302\267 FSM DEVEVO \302\267 v0.3 (CONDENSED).md"
+R  "raw/md/K501 \302\267 UNIVERSAL BOOTFRAME \342\200\224 CANON KERNEL (LATEST) \302\267 v2.0.md" -> "raw/md/bootframes/K501 \302\267 UNIVERSAL BOOTFRAME \342\200\224 CANON KERNEL (LATEST) \302\267 v2.0.md"
+R  "raw/md/K501 \302\267 UNIVERSAL LLM BOOTFRAME \342\200\224 ALWAYS ON (POST-BOOT) \302\267 v1.0.md" -> "raw/md/bootframes/K501 \302\267 UNIVERSAL LLM BOOTFRAME \342\200\224 ALWAYS ON (POST-BOOT) \302\267 v1.0.md"
+R  raw/md/K501-BOOTFRAME-DEV-ALPHA-v1.json.md -> raw/md/bootframes/K501-BOOTFRAME-DEV-ALPHA-v1.json.md
+R  raw/md/K501_CANON_BOOTFRAME_v1.0.md -> raw/md/bootframes/K501_CANON_BOOTFRAME_v1.0.md
+R  "raw/md/New Bootframe.css.md" -> "raw/md/bootframes/New Bootframe.css.md"
+R  raw/md/eArc-000-BOOT-0000_eArc_MiniLoader_v1.1_UI_READY.md.md -> raw/md/bootframes/eArc-000-BOOT-0000_eArc_MiniLoader_v1.1_UI_READY.md.md
+R  raw/md/eArc-000-BOOT-0002_eArc_Kernel_v0.2_UpgradePlan_Analyse.md.md -> raw/md/bootframes/eArc-000-BOOT-0002_eArc_Kernel_v0.2_UpgradePlan_Analyse.md.md
+R  raw/md/eArc-000-BOOT-0002_eArc_MiniLoader_UIReady_v1.0.md.md -> raw/md/bootframes/eArc-000-BOOT-0002_eArc_MiniLoader_UIReady_v1.0.md.md
+R  raw/md/eArc-000-BOOT-05001-REVIEW-0001.md -> raw/md/bootframes/eArc-000-BOOT-05001-REVIEW-0001.md
+R  raw/md/eArc-000-BOOT-5001_eArc_Kernel_5000_v2.0.1_DRAFT.md.md -> raw/md/bootframes/eArc-000-BOOT-5001_eArc_Kernel_5000_v2.0.1_DRAFT.md.md
+R  raw/md/eArc-000-BOOT-5001_eArc_Kernel_v1.1_FeinschliffPlan.md.md -> raw/md/bootframes/eArc-000-BOOT-5001_eArc_Kernel_v1.1_FeinschliffPlan.md.md
+R  raw/md/eArc-000-BOOT-5002_eArc_Kernel_5000_v2.0.2.md.md -> raw/md/bootframes/eArc-000-BOOT-5002_eArc_Kernel_5000_v2.0.2.md.md
+R  raw/md/eArc-000-BOOT-5002_eArc_Kernel_v1.1_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5002_eArc_Kernel_v1.1_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5003_eArc_Kernel_v1.2_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5003_eArc_Kernel_v1.2_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5004_eArc_Kernel_v1.3_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5004_eArc_Kernel_v1.3_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5005_eArc_Kernel_v1.4_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5005_eArc_Kernel_v1.4_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5006.md -> raw/md/bootframes/eArc-000-BOOT-5006.md
+R  raw/md/eArc-000-BOOT-5006_eArc_Kernel_v1.5_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5006_eArc_Kernel_v1.5_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5007_eArc_Kernel_v1.6_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5007_eArc_Kernel_v1.6_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5008_eArc_Kernel_v1.7_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5008_eArc_Kernel_v1.7_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5009_eArc_Kernel_v1.8_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5009_eArc_Kernel_v1.8_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5010_eArc_Kernel_v1.9_PATCH.md.md -> raw/md/bootframes/eArc-000-BOOT-5010_eArc_Kernel_v1.9_PATCH.md.md
+R  raw/md/eArc-000-BOOT-5011_eArc_Kernel_v2.0_STABILIZE.md.md -> raw/md/bootframes/eArc-000-BOOT-5011_eArc_Kernel_v2.0_STABILIZE.md.md
+R  raw/md/pack_bootframe_sim.ndjson.md -> raw/md/bootframes/pack_bootframe_sim.ndjson.md
+A  raw/md/canonical_candidates/.keep
+A  raw/md/duplicate_candidates/.keep
+A  raw/md/gateway_indexed/.keep
+R  "raw/md/Builder freeze_earc_kernel5000_v3_0_trinity_united.md" -> "raw/md/kernel/Builder freeze_earc_kernel5000_v3_0_trinity_united.md"
+R  "raw/md/EINSATZBUCHHINWEIS \342\200\223 eArc Kernel 5000 v1.0 (Text Only).md" -> "raw/md/kernel/EINSATZBUCHHINWEIS \342\200\223 eArc Kernel 5000 v1.0 (Text Only).md"
+R  "raw/md/EINSATZBUCHHINWEIS \342\200\223 eArc Kernel 5000 v1.0.md" -> "raw/md/kernel/EINSATZBUCHHINWEIS \342\200\223 eArc Kernel 5000 v1.0.md"
+A  raw/md/kernel/Gateway.md
+R  "raw/md/K501 Alpha_ C Kernel Synthesis.md" -> "raw/md/kernel/K501 Alpha_ C Kernel Synthesis.md"
+R  "raw/md/K501 Kernel Kompilierungsfehler behoben.md" -> "raw/md/kernel/K501 Kernel Kompilierungsfehler behoben.md"
+R  "raw/md/K501 \302\267 AXIOMATIK v1.1  (Operativer Kernel).md" -> "raw/md/kernel/K501 \302\267 AXIOMATIK v1.1  (Operativer Kernel).md"
+R  "raw/md/Kernel 5000 \302\267 Trinity United.md" -> "raw/md/kernel/Kernel 5000 \302\267 Trinity United.md"
+R  "raw/md/Kernel 5k Essay txt.md" -> "raw/md/kernel/Kernel 5k Essay txt.md"
+R  "raw/md/Kernel Principles v1 \342\200\224 finaler Vorschlag.md" -> "raw/md/kernel/Kernel Principles v1 \342\200\224 finaler Vorschlag.md"
+R  raw/md/Kernel-Essay.html.md -> raw/md/kernel/Kernel-Essay.html.md
+R  "raw/md/MINILOADER \342\200\223 eArc Kernel 5000 v1.0 (Text Only).md" -> "raw/md/kernel/MINILOADER \342\200\223 eArc Kernel 5000 v1.0 (Text Only).md"
+R  "raw/md/Nachfolgend Kernel Builder 2.9 \342\200\223.md" -> "raw/md/kernel/Nachfolgend Kernel Builder 2.9 \342\200\223.md"
+R  "raw/md/Phase_Kernel-adjacent-Shell + Translator 2.md" -> "raw/md/kernel/Phase_Kernel-adjacent-Shell + Translator 2.md"
+R  "raw/md/STATUS \302\267 Kernel 5000 v2.9.md" -> "raw/md/kernel/STATUS \302\267 Kernel 5000 v2.9.md"
+R  raw/md/begriffsnetz_earc_kernel5000.md -> raw/md/kernel/begriffsnetz_earc_kernel5000.md
+R  "raw/md/build_report_kernel_5000_dev_alpha_v4.1.json (vollsta\314\210ndig, success).md" -> "raw/md/kernel/build_report_kernel_5000_dev_alpha_v4.1.json (vollsta\314\210ndig, success).md"
+R  "raw/md/eArc Kernel 5000 v2.6.0.md" -> "raw/md/kernel/eArc Kernel 5000 v2.6.0.md"
+R  "raw/md/eArc Kernel 5000 \302\267 Development Alpha.md" -> "raw/md/kernel/eArc Kernel 5000 \302\267 Development Alpha.md"
+R  "raw/md/eArc Kernel 5000 \302\267 Development Alpha868.md" -> "raw/md/kernel/eArc Kernel 5000 \302\267 Development Alpha868.md"
+R  "raw/md/eArc Kernel 5000 \302\267 v2.5 (FINAL).md" -> "raw/md/kernel/eArc Kernel 5000 \302\267 v2.5 (FINAL).md"
+R  raw/md/eArc-000-MAN-0001_eArc_Technisches_Manifesto_Kernel_Wirkung86_v1.0.md.md -> raw/md/kernel/eArc-000-MAN-0001_eArc_Technisches_Manifesto_Kernel_Wirkung86_v1.0.md.md
+R  raw/md/eArc-000-MAN-0001_eArc_Technisches_Manifesto_Kernel_Wirkung_v1.0.md.md -> raw/md/kernel/eArc-000-MAN-0001_eArc_Technisches_Manifesto_Kernel_Wirkung_v1.0.md.md
+R  raw/md/frame_earc_kernel_builder_v0_1.md -> raw/md/kernel/frame_earc_kernel_builder_v0_1.md
+R  raw/md/freeze_earc_kernel5000_v3_0_trinity_united.md -> raw/md/kernel/freeze_earc_kernel5000_v3_0_trinity_united.md
+R  raw/md/freeze_kernel_build_earc_k5000_v3_0.md -> raw/md/kernel/freeze_kernel_build_earc_k5000_v3_0.md
+R  raw/md/kernel.md -> raw/md/kernel/kernel.md
+R  raw/md/kernel5000_v2_5_1_feed_archiv.md -> raw/md/kernel/kernel5000_v2_5_1_feed_archiv.md
+R  raw/md/kernel5000_v2_5_1_feed_grundlage.md -> raw/md/kernel/kernel5000_v2_5_1_feed_grundlage.md
+R  raw/md/kernel5000_v2_5_1_feed_index.md -> raw/md/kernel/kernel5000_v2_5_1_feed_index.md
+R  raw/md/kernel5000_v2_5_1_feed_intake_staging.md -> raw/md/kernel/kernel5000_v2_5_1_feed_intake_staging.md
+R  raw/md/kernel5000_v2_5_1_feed_render.md -> raw/md/kernel/kernel5000_v2_5_1_feed_render.md
+R  raw/md/kernel5000_v2_5_1_feed_superpack.md -> raw/md/kernel/kernel5000_v2_5_1_feed_superpack.md
+R  raw/md/kernel_build_prognose_public.md -> raw/md/kernel/kernel_build_prognose_public.md
+R  raw/md/kernel_builder_2_9.md -> raw/md/kernel/kernel_builder_2_9.md
+R  raw/md/kernel_builder_contract.md -> raw/md/kernel/kernel_builder_contract.md
+R  raw/md/kernel_dev_mode_activation_earc_k5000_v2_9.md -> raw/md/kernel/kernel_dev_mode_activation_earc_k5000_v2_9.md
+R  raw/md/kernel_index_earc_k5000_v3_0.md -> raw/md/kernel/kernel_index_earc_k5000_v3_0.md
+R  raw/md/kernel_spec_v1.json.md -> raw/md/kernel/kernel_spec_v1.json.md
+A  raw/md/pending_review/.keep
+R  raw/md/01_Manifesto_Einheit_Bewusstsein_Frieden.md.md -> raw/md/philosophy/01_Manifesto_Einheit_Bewusstsein_Frieden.md.md
+R  raw/md/03_Paradies_auf_Erden.md.md -> raw/md/philosophy/03_Paradies_auf_Erden.md.md
+R  raw/md/04_Bewusstsein.md.md -> raw/md/philosophy/04_Bewusstsein.md.md
+R  raw/md/08_Ethos.md.md -> raw/md/philosophy/08_Ethos.md.md
+R  raw/md/09_Verantwortung.md.md -> raw/md/philosophy/09_Verantwortung.md.md
+R  raw/md/11_Wahrnehmung.md.md -> raw/md/philosophy/11_Wahrnehmung.md.md
+R  raw/md/12_Ordnung.md.md -> raw/md/philosophy/12_Ordnung.md.md
+R  raw/md/13_Ruhe.md.md -> raw/md/philosophy/13_Ruhe.md.md
+R  raw/md/Alt-07_Paradies_auf_Erden.md.md -> raw/md/philosophy/Alt-07_Paradies_auf_Erden.md.md
+A  raw/md/philosophy/Gateway.md
+R  "raw/md/K501 ist eine Overlay-Disziplin Ordnung, nicht Wahrheit.md" -> "raw/md/philosophy/K501 ist eine Overlay-Disziplin Ordnung, nicht Wahrheit.md"
+R  raw/md/00_Projekt_Snapshot_Aktuell.md.md -> raw/md/snapshots/00_Projekt_Snapshot_Aktuell.md.md
+R  raw/md/00_Projekt_Snapshot_Aktuell.yaml.md -> raw/md/snapshots/00_Projekt_Snapshot_Aktuell.yaml.md
+R  raw/md/00_Projektstatus_iInkognit0.md.md -> raw/md/snapshots/00_Projektstatus_iInkognit0.md.md
+R  raw/md/00_Statistik_Snapshot_Aktuell.md.md -> raw/md/snapshots/00_Statistik_Snapshot_Aktuell.md.md
+R  raw/md/00_Statistik_Snapshot_Aktuell.yaml.md -> raw/md/snapshots/00_Statistik_Snapshot_Aktuell.yaml.md
+R  raw/md/03_Trigger_und_Traeger_Logik_Iinkognit0.md.md -> raw/md/snapshots/03_Trigger_und_Traeger_Logik_Iinkognit0.md.md
+R  raw/md/05_Technologie.md.md -> raw/md/snapshots/05_Technologie.md.md
+R  raw/md/14_Prioritaetenlogik.md.md -> raw/md/snapshots/14_Prioritaetenlogik.md.md
+R  raw/md/99_Status.md.md -> raw/md/snapshots/99_Status.md.md
+R  "raw/md/Erstes Event loggen (append-only).md" -> "raw/md/snapshots/Erstes Event loggen (append-only).md"
+A  raw/md/snapshots/Gateway.md
+R  "raw/md/K5 \302\267 Kernel- & Development-Status (kurz & klar).md" -> "raw/md/snapshots/K5 \302\267 Kernel- & Development-Status (kurz & klar).md"
+R  "raw/md/K501 Alpha Node Stability Report.md" -> "raw/md/snapshots/K501 Alpha Node Stability Report.md"
+R  "raw/md/K501 Frames \342\200\224 Provenance and Snapshot Semantics (v1.5).md" -> "raw/md/snapshots/K501 Frames \342\200\224 Provenance and Snapshot Semantics (v1.5).md"
+R  "raw/md/K501 Kanon History Chronological Output.md" -> "raw/md/snapshots/K501 Kanon History Chronological Output.md"
+R  "raw/md/K501 Node Alpha_ Mission Success Report.md" -> "raw/md/snapshots/K501 Node Alpha_ Mission Success Report.md"
+R  "raw/md/K501 Node Operational_ Status Report.md" -> "raw/md/snapshots/K501 Node Operational_ Status Report.md"
+R  "raw/md/K501 Node \342\200\224 Security, Network Logging, and System_.md" -> "raw/md/snapshots/K501 Node \342\200\224 Security, Network Logging, and System_.md"
+R  "raw/md/K501 Pipeline Frozen_ System Status.md" -> "raw/md/snapshots/K501 Pipeline Frozen_ System Status.md"
+R  "raw/md/K501 Status Audio Transcript.md" -> "raw/md/snapshots/K501 Status Audio Transcript.md"
+R  "raw/md/K501 System Snapshot.md" -> "raw/md/snapshots/K501 System Snapshot.md"
+R  "raw/md/K501 System-Integrit\303\244t_ Audit und Historisierung.md" -> "raw/md/snapshots/K501 System-Integrit\303\244t_ Audit und Historisierung.md"
+R  "raw/md/K501 Workspace and Quantum Logic.md" -> "raw/md/snapshots/K501 Workspace and Quantum Logic.md"
+R  "raw/md/K501Gemini System Snapshot & Harmonization.md" -> "raw/md/snapshots/K501Gemini System Snapshot & Harmonization.md"
+R  "raw/md/K501Gemini System-Snapshot und Harmonisierung.md" -> "raw/md/snapshots/K501Gemini System-Snapshot und Harmonisierung.md"
+R  "raw/md/K501Gemini_ Genesis Und Topologie.md" -> "raw/md/snapshots/K501Gemini_ Genesis Und Topologie.md"
+R  "raw/md/K501_ Monolithisches Skript und Topologie-Visualis.md" -> "raw/md/snapshots/K501_ Monolithisches Skript und Topologie-Visualis.md"
+R  "raw/md/Projektstatus \342\200\223 iInkognit0.md" -> "raw/md/snapshots/Projektstatus \342\200\223 iInkognit0.md"
+R  "raw/md/Snapshot-Batch minimal..md" -> "raw/md/snapshots/Snapshot-Batch minimal..md"
+R  "raw/md/Statistik-Snapshot \342\200\223 Spotify.md.md" -> "raw/md/snapshots/Statistik-Snapshot \342\200\223 Spotify.md.md"
+R  raw/md/Statistik-Snapshot_Podcast_iInkognit0.md.md -> raw/md/snapshots/Statistik-Snapshot_Podcast_iInkognit0.md.md
+R  raw/md/Statistik-Snapshot_Podcast_iInkognit0.yaml.md -> raw/md/snapshots/Statistik-Snapshot_Podcast_iInkognit0.yaml.md
+R  "raw/md/Statistik-Snapshots \342\200\223 iInkognit0.md" -> "raw/md/snapshots/Statistik-Snapshots \342\200\223 iInkognit0.md"
+R  "raw/md/Status (HUD-fa\314\210hig).md" -> "raw/md/snapshots/Status (HUD-fa\314\210hig).md"
+R  raw/md/report.json.md -> raw/md/snapshots/report.json.md
+R  "raw/md/report_schema.md (Report-Format als menschliche Referenz).md" -> "raw/md/snapshots/report_schema.md (Report-Format als menschliche Referenz).md"
+R  raw/md/status_bereit_fuer_.md -> raw/md/snapshots/status_bereit_fuer_.md
+A  raw/md/structural_unknown/.keep
+R  raw/md/1Untitled.md -> raw/md/temporary/1Untitled.md
+R  raw/md/222Untitled.md -> raw/md/temporary/222Untitled.md
+R  "raw/md/23636Untitled 2.md" -> "raw/md/temporary/23636Untitled 2.md"
+R  raw/md/238383Untitled.md -> raw/md/temporary/238383Untitled.md
+R  raw/md/266262.md -> raw/md/temporary/266262.md
+R  raw/md/3747474.md -> raw/md/temporary/3747474.md
+R  raw/md/43543Untitled.md -> raw/md/temporary/43543Untitled.md
+R  raw/md/453.md -> raw/md/temporary/453.md
+R  "raw/md/53454543Untitled 1.md" -> "raw/md/temporary/53454543Untitled 1.md"
+R  raw/md/5432.md -> raw/md/temporary/5432.md
+R  raw/md/5768Untitled.md -> raw/md/temporary/5768Untitled.md
+R  raw/md/7437.md -> raw/md/temporary/7437.md
+R  raw/md/76326363.md -> raw/md/temporary/76326363.md
+R  raw/md/999Untitled.md -> raw/md/temporary/999Untitled.md
+R  "raw/md/Untitled 1.md" -> "raw/md/temporary/Untitled 1.md"
+R  "raw/md/Untitled 10.md" -> "raw/md/temporary/Untitled 10.md"
+R  "raw/md/Untitled 1888.md" -> "raw/md/temporary/Untitled 1888.md"
+R  "raw/md/Untitled 2.md" -> "raw/md/temporary/Untitled 2.md"
+R  "raw/md/Untitled 3.md" -> "raw/md/temporary/Untitled 3.md"
+R  "raw/md/Untitled 5.md" -> "raw/md/temporary/Untitled 5.md"
+R  "raw/md/Untitled 56751.md" -> "raw/md/temporary/Untitled 56751.md"
+R  "raw/md/Untitled 6.md" -> "raw/md/temporary/Untitled 6.md"
+R  "raw/md/Untitled 65652.md" -> "raw/md/temporary/Untitled 65652.md"
+R  "raw/md/Untitled 7.md" -> "raw/md/temporary/Untitled 7.md"
+R  "raw/md/Untitled 8.md" -> "raw/md/temporary/Untitled 8.md"
+R  raw/md/Untitled-2.md -> raw/md/temporary/Untitled-2.md
+R  raw/md/Untitled.md -> raw/md/temporary/Untitled.md
+R  raw/md/Untitled6565.md -> raw/md/temporary/Untitled6565.md
+R  raw/md/Untitled7666.md -> raw/md/temporary/Untitled7666.md
+R  raw/md/aaUntitled.md -> raw/md/temporary/aaUntitled.md
+R  raw/md/d.md -> raw/md/temporary/d.md
+R  raw/md/fdsjflkdUntitled.md -> raw/md/temporary/fdsjflkdUntitled.md
+A  raw/md/unstable_fragments/.keep
+?? archive/topology_snapshots/

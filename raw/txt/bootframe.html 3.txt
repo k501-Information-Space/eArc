@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex,follow" />
+  <title>K501 · BootFrame · Archive Entry</title>
+
+  <style>
+    :root{
+      --bg0:#050812;
+      --bg1:#0f1535;
+      --panel: rgba(26,31,58,.55);
+      --border:#1a1f3a;
+      --text:#e0e6ff;
+      --dim:#8892b0;
+      --p:#00ff41;
+      --a:#00d9ff;
+      --radius:12px;
+      --pad:16px;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
+      background: linear-gradient(135deg,var(--bg0),var(--bg1));
+      color:var(--text);
+      line-height:1.5;
+    }
+
+    header{
+      padding:16px;
+      border-bottom:1px solid var(--border);
+      background: rgba(10,14,39,.9);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .k501{
+      font-weight:800;
+      letter-spacing:2px;
+      color:var(--p);
+    }
+
+    .sub{
+      color:var(--dim);
+      font-size:12px;
+    }
+
+    main{
+      max-width:900px;
+      margin:0 auto;
+      padding:16px;
+      display:grid;
+      gap:14px;
+    }
+
+    .panel{
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:var(--pad);
+    }
+
+    .panel h2{
+      margin:0 0 10px 0;
+      font-size:14px;
+      letter-spacing:1px;
+      text-transform:uppercase;
+      color:var(--p);
+    }
+
+    a{
+      color:var(--a);
+      text-decoration:none;
+      border-bottom:1px dashed rgba(0,217,255,.35);
+      padding-bottom:1px;
+    }
+
+    a:hover{
+      color:var(--p);
+      border-bottom-color:rgba(0,255,65,.35);
+    }
+
+    .list{
+      display:grid;
+      gap:8px;
+      margin-top:8px;
+    }
+
+    .item{
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:10px 12px;
+      background:rgba(0,0,0,.12);
+    }
+
+    footer{
+      padding:14px 16px;
+      color:var(--dim);
+      border-top:1px solid var(--border);
+      background: rgba(10,14,39,.65);
+      font-size:12px;
+      text-align:center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="k501">K501</div>
+    <div class="sub">BootFrame · Static Archive Entry · Non-Operational</div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Status</h2>
+      <div class="sub">
+        Reference bootstrap. No telemetry. No input. No simulation.
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Canonical DOIs</h2>
+
+      <div class="list">
+
+        <div class="item">
+          <a href="https://doi.org/10.5281/zenodo.18632667" target="_blank" rel="noopener">
+            Structural Gateway & Repository Navigation v1.0
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://doi.org/10.5281/zenodo.18615438" target="_blank" rel="noopener">
+            Combined Formal Statement v1.0
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://doi.org/10.5281/zenodo.18615245" target="_blank" rel="noopener">
+            Structural Integration Specification v1.0
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://doi.org/10.5281/zenodo.18599148" target="_blank" rel="noopener">
+            Die Formel v1.0
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://doi.org/10.5281/zenodo.18521607" target="_blank" rel="noopener">
+            Flow v1.0
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://doi.org/10.5281/zenodo.18511614" target="_blank" rel="noopener">
+            AZ-Epoch 0
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://doi.org/10.5281/zenodo.18511613" target="_blank" rel="noopener">
+            Concept DOI (all versions)
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Primary Gateway</h2>
+      <div class="sub">
+        → <a href="/earc/">Open canonical static gateway</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    K501 · bootframe · reference only · append-only context
+  </footer>
+</body>
+</html>

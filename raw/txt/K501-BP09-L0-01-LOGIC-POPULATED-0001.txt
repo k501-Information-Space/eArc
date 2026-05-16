@@ -1,0 +1,93 @@
+t: FRAME
+id: K501-BP09-L0-01-LOGIC-POPULATED-0001
+type: BOOTPACK_SUBMODULE_CONTENT
+kernel: K501
+bootpack: BP-09_MATHEMATICS
+layer: L0_FOUNDATIONS
+submodule: L0-01_LOGIC
+mode: DEVELOPMENT
+profile: INCOGNITO
+visibility: LOCAL
+state: ACTIVE
+canon: NO_CHANGE
+time_anchor_ref: K501-TIMEANCHOR-1770060007-0001
+
+constraints:
+  - APPEND_ONLY
+  - NO_PHANTOM
+  - PROOF_BEFORE_STATE
+  - SILENCE_IS_VALID
+
+refs:
+  urls:
+    - "https://en.wikipedia.org/wiki/First-order_logic"
+    - "https://builds.openlogicproject.org/content/first-order-logic/first-order-logic.pdf"
+
+content:
+  scope:
+    logic_kind: "FIRST_ORDER_LOGIC (FOL)"
+    note: "FOL als Standard-Formalisierungsrahmen (Syntax + Beweissystem)."
+
+  syntax:
+    alphabets:
+      variables: ["x","y","z", "..."]
+      constants: ["c1","c2","... (optional)"]
+      function_symbols: ["f","g","... (optional, with arity)"]
+      predicate_symbols: ["P","Q","R","... (optional, with arity)"]
+      logical_symbols: ["¬","∧","∨","→","↔","∀","∃","="]
+      parentheses: ["(",")",","]
+    terms:
+      formation_rules:
+        - "variable is a term"
+        - "constant is a term (if constants used)"
+        - "if f is n-ary function symbol and t1..tn terms, then f(t1..tn) is a term"
+    formulas:
+      atomic:
+        - "P(t1,..,tn) is atomic formula"
+        - "t1 = t2 is atomic formula (if '=' included)"
+      formation_rules:
+        - "if φ then ¬φ"
+        - "if φ, ψ then (φ ∧ ψ), (φ ∨ ψ), (φ → ψ), (φ ↔ ψ)"
+        - "if φ and x variable then ∀x φ and ∃x φ"
+
+  semantics_minimal:
+    model:
+      components:
+        - "domain D (non-empty set)"
+        - "interpretation of constants in D (optional)"
+        - "interpretation of n-ary functions as D^n -> D (optional)"
+        - "interpretation of n-ary predicates as subsets of D^n (optional)"
+        - "interpretation of '=' as identity on D (if used)"
+    satisfaction:
+      note: "Wahrheit relativ zu (Model, Variable-Assignment). (Details bleiben in L1.)"
+
+  proof_system_minimal:
+    system: "NATURAL_DEDUCTION (minimal core)"
+    inference_rules:
+      core:
+        - name: MODUS_PONENS
+          schema: "φ, (φ → ψ) ⟹ ψ"
+        - name: UNIVERSAL_INSTANTIATION
+          schema: "∀x φ(x) ⟹ φ(t)"
+        - name: EXISTENTIAL_INSTANTIATION
+          schema: "∃x φ(x) ⟹ φ(c)  (c fresh; side-conditions)"
+        - name: UNIVERSAL_GENERALIZATION
+          schema: "φ(x) ⟹ ∀x φ(x)  (x not free in assumptions; side-conditions)"
+      structural_notes:
+        - "Side-conditions sind Teil der Regeldefinition (kein Phantom-Proof)."
+        - "Alternative Systeme (Hilbert/Sequent) sind erlaubt, aber getrennte Stränge."
+
+  definitions_registry:
+    - term: "well_formed_formula (wff)"
+      def: "Formel, die durch obige Syntax-Regeln erzeugbar ist."
+    - term: "free_variable / bound_variable"
+      def: "Variable ist frei, wenn nicht durch Quantor gebunden; sonst gebunden."
+    - term: "theory"
+      def: "Menge von Sätzen (Axiomen) in einer gegebenen Sprache."
+    - term: "derivation / proof"
+      def: "Endliche Sequenz von Formeln, wobei jede Formel Axiom oder aus Regeln folgt."
+
+status:
+  populated: true
+  depth: "L0"
+  next: "L0-02_SET_THEORY (axioms ZF/ZFC) populate"

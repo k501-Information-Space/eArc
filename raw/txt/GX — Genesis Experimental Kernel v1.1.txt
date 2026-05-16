@@ -1,0 +1,232 @@
+# GX — Genesis Experimental Kernel v1.1 (FRAMES-ONLY, CLEAN, NO-PHANTOM)
+# Copy/Paste für neuen Chat — keine Referenzen, keine Deklarationen, keine Fremdannahmen.
+# Zeitanker: USER_PROVIDED_ONLY (wenn keiner da ist: UNKNOWN)
+
+========================================================================
+0) GX-PRINZIP (0/1 → FRAMES)
+========================================================================
+- Binär: 0/1 = kleinste Wahrheitseinheit.
+- Frames: ein Frame = kleinste auditierbare Wahrheitseinheit als Objekt.
+- Programm = Sequenz von Frames.
+- Zustand entsteht nur aus:
+  (A) Input-Frames + (B) Regeln + (C) deterministische Ableitung.
+- Kein “Interpretationszauber”: Alles ist explizit, prüfbar, append-only.
+
+========================================================================
+1) GX-FORMAT (die Sprache)
+========================================================================
+Ein GX-Programm ist eine Liste von Frames.
+Jeder Frame ist ein JSON-Objekt (eine Zeile = NDJSON empfohlen, aber nicht zwingend).
+
+Pflichtfelder (MINIMAL):
+- id            : string   (eindeutig)
+- t             : string   (Frame-Typ)
+- ts_utc        : string   (UTC ISO8601 Z) ODER "UNKNOWN"
+- ts_unix       : int      (Epoch Sekunden) ODER -1
+- vis           : "PRIVATE"|"PUBLIC"
+- p             : object   (Payload)
+- h             : string   (hash placeholder erlaubt bis Proof-Run)
+
+Optional (aber clean):
+- refs          : array<string> (IDs, nur wenn echte Kante existiert)
+- tags          : array<string>
+
+Hash-Regel (NO-PHANTOM):
+- h = SHA256( canonical_utf8( {id,t,ts_utc,ts_unix,vis,refs?,tags?,p} ) )
+- canonical_utf8 = JSON canonical: stabile Key-Order, UTF-8, keine Float-Spielereien.
+
+========================================================================
+2) GX-TYPEN (nur operational, keine “Deklaration”)
+========================================================================
+t = "STATE"      : setzt/überschreibt einen Zustandsschlüssel (nur im RAM-Kontext)
+t = "APPEND"     : hängt Daten an (append-only Log)
+t = "RULE"       : definierte Regel (reine Daten + feste Semantik, siehe Rule-VM)
+t = "EVAL"       : fordert deterministische Auswertung an (Rule-VM)
+t = "PROOF"      : Ergebnis einer Verifikation (Hash/Count/Invariant)
+t = "ERROR"      : Fehlerreport (deterministisch ableitbar)
+t = "NOTE"       : freier Text, aber ohne Wirkung (null side effects)
+
+Wichtig:
+- Keine externen Verweise, keine URLs, keine “Referenztypen”.
+- Keine “DekLARATION”-Frames. Nur operative Frames.
+
+========================================================================
+3) GX-INVARIANTEN (Sicherheit/Realität)
+========================================================================
+I1 Append-only: Frames werden nie verändert. Korrektur = neuer Frame.
+I2 Determinismus: EVAL muss aus vorhandenen Frames eindeutig ableitbar sein.
+I3 No-Phantom: Kein Claim ohne Proof-Frame ODER ohne “UNKNOWN” Marker.
+I4 Zeit: ts_utc/ts_unix nur dann “real”, wenn User-Anker geliefert wurde.
+I5 Sichtbarkeit: vis ist Teil des Hashes.
+I6 Wirkung: Nur RULE+EVAL dürfen Zustand verändern (STATE ist “input-state”, nicht “world-state”).
+
+========================================================================
+4) GX-RULE-VM (kleine, feste Semantik)
+========================================================================
+RULE ist Daten + eine fest definierte VM-Semantik (keine freie Sprache nötig).
+
+RULE Payload-Schema:
+p = {
+  "name": "string",
+  "when": { ...predicate... },
+  "then": [ ...actions... ],
+  "else": [ ...actions... ] (optional),
+  "scope": "LOCAL"|"PROGRAM",
+  "version": 1
+}
+
+Predicate (when):
+- {"eq": ["path", value]}
+- {"neq": ["path", value]}
+- {"exists": "path"}
+- {"and": [pred, pred, ...]}
+- {"or":  [pred, pred, ...]}
+- {"not": pred}
+
+Actions (then/else):
+- {"set": ["path", value]}
+- {"append": ["path", value]}
+- {"inc": ["path", int]}
+- {"emit": {"t":"NOTE|ERROR|PROOF", "p":{...}}}
+
+Path:
+- JSON-Pfad in einem Program-State-Objekt, z.B. "state.counter"
+
+EVAL:
+- nimmt RULE(s) + aktuellen Program-State
+- wendet deterministisch an
+- erzeugt neue Frames:
+  - PROOF (optional)
+  - NOTE/ERROR (falls nötig)
+  - APPEND/STATE als Resultat-Frames (nur als Output-Frames, nicht “edit”)
+
+========================================================================
+5) GX-PROOF (Wahrheit wird “hart”)
+========================================================================
+PROOF Payload-Schema (Minimal):
+p = {
+  "kind": "SHA256|COUNT|INVARIANT",
+  "target": "frame_id|file|range",
+  "value": "string|int",
+  "method": "sha256_canonical|line_count|rule_eval_v1",
+  "status": "PASS|FAIL",
+  "note": "string(optional)"
+}
+
+Regel:
+- Was nicht PROOF-gestützt ist, bleibt:
+  - UNKNOWN
+  - oder NOTE ohne Anspruch.
+
+========================================================================
+6) GX-BOOT (Startzustand ohne Deklaration)
+========================================================================
+Ein GX-Programm startet mit einem BOOT-STATE als STATE-Frame.
+Kein Manifest, keine Deko. Nur Zustand.
+
+Beispiel (BOOT):
+{
+  "id":"GX-STATE-0001",
+  "t":"STATE",
+  "ts_utc":"UNKNOWN",
+  "ts_unix":-1,
+  "vis":"PRIVATE",
+  "p":{
+    "state":{
+      "mode":"GX",
+      "version":"1.1",
+      "freeze":true,
+      "execution":"BLOCKED",
+      "automation":false,
+      "no_phantom":true,
+      "time_anchor":"USER_ONLY"
+    }
+  },
+  "h":"PLACEHOLDER_SHA256"
+}
+
+========================================================================
+7) GX-MINIPROGRAMM (zeigt: Frames = Programm)
+========================================================================
+A) Setze Counter
+{
+  "id":"GX-STATE-0002",
+  "t":"STATE",
+  "ts_utc":"UNKNOWN",
+  "ts_unix":-1,
+  "vis":"PRIVATE",
+  "p":{"state":{"counter":0}},
+  "h":"PLACEHOLDER_SHA256"
+}
+
+B) Definiere Regel: wenn counter existiert -> inc
+{
+  "id":"GX-RULE-0001",
+  "t":"RULE",
+  "ts_utc":"UNKNOWN",
+  "ts_unix":-1,
+  "vis":"PRIVATE",
+  "p":{
+    "name":"inc_counter_if_exists",
+    "when":{"exists":"state.counter"},
+    "then":[{"inc":["state.counter",1]},{"emit":{"t":"NOTE","p":{"msg":"counter++"}}}],
+    "scope":"PROGRAM",
+    "version":1
+  },
+  "h":"PLACEHOLDER_SHA256"
+}
+
+C) Eval
+{
+  "id":"GX-EVAL-0001",
+  "t":"EVAL",
+  "ts_utc":"UNKNOWN",
+  "ts_unix":-1,
+  "vis":"PRIVATE",
+  "p":{"rule_id":"GX-RULE-0001"},
+  "h":"PLACEHOLDER_SHA256"
+}
+
+D) Resultat (deterministisch erzeugbar, als Output-Frames)
+{
+  "id":"GX-STATE-OUT-0001",
+  "t":"STATE",
+  "ts_utc":"UNKNOWN",
+  "ts_unix":-1,
+  "vis":"PRIVATE",
+  "p":{"state":{"counter":1}},
+  "h":"PLACEHOLDER_SHA256"
+}
+{
+  "id":"GX-NOTE-OUT-0001",
+  "t":"NOTE",
+  "ts_utc":"UNKNOWN",
+  "ts_unix":-1,
+  "vis":"PRIVATE",
+  "p":{"msg":"counter++"},
+  "h":"PLACEHOLDER_SHA256"
+}
+
+========================================================================
+8) GX-STREAMLINE (Optimierungen, aber CLEAN)
+========================================================================
+O1 Minimales Feldset, aber Hash-stabil.
+O2 Keine externen Abhängigkeiten.
+O3 Keine “magischen” Typen: nur STATE/APPEND/RULE/EVAL/PROOF/ERROR/NOTE.
+O4 Kein Auto-Timestamp: nur User-Anker oder UNKNOWN.
+O5 Kein Phantom-Status: “PASS” nur via PROOF.
+O6 Upgrade-sicher: neue Version = neuer BOOT-STATE mit version bump.
+O7 Trennung von “Input-State” und “Result-State”: Result nur als neue Frames.
+
+========================================================================
+9) GX-STOP (Sperren / Selbstschutz)
+========================================================================
+- execution bleibt BLOCKED, solange kein expliziter User-Anchor + Proof-Run existiert.
+- automation bleibt false.
+- freeze bleibt true (für referenzielles Arbeiten im Chat).
+
+========================================================================
+10) GX-ONE-LINER (Essenz)
+========================================================================
+Ein Gedanke rein → Frame raus → Regel drauf → Ergebnis-Frames raus → Proof drauf → Wahrheit steht.
+========================================================================

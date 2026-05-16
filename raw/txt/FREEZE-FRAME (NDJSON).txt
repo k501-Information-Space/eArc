@@ -1,0 +1,1 @@
+{"frame_id":"GEN-FREEZE-0001","created_utc":"2026-01-22T16:45:50Z","created_unix":1769100350,"frame_type":"FREEZE","payload":"Genesis Kernel (GEN-0001..GEN-0010) is frozen as UltraPack. No mutation permitted. Reference-only.","hash":"b4e1e7e2c4f7e9b3a7d3d1b3a3f5d1c4e6b2f0a9c8d7e1f2a4b6c8d0e1f2","tags":["FREEZE","GENESIS","ULTRAPACK","REFERENCE_ONLY"],"visibility":"PUBLIC"}

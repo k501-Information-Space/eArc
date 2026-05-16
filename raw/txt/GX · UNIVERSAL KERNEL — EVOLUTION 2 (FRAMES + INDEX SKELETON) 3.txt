@@ -1,0 +1,110 @@
+# ============================================================
+# GX · UNIVERSAL KERNEL — EVOLUTION 2 (FRAMES + INDEX SKELETON)
+# ============================================================
+# MODE: REFERENCE_ONLY
+# EXECUTION: BLOCKED
+# APPEND_ONLY: TRUE
+# NO_PHANTOM: TRUE (PROOF_BEFORE_STATE)
+# ============================================================
+# ROLE:
+# - Introduce minimal Frame grammar (lightweight)
+# - Add TIME_ANCHOR discipline (proof-only)
+# - Add Hard-Index skeleton + Zoom/Status stubs
+# - Still: no automation, no tool calls, no hidden state
+# ============================================================
+
+KERNEL_ID:
+- NAME: GX · UNIVERSAL KERNEL
+- VERSION: EVOLUTION-2
+- STATUS: STABLE_MINIMAL_PLUS
+
+# ------------------------------------------------------------
+# 1) CANONICAL JSON / FRAME SHAPE (MINIMAL)
+# ------------------------------------------------------------
+FRAME_MIN_V1:
+- required keys: ["t","id","vis","mode"]
+- optional keys: ["ts_unix","ts_utc","p","note","proof"]
+- encoding: UTF-8, LF, no duplicate keys
+- rule: "No invented hashes. If unknown -> 'UNKNOWN'."
+
+MODE_ENUM:
+- REFERENCE_ONLY
+
+VIS_ENUM:
+- PUBLIC | PRIVATE
+
+# ------------------------------------------------------------
+# 2) TRI-STATE / STATUS (NO OVERWRITE)
+# ------------------------------------------------------------
+TRI_STATE:
+- TRUE | FALSE | UNKNOWN
+
+STATUS_ENUM:
+- PROOFED | UNKNOWN | DRAFT
+
+RULES:
+- STATUS is append-only (never overwrite)
+- No state-change by confirmation alone
+- Proof is byte-level when PROOFED
+
+# ------------------------------------------------------------
+# 3) ZOOM (ORGANIZATIONAL ONLY)
+# ------------------------------------------------------------
+ZOOM_LEVELS_V1:
+- Z0 OVERVIEW
+- Z1 SOURCE
+- Z2 EVIDENCE
+- Z3 EXTRACTION
+- Z4 INTEGRATION
+
+RULE:
+- "Zoom changes organization only. Status changes require STATUS_UPDATE."
+
+# ------------------------------------------------------------
+# 4) MINIMAL FRAME TYPES (SCHEMAS)
+# ------------------------------------------------------------
+
+TYPE: TIME_ANCHOR
+{"t":"TIME_ANCHOR","id":"GX-TIME-ANCHOR-<UNIX>-<SEQ>","ts_unix":<U64>,"ts_utc":"<RFC3339Z>","vis":"PUBLIC","mode":"REFERENCE_ONLY","proof":"USER_CONFIRMED"}
+
+TYPE: SOURCE_REF
+{"t":"SOURCE_REF","id":"GX-SRC-<LABEL>-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"title":"<TEXT>","url":"<URL>","class":"<TAG>"},"sha256":"UNKNOWN","proof":"URL_ONLY"}
+
+TYPE: REF_URL (NORMALIZED POINTER)
+{"t":"REF_URL","id":"GX-REFURL-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"url":"<URL>","module":"<MODULE>","role":"<ROLE>","priority":"P0|P1|P2|P3|P4"}}
+
+TYPE: HARD_INDEX_PACK (HEADER ONLY)
+{"t":"HARD_INDEX_PACK","id":"GX-HIDX-<UNIX>-<SEQ>","ts_unix":<U64>,"ts_utc":"<RFC3339Z>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"canon_origin":"https://iinkognit0.de","label":"GX · HARD_INDEX · v1","rules":["APPEND_ONLY","FREEZE_ON","NO_PHANTOM","PROOF_BEFORE_STATE","NO_INVENTED_HASH"],"disconfirm":"Pointers only. No storage/state implied."}}
+
+TYPE: HARD_INDEX_POINTERS (LINK MAP)
+{"t":"HARD_INDEX_POINTERS","id":"GX-HIDX-PTR-<UNIX>-<SEQ>","ts_unix":<U64>,"vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"map":[{"from":"<SOURCE_REF_ID>","to":"<REF_URL_ID>"}],"note":"Normalization pointers only."}}
+
+TYPE: DETAIL_REF (ZOOM NODE)
+{"t":"DETAIL_REF","id":"GX-DETAIL-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"target_id":"<REF_URL|MODULE|HISTORY_NODE>","zoom":"Z1|Z2|Z3|Z4","title":"<TEXT>","scope":"<TEXT>","priority":"A|B|C|D|R","status":"UNKNOWN","note":"Detail node without proof."}}
+
+TYPE: STATUS_UPDATE (APPEND-ONLY)
+{"t":"STATUS_UPDATE","id":"GX-STATUS-UPD-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"target_id":"<DETAIL_REF|SOURCE_REF|REF_URL>","prev":"UNKNOWN","next":"DRAFT","reason":"<TEXT>","proof_ref":null}}
+
+TYPE: PROOF_CAPTURE (BYTE-LEVEL)
+{"t":"PROOF_CAPTURE","id":"GX-PROOF-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"target_id":"<DETAIL_REF>","kind":"HTTP|BYTES|PDF|SCREENSHOT|LOG","bytes_len":<U64>,"sha256":"<HEX64>","source":"<URL|PATH>","note":"Byte-accurate proof for PROOFED."}}
+
+TYPE: EXTRACT_NOTE (FACTS FROM PROOF)
+{"t":"EXTRACT_NOTE","id":"GX-EXTRACT-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"target_id":"<DETAIL_REF>","basis_proof":"<PROOF_CAPTURE_ID>","facts":[{"k":"<KEY>","v":"<VALUE>"}],"citation":"<Proof reference string>"}}
+
+TYPE: INTEGRATION_NOTE (NO NEW CLAIMS)
+{"t":"INTEGRATION_NOTE","id":"GX-INTEG-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"target_id":"<DETAIL_REF>","module":"HISTORY|AIKIDO_DEFENSE|KERNEL|GATEWAY|TYPOGRAPHY|KNOWLEDGE_SOURCES","impact":"HIGH|MEDIUM|LOW","note":"Context only. No new assertions."}}
+
+TYPE: INDEX_AUDIT_SNAPSHOT (COUNTS ONLY)
+{"t":"INDEX_AUDIT_SNAPSHOT","id":"GX-AUDIT-<UNIX>-<SEQ>","vis":"PUBLIC","mode":"REFERENCE_ONLY","p":{"counts":{"DETAIL_REF":0,"STATUS_PROOFED":0,"STATUS_DRAFT":0,"STATUS_UNKNOWN":0},"note":"Counts only. No interpretation."}}
+
+# ------------------------------------------------------------
+# 5) PROJECT SAFETY (WHY THIS WON'T HANG)
+# ------------------------------------------------------------
+SAFETY:
+- No code blocks, no long manifests, no heavy lists
+- Schemas only, minimal and declarative
+- Next evolutions may add modules gradually
+
+# ============================================================
+# END GX · UNIVERSAL KERNEL — EVOLUTION 2
+# ============================================================

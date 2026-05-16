@@ -1,0 +1,14 @@
+============================================================
+TITLE
+============================================================
+
+AUTHOR      : Patrick R. Miller [K501]
+CONTACT     : patrick.rmiller@proton.me
+ORIGIN      : iinkognit0.de
+
+UTC_EPOCH   : xxxxxxxxxx
+UTC_TIME    : YYYY-MM-DD HH:MM:SS UTC
+
+MODE        : SCIENTIFIC · REFERENCE_ONLY
+STATUS      : EXPERIMENTAL
+============================================================

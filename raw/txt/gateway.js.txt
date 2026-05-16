@@ -1,0 +1,316 @@
+/* ============================================
+   K501 GATEWAY — MAIN APPLICATION CONTROLLER
+   ============================================ */
+
+(function(){
+  'use strict';
+
+  // ============================================
+  // CONFIGURATION
+  // ============================================
+
+  const CONFIG = {
+    GITHUB_OWNER: 'Iinkognit0',
+    GITHUB_REPO: 'K501-Frames-Gateway',
+    GITHUB_API_BASE: 'https://api.github.com',
+    CACHE_KEY: 'k501_gateway_cache_v1',
+    CACHE_TTL: 3600000, // 1 hour
+    BOOTFRAME_IFRAME_ID: 'k501-bootframe-iframe',
+    DOI_BASE: 'https://doi.org'
+  };
+
+  // ============================================
+  // DOM SELECTORS
+  // ============================================
+
+  const elements = {
+    statusBadge: document.querySelector('#k501-status'),
+    navLinks: document.querySelectorAll('.nav-link'),
+    docList: document.querySelector('.doc-list'),
+    bootframeIframe: document.querySelector('iframe[src="/bootframe.html"]')
+  };
+
+  // ============================================
+  // UTILITY FUNCTIONS
+  // ============================================
+
+  function log(message, level = 'info') {
+    const timestamp = new Date().toISOString();
+    console.log(`[K501 Gateway ${level.toUpperCase()}] ${timestamp}: ${message}`);
+  }
+
+  function updateStatus(status, color = 'primary') {
+    if (elements.statusBadge) {
+      elements.statusBadge.textContent = status;
+      elements.statusBadge.className = `status-badge status-${color}`;
+    }
+  }
+
+  function getCachedData(key) {
+    try {
+      const cached = localStorage.getItem(key);
+      if (!cached) return null;
+
+      const { data, timestamp } = JSON.parse(cached);
+      const age = Date.now() - timestamp;
+
+      if (age > CONFIG.CACHE_TTL) {
+        localStorage.removeItem(key);
+        return null;
+      }
+
+      return data;
+    } catch (error) {
+      log(`Cache read error: ${error.message}`, 'warn');
+      return null;
+    }
+  }
+
+  function setCachedData(key, data) {
+    try {
+      const payload = {
+        data: data,
+        timestamp: Date.now()
+      };
+      localStorage.setItem(key, JSON.stringify(payload));
+      return true;
+    } catch (error) {
+      log(`Cache write error: ${error.message}`, 'warn');
+      return false;
+    }
+  }
+
+  // ============================================
+  // GITHUB API INTEGRATION
+  // ============================================
+
+  async function fetchGitHubRepo() {
+    const cacheKey = `${CONFIG.CACHE_KEY}_repo`;
+    const cached = getCachedData(cacheKey);
+
+    if (cached) {
+      log('Using cached repository data');
+      return cached;
+    }
+
+    try {
+      updateStatus('FETCHING', 'secondary');
+      
+      const url = `${CONFIG.GITHUB_API_BASE}/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}`;
+      const response = await fetch(url, {
+        headers: {
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error(`GitHub API error: ${response.status}`);
+      }
+
+      const repoData = await response.json();
+      setCachedData(cacheKey, repoData);
+      
+      log(`Repository fetched: ${repoData.name}`);
+      updateStatus('READY', 'primary');
+      return repoData;
+
+    } catch (error) {
+      log(`GitHub fetch failed: ${error.message}`, 'error');
+      updateStatus('ERROR', 'secondary');
+      return null;
+    }
+  }
+
+  async function fetchGitHubReleases() {
+    const cacheKey = `${CONFIG.CACHE_KEY}_releases`;
+    const cached = getCachedData(cacheKey);
+
+    if (cached) {
+      log('Using cached releases data');
+      return cached;
+    }
+
+    try {
+      const url = `${CONFIG.GITHUB_API_BASE}/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/releases`;
+      const response = await fetch(url, {
+        headers: {
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error(`GitHub API error: ${response.status}`);
+      }
+
+      const releases = await response.json();
+      setCachedData(cacheKey, releases);
+      
+      log(`${releases.length} releases fetched`);
+      return releases;
+
+    } catch (error) {
+      log(`Releases fetch failed: ${error.message}`, 'error');
+      return [];
+    }
+  }
+
+  async function fetchGitHubContents(path = '') {
+    const cacheKey = `${CONFIG.CACHE_KEY}_contents_${path}`;
+    const cached = getCachedData(cacheKey);
+
+    if (cached) {
+      log(`Using cached contents for path: ${path}`);
+      return cached;
+    }
+
+    try {
+      const url = `${CONFIG.GITHUB_API_BASE}/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/contents${path ? '/' + path : ''}`;
+      const response = await fetch(url, {
+        headers: {
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error(`GitHub API error: ${response.status}`);
+      }
+
+      const contents = await response.json();
+      setCachedData(cacheKey, contents);
+      
+      log(`Contents fetched for path: ${path || 'root'}`);
+      return contents;
+
+    } catch (error) {
+      log(`Contents fetch failed: ${error.message}`, 'error');
+      return [];
+    }
+  }
+
+  // ============================================
+  // DOI NAVIGATION
+  // ============================================
+
+  function buildDOIUrl(doi) {
+    if (doi.startsWith('http')) return doi;
+    return `${CONFIG.DOI_BASE}/${doi}`;
+  }
+
+  function createDOILink(doi, label) {
+    const link = document.createElement('a');
+    link.href = buildDOIUrl(doi);
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = label;
+    link.className = 'doi-link';
+    return link;
+  }
+
+  // ============================================
+  // NAVIGATION HANDLERS
+  // ============================================
+
+  function initNavigation() {
+    if (!elements.navLinks) return;
+
+    elements.navLinks.forEach(link => {
+      link.addEventListener('click', (event) => {
+        const href = link.getAttribute('href');
+        
+        if (href.startsWith('#')) {
+          event.preventDefault();
+          const target = document.querySelector(href);
+          
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            log(`Navigated to section: ${href}`);
+          }
+        }
+      });
+    });
+  }
+
+  // ============================================
+  // BOOTFRAME MANAGEMENT
+  // ============================================
+
+  function initBootframe() {
+    if (!elements.bootframeIframe) {
+      log('BootFrame iframe not found', 'warn');
+      return;
+    }
+
+    elements.bootframeIframe.addEventListener('load', () => {
+      log('BootFrame loaded successfully');
+      updateStatus('READY', 'primary');
+    });
+
+    elements.bootframeIframe.addEventListener('error', () => {
+      log('BootFrame failed to load', 'error');
+      updateStatus('ERROR', 'secondary');
+    });
+  }
+
+  // ============================================
+  // INITIALIZATION
+  // ============================================
+
+  async function init() {
+    log('K501 Gateway initializing...');
+    updateStatus('INIT', 'secondary');
+
+    try {
+      // Initialize navigation
+      initNavigation();
+      log('Navigation initialized');
+
+      // Initialize BootFrame
+      initBootframe();
+      log('BootFrame initialized');
+
+      // Fetch repository metadata (non-blocking)
+      const repoData = await fetchGitHubRepo();
+      if (repoData) {
+        log(`Repository ready: ${repoData.full_name}`);
+      }
+
+      // Fetch releases (non-blocking)
+      const releases = await fetchGitHubReleases();
+      if (releases.length > 0) {
+        log(`${releases.length} releases available`);
+      }
+
+      updateStatus('READY', 'primary');
+      log('K501 Gateway ready');
+
+    } catch (error) {
+      log(`Initialization error: ${error.message}`, 'error');
+      updateStatus('ERROR', 'secondary');
+    }
+  }
+
+  // ============================================
+  // PUBLIC API
+  // ============================================
+
+  window.k501Gateway = {
+    config: CONFIG,
+    fetchRepo: fetchGitHubRepo,
+    fetchReleases: fetchGitHubReleases,
+    fetchContents: fetchGitHubContents,
+    updateStatus: updateStatus,
+    log: log,
+    version: '1.0'
+  };
+
+  // ============================================
+  // START
+  // ============================================
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();

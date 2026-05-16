@@ -1,0 +1,31 @@
+{"frame_id":"LIB-BASE-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY_BASELINE","payload":"Library Baseline v1 — canonical list of operating system, compiler, media, network, document, audio, graphics, emulator and tooling foundations. No library is considered active without code, documentation and proof.","tags":["LIBRARY","BASELINE","KERNEL","REFERENCE_ONLY"],"visibility":"PRIVATE"}
+
+{"frame_id":"LIB-OS-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"Linux Kernel — process, memory, device and network management.","tags":["OS","KERNEL"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-OS-0002","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"GNU Coreutils — fundamental userland command-line tools.","tags":["OS","GNU"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-OS-0003","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"glibc — GNU C standard library for userland.","tags":["OS","LIBC"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-OS-0004","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"systemd — init system, services and logging.","tags":["OS","INIT"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-OS-0005","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"udev — dynamic device and hardware management.","tags":["OS","DEV"],"visibility":"PRIVATE"}
+
+{"frame_id":"LIB-BUILD-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"GCC — GNU Compiler Collection for C/C++ and more.","tags":["COMPILER"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-BUILD-0002","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"LLVM/Clang — modern compiler infrastructure.","tags":["COMPILER"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-BUILD-0003","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"Make / CMake — build system tooling.","tags":["BUILD"],"visibility":"PRIVATE"}
+
+{"frame_id":"LIB-DOC-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"Markdown — kernel-safe text format.","tags":["DOC","TEXT"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-DOC-0002","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"Pandoc — document conversion engine.","tags":["DOC","CONVERTER"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-DOC-0003","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"LaTeX (TeX Live) — scientific typesetting.","tags":["DOC","PDF"],"visibility":"PRIVATE"}
+
+{"frame_id":"LIB-MEDIA-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"FFmpeg — audio/video decoding, encoding and transcoding.","tags":["MEDIA","AUDIO","VIDEO"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-MEDIA-0002","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"VLC / libVLC — media playback and streaming.","tags":["MEDIA","PLAYER"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-MEDIA-0003","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"PipeWire — unified audio/video routing on Linux.","tags":["AUDIO","VIDEO","PIPEWIRE"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-MEDIA-0004","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"ALSA / JACK — low-latency Linux audio interfaces.","tags":["AUDIO"],"visibility":"PRIVATE"}
+
+{"frame_id":"LIB-GFX-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"SVG — scalable vector graphics.","tags":["GRAPHICS","VECTOR"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-GFX-0002","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"Blender — 3D creation suite with Python API.","tags":["3D","GRAPHICS"],"visibility":"PRIVATE"}
+
+{"frame_id":"LIB-NET-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"HTTP/HTTPS/TLS — secure network transport.","tags":["NETWORK","SECURITY"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-NET-0002","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"RSS / Atom / WebSub — feed-based resonance and distribution.","tags":["FEED","RESONANCE"],"visibility":"PRIVATE"}
+
+{"frame_id":"LIB-EMUL-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"VICE — Commodore 64 emulator.","tags":["EMULATOR","C64"],"visibility":"PRIVATE"}
+{"frame_id":"LIB-EMUL-0002","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"LIBRARY","payload":"DOSBox / MAME — DOS and arcade emulation.","tags":["EMULATOR"],"visibility":"PRIVATE"}
+
+{"frame_id":"LIB-POLICY-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"POLICY","payload":"No library is active without source code, documentation and runtime or build proof.","tags":["POLICY","NO_GHOST_MODULES"],"visibility":"PRIVATE"}

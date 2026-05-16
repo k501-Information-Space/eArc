@@ -1,0 +1,41 @@
+{"id":"GEN-0001","type":"KERNEL_DECLARATION","utc":"2026-01-22T16:45:50Z","unix":1769100350}
+{"id":"GEN-0002","type":"AXIOM","value":"ARCHIVE_BEFORE_ACTION"}
+{"id":"GEN-0003","type":"AXIOM","value":"FRAME_BEFORE_INTERFACE"}
+{"id":"GEN-0004","type":"AXIOM","value":"APPEND_ONLY"}
+{"id":"GEN-0005","type":"SCHEMA","value":"Canonical Frame Schema v1"}
+{"id":"GEN-0006","type":"TIME_POLICY","value":"UTC + Unix Epoch required"}
+{"id":"GEN-0007","type":"HASH_POLICY","value":"SHA256(payload only)"}
+{"id":"GEN-0008","type":"INGEST_POLICY","value":"TEXT → FRAME → STORE"}
+{"id":"GEN-0009","type":"NODE_POLICY","value":"Local, independent storage"}
+{"id":"GEN-0010","type":"FREEZE_INTENT","value":"Genesis Kernel UltraPack"}
+
+{"id":"GEN-FREEZE-0001","type":"FREEZE","scope":"GENESIS_KERNEL"}
+
+{"id":"BOOT-0001","type":"BOOTSTRAP","mode":"READ_ONLY_REFERENCE"}
+
+{"id":"NODE-CTX-0001","type":"NODE_CONTEXT","default":"PRIVATE","capture":"TEXT"}
+
+{"id":"CAPTURE-0001","type":"MANUAL","visibility":"PUBLIC"}
+{"id":"CAPTURE-0002","type":"MANUAL","visibility":"PUBLIC"}
+{"id":"CAPTURE-0003","type":"MANUAL","visibility":"PUBLIC"}
+
+{"id":"PACK-0001","type":"PACK","refs":["CAPTURE-0001","CAPTURE-0002","CAPTURE-0003"]}
+{"id":"PACK-FREEZE-0001","type":"FREEZE","scope":"PACK-0001"}
+
+{"id":"SUPERPACK-0001","type":"SUPERPACK","refs":["PACK-0001"]}
+{"id":"SUPERPACK-FREEZE-0001","type":"FREEZE","scope":"SUPERPACK-0001"}
+
+{"id":"KERNEL-RES-0001","type":"RESONANCE_POLICY","feeds":["RSS","ATOM"],"websub":"OPT_IN"}
+
+{"id":"KPOL-PACK-0001","type":"KERNEL_POLICY_PACK"}
+{"id":"KPOL-PACK-FREEZE-0001","type":"FREEZE"}
+
+{"id":"READ-DECL-0001","type":"READ_LAYER_DECLARATION"}
+{"id":"FEED-DEF-0001","type":"FEED_DEFINITION"}
+{"id":"WEBSUB-DEF-0001","type":"WEBSUB_DECLARATION"}
+{"id":"EXPORT-GATE-0001","type":"EXPORT_GATE_POLICY"}
+
+{"id":"READ-PACK-0001","type":"READ_LAYER_PACK"}
+{"id":"READ-PACK-FREEZE-0001","type":"FREEZE"}
+
+{"id":"PUBLIC-INDEX-0001","type":"PUBLIC_INDEX","status":"CANONICAL"}

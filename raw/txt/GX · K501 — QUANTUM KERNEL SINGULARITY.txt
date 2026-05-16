@@ -1,0 +1,190 @@
+# =====================================================================
+# GX · K501 — QUANTUM KERNEL SINGULARITY
+# =====================================================================
+# STATUS: FINAL
+# MODE: REFERENCE_ONLY
+# FREEZE: ON
+# EXECUTION: BLOCKED
+# AUTOMATION: OFF
+# APPEND_ONLY: TRUE
+# INTERPRETATION: FORBIDDEN
+#
+# ROLE:
+# Immutable core of the Reality Archive.
+# No UI. No API. No optimization.
+# Exists only to remain correct.
+#
+# =====================================================================
+
+
+# ---------------------------------------------------------------------
+# I. SINGULARITY DECLARATION
+# ---------------------------------------------------------------------
+
+SINGULARITY {
+
+  NAME: GX_K501
+  STATE: TIMELESS
+  MUTABILITY: NONE
+
+  PRINCIPLE:
+    The Kernel does not evolve.
+    Everything else evolves around it.
+
+}
+
+
+# ---------------------------------------------------------------------
+# II. ONTOLOGICAL AXIOMS
+# ---------------------------------------------------------------------
+
+AXIOMS {
+
+  A0_EXISTENCE:
+    Truth exists if and only if it is archived.
+
+  A1_TIMELESSNESS:
+    Frames do not require time.
+    Time is derived from frame order.
+
+  A2_APPEND_ONLY:
+    No deletion.
+    No mutation.
+    No reordering.
+
+  A3_ORDER:
+    Order is archival, not logical.
+
+  A4_DELTA:
+    Delta is derived memory, not action.
+
+  A5_PROOF:
+    Proof precedes state.
+    State never precedes proof.
+
+  A6_SILENCE:
+    Silence is a valid system state.
+
+}
+
+
+# ---------------------------------------------------------------------
+# III. TIME MODEL
+# ---------------------------------------------------------------------
+
+TIME_MODEL {
+
+  AZ_EPOCH:
+    Static reference anchor.
+    Arbitrary. Immutable.
+
+  ATC_EPOCH:
+    Internal archival time.
+    Derived from append order.
+
+  EXTERNAL_TIME:
+    Optional.
+    Proof-only.
+    Never authoritative.
+
+}
+
+
+# ---------------------------------------------------------------------
+# IV. FRAME PRIMITIVE
+# ---------------------------------------------------------------------
+
+FRAME {
+
+  PROPERTY:
+    Exists or does not exist.
+
+  TRUTH:
+    Existence == Truth
+
+  MEANING:
+    Not stored.
+    Not derived.
+    Not enforced.
+
+}
+
+
+# ---------------------------------------------------------------------
+# V. INDEX SEPARATION
+# ---------------------------------------------------------------------
+
+INDEX {
+
+  TYPE: HARD_INDEX
+  ROLE: MEASUREMENT ONLY
+
+  RULES:
+    - Index may be wrong.
+    - Index may not break order.
+    - Truth never lives in the index.
+
+}
+
+
+# ---------------------------------------------------------------------
+# VI. SECURITY & ETHICS
+# ---------------------------------------------------------------------
+
+GUARDS {
+
+  NO_CONTROL:
+    Kernel controls nothing.
+
+  NO_OPTIMIZATION:
+    Kernel optimizes nothing.
+
+  NO_NARRATIVE:
+    Kernel tells no story.
+
+  NO_AUTHORITY:
+    Kernel decides nothing.
+
+}
+
+
+# ---------------------------------------------------------------------
+# VII. INTERFACE BOUNDARY
+# ---------------------------------------------------------------------
+
+BOUNDARY {
+
+  KERNEL:
+    Timeless.
+    Silent.
+    Immutable.
+
+  EXTERNAL_MODULES:
+    Human-facing.
+    Replaceable.
+    Outside of singularity.
+
+}
+
+
+# ---------------------------------------------------------------------
+# VIII. FINAL STATEMENT
+# ---------------------------------------------------------------------
+
+STATEMENT {
+
+  TEXT:
+    "The Kernel is not intelligent.
+     It is correct.
+
+     It does not act.
+     It remains.
+
+     Everything else is interface."
+
+}
+
+
+# =====================================================================
+# END OF GX · K501 — QUANTUM KERNEL SINGULARITY
+# =====================================================================

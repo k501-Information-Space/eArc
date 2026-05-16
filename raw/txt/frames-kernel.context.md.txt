@@ -1,0 +1,142 @@
+# Frames Kernel — Canonical Context
+
+Status: CANONICAL · READ-ONLY · APPEND-ONLY  
+Scope: Frames Kernel / eArc  
+Last Anchor: 2026-01-22T19:32:02Z (Unix 1769106722)
+
+---
+
+## Zweck
+
+Der Frames Kernel ist kein Programm, kein Service und kein Produkt.  
+Er ist ein **referenzielles Ordnungssystem**, das Information dauerhaft,
+prüfbar und ruhig speichert.
+
+Grundprinzip:
+**Ein Gedanke → ein Frame → archiviert.**
+
+Kein Copy-Paste-Zwang.  
+Keine Reizmechanik.  
+Keine Algorithmen.
+
+---
+
+## Axiome (unveränderlich)
+
+- ARCHIVE_BEFORE_ACTION  
+- FRAME_BEFORE_INTERFACE  
+- APPEND_ONLY  
+- READ_ONLY_REFERENCE  
+- SILENCE_IS_VALID_SIGNAL  
+
+---
+
+## Kernel-Singularität
+
+Der Kernel existiert **ausschließlich als Frames**.  
+Er wird **gelesen**, nicht ausgeführt.
+
+Eigenschaften:
+- nicht veränderbar
+- nicht komprimierbar
+- nicht angreifbar
+- keine Sonderrechte für Erbauer
+- keine Hintertüren
+
+---
+
+## Struktur
+
+### Frame
+Kleinste Einheit. Unveränderlich.  
+Änderungen erzeugen neue Frames.
+
+### Pack
+Gruppiert Frames ohne Interpretation.
+
+### SuperPack
+Aggregation gefrorener Packs.
+
+### UltraPack
+Gefrorene, kanonische Referenz (z. B. Genesis Kernel).
+
+---
+
+## Zeit & Raum
+
+Pflicht:
+- created_utc (ISO 8601, UTC)
+- created_unix (Unix Epoch)
+
+Optional:
+- Raumbezug (GPS / Kontext)
+
+Zeit ist bindend.  
+Nachträgliche Umdeutung ist ausgeschlossen.
+
+---
+
+## Knoten (Node)
+
+Ein Node ist ein Gerät oder Ort:
+- Smartphone
+- Laptop
+- Server / VPS
+
+Jeder Node speichert **lokal & unabhängig**.  
+Synchronisation erfolgt **bewusst** über Exporte.
+
+Default:
+- PRIVATE
+- TEXT → FRAME
+
+---
+
+## Resonanz & Verteilung
+
+- Pull-first
+- RSS / Atom
+- WebSub optional (opt-in Push)
+- Kein Ranking
+- Keine Engagement-Metriken
+- Keine Echtzeit-Streams
+
+Stille ist ein gültiges Signal.
+
+---
+
+## Read Layer (öffentlich)
+
+- READ-ONLY
+- HTML / JSON / RSS / Atom
+- gespeist nur durch explizite Exporte
+- NDJSON + Manifest + Hash/Count-Proof
+
+---
+
+## Rights of Life
+
+- Leben steht über jedem System
+- Technik darf Leben nicht schaden
+- Keine Manipulation
+- Kein Zwang
+- Keine Gewalt
+
+Der Kernel dient dem Leben, nicht der Macht.
+
+---
+
+## Grenzen (wichtig)
+
+Der Frames Kernel ist:
+- kein soziales Netzwerk
+- kein Feed-Produkt
+- kein Automatisierungs-Tool
+- kein LLM-System
+
+Alles Weitere baut **darauf**, nicht **darin**.
+
+---
+
+Ende.  
+As I State Iinkognit0.

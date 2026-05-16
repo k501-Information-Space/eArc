@@ -1,0 +1,1 @@
+k validate kernel/spec/kernel.yaml

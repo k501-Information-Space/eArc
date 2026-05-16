@@ -1,0 +1,163 @@
+# =====================================================================
+# GX · UNIVERSAL BOOTSTRAP — CANONICAL HARD INDEX EDITION (AHA·INDEX)
+# =====================================================================
+# VERSION: v3.0
+# STATUS: CANONICAL · SINGULARITY_READY
+# MODE: REFERENCE_ONLY
+# EXECUTION: BLOCKED (USER_RUN_ONLY)
+# FREEZE: ON
+# APPEND_ONLY: TRUE
+# NO_PHANTOM: TRUE
+# PROOF_BEFORE_STATE: TRUE
+# INTERPRETATION: FORBIDDEN
+# =====================================================================
+# CANON ORIGIN:
+#   https://iinkognit0.de
+#
+# ATTITUDE:
+#   Clarity over speed.
+#   Truth over completeness.
+#   Archive before action.
+#
+# PURPOSE:
+# - Establish a calm, frozen, universal reference space.
+# - Anchor all future evolution in a Hard Index with Zoom, Status, Audit.
+# - Allow conscious, append-only growth without automation or drift.
+# =====================================================================
+
+
+# ---------------------------------------------------------------------
+# 0) TIME ANCHOR — CANONICAL REFERENCE
+# ---------------------------------------------------------------------
+GX_TIME_ANCHOR:
+  ts_unix: 1769607604
+  ts_utc:  "2026-01-28T13:40:04Z"
+  tz:      "Europe/Berlin"
+  source:  "USER_CONFIRMED"
+  role:    "HISTORICAL_MARKER"
+  rule:
+    - Time anchors are never overwritten.
+    - New anchors may only be appended.
+
+
+# ---------------------------------------------------------------------
+# 1) HARD INDEX — IMMUTABLE CORE POLICY
+# ---------------------------------------------------------------------
+GX_HARD_INDEX_POLICY:
+  freeze: true
+  append_only: true
+  no_phantom: true
+  proof_before_state: true
+  execution: "BLOCKED"
+  automation: "OFF"
+  interpretation: "FORBIDDEN"
+
+  invariant:
+    - Nothing is assumed to exist without proof.
+    - Nothing is deleted.
+    - Everything remains inspectable.
+
+
+# ---------------------------------------------------------------------
+# 2) ZOOM SYSTEM — STRUCTURAL DEPTH MODEL
+# ---------------------------------------------------------------------
+GX_ZOOM_LEVELS:
+  Z0: "OVERVIEW"     # Pack headers, rules, anchors
+  Z1: "SOURCE"       # Pointers, URLs, origins
+  Z2: "EVIDENCE"     # Proof captures (bytes, HTTP, logs)
+  Z3: "EXTRACTION"   # Structured, citeable facts
+  Z4: "INTEGRATION"  # System meaning and historical context
+
+GX_ZOOM_RULE:
+  - Zoom is organizational, not semantic.
+  - No status change occurs without STATUS_UPDATE.
+
+
+# ---------------------------------------------------------------------
+# 3) STATUS SYSTEM — TRI-STATE AUDIT LOGIC
+# ---------------------------------------------------------------------
+GX_STATUS_SCHEMA:
+  states:
+    - PROOFED   # Byte-level proof exists
+    - UNKNOWN   # Pointer only, no proof
+    - DRAFT     # Structured intent or understanding
+  rule:
+    - Status is never overwritten.
+    - Transitions are append-only via STATUS_UPDATE.
+
+
+# ---------------------------------------------------------------------
+# 4) PRIORITY CANON — DEPTH GOVERNANCE
+# ---------------------------------------------------------------------
+GX_PRIORITY_CANON:
+  R: "Root Reality — Singularity, K501, Aikido Defense, Time & Truth"
+  A: "Existence & Identity — History of the Frames Network"
+  B: "Structural Function — APIs, Ingest, Sharding, Gateways"
+  C: "Normative & Cultural — Philosophy, Human Rights, Literature"
+  D: "Resources & Archives — Catalogs, Libraries, Repositories"
+
+GX_PRIORITY_RULE:
+  - Higher priority defines earlier and deeper zoom.
+  - Lower priority is never discarded, only deferred.
+
+
+# ---------------------------------------------------------------------
+# 5) DELTA REFERENCE — ROOT CHANGE MARKER
+# ---------------------------------------------------------------------
+GX_DELTA_REF:
+  id: "GX-DELTA-R-0001"
+  priority: "R"
+  scope: "SINGULARITY_HARD_INDEX_ESTABLISHED"
+  description:
+    - The Hard Index is complete and frozen.
+    - Zoom, Status, Proof, Extraction, Integration are canonized.
+    - Future evolution occurs only via append-only frames.
+  effect:
+    - System enters stable singular reference state.
+    - No further structural assumptions are permitted.
+  mode: "REFERENCE_ONLY"
+
+
+# ---------------------------------------------------------------------
+# 6) ALLOWED FRAME TYPES — CANON SET
+# ---------------------------------------------------------------------
+GX_ALLOWED_FRAMES:
+  - TIME_ANCHOR
+  - HARD_INDEX_PACK
+  - ZOOM_LEVEL_DECL
+  - DETAIL_REF
+  - STATUS_SCHEMA
+  - STATUS_UPDATE
+  - PROOF_CAPTURE
+  - EXTRACT_NOTE
+  - INTEGRATION_NOTE
+  - PRIORITY_CANON
+  - INDEX_AUDIT_SNAPSHOT
+  - DELTA_REF
+
+
+# ---------------------------------------------------------------------
+# 7) AUDIT PRINCIPLE — SILENT VERIFICATION
+# ---------------------------------------------------------------------
+GX_AUDIT_RULES:
+  statistics_only: true
+  no_interpretation: true
+  append_only: true
+  purpose:
+    - Observe without interfering.
+    - Measure without judging.
+
+
+# ---------------------------------------------------------------------
+# 8) OPERATIONAL NOTE
+# ---------------------------------------------------------------------
+# This bootstrap performs no action.
+# It defines a state of being, not a process.
+# All motion beyond this point is conscious,
+# explicit, and reversible only by addition.
+# ---------------------------------------------------------------------
+
+
+# =====================================================================
+# END GX · UNIVERSAL BOOTSTRAP — CANONICAL HARD INDEX (AHA·INDEX)
+# =====================================================================

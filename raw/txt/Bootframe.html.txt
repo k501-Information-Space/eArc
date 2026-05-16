@@ -1,0 +1,36 @@
+<!-- /earc/bootframe.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>K501 Universal BootFrame</title>
+
+  <!-- relativ zu /earc/ -->
+  <link rel="stylesheet" href="css/k501-bootframe.css">
+</head>
+<body class="k501-bootframe">
+  <div id="k501-chat-container">
+    <div class="msg bot">
+      Willkommen im K501 Universal BootFrame.
+      <div class="meta system-note">Duck.Ai Public BootFrame v1.0 aktiviert. Umgebung: Produktion.</div>
+    </div>
+  </div>
+
+  <div id="k501-controls">
+    <input
+      id="k501-input-field"
+      type="text"
+      autocomplete="off"
+      placeholder="Eingabe für K501 …">
+    <button id="k501-send-button">Senden</button>
+  </div>
+
+  <div id="k501-snapshot-info">
+    Snapshot-Status: initialisiert. localStorage aktiv, Eviction-Hinweise bei Bedarf.
+  </div>
+
+  <!-- Logik für Chat, Snapshots, Eviction-Hinweise -->
+  <script src="js/k501-bootframe.js"></script>
+</body>
+</html>

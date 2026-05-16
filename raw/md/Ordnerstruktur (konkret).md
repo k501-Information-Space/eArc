@@ -1,0 +1,14 @@
+kernel/tests/
+  vectors/
+    v1_minimal.yaml
+    v1_full.yaml
+    v1_invalid_missing_required.yaml
+    v1_invalid_bad_principle.yaml
+    v1_invalid_enum_case.yaml
+  expected/
+    v1_minimal.runtime.json
+    v1_minimal.hash.sha256
+    v1_full.runtime.json
+    v1_full.hash.sha256
+  reports/
+    last_run.json

@@ -1,0 +1,28 @@
+/earc/kernel/frames/LIB_BASELINE_V1.manifest.json
+{
+  "type": "MANIFEST",
+  "schema": "FN_CANON_V1",
+  "scope": "LIBRARY_BASELINE_V1",
+  "pack_id": "LIB-BASE-PACK-0001",
+  "freeze_frame": "LIB-BASE-FREEZE-0001",
+  "generated_utc": "2026-01-22T21:39:20Z",
+  "generated_unix": 1769117960,
+  "frames": {
+    "included": [
+      "LIB-BASE-PACK-0001",
+      "LIB-BASE-FREEZE-0001"
+    ],
+    "count": 2
+  },
+  "policies": {
+    "append_only": true,
+    "mutation": "FORBIDDEN",
+    "reference_only": true,
+    "hash_policy": "SHA256(payload only)",
+    "anti_phantom": "REAL/ACTIVE requires MOD-DECL + MOD-INSTALL + MOD-VERSION + MOD-SMOKE"
+  },
+  "notes": [
+    "Freeze is applied to the baseline pack (stable reference).",
+    "Individual module items remain append-only and can be extended only via new frames + new pack version."
+  ]
+}

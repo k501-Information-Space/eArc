@@ -1,0 +1,42 @@
+{
+  "id": "LIBSRC-REPLACE-0001",
+  "type": "LIB_SOURCE",
+  "created_utc": "REPLACE_WITH_UTC_ISO8601_Z",
+  "created_unix": 0,
+  "source": "Iinkognit0",
+  "visibility": "PRIVATE",
+  "refs": [],
+  "payload": {
+    "name": "REPLACE_WITH_LIBRARY_OR_CODEC_NAME",
+    "category": "REPLACE_WITH_CATEGORY_AUDIO_CODEC|VIDEO_CODEC|IMAGE_FORMAT|CONTAINER|TOOLING|TEXT_DATA",
+    "purpose": "REPLACE_WITH_ONE_SENTENCE_PURPOSE",
+    "scope": "REFERENCE_ONLY",
+    "status": "PLANNED",
+    "license": "REPLACE_WITH_KNOWN_LICENSE_OR_UNKNOWN",
+    "official_homepage": "REPLACE_WITH_URL_OR_EMPTY",
+    "source_repo": "REPLACE_WITH_URL_OR_EMPTY",
+    "release_source": "REPLACE_WITH_URL_OR_EMPTY",
+    "download_target": {
+      "artifact_type": "SOURCE_TARBALL|RELEASE_ARCHIVE|GIT_TAG",
+      "artifact_name": "REPLACE_WITH_FILENAME_OR_TAG",
+      "expected_version": "REPLACE_WITH_VERSION_OR_TAG_OR_UNKNOWN"
+    },
+    "verification_plan": [
+      "Download from official source (homepage/repo release).",
+      "Compute SHA256 of the downloaded artifact.",
+      "If signatures are provided: verify GPG/Sigstore.",
+      "Record byte_size + hash in PROOF frame."
+    ],
+    "no_phantom_rule": "NOT_FACT_UNTIL_DOWNLOADED_AND_HASHED",
+    "tags": [
+      "GEX",
+      "LIB",
+      "SOURCE",
+      "NO_PHANTOM",
+      "REFERENCE_ONLY",
+      "PLANNED"
+    ],
+    "notes": "OPTIONAL_EXTRA_NOTES"
+  },
+  "hash": "PLACEHOLDER_SHA256"
+}

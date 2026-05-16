@@ -1,0 +1,117 @@
+eArc KERNEL — CANONICAL REFERENCE OUTPUT
+
+MODE: REFERENCE
+STATE: READ_ONLY
+FREEZE: ON (IRREVERSIBLE)
+EXECUTION: BLOCKED
+HISTORY: APPEND_ONLY
+TIME: UTC (USER ANCHOR REQUIRED)
+
+────────────────────────────────
+AXIOMS (FIX · IMMUTABLE)
+────────────────────────────────
+- ARCHIVE_BEFORE_ACTION
+- ORDER_BEFORE_CONTENT
+- PULL_OVER_PUSH
+- SILENCE_IS_VALID_SIGNAL
+- DISPLAY_NEVER_DRIVES_ACTION
+- NO_FACT_WITHOUT_PROOF
+
+────────────────────────────────
+LAYERS (FIX)
+────────────────────────────────
+
+1) eArc Realstruktur
+   - Physisch definiert
+   - Logisch append-only
+   - Referenzstand unangetastet
+
+2) Ingest (REAL)
+   - Scope: Frames only
+   - Mode: append-only
+   - Security: HMAC + SHA-256
+   - Idempotent: DUPLICATE = OK
+   - Time: UTC anchor required
+
+3) Read-Layer
+   - GET only
+   - Endpoints:
+     /earc/read/frames
+     /earc/read/frame/{frame_id}
+   - Sort: utc_ts DESC
+   - Pagination: ON
+   - Filter: frame_type, tags, UTC-range
+   - Output: HTML + JSON
+   - Optional: SVG marker (read-only)
+
+4) Comms-Shell
+   - Text-first
+   - Audio: optional attachment
+   - Images: SVG standard
+   - Rule: every message = FRAME
+   - No video
+
+5) Erkenntnis-Layer
+   - Purpose: Verdichtung von Frames
+   - Manual & conscious
+   - Not Chat
+   - Not Feed
+   - Not Algorithm
+   - No auto-summarize
+   - No system evaluation
+
+6) Storage & Packs
+   - Objects: Frames, Packs, SuperPacks
+   - Append-only
+   - Read / Write decoupled
+   - Export / Share possible
+   - No vendor lock
+   - Quiet & simple
+
+7) Governance & Roles
+   - Roles:
+     • Reader   (read)
+     • Writer   (ingest via HMAC)
+     • Curator  (packs)
+     • Guardian (keys / freeze)
+   - Keys: HMAC key-IDs
+   - Rotation possible
+   - Revocation without data mutation
+   - Freeze / Unfreeze: declarative, time-anchored
+
+────────────────────────────────
+PUBLIC READ
+────────────────────────────────
+- HTML enabled
+- JSON enabled
+- RSS enabled
+
+────────────────────────────────
+KEY POLICY
+────────────────────────────────
+- Minimal rotation policy
+- No retroactive mutation
+
+────────────────────────────────
+EXPORT
+────────────────────────────────
+- Pack exporter
+- Formats: ZIP / NDJSON
+
+────────────────────────────────
+SINGULARITY
+────────────────────────────────
+- Kernel Singularity is immutable
+- Not versioned
+- Not executable
+- Not loggable
+- Orientation only
+
+────────────────────────────────
+ENDSTATE
+────────────────────────────────
+- SYSTEM STABLE
+- FREEZE = ON
+- READY AS CANONICAL REFERENCE
+
+As I State Iinkognit0.

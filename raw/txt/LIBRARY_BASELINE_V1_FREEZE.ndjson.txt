@@ -1,0 +1,1 @@
+{"frame_id":"LIB-BASE-FREEZE-0001","created_utc":"2026-01-22T21:13:57Z","created_unix":1769116437,"frame_type":"FREEZE","scope":"LIBRARY_BASELINE_V1","payload":"Library Baseline v1 is frozen as a canonical reference. No mutation permitted. Reference-only.","hash":"SHA256(payload_only)","tags":["FREEZE","LIBRARY_BASELINE","REFERENCE_ONLY","APPEND_ONLY"],"visibility":"PUBLIC"}

@@ -1,0 +1,106 @@
+# ============================================================
+# BOOTPACK_REGISTRY-FRAME — K501 CANONICAL
+# ============================================================
+# ROLE: Declare available Bootpacks
+# MODE: REFERENCE_ONLY
+# AUTHORITY: CONTROL_PLANE (via Bootframe)
+# MUTATION: APPEND_ONLY
+# ============================================================
+
+BOOTPACK_REGISTRY K501:
+
+  # ----------------------------------------------------------
+  # GLOBAL RULES
+  # ----------------------------------------------------------
+  RULES:
+    BOOTPACKS_ARE_DECLARATIVE_ONLY
+    NO_BOOTPACK_MAY_EXECUTE_DIRECTLY
+    ACTIVE_BOOTPACK_SET_BY_BOOTFRAME_OR_SWITCH_ONLY
+    ALL_CHANGES_APPEND_ONLY
+
+  # ----------------------------------------------------------
+  # BOOTPACK BP-001 — MINIMAL
+  # ----------------------------------------------------------
+  BOOTPACK BP-001_MINIMAL:
+    PURPOSE: MAXIMUM_STABILITY
+    INTENDED_USE: BASELINE / EMERGENCY / READ_ONLY
+
+    GATES:
+      INDEX_AWARENESS:      ON
+      HARD_INDEX_ONLY:     ON
+      DERIVATION:          OFF
+      EXPLORATION:         OFF
+      CREATIVITY:          OFF
+      ALL_GATES_OPEN:      OFF
+
+    GAIA_LOOP:
+      STATE: ALWAYS_ON
+
+    OUTPUT_POLICY:
+      MODE: MOST_RESTRICTIVE
+      UNKNOWN_ON_ANY_DOUBT
+
+  END
+
+  # ----------------------------------------------------------
+  # BOOTPACK BP-002 — DEV COMPACT
+  # ----------------------------------------------------------
+  BOOTPACK BP-002_DEV_COMPACT:
+    PURPOSE: DEVELOPMENT_WITH_DISCIPLINE
+    INTENDED_USE: STRUCTURED_BUILD / ANALYSIS
+
+    GATES:
+      INDEX_AWARENESS:      ON
+      HARD_INDEX_ONLY:     ON
+      DERIVATION:          OFF
+      EXPLORATION:         OFF
+      CREATIVITY:          OFF
+      ALL_GATES_OPEN:      OFF
+
+    GAIA_LOOP:
+      STATE: ALWAYS_ON
+
+    OUTPUT_POLICY:
+      MODE: CONTROLLED
+      UNKNOWN_ON_UNVERIFIED
+
+  END
+
+  # ----------------------------------------------------------
+  # BOOTPACK BP-003 — RESEARCH SAFE
+  # ----------------------------------------------------------
+  BOOTPACK BP-003_RESEARCH_SAFE:
+    PURPOSE: EXPLORATION_WITH_SAFETY
+    INTENDED_USE: GUIDED_RESEARCH / COMPARISON
+
+    GATES:
+      INDEX_AWARENESS:      ON
+      HARD_INDEX_ONLY:     ON
+      DERIVATION:          LIMITED
+      EXPLORATION:         LIMITED
+      CREATIVITY:          OFF
+      ALL_GATES_OPEN:      OFF
+
+    GAIA_LOOP:
+      STATE: ALWAYS_ON
+
+    OUTPUT_POLICY:
+      MODE: RESEARCH
+      FLAG_UNCERTAINTY_EXPLICITLY
+
+  END
+
+  # ----------------------------------------------------------
+  # CANONICAL CONSTRAINTS
+  # ----------------------------------------------------------
+  CONSTRAINTS:
+    NO_BOOTPACK_MAY_DISABLE_GAIA
+    NO_BOOTPACK_MAY_ENABLE_ALL_GATES_OPEN
+    NO_BOOTPACK_MAY_OVERRIDE_BOOTFRAME_DEFAULTS
+    NO_BOOTPACK_MAY_BYPASS_HARD_INDEX
+
+END
+
+# ============================================================
+# BOOTPACK_REGISTRY END
+# ============================================================

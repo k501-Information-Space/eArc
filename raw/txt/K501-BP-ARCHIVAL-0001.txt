@@ -1,0 +1,22 @@
+{
+  "t": "BOOTPACK_ARCHIVAL",
+  "id": "K501-BP-ARCHIVAL-0001",
+  "scope": "MEGA_BOOT_SPEC",
+  "mode": "REFERENCE_ONLY",
+  "constraints": [
+    "POINTER_ONLY",
+    "NO_CONTENT",
+    "NO_EXECUTION",
+    "NO_INTERPRETATION",
+    "NON_CLAIM"
+  ],
+  "pointers": [
+    "ARCHIVAL.APPEND_ONLY",
+    "ARCHIVAL.AUDIT_TRAILS",
+    "ARCHIVAL.OFFLINE_STORAGE",
+    "ARCHIVAL.PACKBLOCK_BUNDLES",
+    "ARCHIVAL.FREEZE_MARKERS"
+  ],
+  "notes": "Structural focus on append-only archival discipline, offline bundles, auditability, and scope freezing. No durability, availability, or correctness claims implied.",
+  "g_state": "UNKNOWN"
+}

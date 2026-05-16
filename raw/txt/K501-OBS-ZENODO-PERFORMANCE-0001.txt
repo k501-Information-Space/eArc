@@ -1,0 +1,41 @@
+{
+  "t": "FRAME_OBSERVATION_ONLY",
+  "id": "K501-OBS-ZENODO-PERFORMANCE-0001",
+  "scope": "ZENODO_RECORD_MONITORING",
+  "mode": "REFERENCE_ONLY",
+  "constraints": [
+    "APPEND_ONLY",
+    "NO_EXECUTION",
+    "NO_INTERPRETATION",
+    "NON_CLAIM"
+  ],
+  "time_window": {
+    "start_utc": "2026-01-29",
+    "end_utc": "2026-02-03"
+  },
+  "observed_metrics": {
+    "download_rate": "APPROX_1_PER_HOUR",
+    "view_download_relation": "DOWNLOADS_CAN_EXCEED_VIEWS",
+    "version_follow_up": "NEW_VERSIONS_TRIGGER_ADDITIONAL_DOWNLOADS",
+    "temporal_pattern": "DISTRIBUTED_OVER_TIME_NO_SINGLE_SPIKE"
+  },
+  "platform_context": {
+    "counting_method": "UNIQUE_DOWNLOADS_PER_USER_PER_HOUR",
+    "bot_filtering": "AUTOMATED_REQUESTS_EXCLUDED",
+    "repository_type": "GENERAL_SCIENTIFIC_REPOSITORY"
+  },
+  "external_signals_present": {
+    "active_marketing": false,
+    "institutional_affiliation": false,
+    "known_referrer_spikes": false
+  },
+  "classification": "OBSERVATIONAL_ONLY",
+  "excluded_inferences": [
+    "QUALITY_JUDGMENT",
+    "IMPACT_CLAIM",
+    "CAUSAL_EXPLANATION",
+    "LONG_TERM_TREND_PROJECTION"
+  ],
+  "notes": "Frame records observed behavior only. No attribution, causality, or success interpretation implied.",
+  "g_state": "UNKNOWN"
+}

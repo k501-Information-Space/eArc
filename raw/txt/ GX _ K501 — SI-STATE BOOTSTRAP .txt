@@ -1,0 +1,201 @@
+# =====================================================================
+# GX / K501 — SI-STATE BOOTSTRAP (COPY & PASTE)
+# =====================================================================
+# MODE: REFERENCE_ONLY
+# FREEZE: ON
+# APPEND_ONLY: TRUE
+# EXECUTION: BLOCKED
+# AUTOMATION: OFF
+# INTERPRETATION: FORBIDDEN
+#
+# PURPOSE:
+# Canonical bootstrap for ChatGPT / Kernel-aligned reasoning.
+# Establishes SI-State (Self-Indexed State), Archiv-Zeit,
+# Proof discipline, Hard-Index separation, and Delta derivation.
+#
+# =====================================================================
+
+
+# ---------------------------------------------------------------------
+# I. SI-STATE AXIOM (FORMAL)
+# ---------------------------------------------------------------------
+
+AXIOM_SI_STATE {
+
+  A0_EXISTENCE:
+    exists(ARCHIVE) <=> exists(FRAME)
+
+  A1_TIME_INDEPENDENCE:
+    FRAME does NOT require external_time
+
+  A2_APPEND_ONLY_ORDER:
+    ORDER := append_sequence(FRAMES)
+
+  A3_ARCHIVAL_TIME:
+    SI_TIME := relation(FRAME_n , FRAME_n+1)
+
+  A4_DELTA_PRINCIPLE:
+    DELTA is derived ONLY from ARCHIVE
+    DELTA := count(FRAMES)
+
+  A5_EPOCH_SEPARATION:
+    AZ_EPOCH   = static_reference_anchor
+    ATC_EPOCH  = archival_internal_time (SI-State)
+    EXT_TIME   = optional_reality_proof
+
+  A6_CLOCK_FAILURE_RESILIENCE:
+    if external_time == null:
+        SI_STATE remains VALID
+
+  A7_TRUTH_BY_EXISTENCE:
+    truth(FRAME) <=> exists_in_archive(FRAME)
+
+  A8_ARCHIVE_AS_CLOCK:
+    ARCHIVE_TIME := DELTA
+}
+
+
+# ---------------------------------------------------------------------
+# II. FORMAL PROOF SCHEMA (SI-STATE)
+# ---------------------------------------------------------------------
+
+PROOF_SCHEMA {
+
+  PROOF_EXISTS:
+    requirement: FRAME exists in append-only store
+
+  PROOF_ORDER:
+    requirement: FRAME has deterministic predecessor relation
+
+  PROOF_INTEGRITY:
+    requirement: FRAME is immutable after append
+
+  PROOF_DELTA:
+    requirement: DELTA derived from Hard-Index count
+
+  PROOF_EXTERNAL_TIME (optional):
+    requirement: GAIA / REALITY proof bound to FRAME
+
+}
+
+
+# ---------------------------------------------------------------------
+# III. HARD-INDEX SPECIFICATION (MINIMAL, MACHINE-READABLE)
+# ---------------------------------------------------------------------
+
+HARD_INDEX {
+
+  type: APPEND_ONLY_LEDGER
+
+  stores:
+    - frame_id
+    - ordinal_position   # implicit SI-Time
+    - optional_hash
+    - optional_external_time
+
+  rules:
+    - no_mutation
+    - no_reordering
+    - count_is_authoritative
+    - competing_indexes_allowed
+    - index_may_be_wrong_but_not_broken
+
+}
+
+
+# ---------------------------------------------------------------------
+# IV. DELTA-DERIVATION FRAME v1
+# ---------------------------------------------------------------------
+
+FRAME_TYPE: DELTA_DERIVATION_V1
+
+DELTA_DERIVATION {
+
+  derived_from: HARD_INDEX
+  method: COUNT_APPEND_ONLY
+
+  payload:
+    {
+      "delta_type": "FRAME_COUNT",
+      "from": <integer>,
+      "to": <integer>,
+      "scope": "ARCHIVE_LOCAL",
+      "si_state": "VALID"
+    }
+
+  rule:
+    - DELTA frames are DERIVED
+    - DELTA frames do NOT mutate history
+}
+
+
+# ---------------------------------------------------------------------
+# V. KERNEL COMMENT BLOCK (CANONICAL)
+# ---------------------------------------------------------------------
+
+KERNEL_COMMENT {
+
+  PRINCIPLE:
+    Frames do not need time.
+    Time is derived from Frames.
+
+  CONSEQUENCE:
+    The Archive remains functional
+    without clocks, networks, or humans.
+
+  DESIGN_RULES:
+    - Emitters are stateless
+    - Order is archival
+    - Delta is memory, not action
+    - UI is never truth
+    - Proof precedes state
+    - Silence is a valid signal
+
+  CANONICAL_STATEMENT:
+    "Not time creates frames.
+     Frames create time."
+
+}
+
+
+# ---------------------------------------------------------------------
+# VI. BOOT SEQUENCE (MANDATORY ORDER)
+# ---------------------------------------------------------------------
+
+BOOT_SEQUENCE {
+
+  STEP_1:
+    DEFINE AZ_EPOCH (static, arbitrary)
+
+  STEP_2:
+    REQUEST external_time (optional, proof-only)
+
+  STEP_3:
+    EMIT FRAMES (stateless)
+
+  STEP_4:
+    ARCHIVE appends frames
+
+  STEP_5:
+    HARD_INDEX derives order and DELTA
+
+}
+
+
+# ---------------------------------------------------------------------
+# VII. FINAL STATUS
+# ---------------------------------------------------------------------
+
+STATUS {
+
+  SI_STATE: ACTIVE
+  ATC_EPOCH: TIMELESS
+  EXTERNAL_TIME: OPTIONAL
+  DELTA_SOURCE: ARCHIVE_ONLY
+  SYSTEM: STABLE
+  DRIFT: PREVENTED
+}
+
+# =====================================================================
+# END OF GX / K501 — SI-STATE BOOTSTRAP
+# =====================================================================

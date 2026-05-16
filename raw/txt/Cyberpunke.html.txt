@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="K501 Universal BootFrame — Isolated Chat & Snapshot System" />
+  <title>K501 Universal BootFrame — Chat</title>
+  <link rel="stylesheet" href="/css/k501-bootframe.css">
+</head>
+<body class="bootframe-isolated">
+  <div class="k501-bootframe">
+    
+    <header class="bootframe-header">
+      <h1>K501 BootFrame</h1>
+      <span id="k501-status" class="status-badge">READY</span>
+    </header>
+
+    <div id="k501-chat-container" class="chat-container" aria-live="polite" aria-label="Chat-Verlauf"></div>
+
+    <div id="k501-controls" class="control-panel">
+      <div class="input-group">
+        <input 
+          id="k501-input-field" 
+          class="chat-input"
+          type="text"
+          placeholder="Nachricht eingeben..." 
+          autocomplete="off"
+          aria-label="Chat-Eingabefeld"
+        />
+        <button id="k501-send-button" class="send-button" aria-label="Nachricht senden">
+          ⚡ Senden
+        </button>
+      </div>
+      <div class="control-buttons">
+        <button id="k501-clear-button" class="control-btn" title="Chat löschen">🗑️ Löschen</button>
+        <button id="k501-snapshot-button" class="control-btn" title="Snapshot erstellen">💾 Snapshot</button>
+      </div>
+    </div>
+
+    <div id="k501-snapshot-info" class="snapshot-info" aria-live="polite"></div>
+
+  </div>
+
+  <script src="/js/k501-bootframe.js" defer></script>
+</body>
+</html>

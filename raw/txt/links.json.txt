@@ -1,0 +1,40 @@
+{
+  "docs": [
+    {
+      "title": "DuckDuckGo AI Boot Frame – Canonical Bootstrap Configuration v1.0",
+      "doi": "10.5281/zenodo.18659835",
+      "url": "https://doi.org/10.5281/zenodo.18659835"
+    },
+    {
+      "title": "K501 Technical Core v1.5",
+      "doi": "10.5281/zenodo.18697454",
+      "url": "https://doi.org/10.5281/zenodo.18697454"
+    },
+    {
+      "title": "FRAMES AXIOMATICS (v-10.1)",
+      "doi": "10.5281/zenodo.18463561",
+      "url": "https://doi.org/10.5281/zenodo.18463561"
+    },
+    {
+      "title": "K501 Frames: Structural Integration and Temporal Anchoring (1.0.0)",
+      "doi": "10.5281/zenodo.18749532",
+      "url": "https://doi.org/10.5281/zenodo.18749532"
+    }
+  ],
+  "orcid": {
+    "name": "Patrick R. Miller",
+    "id": "0009-0005-5125-9711",
+    "url": "https://orcid.org/0009-0005-5125-9711"
+  },
+  "github": {
+    "name": "K501 Frames Gateway Repository",
+    "url": "https://github.com/Iinkognit0/K501-Frames-Gateway"
+  },
+  "about": {
+    "lines": [
+      "K501 is a structural integration framework based on append-only event logic.",
+      "The gateway exposes telemetry and references without interpretation.",
+      "Structure precedes meaning. Meaning precedes interpretation."
+    ]
+  }
+}
