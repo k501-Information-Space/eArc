@@ -1,0 +1,81 @@
+       }
+
+        }
+
+    }
+
+}
+
+  
+
+// MARK: - App Entry
+
+  
+
+@main
+
+struct PublicDiamondIncognitoApp: App {
+
+    var body: some Scene {
+
+        WindowGroup {
+
+            ContentView()
+
+        }
+
+    }
+
+}
+
+  
+
+  
+
+  
+
+  
+
+5) Sicherheits- und Grenzen-Hinweis (technisch, klar)
+
+  
+
+  
+
+Diese iOS Shell:
+
+  
+
+- liest nur lokale JSON-Dateien
+- sendet nichts
+- schreibt nichts zurück
+- hat keine Hintergrund-Tasks
+- ist nicht „Kernel“, nur Viewer
+
+  
+
+  
+
+  
+
+  
+
+  
+
+6) Lizenz
+
+  
+
+  
+
+MIT — do what you want, but know what you are doing.
+
+  
+
+  
+
+  
+
+End of single-file output.
+
+Wenn du als nächstes willst, mache ich dir **denselben Output** nochmal als *noch kürzeres* „Public Release Frame“ (weniger Text, mehr Essenz) – oder wir bauen eine **manuelle Import-Funktion** (Share Sheet / Files) rein, ebenfalls ohne Auto-Send.

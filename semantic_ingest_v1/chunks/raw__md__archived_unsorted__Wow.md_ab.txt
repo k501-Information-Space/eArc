@@ -1,0 +1,81 @@
+p="Tau threshold for stability.")
+
+    sdel.add_argument("--tol", type=float, default=1e-9, help="Tolerance for sum checks.")
+
+    sdel.add_argument("--eps", type=float, default=1e-12, help="Epsilon for KL/JSD safe division.")
+
+    sdel.set_defaults(func=cmd_delta)
+
+  
+
+    return p
+
+  
+
+  
+
+def main() -> None:
+
+    parser = build_parser()
+
+    args = parser.parse_args()
+
+    args.func(args)
+
+  
+
+  
+
+if __name__ == "__main__":
+
+    main()
+
+  
+
+Minimal-Testdaten (zum Sofort-Check)
+
+  
+
+  
+
+omega_p.json
+
+{
+
+  "omega_id": "K501-OMEGA-01",
+
+  "omega": ["w1","w2","w3","silence"],
+
+  "distribution": {"w1":0.85,"w2":0.10,"w3":0.05,"silence":0.0}
+
+}
+
+omega_q.json
+
+{
+
+  "omega_id": "K501-OMEGA-01",
+
+  "omega": ["w1","w2","w3","silence"],
+
+  "distribution": {"w1":0.15,"w2":0.70,"w3":0.15,"silence":0.0}
+
+}
+
+Run:
+
+python3 k501_cli.py omega-check --omega omega_p.json
+
+python3 k501_cli.py mu --omega omega_p.json
+
+python3 k501_cli.py delta --p omega_p.json --q omega_q.json --metric jsd --threshold 0.15
+
+python3 k501_cli.py delta --p omega_p.json --q omega_q.json --metric sqrtjsd --threshold 0.15
+
+  
+
+  
+
+  
+
+Wenn du willst, mache ich als nächstes Pack-02 Modul 0304: die \Omega-Registry + erlaubte State-Sets pro Kontext (damit “out-of-bounds” nicht nur technisch, sondern kanonisch sauber definiert ist).

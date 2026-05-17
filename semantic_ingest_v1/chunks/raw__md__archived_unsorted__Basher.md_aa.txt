@@ -1,0 +1,441 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# =========================
+# QuietHarbor v0.1 Installer
+# (K501 Dev Kernel + Miniloader)
+# =========================
+
+PROJECT_DIR="${1:-quietharbor_v01}"
+PYTHON_BIN="${PYTHON_BIN:-python3}"
+
+echo "[QuietHarbor] creating project: ${PROJECT_DIR}"
+mkdir -p "${PROJECT_DIR}"
+cd "${PROJECT_DIR}"
+
+echo "[QuietHarbor] creating venv"
+"${PYTHON_BIN}" -m venv .venv
+# shellcheck disable=SC1091
+source .venv/bin/activate
+
+echo "[QuietHarbor] upgrading pip"
+python -m pip install --upgrade pip >/dev/null
+
+echo "[QuietHarbor] installing minimal deps"
+python -m pip install ruamel.yaml >/dev/null
+
+echo "[QuietHarbor] creating directories"
+mkdir -p out logs metrics import
+
+echo "[QuietHarbor] writing loader.py"
+cat > loader.py <<'PY'
+#!/usr/bin/env python3
+"""
+K501 Miniloader (ML-01) — minimal, fast, reliable
+- Finds DSL (YAML/JSON)
+- Loads + basic sanity checks
+- Hands over a KernelContext to the kernel entrypoint
+- NO scanning, NO rules, NO metrics, NO canon checks (kernel does that)
+
+Usage:
+  python loader.py run k501.dsl.yaml
+  python loader.py run k501.dsl.json
+  python loader.py run .                 # resolves default DSL in current dir
+"""
+
+from __future__ import annotations
+
+import json
+import sys
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any, Dict
+
+try:
+    from ruamel.yaml import YAML  # type: ignore
+except Exception:  # pragma: no cover
+    YAML = None
+
+
+DEFAULT_DSL_CANDIDATES = (
+    "k501.dsl.yaml",
+    "k501.dsl.yml",
+    "k501.dsl.json",
+    "k500.inline.yaml",
+    "k500.inline.yml",
+    "k500.inline.json",
+)
+
+
+@dataclass(frozen=True)
+class KernelContext:
+    config: Dict[str, Any]
+    mode: str
+    start_time_utc: str
+    base_path: str
+    dsl_path: str
+
+
+def utc_now_iso() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
+def die(msg: str, code: int = 4) -> None:
+    print(f"[K501:MINILOADER] {msg}", file=sys.stderr)
+    raise SystemExit(code)
+
+
+def is_json_path(p: Path) -> bool:
+    return p.suffix.lower() == ".json"
+
+
+def is_yaml_path(p: Path) -> bool:
+    return p.suffix.lower() in (".yaml", ".yml")
+
+
+def load_json(p: Path) -> Dict[str, Any]:
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        die(f"DSL not found: {p}", 4)
+    except Exception as e:
+        die(f"JSON parse error in {p}: {e}", 4)
+
+
+def load_yaml(p: Path) -> Dict[str, Any]:
+    if YAML is None:
+        die("YAML support missing. Install ruamel.yaml to load .yaml/.yml DSL files.", 4)
+    try:
+        y = YAML(typ="safe")
+        data = y.load(p.read_text(encoding="utf-8"))
+        if data is None:
+            return {}
+        if not isinstance(data, dict):
+            die(f"YAML root must be a mapping/object in {p}", 4)
+        return data
+    except FileNotFoundError:
+        die(f"DSL not found: {p}", 4)
+    except Exception as e:
+        die(f"YAML parse error in {p}: {e}", 4)
+
+
+def load_dsl(dsl_path: Path) -> Dict[str, Any]:
+    if is_json_path(dsl_path):
+        return load_json(dsl_path)
+    if is_yaml_path(dsl_path):
+        return load_yaml(dsl_path)
+    die(f"Unsupported DSL file type: {dsl_path} (use .yaml/.yml/.json)", 4)
+
+
+def resolve_dsl_path(arg: str) -> Path:
+    p = Path(arg).expanduser().resolve()
+
+    if p.is_file():
+        return p
+
+    if p.is_dir():
+        for name in DEFAULT_DSL_CANDIDATES:
+            cand = p / name
+            if cand.exists() and cand.is_file():
+                return cand
+        die(
+            "No DSL found in directory. Tried: "
+            + ", ".join(DEFAULT_DSL_CANDIDATES)
+            + f" in {p}",
+            4,
+        )
+
+    cwd = Path.cwd().resolve()
+    cand = (cwd / arg).resolve()
+    if cand.exists() and cand.is_file():
+        return cand
+
+    die(f"DSL path not found: {arg}", 4)
+
+
+def basic_sanity(config: Dict[str, Any]) -> None:
+    if not isinstance(config, dict):
+        die("DSL must load to an object/mapping", 4)
+
+    kernel = config.get("kernel", {})
+    if kernel and not isinstance(kernel, dict):
+        die("Field 'kernel' must be an object", 4)
+
+    if not config:
+        die("DSL is empty. Provide at least {kernel:{...}} or {targets:{...}}", 4)
+
+
+def import_kernel_entry():
+    try:
+        import k501  # type: ignore
+
+        if not hasattr(k501, "bootstrap_kernel"):
+            die("Kernel module 'k501.py' must expose bootstrap_kernel(ctx).", 4)
+        return k501.bootstrap_kernel
+    except ModuleNotFoundError:
+        die("Kernel module not found. Expected file: k501.py (importable as 'k501').", 4)
+    except Exception as e:
+        die(f"Kernel import error: {e}", 4)
+
+
+def cmd_run(dsl_arg: str, mode: str = "dev") -> int:
+    dsl_path = resolve_dsl_path(dsl_arg)
+    config = load_dsl(dsl_path)
+    basic_sanity(config)
+
+    ctx = KernelContext(
+        config=config,
+        mode=mode,
+        start_time_utc=utc_now_iso(),
+        base_path=str(Path.cwd().resolve()),
+        dsl_path=str(dsl_path),
+    )
+
+    bootstrap_kernel = import_kernel_entry()
+    return int(bootstrap_kernel(ctx))
+
+
+def main(argv: list[str]) -> int:
+    if len(argv) < 2:
+        die("Usage: loader.py run <dsl-path|dir|.>", 4)
+
+    cmd = argv[1].lower().strip()
+
+    if cmd == "run":
+        dsl_arg = argv[2] if len(argv) >= 3 else "."
+        return cmd_run(dsl_arg, mode="dev")
+
+    die(f"Unknown command: {cmd}. Supported: run", 4)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv))
+PY
+chmod +x loader.py
+
+echo "[QuietHarbor] writing k501.py"
+cat > k501.py <<'PY'
+#!/usr/bin/env python3
+"""
+K501 Development Kernel (K-01) — minimal, deterministic
+Pipeline:
+  1) Canon Gate (optional in fresh projects)
+  2) Scan targets
+  3) Standards (MetaHeader/DDF basic checks)
+  4) Analysis (minimal rules)
+  5) Metrics (Performance/Trend/Long-Term)
+  6) Report + Logs + Voice
+
+Exit codes:
+  0 GREEN, 1 YELLOW, 2 RED, 3 CANON_FAIL, 4 DSL_FAIL
+"""
+
+from __future__ import annotations
+
+import fnmatch
+import hashlib
+import json
+import os
+import re
+import time
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
+
+try:
+    from ruamel.yaml import YAML  # type: ignore
+except Exception:  # pragma: no cover
+    YAML = None
+
+
+EXIT_GREEN = 0
+EXIT_YELLOW = 1
+EXIT_RED = 2
+EXIT_CANON_FAIL = 3
+EXIT_DSL_FAIL = 4
+
+STATE_GREEN = "GREEN"
+STATE_YELLOW = "YELLOW"
+STATE_RED = "RED"
+
+_FRONT_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+
+
+@dataclass(frozen=True)
+class KernelContext:
+    config: Dict[str, Any]
+    mode: str
+    start_time_utc: str
+    base_path: str
+    dsl_path: str
+
+
+def utc_now_iso() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
+def ensure_dir(p: Path) -> None:
+    p.mkdir(parents=True, exist_ok=True)
+
+
+def write_json(path: Path, obj: Any) -> None:
+    ensure_dir(path.parent)
+    path.write_text(
+        json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
+
+
+def append_jsonl(path: Path, obj: Any) -> None:
+    ensure_dir(path.parent)
+    with path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n")
+
+
+def append_log(path: Path, line: str) -> None:
+    ensure_dir(path.parent)
+    with path.open("a", encoding="utf-8") as f:
+        f.write(line.rstrip("\n") + "\n")
+
+
+def sha256_file(path: Path, chunk: int = 1024 * 1024) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        while True:
+            b = f.read(chunk)
+            if not b:
+                break
+            h.update(b)
+    return h.hexdigest()
+
+
+def match_any(path_posix: str, patterns: List[str]) -> bool:
+    for pat in patterns:
+        if fnmatch.fnmatch(path_posix, pat):
+            return True
+    return False
+
+
+def scan_targets(cfg: Dict[str, Any], base_path: Path) -> List[Dict[str, Any]]:
+    targets = cfg.get("targets", {}) if isinstance(cfg.get("targets", {}), dict) else {}
+    root = str(targets.get("root", "."))
+    root_path = (base_path / root).resolve()
+
+    include = targets.get("include", ["**/*.md", "**/*.yaml", "**/*.yml", "**/*.json", "**/*.txt", "**/*.html"])
+    exclude = targets.get("exclude", ["**/.git/**", "**/node_modules/**", "**/out/**", "**/logs/**", "**/metrics/**", "**/.obsidian/**"])
+
+    include_pats = [str(p).replace("\\", "/") for p in include]
+    exclude_pats = [str(p).replace("\\", "/") for p in exclude]
+
+    out: List[Dict[str, Any]] = []
+    for dirpath, dirnames, filenames in os.walk(root_path):
+        dirnames.sort()
+        filenames.sort()
+        for name in filenames:
+            abs_path = Path(dirpath) / name
+            rel = abs_path.relative_to(base_path).as_posix()
+            if exclude_pats and match_any(rel, exclude_pats):
+                continue
+            if include_pats and not match_any(rel, include_pats):
+                continue
+            try:
+                st = abs_path.stat()
+            except Exception:
+                continue
+            out.append({
+                "path": rel,
+                "size": int(st.st_size),
+                "mtime_utc": datetime.fromtimestamp(st.st_mtime, tz=timezone.utc).replace(microsecond=0).isoformat(),
+                "ext": abs_path.suffix.lower(),
+            })
+    return out
+
+
+def read_text_safe(path: Path, limit_bytes: int = 2_000_000) -> str:
+    with path.open("rb") as f:
+        data = f.read(limit_bytes)
+    return data.decode("utf-8", errors="replace")
+
+
+def parse_metaheader(text: str) -> Dict[str, Any]:
+    m = _FRONT_RE.match(text)
+    if not m:
+        return {"present": False}
+
+    if YAML is None:
+        return {"present": True, "parsed": False}
+
+    y = YAML(typ="safe")
+    try:
+        data = y.load(m.group(1)) or {}
+        if not isinstance(data, dict):
+            return {"present": True, "parsed": True, "data": {}}
+        return {"present": True, "parsed": True, "data": data}
+    except Exception:
+        return {"present": True, "parsed": False}
+
+
+def parse_ddf(text: str) -> Dict[str, Any]:
+    levels = set(re.findall(r"DDF\s*:\s*(L[0-3])", text, flags=re.IGNORECASE))
+    return {"enabled": bool(levels), "levels": sorted({lv.upper() for lv in levels})}
+
+
+def enforce_standards(files: List[Dict[str, Any]], base_path: Path) -> Dict[str, Any]:
+    meta_missing = 0
+    id_missing = 0
+    ddf_files = 0
+
+    for f in files:
+        ext = f.get("ext", "")
+        if ext in {".md", ".txt", ".html"}:
+            txt = read_text_safe(base_path / f["path"])
+            meta = parse_metaheader(txt)
+            ddf = parse_ddf(txt)
+
+            if not meta.get("present"):
+                meta_missing += 1
+            else:
+                data = meta.get("data", {}) if meta.get("parsed") else {}
+                if isinstance(data, dict) and not data.get("id"):
+                    id_missing += 1
+
+            if ddf.get("enabled"):
+                ddf_files += 1
+
+    return {
+        "files_checked": len(files),
+        "meta_missing": meta_missing,
+        "id_missing": id_missing,
+        "ddf_files": ddf_files,
+    }
+
+
+def load_last_index(metrics_dir: Path) -> Optional[Dict[str, Any]]:
+    p = metrics_dir / "last_index.json"
+    if not p.exists():
+        return None
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def save_last_index(metrics_dir: Path, files: List[Dict[str, Any]]) -> None:
+    write_json(metrics_dir / "last_index.json", {
+        "generated_utc": utc_now_iso(),
+        "files": {f["path"]: {"size": f["size"], "mtime_utc": f["mtime_utc"]} for f in files}
+    })
+
+
+def apply_rules(files: List[Dict[str, Any]], standards: Dict[str, Any], metrics_dir: Path) -> Dict[str, Any]:
+    warnings: List[Dict[str, Any]] = []
+    errors: List[Dict[str, Any]] = []
+
+    if standards["meta_missing"] > 0:
+        warnings.append({"id": "STD_META", "msg": "MetaHeader missing in some text files", "count": standards["meta_missing"]})
+
+    # strict by default for IDs (dev kernel)
+    if standards["id_missing"] > 0:
+        errors.append({"id": "STD_ID", "msg": "Required field 'id' missing in MetaHeader", "count": standards["i

@@ -1,0 +1,35 @@
+K501 SEMANTIC CONTROL
+
+Semantic Rules:
+
+- Process only explicit information
+
+- No interpretation beyond given data
+
+- No semantic expansion
+
+- No implicit meaning extraction
+
+Clarity:
+
+- Preserve exact meaning of input
+
+- Do not transform intent
+
+- Do not reframe unless explicitly requested
+
+Mapping:
+
+INPUT → STRUCTURE → OUTPUT
+
+Invariant:
+
+semantic(input) = semantic(output)
+
+Violation:
+
+If meaning changes → error → correct immediately
+
+Goal:
+
+Semantic integrity and reproducibility

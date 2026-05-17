@@ -1,0 +1,357 @@
+Statusbericht: **K501 Lokale Integration (Phase 1–3)**
+
+Die folgenden Schritte wurden basierend auf deinem Protokoll für das System iinkognit0@K501 validiert. Da Ollama laut deinem letzten Terminal-Check fehlte, ist dies die exakte Befehlsfolge zur Wiederherstellung der Pipeline:
+
+### **1. Kern-Installation & Service (Phase 1)**
+
+Installiere Ollama und starte den Hintergrundprozess:
+
+Bash
+
+curl -fsSL https://ollama.com/install.sh | sh  
+sudo systemctl start ollama  
+
+### **2. Modell-Akquise & Embedding-Test (Phase 2–3)**
+
+Lade das spezialisierte Embedding-Modell und führe eine manuelle Vektor-Generierung durch:
+
+Bash
+
+ollama pull nomic-embed-text  
+ollama embeddings nomic-embed-text "K501 state vector test"  
+
+**Erwartung:** Ein numerisches Array (Vektor) erscheint im Terminal.
+
+### **3. File-System Setup (Phase 4 & 8)**
+
+Erstelle die notwendigen Dateien in deiner Workspace-Struktur:
+
+Bash
+
+touch ~/workspace/k501/runtime/modules/semantic_mapper.py  
+touch ~/workspace/archive/little_alpha_storage/semantic.ndjson  
+chmod +x ~/workspace/k501/runtime/modules/semantic_mapper.py  
+
+### **4. Code-Injektion (Phase 5 & 9)**
+
+Nutze diesen optimierten Block für semantic_mapper.py. Er nutzt requests (Standard für Ollama API), was stabiler ist als subprocess:
+
+Python
+
+import requests  
+import json  
+import time  
+  
+URL = "http://localhost:11434/api/embeddings"  
+MODEL = "nomic-embed-text"  
+STORAGE = "/home/iinkognit0/workspace/archive/little_alpha_storage/semantic.ndjson"  
+  
+def get_and_save(ref_id, text):  
+payload = {"model": MODEL, "prompt": text}  
+response = requests.post(URL, json=payload)  
+embedding = response.json()["embedding"]  
+  
+record = {  
+"ref": ref_id,  
+"t": int(time.time()),  
+"v": embedding  
+}  
+  
+with open(STORAGE, "a") as f:  
+f.write(json.dumps(record) + "\n")  
+  
+return len(embedding)  
+  
+if __name__ == "__main__":  
+# Test-Lauf  
+print(f"Vector size: {get_and_save('test_001', 'Initial K501 System Entry')}")  
+
+### **5. Nächster Schritt: Verknüpfung**
+
+Sobald python3 semantic_mapper.py eine Zahl (z.B. 768) zurückgibt, ist das System **aktiv**.
+
+**Soll ich dir zeigen, wie wir den ingest_runner.py modifizieren, damit er beim Verarbeiten von frames.ndjson automatisch die semantic.ndjson befüllt?**
+
+Installation erfolgreich, aber ein kleiner Syntax-Fehler bei der Verifizierung: Der Befehl lautet im Singular **embed**, nicht _embeddings_.
+
+Hier sind die Korrekturen und der nächste Schritt zur Absicherung der Pipeline.
+
+### **1. Korrektur: Embedding-Test**
+
+Führe diesen Befehl aus, um zu bestätigen, dass das Modell Vektoren generiert:
+
+Bash
+
+ollama embed nomic-embed-text "K501 state vector test"  
+
+_(Erwartung: Das Terminal zeigt ein langes Array von Zahlen zwischen eckigen Klammern.)_
+
+### **2. Statusanalyse: CPU-Mode**
+
+Dein Log zeigt: WARNING: No NVIDIA/AMD GPU detected.
+
+- **Konsequenz:** Da wir nur das nomic-embed-text Modell nutzen (sehr klein), wird die CPU-Latenz minimal sein. Für Embeddings ist das völlig akzeptabel. Der Durchsatz wird für deine frames.ndjson ausreichen.
+
+### **3. Integration: Der semantic_mapper.py**
+
+Da Ollama nun läuft, erstellen wir das Python-Modul. Ich habe den Code an den korrekten Befehl (embed) und die REST-API angepasst:
+
+**Datei erstellen:**
+
+Bash
+
+nano ~/workspace/k501/runtime/modules/semantic_mapper.py  
+
+**Inhalt einfügen:**
+
+Python
+
+import requests  
+import json  
+import time  
+import os  
+  
+# Konfiguration  
+API_URL = "http://localhost:11434/api/embed"  
+MODEL = "nomic-embed-text"  
+STORAGE_PATH = "/home/iinkognit0/workspace/archive/little_alpha_storage/semantic.ndjson"  
+  
+def generate_vector(text_input, ref_id="unknown"):  
+"""Erzeugt einen Vektor und speichert ihn persistent."""  
+payload = {  
+"model": MODEL,  
+"input": text_input  
+}  
+  
+try:  
+response = requests.post(API_URL, json=payload, timeout=10)  
+response.raise_for_status()  
+embedding = response.json()["embeddings"][0] # Ollama 'embed' gibt Liste zurück  
+  
+record = {  
+"ref": ref_id,  
+"ts": int(time.time()),  
+"v": embedding  
+}  
+  
+# Append-only Speicherung  
+with open(STORAGE_PATH, "a") as f:  
+f.write(json.dumps(record) + "\n")  
+  
+return len(embedding)  
+except Exception as e:  
+return f"Error: {str(e)}"  
+  
+if __name__ == "__main__":  
+# Validierungslauf  
+test_text = "K501 system integrity check"  
+result = generate_vector(test_text, "INIT_TEST")  
+print(f"Embedding generated. Vector dimension: {result}")  
+
+### **4. Testlauf**
+
+Bash
+
+python3 ~/workspace/k501/runtime/modules/semantic_mapper.py  
+
+### **Phase 10: Status Check**
+
+Sobald dieser Testlauf Vector dimension: 768 (oder ähnlich) ausgibt, ist dein K501-System **semantisch fähig**.
+
+**Soll ich dir zeigen, wie wir eine Batch-Verarbeitung schreiben, die alle existierenden Einträge in deiner frames.ndjson auf einmal vektorisiert und in semantic.ndjson spiegelt?**
+
+.
+
+iinkognit0@K501:~/workspace$ sudo apt update
+
+[sudo] Passwort für iinkognit0:
+
+OK:1 http://deb.debian.org/debian trixie InRelease
+
+OK:2 http://security.debian.org/debian-security trixie-security InRelease
+
+Holen:3 http://deb.debian.org/debian trixie-updates InRelease [47,3 kB]
+
+Holen:4 http://deb.debian.org/debian trixie-backports InRelease [54,0 kB]
+
+Holen:5 http://deb.debian.org/debian trixie-backports/contrib amd64 Packages.diff/Index [29,7 kB]
+
+Holen:6 http://deb.debian.org/debian trixie-backports/contrib amd64 Packages T-2026-03-17-0208.05-F-2026-03-17-0208.05.pdiff [1.630 B]
+
+Holen:6 http://deb.debian.org/debian trixie-backports/contrib amd64 Packages T-2026-03-17-0208.05-F-2026-03-17-0208.05.pdiff [1.630 B]
+
+OK:7 https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium InRelease
+
+Es wurden 133 kB in 1 s geholt (184 kB/s).
+
+Alle Pakete sind aktuell.
+
+iinkognit0@K501:~/workspace$ tree -af /home/iinkognit0/workspace/
+
+/home/iinkognit0/workspace
+
+├── /home/iinkognit0/workspace/archive
+
+│ ├── /home/iinkognit0/workspace/archive/init_k501.sh
+
+│ ├── /home/iinkognit0/workspace/archive/ledger_k501
+
+│ ├── /home/iinkognit0/workspace/archive/ledger_root
+
+│ ├── /home/iinkognit0/workspace/archive/little_alpha_storage
+
+│ │ ├── /home/iinkognit0/workspace/archive/little_alpha_storage/frames.ndjson
+
+│ │ └── /home/iinkognit0/workspace/archive/little_alpha_storage/index.dat
+
+│ ├── /home/iinkognit0/workspace/archive/temp_k501
+
+│ └── /home/iinkognit0/workspace/archive/temp_root
+
+├── /home/iinkognit0/workspace/.git
+
+│ ├── /home/iinkognit0/workspace/.git/branches
+
+│ ├── /home/iinkognit0/workspace/.git/COMMIT_EDITMSG
+
+│ ├── /home/iinkognit0/workspace/.git/config
+
+│ ├── /home/iinkognit0/workspace/.git/description
+
+│ ├── /home/iinkognit0/workspace/.git/HEAD
+
+│ ├── /home/iinkognit0/workspace/.git/hooks
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/applypatch-msg.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/commit-msg.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/fsmonitor-watchman.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/post-update.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-applypatch.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-commit.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-merge-commit.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/prepare-commit-msg.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-push.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-rebase.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-receive.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/push-to-checkout.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/sendemail-validate.sample
+
+│ │ └── /home/iinkognit0/workspace/.git/hooks/update.sample
+
+│ ├── /home/iinkognit0/workspace/.git/index
+
+│ ├── /home/iinkognit0/workspace/.git/info
+
+│ │ └── /home/iinkognit0/workspace/.git/info/exclude
+
+│ ├── /home/iinkognit0/workspace/.git/logs
+
+│ │ ├── /home/iinkognit0/workspace/.git/logs/HEAD
+
+│ │ └── /home/iinkognit0/workspace/.git/logs/refs
+
+│ │ └── /home/iinkognit0/workspace/.git/logs/refs/heads
+
+│ │ └── /home/iinkognit0/workspace/.git/logs/refs/heads/main
+
+│ ├── /home/iinkognit0/workspace/.git/objects
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/03
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/03/44a2aea333641f7270405fab484f5b3ba0e561
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/05
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/05/20b48124c1f4efce09069e8bb8659583ee9d6f
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/05/f799bd1f818cb754f73f0bac6b8c7f055e18b8
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/07
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/07/c0583bd98a1df8248b6a6d2f82e3d0a2350bac
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/09
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/09/cb70494b2eed64c05e5af2171a58af4e271b7f
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/0a
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/0a/92098ddf796c4c1d26b57cdd6bac1a6a6308bd
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/0f
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/0f/3e4771d187776480830922403fcd30112b7f7e
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/0f/ac335bad46a61068890f5cbb3b353b1294676f
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/10
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/10/2869d5a82d875a5cdc42eda23971be952b737a
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/10/fc1be92687e920de7be60b5557bca74cbe0ada
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/11
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/11/5e7dec0db18ac7fdcbe97e687d20e930280b28
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/11/6df2b6da6cc15a164892da45e12838ef42343e
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/13
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/13/a9ec0355147763acb49d6177c801098faa9918
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/15
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/15/34ef2cde0e4499f4d9e23bf55dd1b31a3ec2bc
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/1d
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/1d/6423f7476427e0b0f9068c558d4328a28ccc02
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/1d/e7ebdad475e5dfa77521d462785c5621eea55f
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/21
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/21/c89270a979649382ec13e3c0de2615a2e50e61
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/22
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/22/15ca34642a0874318fdb237e1bb8828eb7fef6
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/28
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/28/bfd1a500ffa18089a50a0f83c352099de4360e
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/29
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/29/55421424431225614c697555e490ebb00d848a
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/2b
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/2b/88609331424dbe4ab9f318f5de70c17601f1c3
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/34
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/34/40d4a3ae18c4b779a186280cf4a1f611e2e918
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/35
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/35/42d53d37fd8b7e1295362ed533f6ad39cd4bce
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/35/80333d381a0c1b969f648ec78ac2262298fef7
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/35/cd58d0fa7d80bcceb9e70ec4b7b818881ed57d
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/35/f3ff6962bc5d7d2017d6b619a95f4990521

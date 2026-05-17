@@ -1,0 +1,1 @@
+<a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=iinkognit0.de','SiteLock','width=600,height=600,left=160,top=170');" ><img class="img-fluid" alt="SiteLock" title="SiteLock" src="https://shield.sitelock.com/shield/iinkognit0.de" /></a>

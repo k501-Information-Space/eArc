@@ -1,0 +1,347 @@
+/home/iinkognit0/workspace/k501/runtime/tools/build_ffmpeg_deterministic.sh
+
+│ └── /home/iinkognit0/workspace/k501/src
+
+├── /home/iinkognit0/workspace/k501_v24
+
+├── /home/iinkognit0/workspace/k501_v25
+
+├── /home/iinkognit0/workspace/k501_v26
+
+├── /home/iinkognit0/workspace/Makefile
+
+└── /home/iinkognit0/workspace/src
+
+├── /home/iinkognit0/workspace/src/dynamic_cage.c
+
+├── /home/iinkognit0/workspace/src/dynamic_cage.o
+
+├── /home/iinkognit0/workspace/src/frame_engine.c
+
+├── /home/iinkognit0/workspace/src/frame_engine.o
+
+├── /home/iinkognit0/workspace/src/hard_index.c
+
+├── /home/iinkognit0/workspace/src/hard_index.o
+
+├── /home/iinkognit0/workspace/src/ingestion.c
+
+├── /home/iinkognit0/workspace/src/ingestion.o
+
+├── /home/iinkognit0/workspace/src/k501_auditor.py
+
+├── /home/iinkognit0/workspace/src/k501_kernel_v24.c
+
+├── /home/iinkognit0/workspace/src/k501_kernel_v25_mmap.c
+
+├── /home/iinkognit0/workspace/src/k501_kernel_v26_deep.c
+
+├── /home/iinkognit0/workspace/src/main.c
+
+├── /home/iinkognit0/workspace/src/main.o
+
+├── /home/iinkognit0/workspace/src/qh_algebra.c
+
+├── /home/iinkognit0/workspace/src/qh_algebra.o
+
+├── /home/iinkognit0/workspace/src/qh_core.c
+
+└── /home/iinkognit0/workspace/src/qh_core.o
+
+104 directories, 155 files
+
+iinkognit0@K501:~/workspace$ tree -f /home/iinkognit0/workspace/ > structure.txt
+
+iinkognit0@K501:~/workspace$ ollama --version
+
+bash: ollama: Kommando nicht gefunden.
+
+iinkognit0@K501:~/workspace$ ollama --version
+
+bash: ollama: Kommando nicht gefunden.
+
+iinkognit0@K501:~/workspace$ systemctl status ollama
+
+Unit ollama.service could not be found.
+
+iinkognit0@K501:~/workspace$ cd ..
+
+iinkognit0@K501:~$ cd /workspace
+
+bash: cd: /workspace: Datei oder Verzeichnis nicht gefunden
+
+iinkognit0@K501:~$ cd workspace
+
+iinkognit0@K501:~/workspace$
+
+iinkognit0@K501:~/workspace$ sudo apt update
+
+[sudo] Passwort für iinkognit0:
+
+OK:1 http://deb.debian.org/debian trixie InRelease
+
+OK:2 http://security.debian.org/debian-security trixie-security InRelease
+
+OK:3 http://deb.debian.org/debian trixie-updates InRelease
+
+OK:4 http://deb.debian.org/debian trixie-backports InRelease
+
+OK:5 https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium InRelease
+
+Alle Pakete sind aktuell.
+
+iinkognit0@K501:~/workspace$ curl -fsSL https://ollama.com/install.sh | sh
+
+sudo systemctl start ollama
+
+>>> Installing ollama to /usr/local
+
+>>> Downloading ollama-linux-amd64.tar.zst
+
+######################################################################## 100.0%
+
+>>> Creating ollama user...
+
+>>> Adding ollama user to render group...
+
+>>> Adding ollama user to video group...
+
+>>> Adding current user to ollama group...
+
+>>> Creating ollama systemd service...
+
+>>> Enabling and starting ollama service...
+
+Created symlink '/etc/systemd/system/default.target.wants/ollama.service' → '/etc/systemd/system/ollama.service'.
+
+>>> The Ollama API is now available at 127.0.0.1:11434.
+
+>>> Install complete. Run "ollama" from the command line.
+
+WARNING: No NVIDIA/AMD GPU detected. Ollama will run in CPU-only mode.
+
+iinkognit0@K501:~/workspace$ ollama pull nomic-embed-text
+
+ollama embeddings nomic-embed-text "K501 state vector test"
+
+pulling manifest
+
+pulling 970aa74c0a90: 100% ▕█████████████████████████████████████████████████████████████▏ 274 MB
+
+pulling c71d239df917: 100% ▕█████████████████████████████████████████████████████████████▏ 11 KB
+
+pulling ce4a164fc046: 100% ▕█████████████████████████████████████████████████████████████▏ 17 B
+
+pulling 31df23ea7daa: 100% ▕█████████████████████████████████████████████████████████████▏ 420 B
+
+verifying sha256 digest
+
+writing manifest
+
+success
+
+Error: unknown command "embeddings" for "ollama"
+
+iinkognit0@K501:~/workspace$ ollama embed nomic-embed-text "K501 state vector test"
+
+Error: unknown command "embed" for "ollama"
+
+iinkognit0@K501:~/workspace$ ollama pull nomic-embed-text
+
+pulling manifest
+
+pulling 970aa74c0a90: 100% ▕█████████████████████████████████████████████████████████████▏ 274 MB
+
+pulling c71d239df917: 100% ▕█████████████████████████████████████████████████████████████▏ 11 KB
+
+pulling ce4a164fc046: 100% ▕█████████████████████████████████████████████████████████████▏ 17 B
+
+pulling 31df23ea7daa: 100% ▕█████████████████████████████████████████████████████████████▏ 420 B
+
+verifying sha256 digest
+
+writing manifest
+
+success
+
+iinkognit0@K501:~/workspace$ ollama embed nomic-embed-text "K501 state vector test"
+
+Error: unknown command "embed" for "ollama"
+
+iinkognit0@K501:~/workspace$ touch ~/workspace/k501/runtime/modules/semantic_mapper.py
+
+touch ~/workspace/archive/little_alpha_storage/semantic.ndjson
+
+chmod +x ~/workspace/k501/runtime/modules/semantic_mapper.py
+
+iinkognit0@K501:~/workspace$ python3 ~/workspace/k501/runtime/modules/semantic_mapper.py
+
+Embedding generated. Vector dimension: 768
+
+iinkognit0@K501:~/workspace$ tree -af /home/iinkognit0/workspace/
+
+/home/iinkognit0/workspace
+
+├── /home/iinkognit0/workspace/archive
+
+│ ├── /home/iinkognit0/workspace/archive/init_k501.sh
+
+│ ├── /home/iinkognit0/workspace/archive/ledger_k501
+
+│ ├── /home/iinkognit0/workspace/archive/ledger_root
+
+│ ├── /home/iinkognit0/workspace/archive/little_alpha_storage
+
+│ │ ├── /home/iinkognit0/workspace/archive/little_alpha_storage/frames.ndjson
+
+│ │ ├── /home/iinkognit0/workspace/archive/little_alpha_storage/index.dat
+
+│ │ └── /home/iinkognit0/workspace/archive/little_alpha_storage/semantic.ndjson
+
+│ ├── /home/iinkognit0/workspace/archive/temp_k501
+
+│ └── /home/iinkognit0/workspace/archive/temp_root
+
+├── /home/iinkognit0/workspace/.git
+
+│ ├── /home/iinkognit0/workspace/.git/branches
+
+│ ├── /home/iinkognit0/workspace/.git/COMMIT_EDITMSG
+
+│ ├── /home/iinkognit0/workspace/.git/config
+
+│ ├── /home/iinkognit0/workspace/.git/description
+
+│ ├── /home/iinkognit0/workspace/.git/HEAD
+
+│ ├── /home/iinkognit0/workspace/.git/hooks
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/applypatch-msg.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/commit-msg.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/fsmonitor-watchman.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/post-update.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-applypatch.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-commit.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-merge-commit.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/prepare-commit-msg.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-push.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-rebase.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/pre-receive.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/push-to-checkout.sample
+
+│ │ ├── /home/iinkognit0/workspace/.git/hooks/sendemail-validate.sample
+
+│ │ └── /home/iinkognit0/workspace/.git/hooks/update.sample
+
+│ ├── /home/iinkognit0/workspace/.git/index
+
+│ ├── /home/iinkognit0/workspace/.git/info
+
+│ │ └── /home/iinkognit0/workspace/.git/info/exclude
+
+│ ├── /home/iinkognit0/workspace/.git/logs
+
+│ │ ├── /home/iinkognit0/workspace/.git/logs/HEAD
+
+│ │ └── /home/iinkognit0/workspace/.git/logs/refs
+
+│ │ └── /home/iinkognit0/workspace/.git/logs/refs/heads
+
+│ │ └── /home/iinkognit0/workspace/.git/logs/refs/heads/main
+
+│ ├── /home/iinkognit0/workspace/.git/objects
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/03
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/03/44a2aea333641f7270405fab484f5b3ba0e561
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/05
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/05/20b48124c1f4efce09069e8bb8659583ee9d6f
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/05/f799bd1f818cb754f73f0bac6b8c7f055e18b8
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/07
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/07/c0583bd98a1df8248b6a6d2f82e3d0a2350bac
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/09
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/09/cb70494b2eed64c05e5af2171a58af4e271b7f
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/0a
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/0a/92098ddf796c4c1d26b57cdd6bac1a6a6308bd
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/0f
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/0f/3e4771d187776480830922403fcd30112b7f7e
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/0f/ac335bad46a61068890f5cbb3b353b1294676f
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/10
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/10/2869d5a82d875a5cdc42eda23971be952b737a
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/10/fc1be92687e920de7be60b5557bca74cbe0ada
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/11
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/11/5e7dec0db18ac7fdcbe97e687d20e930280b28
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/11/6df2b6da6cc15a164892da45e12838ef42343e
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/13
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/13/a9ec0355147763acb49d6177c801098faa9918
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/15
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/15/34ef2cde0e4499f4d9e23bf55dd1b31a3ec2bc
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/1d
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/1d/6423f7476427e0b0f9068c558d4328a28ccc02
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/1d/e7ebdad475e5dfa77521d462785c5621eea55f
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/21
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/21/c89270a979649382ec13e3c0de2615a2e50e61
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/22
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/22/15ca34642a0874318fdb237e1bb8828eb7fef6
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/28
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/28/bfd1a500ffa18089a50a0f83c352099de4360e
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/29
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/29/55421424431225614c697555e490ebb00d848a
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/2b
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/2b/88609331424dbe4ab9f318f5de70c17601f1c3
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/34
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/34/40d4a3ae18c4b779a186280cf4a1f611e2e918
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/35
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/35/42d53d37fd8b7e1295362ed533f6ad39cd4bce
+
+│ │ 

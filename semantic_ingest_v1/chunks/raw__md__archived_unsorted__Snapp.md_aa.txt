@@ -1,0 +1,1 @@
+cp phase_c/db/archive_index.sqlite phase_c/db/archive_index.snapshot.sqlite

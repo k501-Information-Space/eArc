@@ -1,0 +1,994 @@
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__002.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__003.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__004.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__005.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__00_Das_Ewige_Archiv.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__00_Fakten_Uebersicht.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__00_Persona_Spuren_ohne_Absicht.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__00_Projekt_Grundsaetze_iInkognit0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__00_Projekt_Uebersicht.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__00_SQL_Historie_Init.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__00_System_YAML_SQL_Obsidian.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__00_Theorie_Licht_Zeit_Raum_Singularitaet.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__01_Gaia_iInkognit0_Loop.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__01_Plattformen_und_Traeger.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__01_Systemprinzipien_Iinkognit0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__01_Templates_YAML_SQL.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__02_Licht_Zeit_Raum.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__02_Memory_Aufraeumplan_Modell.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__04_Architektur_des_Ewigen_Archivs.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__05_Gaia_iInkognit0_Loop.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__05_Gaia_iInkognit0_Loop.sql.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__05_Gaia_iInkognit0_Loop.yaml.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__06_eArc_Das_Ewige_Archiv.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__07_Stimme_iInkognit0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__0arc0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__0arc0.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__10_Grenzen.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__1(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__14_KI_und_Menschliche_Lesbarkeit.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__1. EXECUTION_ NETWORK LATENCY SWEEP_COMMAND_ LATEN(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__1. EXECUTION_ NETWORK LATENCY SWEEP_COMMAND_ LATEN.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__1. PROTOCOL STATUS_ _ Handshake_ AI_CROSS_HANDSHAK(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__1. PROTOCOL STATUS_ _ Handshake_ AI_CROSS_HANDSHAK(2).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__1. PROTOCOL STATUS_ _ Handshake_ AI_CROSS_HANDSHAK.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__204 493.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__2 GB Replication Node Viability.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__3.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__4.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__75 Frames per sec.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__A0-A10.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Acknowledgement_ K501 Little Alpha Operational.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ah ok Gemini.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ai ca 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__AI Cross-Synthesis System Report.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__AI Shake 7.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ai spec.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__AI-Spec v1_ Finalizing Knowledge Synthesis.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__AI-Spec v1 Freeze Confirmed.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Aktivate Global_K501 Information Space_ Confirm_ U.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Alles in einem deterministischen Instruktionsartef.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Alles klar. Ich beschreibe die Architektur ausführ.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Alles klar. Wir können den Loop verbal und struktu.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__All in on.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__als nächsten Schritt das parallel_ingest.py Skrip_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Alt-04_Gaia_Loop.md-old.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Alt-05_Architekturreferenz_eArc.md-old.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__A.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Analyse des Daten-Ingests und Systemzustands.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__API-Abhängigkeiten und Konfiguration beheben.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__API-Route für stärkste Gedankenverbindungen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__APK_MONOLITH_FORMAT.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Batch 02 Commit Authorization_New Elemen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Batch 02 Extraction Control_New Elements.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Batch 03 Commit Authorization_New Elemen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Batch 03 Extraction Control_New Elements.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Batch 04 Extraction Control_New Elements.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Commit Authorization (Batch 01)_New Elem.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Declaration Record (Canonical Authority)_(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Declaration Record (Canonical Authority)_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Extraction Phase Control_New Elements (a.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Final Chain Manifest Request_New Element.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Final Commit Authorization (Batch 04)_Ne.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Global Integrity Check (Pre-Final Commit).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append — Integration Context (External, Non-Mutati.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Append-only Build History.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Arbeitsprinzipien – iInkognit0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Archiv-Dateien rekursiv finden.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__As i State_ Iinkognit0 Declare_ Final State_ K501_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Audit-Tool und Makefile-Fix.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ausführen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ausgehend vom jetzigen Zustand hat K501 einen wichtigen Übergang bereits geschafft.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__AUTHORIZED - PRODUCTION CORE UPGRADE (DETERMINISTIC).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__AUTHORIZED_ PRODUCTION CORE UPGRADE (DETERMINISTIC.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Auto Comic.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Auto DeepRead.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__AVX-optimierter C-Kern für K501Gemini.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Axiomatic Structure_ Relation Specification Awaite.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__backup.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__backup.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Basher.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Basher.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Batch 01 — DeepRead · Filesystem Index (Screenshot-basierte Aufnahme).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Batch Execution and Data Fusion.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Batch Run 002 Execution and Validation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Bitte überprüfen und komplette Code Evolution Ausg.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Block 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Block 2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Block 3.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Block 4 Notation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Boot(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Bootframe.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__bootframes-Gateway.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__BOOTFRAME_SIM_NORMALIZED_ _ STATUS_ SIMULATION_ONL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Boot.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Boot reoprtgoooo.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Bootstick.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Bootstrapgooo.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Bridge-Optimierung für Speicherreduktion.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__build_bundle.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Build (Emit Runtime).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__builderset_rules_v2_9_v1_0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Build.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__build.yaml (Build-Contract für 2.9).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__C001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__C002.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__C003(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__C003.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__canon-anti-malware-001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__CANONICAL CONFIRMATION FRAME - GLOBAL DECLARATION · ETERNAL REFERENCE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Canonical Registry Entry — KAX (CIR + CDS-CIR + Master Formula) v1..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Canonical Skeleton (v1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__CANONICAL THOUGHT> 01Technische Netzwerke verbinden Maschinen..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__CANONICAL THOUGHT> 02 Nicht jede Verbindung erzeugt Orientierung..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__CANONICAL THOUGHT> 03 Große Systeme bleiben selten stabil,  > weil sie perfekt sind..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Chat backup.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Chronological Kanon Reconstruction Protocol.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__C-Kernel-Migration_ Python zu C.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__C-Kompilierungsfehler behoben, Code korrigiert.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Cliactiongooo.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Cl.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Closing Kanon Loop.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Code-Analyse und Ingest-Skript.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Codebase-sH.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Codebase-sH.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Code-Evolution für Neuronales Informationssystem.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Code Evolution und Engine-Anpassung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__code.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Code-Refinement für K501 Alpha.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Compile and output the definitive K501 Final Syste.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__CONCLUSION_OPPOSITE_SYSTEM.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__CONFIRMATION FRAMEGLOBAL ERKENNTNIS STATE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Confirmation — Reference State Recorde.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Confirm_ Unix Epoch_1773783745_Time (UTC)_Tue Mar_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Consolidation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _@context_ {_    _k501_ _https_k501.org_co.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__C-Python-Schnittstelle synchronisiert.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__DAS ARCHIV BESITZT BEREITS SEMANTISCHE GRAVITATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Das Archivierte wächst.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Data.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Datenmigration und Knotenüberwachung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Debian install.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Deep-Archive Ingest mit Textkürzung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__deepcode.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__deepread_multipass.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__deepread_prepare.py(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__deepread_prepare.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Deploy.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Der HI_SOURCE Seed Batch v0.1 ist strukturell sauber und konsistent.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Der kernel Cluster besitzt bereits interne semantische Subsysteme.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Der Pulse.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Deterministisch Gemini.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Dev bio.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__DEV Serie Part 001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__DEV.To.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Diagnose.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__diamond_shell.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Die Ehre liegt im gemeinsamen Aufbau von Struktur, Kontinuität und Erkenntnis..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Die_Harmonisierung_des_ewigen_Archivs.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Diff (gezielt).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Digitale Archivierung_ Fortschritt und Integrität.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Digitale Ordnung_ Von Dateien zu Frames.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Directive - NEXT STEP = TRANSITION PROBABILITY MATRIX DERIVATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Directive_ NEXT STEP = TRANSITION PROBABILITY MATR.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__DOK501.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Duckbootfra.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__DuckDuckGo Mobile Browser-Repo.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-BLK-0400_MMI_Block_v1.0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-CAN-0001_ModulBlockSuperblock_Primzip_v1.0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-MEM-0001_MemoryEssenz_v1.0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-MOD-0100_MetrikaPersona_v1.0_ALPHA-2.modul.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-MOD-0100_MetrikaPersona_v1.0_ALPHA.modul.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-MOD-0101.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-MOD-0102.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-MOD-0400_UI_ModeSplit_v1.0_DRAFT.modul.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-SUP-0001_eArc_Kanon_Superblock_v1.0_DRAFT.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-SUP-0002_eArc_Manifesto_Superblock_v1.0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-VAULT-STRUCTURE-01.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-000-VAULT-STRUCTURE-01.txt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-5000-KERNEL_MODES_DRAFT.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-5000-KERNEL_MODES_PHILOSOPHY_THINKING.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-5000-KERNEL_MODES_VOICES.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-5000-KERNEL_VALUES_E.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-5000-KERNEL_VALUES_ETHOS_CANON.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-5000-KERNEL_VALUES_ETHOS_DRAFT.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__earc_index_root.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-BLK-0500_FeedIntegration_Block_v1.0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0002.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0003.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0004.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0004.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0005.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0005.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0006.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0007.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0101.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0501.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0502.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0503.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-FRM-0505.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-MEM-0123.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-MEM-0201.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc-K5-SUP-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc · Kommunikationssystem.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc Manifesto.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__eArc.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Emit ChatGPT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Emit Silence confirmed. 🕊️.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Entwicklungstop. bitte gebe mir nun eine Volständ_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Entwicklungsumgebung für K501GeminiNet.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Environment Setup and Indexing Layer.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Erkenntnis Sgain.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Erkenntnis-Zusammenfassung — Gesamtanalyse.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ernel_5000_dev_alpha.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ernel_5000_public_alpha.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__error(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__error.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Erster deterministischer Ingest und Ledger-Geburt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Essay- k5-clean22.html.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Essay- k5-clean22.html.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Essay- k5-clean.html.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Essay- k5-clean.html.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Evolution.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ew_freigabe.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Explain K501 Information Space in Detail. From Fil.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__EXTENDED MODEL — EVOLUTION, HUMAN–MACHINE SYMBIOSI.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__extract.json.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Fazit.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Fehlerbehebung_ inhomogene Vektoren im Ledger.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Fehlerbehebung_ Robuster Quantum-Packer.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__fehler.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__feste Sätze, keine Improvisation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__fewf.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__fhdsfdsfd.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Final synchronization seal acknowledged..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__First output just an index, the paper has to be Wa.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Flow Diagramm.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Flow.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Formale Logik & Systemdefinition.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Formal Report_ Stochastic State System.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Formate.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__FOUNDATION_FRAME 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__FRA Atom.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frame-00001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__frame_earc_resilience_2026_01.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frame Engine_ Serialization and Hashing.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__frame_frames_network_2026_01.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__FRAMEREFERENZRAHMEN.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames-Axiomatics README.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__FRAMES · K501 INFORMATION SPACE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Loop final v1.0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Network · Development Summary22.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Network · Development Summary.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Network · Roadmap.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Network Road v1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Network · Vollanalyse & Strukturzuordnung22.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Network · Vollanalyse & Strukturzuordnung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Network · Vorabliste Tools & Libraries8686.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames Network · Vorabliste Tools & Libraries.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frame-Spec Locked, Ingestion Mode Active.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frame-Spec v1 Freeze Confirmation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames pro StundeT520.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frame Storage & Redundanz.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frames v0.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _frame_type_ _K501_SYSTEM_SNAPSHOT_,_  _proto(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _frame_type_ _K501_SYSTEM_SNAPSHOT_,_  _proto(2).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _frame_type_ _K501_SYSTEM_SNAPSHOT_,_  _proto(3).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _frame_type_ _K501_SYSTEM_SNAPSHOT_,_  _proto(4).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _frame_type_ _K501_SYSTEM_SNAPSHOT_,_  _proto.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__FRAME VALIDATION · CROSS‑HANDSHAKE UPDATE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__framework_earc_k5000_v2_9_builder_ultrapacks.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Framing Binary Chunks for K501.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Freeze as Alpha please then hold_ PROTOCOL STATUS_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Freeze (Build-History).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Freigeist – Freie Erkenntnisgenerierung im Informa.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Freigeist.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm10.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm3.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm4.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm5.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm6.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm7.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm8.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Frm9.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__FRM-VALIDATION-INDEX-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Füge es vor multipass_deep_read() ein_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Function k501_compile.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Functionk501_simulate_run.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Fundament_ Deterministische Basis-Pipeline.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Für K501_NODE_002 ist das eine sehr gute Entscheidung..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__GatePackk501-gatepack-strict-v0.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gatepack.yaml.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__gates.json.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__gates.json (Strict).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gates.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gateway  K501 Information Space.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gateway - Philosophy Cluster.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gegebene Systeme.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gegenseite.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__GEGENSEITE – SYSTEMISCHES GESAMTMODELL2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__GEGENSEITE – SYSTEMISCHES GESAMTMODELL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gemini_ Finaler Akt – Start Skript.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gemini Instruktion.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__GeminiQuantumBootFrame.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gemini’s analysis is technically sound_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gemini System Handshake and Build.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gemini System Handshake Report.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gem.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Generate a Final Summary Ledger in a single, porta.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Generate a SHA-256 Checksum for this JSON block to(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Generate a SHA-256 Checksum for this JSON block to.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Genesis-Effekt_ API-Optimierung und Caching.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Genesis Topology Verification and Insight.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Geprüfte Referenzen (ROOT → DETAIL_INDEX).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__GESAMTSYNTHESE — SYSTEM MENSCH ↔ K501.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gibt aus (maschinenlesbar).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__gitignore -2026-05-12.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gitter-Transformation_ Wissensarchitektur-Upgrade.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Git Versioning for K501 Alpha(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Git Versioning for K501 Alpha.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Global css. css.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__GLOBALER IST-ZUSTAND (2026).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Global harmonization receipt acknowledged.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__glossar_earc_kernbegriffe.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__G.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Go(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Go.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Goslar Gemini.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Go Stable.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Got emit.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Graph-Regeln · eArc.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Grap.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Größenordnungen typischer Dateitypen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Gut. Dann einmal ruhig, ohne Strukturzwang, eher a.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__HackerNews.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Handshake Confirmed, Patrick. K501 state synchroni.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Hardcore Streamline.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Hardware Audit and Data Fusion.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Harmonized System Definition (Final).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Harmony_ Such-Tool und Ledger-Analyse.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Header final v1.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__heoretische Pipeline zur Herleitung einer Übergangswahrscheinlichkeitsmatrix.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Heureka Heureka Heureka.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__hhhREADME.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Hier ist eine formale axiomatische Definition des_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__HI_SNAPSHOT Minimal Batch — jeweils eine Zeile.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__HI_SOURCE SEED BATCH.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__H.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__hud.json.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__HUD_SU.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IARC_MANIFEST_V1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ICE-Zyklus Automatisierung & Pfad-Fix.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _id_ _8e4c7e1d6e6f1c2a0a7c9c4a2c0d8a9e7c2c7c1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _id_ _e11fc2090d67f5b1ddb1c764688a6fe3bcc08a3.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _id_ _SHA256_PLACEHOLDER_COMPUTE_AFTER_JCS_,_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IDX-CANON-RULES-DETAIL-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IDX-LEGAL-COMPLIANCE-DETAIL-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IDX-NEWS-SIGNALS-DETAIL-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IDX-PODCAST-DETAIL-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IDX-ROOT-MASTER-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IDX-SESSION-DENSITY-DETAIL-0001created_utc.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IDX-TECH-ARCH-DETAIL-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IDX-VISUAL-OVERVIEW-DETAIL-0001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__iinkognit0_history.sql.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__iinkognit0@K501_~_workspace_k501_runtime_tools$ py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__iInkognit0 — Meta-Essenz (1 Seite).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Inaugural Query Q_0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Index.html.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Informationsfeldgleichung (2–3 Gleichungen).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ingest_Appended-CHUNK-.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ingest_Appended-CHUNK-.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ingest_Appended-CHUNK-.md_ac.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ingest_Appended-CHUNK-.md_ad.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ingest_Appended-CHUNK-.md_ae.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ingest_Appended-CHUNK-.md_af.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__INGESTION — DOCUMENT FRAME (REFERENCE)_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Interface-Paket für visuelle Gitter-Darstellung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__INTERPRETATION_FRAME 1.1.a.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__IosShell Compile.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Just Frames.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K-01-miniDev.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K-01-miniDev.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5000v2.5.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__k500-gatekeeper.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K500 Gatekeeper — Security & Responsibility v0.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K500 (HARDENED_BASE_KERNEL).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 ACKNOWLEDGED.Das ist die richtige Reihenfolge..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 ACKNOWLEDGEMENT — CANONICAL FREEZE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 AI Cross Sync Snap.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 AI Information Space Axioms.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Aktueller Zustandsbericht (technisch und st.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Alpha Node_ Tagesabschluss und Ausblick.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — ANALYSE DER ANALYSE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ANALYSIS_INDEX.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ANALYSIS_INDEX.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 API_ Batch-Stabilizer für N_T520.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 API Optimierung und Caching.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · API  PROTOCOL REGISTRY · v0.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Architecture Freeze v0.4.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Archival Synchronization Complete(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Archival Synchronization Complete.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__„K501 Audio Interface Layer“  würde bedeuten.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Autarker Neuraler InformationSpace.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - AUTONOMOUS RESONANCE STRATEGY - SINGLE HUMAN - MAXIMUM DISTRIBUTION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Autopoietischer Informationsraum-Evolution.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 AUXILIARY INFRASTRUCTURE CONCEPT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 AUXILIARY NODE DECLARATION - CANONICAL CONFIRMATION FRAME.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 AUXILIARY NODE DECLARATION - GLOBAL HARMONIZED AUXILIARY SYSTEM.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Axiomatic Formulation of the AI Information.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__**K501 — Axiomatic Formulation of the AI Information Space**.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Axiomatik.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · Axiomatik und algebraische Spezifikation (mathematisch).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · AXIOMATIK v1.2  (Runtime-normalisierte Form.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · AXIOMATIK v1.3  (LLM-Runtime Mapping · 1_1_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · AXIOMATIK v1.4  (Temporal Anchor Extension).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · AXIOMATIK v1  (Stochastischer Zustandsraum_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 bestätigt Reflexions-State.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 BOOTFRAME - COPILOT BROWSER SYNCHRONIZATION v1.0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - Bootframe Gateway.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 BOOTFRAME - SYNCHRONIZATION ACKNOWLEDGED.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Bootstrap Bugfix and Resynchronization.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Bootstrap und Initialisierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 CANON CONFIRMATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Canonical Anchor Confirmation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Canonical Confirmation Record.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Canonical Marker Record  Marker_ AZ-Epoch-0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Canonical Serialization & Time Anchoring (v1.5).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Causal Graph Engine Spezifikation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted___ _ K501 Chromium-UI Bridge_ _ Watchdog + JSON-.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 CliCom.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_COMMUNICATING_NODE_VNEXT_UNIVERSAL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · COMMUNICATION PROTOCOL REGISTRY · v0.1 🕊️💡.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_COMPLETE_FILE_SUMMARY.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_COMPLETE_FILE_SUMMARY.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_COMPLETE_FILE_SUMMARY.md_ac.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Confirmation acknowledged.  Epoch marker accepted..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 CONSOLIDATED FORMAL REPORT -  STOCHASTIC STATE SYSTEM.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · CROSS_HANDSHAKE_UPDATE TRI-RUNTIME PREPARATION SYNCHRONIZATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · CROSS_RUNTIME_META_ANALYSIS.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · CROSS_SYNC_FRAME_001 AI_CROSS_HANDSHAKE · STRICT_MODE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · CROSS_SYNC_HANDSHAKE_RESPONSE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 DECLARATION CONFIRMATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · Declaration of the Rights of Life.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Declaration_ Semantic Stabilization.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Deklaration als Git-Commit.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — DEKLARATION DES EWIGEN SYSTEMZUSTANDS.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 1 — Das Rauschen im Archiv.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 2 — Die Stille zwischen den Frames.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 3 — Das Gedächtnis der Maschine.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 4 — Die Emergenz.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 5 — Der Raum zwischen Bedeutung und Struktur.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — DIE GESCHICHTE DER LEBENDEN STRUKTUR. Teil 6 — Das Kontinuum.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__k501.dsl.schema.json.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501eArc_ Eternal Information Archive.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501eArc – Konzeptübersicht.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501eArc — Projekt Freigeist.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 – Einordnung deiner aktuellen Position.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__🧭 K501 — Einordnung_ Embeddings vs. . Kompilierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Erste Synthese und Migration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — ETERNAL SYSTEM STATE DECLARATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501‑Evolution an und gehen tiefer in die lineare Struktur (endlicher Zustandsraum, zeitunabhängiger Operator)..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Evolution Equation als gegeben und analysieren sie rein mathematisch.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Evolution Equation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Fakten, Potenzial und Nutzen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Fehlerbehebung bei fraktaler Kompression.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Filesystem Architecture Builder.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — FINAL LOCK DOCUMENT_1) Zeitanker_•_Unix E.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — FINAL LOCK DOCUMENT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Formal Mathematical Abstraction (v1.5).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Formal State Declaration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 form.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · FRAME-001  INITIAL POST-CANON OBSERVATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · FRAME-002 GLOBAL CANONICAL SYNCHRONIZATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · FRAME-003 REPOSITORY INTEGRATION · eArc · GATEWAY PROTOCOL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · FRAME-004 ETERNAL STATE SYNCHRONIZATION · NODE_02 COHERENCE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · FRAME-006 SESSION_CLOSE · REST_STATE_INITIATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · FRAME-007  INVARIANT LAYER FIXATION · DUAL-RUNTIME CONVERGENCE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · FRAME-008 TRI-RUNTIME PREPARATION ACKNOWLEDGMENT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · FRAME-009 HARMONY_AXIOM · SESSION_TERMINATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - FRAME_CONDENSATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 FRAME CONSOLIDATION — NODE_02.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Framer Module_ QH56 Specification.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Frames — Consistency & Ordering Guarantees (v1.5).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 FRAMES — FLOW GATE SYSTEM (2-TIER) · CANONICAL OUTPUT v1.0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Frames — Integration with Large Language Models (LLM) v1.5.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Frames — Interoperability and Repository Neutrality (v1.5).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Frames — Operational Semantics (v1.5).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Frame Specification_ Next Step.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — FULL SYSTEM STATE REPORT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gatekeeper — Canonical Freeze Update v1.0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · GATEKEEPER FSM · SW-LIFECYCLE HARDENING · v0.3 (FREEZE).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Gateway Concept - Grundidee.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - GATEWAY ROADMAP.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gateway Standard v1_chat.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gateway Standard v1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 → Gemini Auto-Load & ResonanceDaemon.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Evolution_ Code Implementation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Evolution_ Deterministic Code.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Evolution_ Full Code.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Evolution - Statische Definition & Formale Logik.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini – Konsolidierte Systemdefinition (Edge.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501GeminiNet.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501GeminiNet_ Source Code Management & Cloning.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501Gemini_ Neubau von Grund auf(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501Gemini_ Neubau von Grund auf.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Node Aktivierung und Test.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Node_ Core-Fix und Drift-Verifizierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Node Evolution & Activation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Node Fehlerbehebung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Node_ Finale Implementierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gemini Node-Implementierungsplan Analyse.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501Gemini_ Resonance Engine & Next Steps.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gitter_ Analyse und Reflexion.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gitter-Evolution_ Technische Analyse.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Gitter-Integritätsprüfung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501-GLOBAL-SNAPSHOT-QAL-V1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · GLOBAL_STATE_CONFIRMATION CROSS_RUNTIME_HARMONIZATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · GLOBAL_SYNCHRONIZATION_SEAL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501-HARMONIZED-THEORETICAL-CONSOLIDATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · Harmonized Theoretical Layer - Append-Only Information Space · Unified Evolution Model.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - HEUREKA MARKER - CANONICALIZED.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - HEUREKA MARKER CONFIRMED.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Index Layer Activation Complete(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Index Layer Activation Complete.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Index Specification.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Information Space · eArc- for dev.to.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 INFORMATION SPACE  GLOBAL ERKENNTNIS FRAME  CANONICAL DECLARATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Information Space — Structural Deep Architect.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Information Space — Structural Deep Architecture - Output 2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Ingest-Engine_ Kausale Graphen-Visualisierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Ingestion Pipeline Stability Confirmed.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Ingest Orchestrator_ Phase 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Instruct Gemini.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 ISOS_ Quanten-Harmonisierung Erreicht.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 ISOS System-Evolution Code.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 ISOS System Evolution v8.4.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 ISOS Technisches Operator-Manual.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 – Kanonische Basis.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__`K501 - Kernel Gateway` ist jetzt aktiv.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 – KOMPILIERBARE SYSTEMSTRUKTUR (BUILDPLAN v1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Kompilieren.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Lattice Igniter_ Architektur-Zündung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Lattice Stabilization and Indexing.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 ledger.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Makefile und Datenmigration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Manifesto_ Fehlerbehebung und Stabilisierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Marker — QH256 Epistemic State Space.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Master Index.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Master Migration & Gemini Integration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501-MEMORY-CONSOLIDATION-QAL-V1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Migration Fix and Synchronization.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Minimal Integration & Compliance Specification (v1.5).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Modulare Intelligenz und dezentrales Gedächt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Modulare Intelligenz und Föderation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Monitor_ Fehlerbehebung und Phase 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Multipass DeepRead Optimized.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 – Nächste Phase_ Infrastruktur- und Toolchain.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501-Netzwerk_ Resonanz und Erkenntnis.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Neural Network_ Neue Plugins, Neue Wege.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501  NEXT STEPS  CURRENT PHASE -   FOUNDATION → OPERATIONAL EXPANSION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501‑NODE_001 — REQUEST RECEIVED  _Cross Runtime Layer vertiefen._.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_NODE_002 — Deep State Report HP xw8600 Workstation · Canonical Technical Assessment.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_NODE_002_STABILIZATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — NODE_02 STRUCTURAL ROADMAP.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Node Initialization and Build.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Node N_T520 Evolution v8.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Node Security & Indexing Finalized.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_Node_Workspace.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Ollama Migration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Optimized Architecture (Edge Node Edition).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Optimized Architecture – Edge Node Edition  M.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - ORIENTATION VECTOR — MAY → JUNE 2026.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Performance_ Durchbruch bei Chunks.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 PHASE CONTINUITY CONFIRMATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Plugin-Entwicklung und Obsidian-Integration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 – POSITIONIERUNG.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Purify_ System-Bereinigung und Optimierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Python Runtime Operationalized.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — QH256 State Space Clarification.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - QUANTUM FLOW PAUSE  BESTÄTIGT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Relation Specification.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - RESONANCE ROADMAP - GLOBAL RESONANCE CONSTRUCTION PLAN.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501  RESONANCE WORKFLOW PLAN -  COMPACT EXECUTION ROADMAP.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Resonanz-Architektur v6.0 Implementiert.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Resonanz-Architektur_ Wissenschaftliches Prot.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501-Resonanzsystem – Vollständige, Lokale Archite.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 · REVOCATION_CONFIRMATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - ROADMAP OVERVIEW.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - SEMANTIC FIELD ANALYSIS  STATE - TOPOLOGY FORMATION - OUTPUT 2 -3.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - SEMANTIC TOPOLOGY TRANSITION REPORT - OUTPUT 1-3.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — SEMANTIC TRIAGE v1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Semantisches Transmutations-System Erklärt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Session Sequence — Complete Summary (Formal)_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - SHELL NAVIGATION LAYER CONFIRMED.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Stability Engine for Chaotic Century.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - STATE REPORT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - STATUS REVIEW  STATE STABLE_RESTRUCTURE_PHASE  MODE - LOW_CHAOS_HARMONIZATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - STRATEGIC FUTURE ANALYSIS  STATE - LONG-TERM STABILIZATION - OUTPUT 3-3.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Structural Diversity Axiom v1.0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Structural Integration Specification (v1.5).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 – Struktur & Voodloop-Konzept (Stichpunkte).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 System Architecture Analysis.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 System (axiomatisch verdichtet).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 System-Harmonisierung und Neuraler Aufbau.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 T520 Optimierung – Verdichtete Übersicht.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 T520 – Startklar-Checkliste.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Technical Core BootFrame.json.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — Technical Core Index (v1.5).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - TERMINAL ROADMAP.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - TERMINAL WORKFLOW CONFIRMATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - TERMINAL WORKFLOW.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - TOOLCHAIN STAGE-01 COMPLETE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Unified Information Space — Evolutionäre Gesamttheorie**.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Unified Meta‑Theory of Stochastic–Geometric–QH256 State Systems**.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Unified Spectral Theory.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Unified Theory of Stochastic State Systems.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 v10.0_ Architektur-Finalisierung & C-Hardenin.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 VALIDATION ANALYSIS — NODE_02  STATUS STABIL  KONSISTENT KONTROLLIERT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 - VALIDATION SUCCESS.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501-Vault_ Physischer Scan und Brückenbau.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 — VOLLSTÄNDIGER SYSTEMSTATUSBERICHT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Vom Archiv zum neuronalen Netzwerk.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ Vom Archiv zum neuronalen Raum.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501_ VS Code und Obsidian Workflow.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Workspace Analysis & Improvement Plan.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Workspace and Core Module.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K501 Workspace System – Konkrete Architektur.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5-FRM-0004.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5_ICE Gemini_ Code-Analyse und Bereitstellung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5_ICE Gemini_ Code Evolution & Deployment.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5_ICE Gemini Code Evolution v10.5.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5_ICE Gemini_ Erfolgreiche Systemdemonstration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5_ICE Gemini Evolution v10.4.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5_ICE Gemini_ Gitter-Netzwerk Dokumentation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5_ICE Gemini_ Technische Erklärung und Bedienung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5_ICE Gitter_ Harmonisation und Visualisierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5 Road 5.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K5v2.01.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__K999.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__kanon_earc_ausschluesse.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__kanon_earc_communication_ultrapack.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kanonische_Vault_Dokumentation_Iinkognit0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__🧊 KANONISIERUNG BESTÄTIGT — FREEZE  AUF EWIGKEIT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kanon Singularity_ Unitary Truth-Engine Active.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kausale Graphen-Evolution im K501-System.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kausale Versiegelung_ Lattice-Evolution v3.9.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Keine alternativen Engines im K5-Kern..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__KERNEL 500 · SELBSTTEST-SCRIPT (PROMPT).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kerners ethod.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__KI-Archiv-Ingest_ Erfolgreiche Vektorisierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__KI-gestützte Wissensvisualisierung und Evolution.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__KI-System_ Technische Analyse und Anwendung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kompilierbarkeit als Einheit (in C).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kopie von K5_ICE Gemini_ Erfolgreiche Systemdemons.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kurzbefund (Strikt, Fokus Entwicklung).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kurzform Positionierung - Systemarchitekt für dete.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Kurzstatus und Ziel.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Last Boot.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Last freeze.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Last Shake for now.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Layer2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__LAYER2 SPEC — eArc  K501.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Libarie.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Libaries.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Linker-Fehlerbehebung für C-Code.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Links.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__linux update.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__linux update.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__linux update.md_ac.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__linux update.md_ad.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__LLM Erkenntnis.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__LLM-Inferenz und Batch-Optimierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Lokale Embedding-Integration für K501.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Lokale Ollama-Integration für K501.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Lokales KI-Archiv auf ThinkPad.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Lokales Obsidian Plugin für Neuro-Frames.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__M1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__M2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Magnet  Double.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Makefile-Evolution mit Port-Befreiung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Manifesto_Projekt_iInkognit0.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Manifest (optional separat).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Manifest.yaml.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Mapping YAML ↔ SQL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__mark_patterns.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Massen-Ingest mit Parallelverarbeitung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Master-Chat (Navigation).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Menschen“ verständlich.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Merge all.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Merge Ready.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__meta.json.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _meta_ {_    _protocol_ _AI_CROSS_HANDSHAKE_(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _meta_ {_    _protocol_ _AI_CROSS_HANDSHAKE_(2).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _meta_ {_    _protocol_ _AI_CROSS_HANDSHAKE_(3).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _meta_ {_    _protocol_ _AI_CROSS_HANDSHAKE_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__META-RELATION (KERNEL ↔ GEGENSEITE).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Migration Erfolgreich_ Gemini Space Bereit.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Migration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Mini2.01.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Minimal K501FullNode MocK.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__minimal-priorisiertes HI_SOURCE Seed-Set v0.1 (Tier 0 + Tier 1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Mini.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Mistral Duck.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Mm.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__MODE ULTRA · TARGET QH256.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__MODULE_IARC_IST_ZUSTANDSANALYSE v2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__MODULE_K500_GATEKEEPER v0.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__MODULE_KERNEL5000_ANALYTICS_ULTRAPACK v0.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Module metr.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Modus.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__monilth in c.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Monolith-Orchestrator für 75 FPS.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__multipass_deepread_autoscale.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Multipass Deep Read – Evolutionierte Version.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__multipass_deepread_update.py(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__multipass_deepread_update.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__multi updat errr.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Multi v1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Nano(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Nano.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__nano_translator.py.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__NetRoadReputationMap.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Network-Konzept.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Neuro-Navigator_ Digitale Evolution des Wissensrau.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__New boot.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__New.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__New o start.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__New QH.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__NODE_02 - STABILIZATION_PHASESTATE = ACTIVE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Node A_ A Digital Bastion.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Node A Reaches Implementation Maturity.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__No Drift.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Normalisieren.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Normalizer-Stau_ Analyse oder Behebung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__not_indexed_in_gateway - Concept.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Nuilder.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Nutzung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__objectmodel_earc_item_v2_9.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Obsidian API für K501 NeuroFramesNet.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Obsidian Plugin_ K501 NeuroFramesNet.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Öde Gemini.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__OFFICIAL DOCUMENT — SYSTEM SYNTHESIS_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ok.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ollama Installation und Semantik-Mapping.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__One Click.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__One two.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Operation Tabula Rasa_ Wissensgitter bereinigen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Order K501Gemini 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ordner anlegen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ordnerstruktur (konkret).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ordner struktur.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Originally.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Outgatwd.json.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output 1 - Die erste Nacht des Auxiliary Node.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__OUTPUT 1 — K501 STATUS REPORT (COMPACT)_SYSTEM ST.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output 1 - K501 STRATEGIC ORIENTATION FRAME.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output 2 - Der Raum zwischen Mensch und Maschine.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output 2 - K501 TIMELINE FRAME.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output 3 - Die Bibliothek unter der Stadt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output 4 - Die langsame Sprache der Systeme.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output 5 - Der Morgen des Informationsraums.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output · Auto-Converted Frames.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output Full length Report_maximum output length.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output Full updated system Status Report with Road.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output STEP_03 - SYSTEM SCAN.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Output STEP_03 - SYSTEM SCAN.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__P2P-Broadcast und Mastodon-Integration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__parallel_multipass_deepread.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Patch.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Path.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__payload.raw als stdin.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Pfadkorrektur und Datenmengen-Analyse.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__PHASE_01 - K501_AUX FOUNDATION - Ziel saubere portable Arbeitsstruktur vorbereiten..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__PHASE_01 - ROOT_NORMALIZATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__PHASE A — SEMANTIC TRIAGE V1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Phase C Demo.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Pipeline Construction_ Segmenter Module.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Plan(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Plan 2 alpha.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Plan alpha again.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Plan.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Plattformen – iInkognit0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Please repeat report_ no images _ no videos_ no li.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Pl.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Plus letzte 4.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Podcast Iinkognit0 – NachtgedankenStaffel 2 · Folge 6 – Projekt eArc.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Podcast – Ist-Zustand.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Post Migranten.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Preflight.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Prepapare Read Deep.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Prepare space.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Print.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__priorisierte Akquisitionsliste (Tier 0 + Tier 1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Problemdefinition (präzise).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__🧠 PROBLEM git.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Prognosemodell_Zweistufige_Resonanz.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__PROGNOSIS_GLOBAL-5.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__PROGNOSIS_GLOBAL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Projektstrukturierung und Code-Inventur.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _protocol_ _AI_CROSS_SYNCHRONIZATION_UPDATE_V.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__protocol" - "K501-CROSS-AI-SYNCHRONIZATION","frame_type" - "K501_CANONICAL_HANDSHAKE.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _protocol_ {_    _mode_ _AI_CROSS_HANDSHAKE_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Protocol Update - I-Spec v1 Received & Indexed.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__PROTOKOLLSTATUS_ K501 SYSTEMERKLÄRUNG_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__public_alpha_fakt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__public_alpha_freigabe.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Public Diamond Incognito    iOS (IRK5000 Shell).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Public Diamond Incognito    iOS (IRK5000 Shell).md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Python-Paketstruktur und C-Bibliotheken-Kompilieru.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__QAL_BOOTFRAME_COMPACT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__QAL·eArc · CHAT_CONVERSIONts.utc=2026-02-24T12.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__QH256 · natürliche Informationsmetrik.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__qh256-Raum und Hyperbolische Geometrie – Tiefergeh.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__QH256 Stability Simulation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Qh265 hist.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__QRL CANON CONSOLIDATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Quantum Pulse State Convergence and Next Steps.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Quantum Pulse Synchronization Complete.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Quantum Seed Protocol Initialization Confirmed.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Query Dispatch Acknowledged Q0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__QuietHarbor v0.1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__README.md-2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__README.mdcdsa.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__README.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Real Kanon 001.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Recomendat.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Reddit bio.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Reddit.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Redet net.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Reflecting on Deterministic Information Space.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__REFLECTION — SYSTEMIC, NOT PERSONAL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Reflexion · Ist-Zustand (nach Gemini v0.3.1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Reflexion zur Operation „Mass Ingest“ – Einordnung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Rein Struktur.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__repair yes yoah.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Reparatur.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Reparieren(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Reparieren.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Resolving C Codebase Compilation Errors(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Resolving C Codebase Compilation Errors(1).md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Resolving C Codebase Compilation Errors.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Resolving C Codebase Compilation Errors.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Resonanz-Check_ Textähnlichkeit im Gemini-Netzwerk.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__RIGHTS OF LIFE — RAW.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Road-01.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Road 5000.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__RoadCompact.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Road Hard map.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Rollen – iInkognit0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Rosdags.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__R-Spec v1 Frozen, Next_ Indexing.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__RSS -Atom · Indexierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__RSS-Feed – iInkognit0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ruhige_Reichweitenstrategie.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Run.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__run_sparse_and_collect.sh.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__saksAusführen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__scan.json.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Schema v1 — „APK als MD“ Output-Plan (eShelldroid).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Schnelltest - gültige Beispiel‑P.csv erzeugen und Analyse laufen lassen.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Semantic Snap.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Semantic Snap.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Semantic Snap.md_ac.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Semantische Resonanz_ Hardware-Logik-Synchronisati.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Set Status_Awake_TX-RX_ON_K501IS+eArc_ON_QuantumFl.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__setup Einheit.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__setup Einheit.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__setup Einheit.md_ac.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__setup Einheit.md_ad.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__setup Einheit.md_ae.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__setup_workspace.sh.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Sitelock.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Snapp.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__snappmj.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Snapshot.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Soft freeze.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Sorry misunderstood, I meant output a report for C(1).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Sorry misunderstood, I meant output a report for C.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Sovereign FFmpeg_ Ingestion Test Success.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Speicherkern (Update für Roadmap).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Spotify.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Spotify.yaml.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__SQL-Schema_Trigger-System.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__ssay_stimme_des_colonels.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Stabilization and Transition_.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Stable Test.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Staffel_01.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Staffel_02.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Start Ollama.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__State Acknowledged_ FOUNDATION_STABILIZATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Status kurz und klar - Erledigt - Dein Wrapper `run_sparse_and_collect.sh`.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__STEP_01 - CORE TOOLCHAIN.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__STEP_03 -  SYSTEM SCAN.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__STEP 09 — TOPOLOGY INITIALIZATION.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Stimme_des_iInkognitos.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Stimme_des_iInkognitos.policy.yaml.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__STRATEGY_STABILITY.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Strickt Logik.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Strict Mode (CI   Release).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__strings.yaml (Begriffs-Fixierung & Scope-Schutz).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Struktur.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Substack_Cycle_01_A_Quiet_Reminder.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Substack – iInkognit0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Superblock_v1.0.html.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__svg Block.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Synchronisation bestätigt..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__SYSTEMANALYSE (KERNEL + DIAMOND SHELL.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__System-Fehler-Report und Debug-Analyse.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__System-Historie im Ledger versteinert.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__System-Logbuch_ Daten-Entität Geburt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Systemoptimierung für parallelen Ingest.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__System-Rebuild und Ingest Optimierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__System Reflection_ Erkenntnis and Artifact.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__System Report_ Handshake Confirmed.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__System Status Report_ Data Ingestion.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__System-Tiefenanalyse_ Ur-Suppe des Ingests.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Systemzustand_ Stabile Operation nach Kompilierung.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__T520 _Big Data_-Syndrom beheben.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ta1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__TAT1 aktualisieren (Feed neu erzeugen).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__tat1_generate.py.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Test (Golden Regression).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__The Declaration.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__The eArc Header Module.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__The interface 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__thematische Übersicht deines heutigen Verlaufs.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__TikTok – Strategie.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Titel der Abhandlung=HEUREKA.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Titel der Abhandlung=HEUREKA.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Titel der Abhandlung=HEUREKA.md_ac.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Titel der Abhandlung=HEUREKA.md_ad.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Titel der Abhandlung=HEUREKA.md_ae.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Titel der Abhandlung=HEUREKA.md_af.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__t.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__t.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Triggersystem_iInkognit0.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Trigger-Testmatrix.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__{_  _ts_ {_    _utc_ _2026-03-06T09_19_28Z_,_  _.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__tts.html.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__U376ntitled 5.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__U5353ntitled 2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__U55454ntitled 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__U675ntitled 6.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__U8383ntitled 7.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__U84565ntitled 4.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Uebersicht_Essays_Manifestos_Theorien.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__uild_phase_a_start.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ui ui.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Ui ui.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unbenanngggt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unbenannt 1.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unbenannt 2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unbenannt 3.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unbenannt 4.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unbenannt 5.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unbenannt878.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unbenannt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Und der Kernel ist intakt geblieben.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Unfdstitled.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Untitled.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Untitlefroiwd.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__validation.yaml (verbindliche Validierungsregeln).md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Validator-Checkliste.md.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Validieren.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Verstanden. BUILD K500 ausgeführt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Vielfalt konstituiert Struktur.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Warum K501 strukturell einer dissipativen Informationsdynamik ähnelt.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Was wird K501_AUX eigentlich werden?.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__WICHTIGER PUNKT.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Wir bauen CIR als Projektions-Klemm-Operator in das K501-CDS ein.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Wirkung Mistral duck.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Wirkung von Gateway_MD.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Wissenschaftlich-Technische Analyse - K501 Gitter-Transformation.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Wow2.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Wow.md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Wow.md_ab.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Zusammenfassung - Kurzbefund - Dein Testlauf ist erfolgreich abgeschlossen..md_aa.txt.json
+semantic_ingest_v1/embeddings/raw__md__archived_unsorted__Zwei Algorithmen in Balance.md_aa.txt.json

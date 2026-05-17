@@ -1,0 +1,614 @@
+Ja — Phase C (k501-cli v0.1-alpha) ist jetzt logisch. Unten ist ein vollständiges, lauffähiges Python-CLI (ein File), das:
+
+  
+
+- ein Pack-JSON lädt,
+- den Integrity-Hash prüft (JCS-Approximation; sauber als APPROX markiert),
+- \mu als Shannon-Entropie H(P) berechnet,
+- \delta als Jensen–Shannon Divergenz (JSD) berechnet (optional als \sqrt{\mathrm{JSD}} ausgeben),
+- \Omega-Checks (Keys, Normierung, silence erlaubt) macht,
+- und ein Stability-Label via Threshold \tau ausgibt.
+
+  
+
+  
+
+Hinweis K501-konform: RFC 8785 (JCS) ist hier nicht vollständig implementiert (z. B. Float/Unicode-Kanten). Für v0.1-alpha ok → Hash-Check = APPROX. Später ersetzen wir das durch echte JCS-Konformität.
+
+#!/usr/bin/env python3
+
+# k501_cli.py
+
+# K501 CLI v0.1-alpha (Pack-02 Phase C)
+
+# - Pack load + integrity verify (JCS-APPROX)
+
+# - Omega checks
+
+# - mu (entropy)
+
+# - delta (JSD / sqrtJSD)
+
+#
+
+# Usage examples:
+
+#   python3 k501_cli.py pack-verify --pack pack-01-foundation.json
+
+#   python3 k501_cli.py omega-check --omega omega.json
+
+#   python3 k501_cli.py mu --omega omega.json
+
+#   python3 k501_cli.py delta --p p1.json --q p2.json --threshold 0.15 --metric jsd
+
+#   python3 k501_cli.py delta --p p1.json --q p2.json --metric sqrtjsd
+
+  
+
+import argparse
+
+import hashlib
+
+import json
+
+import math
+
+import sys
+
+from typing import Dict, List, Tuple, Any
+
+  
+
+  
+
+# ----------------------------
+
+# Utilities
+
+# ----------------------------
+
+  
+
+def die(msg: str, code: int = 1) -> None:
+
+    print(f"[K501][ERROR] {msg}", file=sys.stderr)
+
+    sys.exit(code)
+
+  
+
+def load_json(path: str) -> Any:
+
+    try:
+
+        with open(path, "r", encoding="utf-8") as f:
+
+            return json.load(f)
+
+    except FileNotFoundError:
+
+        die(f"File not found: {path}")
+
+    except json.JSONDecodeError as e:
+
+        die(f"Invalid JSON in {path}: {e}")
+
+  
+
+def jcs_approx_canonical_json(obj: Any) -> str:
+
+    """
+
+    JCS (RFC 8785) APPROXIMATION:
+
+    - sort_keys=True
+
+    - separators=(',', ':')
+
+    This is NOT full RFC 8785 compliance (floats/unicode edge cases).
+
+    """
+
+    return json.dumps(obj, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+
+  
+
+def sha256_hex(s: str) -> str:
+
+    return hashlib.sha256(s.encode("utf-8")).hexdigest()
+
+  
+
+def normalize_distribution(d: Dict[str, float], eps: float = 1e-12) -> Dict[str, float]:
+
+    total = sum(float(v) for v in d.values())
+
+    if total <= eps:
+
+        die("Distribution sum is zero (or too close to zero). Cannot normalize.")
+
+    return {k: float(v) / total for k, v in d.items()}
+
+  
+
+def entropy_bits(dist: Dict[str, float], eps: float = 0.0) -> float:
+
+    """
+
+    Shannon entropy in bits: H(P) = -Σ p log2 p
+
+    eps is not required for correct 0-handling because we skip p==0.
+
+    """
+
+    h = 0.0
+
+    for p in dist.values():
+
+        p = float(p)
+
+        if p <= 0.0:
+
+            continue
+
+        h -= p * math.log2(p)
+
+    return h
+
+  
+
+def kl_divergence_bits(p: List[float], q: List[float], eps: float = 1e-12) -> float:
+
+    """
+
+    KL(P||Q) in bits with safe handling.
+
+    Convention: 0 * log(0/q) = 0.
+
+    We require q_i > 0 where p_i > 0. We'll clamp q with eps.
+
+    """
+
+    s = 0.0
+
+    for pi, qi in zip(p, q):
+
+        if pi <= 0.0:
+
+            continue
+
+        qi = max(qi, eps)
+
+        s += pi * math.log2(pi / qi)
+
+    return s
+
+  
+
+def jsd_bits(p: List[float], q: List[float], eps: float = 1e-12) -> float:
+
+    """
+
+    Jensen–Shannon divergence in bits:
+
+    JSD(P,Q) = 0.5*KL(P||M) + 0.5*KL(Q||M), M=0.5*(P+Q)
+
+    """
+
+    m = [(pi + qi) * 0.5 for pi, qi in zip(p, q)]
+
+    return 0.5 * kl_divergence_bits(p, m, eps=eps) + 0.5 * kl_divergence_bits(q, m, eps=eps)
+
+  
+
+def sqrt_jsd(p: List[float], q: List[float], eps: float = 1e-12) -> float:
+
+    return math.sqrt(max(0.0, jsd_bits(p, q, eps=eps)))
+
+  
+
+def stability_label(delta: float, threshold: float) -> str:
+
+    return "STABLE (Harmony)" if delta <= threshold else "UNSTABLE (Dispersion)"
+
+  
+
+  
+
+# ----------------------------
+
+# Omega / Distribution model
+
+# ----------------------------
+
+  
+
+def parse_omega_doc(doc: Any) -> Tuple[List[str], Dict[str, float]]:
+
+    """
+
+    Expected structure:
+
+    {
+
+      "omega_id": "...",
+
+      "omega": ["w1","w2","w3","silence"],
+
+      "distribution": {"w1":0.2,"w2":0.7,"w3":0.1,"silence":0.0}
+
+    }
+
+    """
+
+    if not isinstance(doc, dict):
+
+        die("Omega doc must be a JSON object.")
+
+    omega = doc.get("omega")
+
+    dist = doc.get("distribution")
+
+    if not isinstance(omega, list) or not all(isinstance(x, str) for x in omega):
+
+        die("Omega doc missing/invalid 'omega' (must be list of strings).")
+
+    if not isinstance(dist, dict) or not all(isinstance(k, str) for k in dist.keys()):
+
+        die("Omega doc missing/invalid 'distribution' (must be object map).")
+
+    # Convert values to float
+
+    dist_f: Dict[str, float] = {}
+
+    for k, v in dist.items():
+
+        try:
+
+            dist_f[k] = float(v)
+
+        except Exception:
+
+            die(f"Distribution value for '{k}' is not numeric.")
+
+    return omega, dist_f
+
+  
+
+def omega_check(omega: List[str], dist: Dict[str, float], tol: float = 1e-9) -> Dict[str, Any]:
+
+    """
+
+    Validator checks:
+
+    - keys in dist must be subset of omega
+
+    - all omega states should ideally be present (we will fill missing with 0)
+
+    - sum close to 1 after normalization (we normalize and report)
+
+    - silence allowed; if 'silence' exists in omega it's fine; if not, it's still ok but reported
+
+    """
+
+    omega_set = set(omega)
+
+    dist_keys = set(dist.keys())
+
+  
+
+    oob = sorted(list(dist_keys - omega_set))
+
+    missing = sorted(list(omega_set - dist_keys))
+
+  
+
+    report: Dict[str, Any] = {
+
+        "omega_len": len(omega),
+
+        "out_of_bounds_keys": oob,
+
+        "missing_keys": missing,
+
+        "has_silence_in_omega": ("silence" in omega_set),
+
+        "pre_sum": float(sum(dist.values()))
+
+    }
+
+  
+
+    if oob:
+
+        report["result"] = "FAIL"
+
+        report["reason"] = "Distribution contains keys outside omega."
+
+        return report
+
+  
+
+    # Fill missing keys with 0
+
+    for k in missing:
+
+        dist[k] = 0.0
+
+  
+
+    # Normalize
+
+    nd = normalize_distribution(dist)
+
+    s = sum(nd.values())
+
+    report["post_sum"] = float(s)
+
+    report["normalized_distribution"] = nd
+
+    report["result"] = "PASS" if abs(s - 1.0) <= tol else "WARN"
+
+    if report["result"] == "WARN":
+
+        report["reason"] = f"Normalized sum deviates from 1 beyond tol={tol} (unexpected)."
+
+    return report
+
+  
+
+def dist_vector(omega: List[str], dist: Dict[str, float]) -> List[float]:
+
+    return [float(dist.get(k, 0.0)) for k in omega]
+
+  
+
+  
+
+# ----------------------------
+
+# Pack verification (APPROX)
+
+# ----------------------------
+
+  
+
+def pack_verify(pack_obj: Any) -> Dict[str, Any]:
+
+    if not isinstance(pack_obj, dict):
+
+        die("Pack must be a JSON object.")
+
+    meta = pack_obj.get("pack_meta")
+
+    if not isinstance(meta, dict):
+
+        die("Pack missing 'pack_meta' object.")
+
+    expected = meta.get("integrity_hash")
+
+    if not isinstance(expected, str) or len(expected) < 16:
+
+        die("Pack missing/invalid 'pack_meta.integrity_hash'.")
+
+  
+
+    canonical = jcs_approx_canonical_json(pack_obj)
+
+    current = sha256_hex(canonical)
+
+  
+
+    return {
+
+        "method": "SHA-256 over JCS_APPROX (NOT full RFC8785)",
+
+        "expected": expected,
+
+        "computed": current,
+
+        "match": (current == expected)
+
+    }
+
+  
+
+  
+
+# ----------------------------
+
+# CLI commands
+
+# ----------------------------
+
+  
+
+def cmd_pack_verify(args: argparse.Namespace) -> None:
+
+    pack = load_json(args.pack)
+
+    res = pack_verify(pack)
+
+    print(json.dumps(res, indent=2, ensure_ascii=False))
+
+    sys.exit(0 if res["match"] else 2)
+
+  
+
+def cmd_omega_check(args: argparse.Namespace) -> None:
+
+    doc = load_json(args.omega)
+
+    omega, dist = parse_omega_doc(doc)
+
+    rep = omega_check(omega, dist, tol=args.tol)
+
+    print(json.dumps(rep, indent=2, ensure_ascii=False))
+
+    sys.exit(0 if rep["result"] == "PASS" else 2)
+
+  
+
+def cmd_mu(args: argparse.Namespace) -> None:
+
+    doc = load_json(args.omega)
+
+    omega, dist = parse_omega_doc(doc)
+
+    rep = omega_check(omega, dist, tol=args.tol)
+
+    if rep["result"] == "FAIL":
+
+        die("Omega check failed; cannot compute mu.")
+
+    nd = rep["normalized_distribution"]
+
+    mu = entropy_bits(nd)
+
+    out = {
+
+        "mu_bits": mu,
+
+        "omega_len": rep["omega_len"],
+
+        "note": "mu = Shannon entropy over normalized distribution (bits)."
+
+    }
+
+    print(json.dumps(out, indent=2, ensure_ascii=False))
+
+  
+
+def cmd_delta(args: argparse.Namespace) -> None:
+
+    doc_p = load_json(args.p)
+
+    doc_q = load_json(args.q)
+
+  
+
+    omega_p, dist_p = parse_omega_doc(doc_p)
+
+    omega_q, dist_q = parse_omega_doc(doc_q)
+
+  
+
+    if omega_p != omega_q:
+
+        die("Omega mismatch between P and Q. For delta, omega must be identical and ordered.")
+
+  
+
+    rep_p = omega_check(omega_p, dist_p, tol=args.tol)
+
+    rep_q = omega_check(omega_q, dist_q, tol=args.tol)
+
+    if rep_p["result"] == "FAIL" or rep_q["result"] == "FAIL":
+
+        die("Omega check failed for P or Q; cannot compute delta.")
+
+  
+
+    nd_p = rep_p["normalized_distribution"]
+
+    nd_q = rep_q["normalized_distribution"]
+
+  
+
+    pvec = dist_vector(omega_p, nd_p)
+
+    qvec = dist_vector(omega_q, nd_q)
+
+  
+
+    if args.metric.lower() == "tv":
+
+        delta = 0.5 * sum(abs(a - b) for a, b in zip(pvec, qvec))
+
+        metric = "total_variation"
+
+    elif args.metric.lower() == "sqrtjsd":
+
+        delta = sqrt_jsd(pvec, qvec, eps=args.eps)
+
+        metric = "sqrt_jsd"
+
+    else:
+
+        delta = jsd_bits(pvec, qvec, eps=args.eps)
+
+        metric = "jsd"
+
+  
+
+    out = {
+
+        "metric": metric,
+
+        "delta": float(delta),
+
+        "threshold_tau": float(args.threshold),
+
+        "stability": stability_label(float(delta), float(args.threshold)),
+
+        "omega_len": len(omega_p),
+
+        "note": "delta measures distribution divergence; not truth."
+
+    }
+
+    print(json.dumps(out, indent=2, ensure_ascii=False))
+
+    sys.exit(0 if out["stability"].startswith("STABLE") else 3)
+
+  
+
+  
+
+def build_parser() -> argparse.ArgumentParser:
+
+    p = argparse.ArgumentParser(prog="k501", description="K501 CLI v0.1-alpha (Pack-02 Phase C)")
+
+    sub = p.add_subparsers(dest="cmd", required=True)
+
+  
+
+    spv = sub.add_parser("pack-verify", help="Verify pack integrity hash (JCS_APPROX).")
+
+    spv.add_argument("--pack", required=True, help="Path to pack JSON file.")
+
+    spv.set_defaults(func=cmd_pack_verify)
+
+  
+
+    soc = sub.add_parser("omega-check", help="Validate omega + distribution JSON.")
+
+    soc.add_argument("--omega", required=True, help="Path to omega JSON file.")
+
+    soc.add_argument("--tol", type=float, default=1e-9, help="Tolerance for sum checks.")
+
+    soc.set_defaults(func=cmd_omega_check)
+
+  
+
+    smu = sub.add_parser("mu", help="Compute mu as Shannon entropy (bits) over distribution.")
+
+    smu.add_argument("--omega", required=True, help="Path to omega JSON file.")
+
+    smu.add_argument("--tol", type=float, default=1e-9, help="Tolerance for sum checks.")
+
+    smu.set_defaults(func=cmd_mu)
+
+  
+
+    sdel = sub.add_parser("delta", help="Compute delta between two distributions over same omega.")
+
+    sdel.add_argument("--p", required=True, help="Path to omega+distribution JSON for P.")
+
+    sdel.add_argument("--q", required=True, help="Path to omega+distribution JSON for Q.")
+
+    sdel.add_argument("--metric", default="jsd", choices=["jsd", "sqrtjsd", "tv"],
+
+                      help="Dispersion metric: jsd, sqrtjsd, or tv.")
+
+    sdel.add_argument("--threshold", type=float, default=0.15, hel

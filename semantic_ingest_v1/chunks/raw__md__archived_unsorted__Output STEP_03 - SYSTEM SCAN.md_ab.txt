@@ -1,0 +1,56 @@
+�                          all          collection of methods to manipulate strings  
+ii  libkf5codecs5:amd64                                 5.116.0-1                            amd64        collection of methods to manipulate strings  
+ii  libkf6codecs-data                                   6.13.0-1                             all          collection of methods to manipulate strings  
+ii  libkf6codecs6:amd64                                 6.13.0-1                             amd64        collection of methods to manipulate strings  
+ii  libkf6prison6:amd64                                 6.13.0-1                             amd64        barcode API for Qt  
+ii  libkf6prisonscanner6:amd64                          6.13.0-1                             amd64        barcode API for Qt - barcode scanner  
+ii  libldacbt-enc2:amd64                                2.0.2.3+git20200429+ed310a0-5        amd64        LDAC Bluetooth encoder library (shared library)  
+ii  libltc11:amd64                                      1.3.2-1+b2                           amd64        linear timecode library  
+ii  libmad0:amd64                                       0.15.1b-11+b1                        amd64        MPEG audio decoder library  
+ii  libmagickcore-7.q16-10-extra:amd64                  8:7.1.1.43+dfsg1-1+deb13u8           amd64        low-level image manipulation library - extra codecs (Q16)  
+ii  libmpcdec6:amd64                                    2:0.1~r495-3                         amd64        MusePack decoder - library  
+ii  libmpeg2-4:amd64                                    0.5.1-9+b3                           amd64        MPEG1 and MPEG2 video decoder library  
+ii  libmpg123-0t64:amd64                                1.32.10-1+deb13u1                    amd64        MPEG layer 1/2/3 audio decoder (shared library)  
+ii  libopencore-amrnb0:amd64                            0.1.6-1+b2                           amd64        Adaptive Multi Rate speech codec - shared library  
+ii  libopencore-amrwb0:amd64                            0.1.6-1+b2                           amd64        Adaptive Multi-Rate - Wideband speech codec - shared library  
+ii  libopenfec1:amd64                                   1.4.2.11+dfsg-1                      amd64        Application-Level Forward Erasure Correction codes (shared library)  
+ii  libopus0:amd64                                      1.5.2-2                              amd64        Opus codec runtime library  
+ii  libqrencode4:amd64                                  4.1.1-2                              amd64        QR Code encoding library  
+ii  librav1e0.7:amd64                                   0.7.1-9+b2                           amd64        Fastest and safest AV1 encoder - shared library  
+ii  libraw23t64:amd64                                   0.21.4-2                             amd64        raw image decoder library  
+ii  libsixel1:amd64                                     1.10.5-1                             amd64        DEC SIXEL graphics codec implementation (runtime)  
+ii  libspeex1:amd64                                     1.2.1-3                              amd64        Speex codec library (runtime library)  
+ii  libunibreak6:amd64                                  6.1-3                                amd64        line breaking library for Unicode (shared library)  
+ii  libunistring5:amd64                                 1.3-2                                amd64        Unicode string library for C  
+ii  libvdpau1:amd64                                     1.5-3+b1                             amd64        Video Decode and Presentation API for Unix (libraries)  
+ii  libvo-aacenc0:amd64                                 0.1.3-3                              amd64        VisualOn AAC encoder library  
+ii  libvo-amrwbenc0:amd64                               0.1.3-2+b2                           amd64        VisualOn AMR-WB encoder library  
+ii  libvorbis0a:amd64                                   1.3.7-3                              amd64        decoder library for Vorbis General Audio Compression Codec  
+ii  libvorbisenc2:amd64                                 1.3.7-3                              amd64        encoder library for Vorbis General Audio Compression Codec  
+ii  libvpx9:amd64                                       1.15.0-2.1+deb13u1                   amd64        VP8 and VP9 video codec (shared library)  
+ii  libwavpack1:amd64                                   5.8.1-1                              amd64        audio codec (lossy and lossless) - library  
+ii  libx265-215:amd64                                   4.1-2                                amd64        H.265/HEVC video stream encoder (shared library)  
+ii  libxvidcore4:amd64                                  2:1.3.7-1+b2                         amd64        Open source MPEG-4 video codec (library)  
+ii  libzbar0t64:amd64                                   0.23.93-8                            amd64        QR code / bar code scanner and decoder (library)  
+ii  libzvbi-common                                      0.2.44-1                             all          Vertical Blanking Interval decoder (VBI) - common files  
+ii  libzvbi0t64:amd64                                   0.2.44-1                             amd64        Vertical Blanking Interval decoder (VBI) - runtime files  
+ii  luit                                                2.0.20240910-1                       amd64        locale and ISO 2022 support for Unicode terminals  
+ii  numba-doc                                           0.61.2+dfsg-1                        all          native machine code compiler for Python (docs)  
+ii  obsidian                                            1.12.7                               amd64           
+ii  python3-asttokens                                   3.0.0-1                              all          annotate Python asbtract syntax trees with code references (Python 3)  
+ii  python3-brotlicffi                                  1.1.0.0+ds1-1                        amd64        Python CFFI bindings for the reference Brotli encoder/decoder  
+ii  python3-cffi-backend:amd64                          1.17.1-3                             amd64        Foreign Function Interface for Python 3 calling C code - runtime  
+ii  python3-hyperframe                                  6.0.0-1                              all          Pure-Python3 HTTP/2 framing code  
+ii  python3-linkify-it                                  2.0.3-1                              all          links recognition library with FULL unicode support  
+ii  python3-numba                                       0.61.2+dfsg-1                        amd64        native machine code compiler for Python 3  
+ii  python3-unicodedata2                                15.1.0+ds-1+b4                       amd64        Python unicodedata backport/updates  
+ii  python3-unidecode                                   1.4.0-1                              all          ASCII transliterations of Unicode text (Python 3 module)  
+ii  qml6-module-org-kde-prison:amd64                    6.13.0-1                             amd64        barcode API for Qt  
+ii  unicode-data                                        15.1.0-1                             all          Property data for the Unicode character set  
+ii  vdpau-driver-all:amd64                              1.5-3+b1                             amd64        Video Decode and Presentation API for Unix (driver metapackage)  
+  
+===== WAYLAND/X11 =====  
+Type=x11  
+  
+Type=unspecified  
+iinkognit0@K501:~$

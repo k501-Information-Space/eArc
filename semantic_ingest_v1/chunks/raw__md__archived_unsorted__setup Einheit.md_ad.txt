@@ -1,0 +1,301 @@
+│ ├── /home/iinkognit0/workspace/.git/objects/35/80333d381a0c1b969f648ec78ac2262298fef7
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/35/cd58d0fa7d80bcceb9e70ec4b7b818881ed57d
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/35/f3ff6962bc5d7d2017d6b619a95f49905212ed
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/36
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/36/2dccc144ab4f8dfd690f608b89b8b16b421376
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/39
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/39/ad525c1bf3e2771d87c88524b433e181215693
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/46
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/46/e64b5cd0c0bed76e8e3525b1ddc8f874489534
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/47
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/47/1778a7ff0b75c0999d7f199b58b754befc9a20
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/49
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/49/e613d818523e5514e114a295b5edd78231bdf3
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/51
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/51/80c05c8ab5e7b7c38c59b43bfa0421a434f7b3
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/55
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/55/8dbced8ae3dad6df19aa0433aa4635e02673e3
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/57
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/57/6633a32eb6c3c133fc462a0d48f8342f40215c
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/58
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/58/266f127c9a40b7cd81d34a9c533a4e9931ec24
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/5a
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/5a/42a7d4858917ffac961a93d56a3908cf798039
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/5e
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/5e/074e7a51267f06cfe80bd9e4aba244d0c611ab
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/64
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/64/160b85c6d92db470940ce6007791c758923ee5
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/6d
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/6d/9d2884f983f734d5b8bc7b98dfc1092ce7b548
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/6e
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/6e/2bc8c0066117d2b054e390ad12d81a5efcedac
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/6e/3e3e48497ddd5f38c89f7518899c2783149ab4
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/6e/b404d6f1e1a02ca95c3b816ec73d21da7fbccc
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/71
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/71/8670d806995bd237c5ad85b04ed5d9acb7d4fa
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/74
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/74/346dd9965d6a82e446eacf1916f0071541effa
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/78
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/78/cfd155c388eed80160ce1963a771b607bf57c2
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/7a
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/7a/70ce135617252058b88215ee61fa9dcb398bd0
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/7e
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/7e/8f40c0054ca7c6ba368659b1948b7672852fda
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/80
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/80/8d0193f115df2fe11d43f9d875e52279f3a11f
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/88
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/88/64d98095cac88201186f5dd9237885fe00b837
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/89
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/89/7a090b0695e9489fa852f64683b4e63529cffc
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/8a
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/8a/27729107824b010045f3fcdea3295fe0fa2add
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/8a/9b9cfd7532be99072116682ce691f785e5188e
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/a0
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/a0/f24a04050c3e9e20ccec0c5e9e0bb881686e25
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/a1
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/a1/70e2cf0a2a61cfa685c8eefdf21db1f6fc6d44
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/a1/819585373fcf511e8dac6cb4649c9175e618e3
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/a3
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/a3/16056cca3c2b076e5a21dce44967cc649cb76f
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/a5
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/a5/9d46c9b176e2ba4861e4661744db79a971d332
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/a5/f002bd876e0bfbac4acdab35176925ec1102ec
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/a8
+
+│ │ │ ├── /home/iinkognit0/workspace/.git/objects/a8/2190052bbef91d9a39e7d92a4a6b5e9df65c4b
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/a8/6680a2dca773c47d19e85e6bd348b2ab6f1081
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/ae
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/ae/efbcc1ddf3fd1e3c83145f26155c4b5cb56b2c
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/af
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/af/70563de0403cc4072f50eae84d15ce36e55b95
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/b3
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/b3/61dfc93180172e70149dfad5febfdbe2cebc70
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/b6
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/b6/c3b4459a85be50e9b8e996f26f724364cf0bb1
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/ba
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/ba/23801830433802f5398260d54e4bab915f7344
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/bb
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/bb/a717912f41a659e9739b99c52e72f41fe04fd8
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/bd
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/bd/ee36ff3c45a8b62b9948565719d9fb6dcbcf68
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/c6
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/c6/d49d9921198e1892f582eeeb05efa59e301389
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/c7
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/c7/1c7b69b8a819d90c6fc0dfb9611711edadcca9
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/c9
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/c9/88322725c27176515ff663f4e162de2dd3ed83
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/d3
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/d3/517f59733cca127800108a2243edb0bfd0f835
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/d7
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/d7/5a900fad7282c13862f25f1cd7a363e3c8135c
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/da
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/da/a10bb79d0c8403b5057ab08055f651bde114f0
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/db
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/db/1cd6940dc01f915e1be7d817471dcb8099ab8c
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/e0
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/e0/a3fe43dc3b34d2f9c63e540ebe54e4ff24eade
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/e7
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/e7/19d1f68ed78f446cb4c7705c08b960519bdf34
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/eb
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/eb/6ac7ee0495c0ce34b130a5806d8b548808ce37
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/ef
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/ef/56f2209a987a1d9d387e2b8f3d90d2062e64a9
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/f4
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/f4/189242d6e2f2b481ead5e654f50a7e1af09cee
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/f7
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/f7/f961d9f1925e885cc9769f1ed4196150775056
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/fa
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/fa/fb5f75710b48331a249b079ef575a1b5cb0276
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/ff
+
+│ │ │ └── /home/iinkognit0/workspace/.git/objects/ff/c9b6f228ecc39911e2d59bbed7388b8df7d810
+
+│ │ ├── /home/iinkognit0/workspace/.git/objects/info
+
+│ │ └── /home/iinkognit0/workspace/.git/objects/pack
+
+│ └── /home/iinkognit0/workspace/.git/refs
+
+│ ├── /home/iinkognit0/workspace/.git/refs/heads
+
+│ │ └── /home/iinkognit0/workspace/.git/refs/heads/main
+
+│ └── /home/iinkognit0/workspace/.git/refs/tags
+
+├── /home/iinkognit0/workspace/.gitignore
+
+├── /home/iinkognit0/workspace/include
+
+│ ├── /home/iinkognit0/workspace/include/dynamic_cage.h
+
+│ ├── /home/iinkognit0/workspace/include/frame_engine.h
+
+│ ├── /home/iinkognit0/workspace/include/hard_index.h
+
+│ ├── /home/iinkognit0/workspace/include/ingestion.h
+
+│ ├── /home/iinkognit0/workspace/include/qh_algebra.h
+
+│ └── /home/iinkognit0/workspace/include/qh_core.h
+
+├── /home/iinkognit0/workspace/k501
+
+│ ├── /home/iinkognit0/workspace/k501/bin
+
+│ ├── /home/iinkognit0/workspace/k501/docs
+
+│ │ ├── /home/iinkognit0/workspace/k501/docs/input
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/docs/input/Makefile
+
+│ │ │ └── /home/iinkognit0/workspace/k501/docs/input/normalizer.py
+
+│ │ └── /home/iinkognit0/workspace/k501/docs/test_corpus
+
+│ │ ├── /home/iinkognit0/workspace/k501/docs/test_corpus/K501_KANON_V1.md
+
+│ │ ├── /home/iinkognit0/workspace/k501/docs/test_corpus/Makefile
+
+│ │ └── /home/iinkognit0/workspace/k501/docs/test_corpus/normalizer.py
+
+│ ├── /home/iinkognit0/workspace/k501/README.md
+
+│ ├── /home/iinkognit0/workspace/k501/runtime
+
+│ │ ├── /home/iinkognit0/workspace/k501/runtime/boot_loader
+
+│ │ ├── /home/iinkognit0/workspace/k501/runtime/ingest_runner.py
+
+│ │ ├── /home/iinkognit0/workspace/k501/runtime/modules
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/modules/framer_linker.py
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/modules/framer.py
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/modules/linker.py
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/modules/normalizer.py
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/modules/__pycache__
+
+│ │ │ │ └── /home/iinkognit0/workspace/k501/runtime/modules/__pycache__/quantizer.cpython-313.pyc
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/modules/quantizer.py
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/modules/segmenter.py
+
+│ │ │ └── /home/iinkognit0/workspace/k501/runtime/modules/semantic_mapper.py
+
+│ │ ├── /home/iinkognit0/workspace/k501/runtime/tests
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/tests/chunks
+
+│ │ │ │ └── /home/iinkognit0/workspace/k501/runtime/tests/chunks/CHUNK-af5cc2a571b0e5c7b22af4a41667cb6058e573f966ad02cf07a4458cfc5ed57b-000000.bin
+
+│ │ │ ├── /home/iinkognit0/workspace/k501/runtime/tests/frame

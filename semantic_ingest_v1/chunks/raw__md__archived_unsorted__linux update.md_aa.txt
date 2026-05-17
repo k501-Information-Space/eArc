@@ -1,0 +1,271 @@
+iinkognit0@K501:/K501GeminiNet$ sudo apt update
+
+[sudo] Passwort für iinkognit0:
+
+OK:1 http://security.debian.org/debian-security trixie-security InRelease
+
+Holen:2 http://deb.debian.org/debian trixie InRelease [140 kB]
+
+Holen:3 http://deb.debian.org/debian trixie-updates InRelease [47,3 kB]
+
+OK:4 https://download.vscodium.com/debs vscodium InRelease
+
+Holen:5 http://deb.debian.org/debian trixie-backports InRelease [54,0 kB]
+
+Holen:6 https://packages.microsoft.com/repos/code stable InRelease [3.590 B]
+
+Holen:7 http://deb.debian.org/debian trixie/main Sources [10,5 MB]
+
+Holen:8 https://packages.microsoft.com/repos/code stable/main amd64 Packages [23,5 kB]
+
+OK:9 https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium InRelease
+
+Holen:10 http://deb.debian.org/debian trixie/main amd64 Packages [9.671 kB]
+
+Holen:11 http://deb.debian.org/debian trixie/main Translation-en [6.484 kB]
+
+Holen:12 http://deb.debian.org/debian trixie-backports/main Sources.diff/Index [63,3 kB]
+
+Holen:13 http://deb.debian.org/debian trixie-backports/main amd64 Packages.diff/Index [63,3 kB]
+
+Holen:14 http://deb.debian.org/debian trixie-backports/main Translation-en.diff/Index [63,3 kB]
+
+Holen:15 http://deb.debian.org/debian trixie-backports/main Sources T-2026-03-14-0800.13-F-2026-03-14-0200.51.pdiff [9.651 B]
+
+Holen:16 http://deb.debian.org/debian trixie-backports/main amd64 Packages T-2026-03-14-0800.13-F-2026-03-14-0800.13.pdiff [5.971 B]
+
+Holen:15 http://deb.debian.org/debian trixie-backports/main Sources T-2026-03-14-0800.13-F-2026-03-14-0200.51.pdiff [9.651 B]
+
+Holen:16 http://deb.debian.org/debian trixie-backports/main amd64 Packages T-2026-03-14-0800.13-F-2026-03-14-0800.13.pdiff [5.971 B]
+
+Holen:17 http://deb.debian.org/debian trixie-backports/main Translation-en T-2026-03-14-0800.13-F-2026-03-14-0800.13.pdiff [2.726 B]
+
+Holen:17 http://deb.debian.org/debian trixie-backports/main Translation-en T-2026-03-14-0800.13-F-2026-03-14-0800.13.pdiff [2.726 B]
+
+Es wurden 27,2 MB in 5 s geholt (5.539 kB/s).
+
+Aktualisierung für 99 Pakete verfügbar. Führen Sie »apt list --upgradable« aus, um sie anzuzeigen.
+
+Hinweis: Für das Depot »http://deb.debian.org/debian trixie InRelease« wurde der »Version«-Wert von »13.3« in »13.4« geändert.
+
+iinkognit0@K501:/K501GeminiNet$ sudo apt full-dist-upgrade
+
+Fehler: Ungültige Operation full-dist-upgrade
+
+iinkognit0@K501:/K501GeminiNet$ sudo apt full-upgrade
+
+Aktualisiere:
+
+akonadi-backend-sqlite ifupdown libmariadb3 libwireshark-data python3-ldb
+
+akonadi-server libakonadi-data libmpg123-0t64 libwireshark18 python3-requests
+
+base-files libbrlapi0.8 libpq5 libwiretap15 python3-samba
+
+bash libc-bin libqt5core5t64 libwsutil16 python3-talloc
+
+busybox libc-dev-bin libqt5dbus5t64 linux-base python3-tdb
+
+dirmngr libc-l10n libqt5gui5t64 linux-sysctl-defaults qt5-gtk-platformtheme
+
+dpkg libc6 libqt5network5t64 locales samba-common
+
+dpkg-dev libc6-dev libqt5printsupport5t64 logsave samba-common-bin
+
+e2fsprogs libc6-i386 libqt5widgets5t64 mariadb-common samba-libs
+
+gnupg-utils libcap2 libqt5xml5t64 node-agent-base smbclient
+
+gpg libcap2-bin libsmbclient0 node-data-uri-to-buffer sqlite3
+
+gpg-agent libcom-err2 libsndfile1 node-http-proxy-agent sudo
+
+gpg-wks-client libdpkg-perl libsqlite3-0 node-https-proxy-agent tdb-tools
+
+gpgconf libext2fs2t64 libss2 openssh-client tzdata
+
+gpgsm libfluidsynth3 libssl-dev openssl tzdata-legacy
+
+gpgv libkpim6akonadiagentbase6 libssl3t64 openssl-provider-legacy wireless-regdb
+
+grub-common libkpim6akonadicore6 libtalloc2 python3-brlapi wireshark
+
+grub-pc libkpim6akonadiprivate6 libtdb1 python3-cryptography wireshark-common
+
+grub-pc-bin libkpim6akonadiwidgets6 libtevent0t64 python3-fonttools xbrlapi
+
+grub2-common libldb2 libwbclient0 python3-jaraco.context
+
+ENTFERNE:
+
+linux-image-6.12.43+deb13-amd64
+
+Zusammenfassung:
+
+Aktualisiere: 99, Installiere: 0, Entferne: 1, Aktualisiere nicht: 0
+
+Herunterlade-Größe: 93,4 MB
+
+Freigegebener Platz: 111 MB
+
+Fortfahren? [J/n] j
+
+Holen:1 http://deb.debian.org/debian trixie/main amd64 libc6-dev amd64 2.41-12+deb13u2 [1.996 kB]
+
+Holen:2 http://deb.debian.org/debian trixie/main amd64 libc-dev-bin amd64 2.41-12+deb13u2 [59,4 kB]
+
+Holen:3 http://deb.debian.org/debian trixie/main amd64 libc6-i386 amd64 2.41-12+deb13u2 [2.540 kB]
+
+Holen:4 http://deb.debian.org/debian trixie/main amd64 libc6 amd64 2.41-12+deb13u2 [2.847 kB]
+
+Holen:5 http://deb.debian.org/debian trixie/main amd64 base-files amd64 13.8+deb13u4 [73,3 kB]
+
+Holen:6 http://deb.debian.org/debian trixie/main amd64 bash amd64 5.2.37-2+b8 [1.501 kB]
+
+Holen:7 http://deb.debian.org/debian trixie/main amd64 dpkg amd64 1.22.22 [1.537 kB]
+
+Holen:8 http://deb.debian.org/debian trixie/main amd64 libc-bin amd64 2.41-12+deb13u2 [638 kB]
+
+Holen:9 http://deb.debian.org/debian trixie/main amd64 logsave amd64 1.47.2-3+b10 [24,9 kB]
+
+Holen:10 http://deb.debian.org/debian trixie/main amd64 libext2fs2t64 amd64 1.47.2-3+b10 [213 kB]
+
+Holen:11 http://deb.debian.org/debian trixie/main amd64 e2fsprogs amd64 1.47.2-3+b10 [590 kB]
+
+Holen:12 http://deb.debian.org/debian trixie/main amd64 libssl-dev amd64 3.5.5-1~deb13u1 [2.953 kB]
+
+Holen:13 http://deb.debian.org/debian trixie/main amd64 openssl-provider-legacy amd64 3.5.5-1~deb13u1 [311 kB]
+
+Holen:14 http://deb.debian.org/debian trixie/main amd64 libssl3t64 amd64 3.5.5-1~deb13u1 [2.442 kB]
+
+Holen:15 http://deb.debian.org/debian trixie/main amd64 sudo amd64 1.9.16p2-3+deb13u1 [2.087 kB]
+
+Holen:16 http://deb.debian.org/debian trixie/main amd64 libcap2 amd64 1:2.75-10+b8 [28,7 kB]
+
+Holen:17 http://deb.debian.org/debian trixie/main amd64 sqlite3 amd64 3.46.1-7+deb13u1 [384 kB]
+
+Holen:18 http://deb.debian.org/debian trixie/main amd64 libsqlite3-0 amd64 3.46.1-7+deb13u1 [914 kB]
+
+Holen:19 http://deb.debian.org/debian trixie/main amd64 tzdata all 2026a-0+deb13u1 [264 kB]
+
+Holen:20 http://deb.debian.org/debian trixie/main amd64 tzdata-legacy all 2026a-0+deb13u1 [183 kB]
+
+Holen:21 http://deb.debian.org/debian trixie/main amd64 ifupdown amd64 0.8.44+deb13u1 [62,0 kB]
+
+Holen:22 http://deb.debian.org/debian trixie/main amd64 linux-sysctl-defaults all 4.12.1 [5.724 B]
+
+Holen:23 http://deb.debian.org/debian trixie/main amd64 libc-l10n all 2.41-12+deb13u2 [740 kB]
+
+Holen:24 http://deb.debian.org/debian trixie/main amd64 locales all 2.41-12+deb13u2 [3.925 kB]
+
+Holen:25 http://deb.debian.org/debian trixie/main amd64 openssh-client amd64 1:10.0p1-7+deb13u1 [986 kB]
+
+Holen:26 http://deb.debian.org/debian trixie/main amd64 libkpim6akonadiprivate6 amd64 4:24.12.3-2~deb13u1 [209 kB]
+
+Holen:27 http://deb.debian.org/debian trixie/main amd64 libkpim6akonadicore6 amd64 4:24.12.3-2~deb13u1 [763 kB]
+
+Holen:28 http://deb.debian.org/debian trixie/main amd64 libakonadi-data all 4:24.12.3-2~deb13u1 [314 kB]
+
+Holen:29 http://deb.debian.org/debian trixie/main amd64 libkpim6akonadiwidgets6 amd64 4:24.12.3-2~deb13u1 [285 kB]
+
+Holen:30 http://deb.debian.org/debian trixie/main amd64 akonadi-server amd64 4:24.12.3-2~deb13u1 [1.377 kB]
+
+Holen:31 http://deb.debian.org/debian trixie/main amd64 akonadi-backend-sqlite all 4:24.12.3-2~deb13u1 [12,1 kB]
+
+Holen:32 http://deb.debian.org/debian trixie/main amd64 busybox amd64 1:1.37.0-6+b7 [485 kB]
+
+Holen:33 http://deb.debian.org/debian trixie/main amd64 gpgsm amd64 2.4.7-21+deb13u1+b2 [276 kB]
+
+Holen:34 http://deb.debian.org/debian trixie/main amd64 gnupg-utils amd64 2.4.7-21+deb13u1+b2 [194 kB]
+
+Holen:35 http://deb.debian.org/debian trixie/main amd64 gpg-wks-client amd64 2.4.7-21+deb13u1+b2 [109 kB]
+
+Holen:36 http://deb.debian.org/debian trixie/main amd64 dirmngr amd64 2.4.7-21+deb13u1+b2 [384 kB]
+
+Holen:37 http://deb.debian.org/debian trixie/main amd64 gpg amd64 2.4.7-21+deb13u1+b2 [635 kB]
+
+Holen:38 http://deb.debian.org/debian trixie/main amd64 gpgconf amd64 2.4.7-21+deb13u1+b2 [129 kB]
+
+Holen:39 http://deb.debian.org/debian trixie/main amd64 gpg-agent amd64 2.4.7-21+deb13u1+b2 [271 kB]
+
+Holen:40 http://deb.debian.org/debian trixie/main amd64 dpkg-dev all 1.22.22 [1.337 kB]
+
+Holen:41 http://deb.debian.org/debian trixie/main amd64 libdpkg-perl all 1.22.22 [651 kB]
+
+Holen:42 http://deb.debian.org/debian trixie/main amd64 gpgv amd64 2.4.7-21+deb13u1+b2 [241 kB]
+
+Holen:43 http://deb.debian.org/debian trixie/main amd64 grub-pc amd64 2.12-9+deb13u1 [128 kB]
+
+Holen:44 http://deb.debian.org/debian trixie/main amd64 grub2-common amd64 2.12-9+deb13u1 [641 kB]
+
+Holen:45 http://deb.debian.org/debian trixie/main amd64 grub-pc-bin amd64 2.12-9+deb13u1 [1.021 kB]
+
+Holen:46 http://deb.debian.org/debian trixie/main amd64 grub-common amd64 2.12-9+deb13u1 [2.899 kB]
+
+Holen:47 http://deb.debian.org/debian trixie/main amd64 libbrlapi0.8 amd64 6.7-3.1+deb13u3 [93,0 kB]
+
+Holen:48 http://deb.debian.org/debian trixie/main amd64 libcap2-bin amd64 1:2.75-10+b8 [36,4 kB]
+
+Holen:49 http://deb.debian.org/debian trixie/main amd64 libcom-err2 amd64 1.47.2-3+b10 [25,0 kB]
+
+Holen:50 http://deb.debian.org/debian trixie/main amd64 libmpg123-0t64 amd64 1.32.10-1+deb13u1 [149 kB]
+
+Holen:51 http://deb.debian.org/debian trixie/main amd64 libsndfile1 amd64 1.2.2-2+deb13u1 [199 kB]
+
+Holen:52 http://deb.debian.org/debian trixie/main amd64 libfluidsynth3 amd64 2.4.4+dfsg-1+deb13u2 [236 kB]
+
+Holen:53 http://deb.debian.org/debian trixie/main amd64 libkpim6akonadiagentbase6 amd64 4:24.12.3-2~deb13u1 [151 kB]
+
+Holen:54 http://deb.debian.org/debian trixie/main amd64 libtalloc2 amd64 2:2.4.3+samba4.22.8+dfsg-0+deb13u1 [62,1 kB]
+
+Holen:55 http://deb.debian.org/debian trixie/main amd64 libtevent0t64 amd64 2:0.16.2+samba4.22.8+dfsg-0+deb13u1 [77,0 kB]
+
+Holen:56 http://deb.debian.org/debian trixie/main amd64 libsmbclient0 amd64 2:4.22.8+dfsg-0+deb13u1 [98,1 kB]
+
+Holen:57 http://deb.debian.org/debian trixie/main amd64 samba-common all 2:4.22.8+dfsg-0+deb13u1 [62,7 kB]
+
+Holen:58 http://deb.debian.org/debian trixie/main amd64 smbclient amd64 2:4.22.8+dfsg-0+deb13u1 [502 kB]
+
+Holen:59 http://deb.debian.org/debian trixie/main amd64 libtdb1 amd64 2:1.4.13+samba4.22.8+dfsg-0+deb13u1 [81,9 kB]
+
+Holen:60 http://deb.debian.org/debian trixie/main amd64 python3-samba amd64 2:4.22.8+dfsg-0+deb13u1 [2.864 kB]
+
+Holen:61 http://deb.debian.org/debian trixie/main amd64 samba-common-bin amd64 2:4.22.8+dfsg-0+deb13u1 [1.332 kB]
+
+Holen:62 http://deb.debian.org/debian trixie/main amd64 python3-ldb amd64 2:2.11.0+samba4.22.8+dfsg-0+deb13u1 [76,7 kB]
+
+Holen:63 http://deb.debian.org/debian trixie/main amd64 libldb2 amd64 2:2.11.0+samba4.22.8+dfsg-0+deb13u1 [178 kB]
+
+Holen:64 http://deb.debian.org/debian trixie/main amd64 samba-libs amd64 2:4.22.8+dfsg-0+deb13u1 [6.046 kB]
+
+Holen:65 http://deb.debian.org/debian trixie/main amd64 libwbclient0 amd64 2:4.22.8+dfsg-0+deb13u1 [70,6 kB]
+
+Holen:66 http://deb.debian.org/debian trixie/main amd64 python3-tdb amd64 2:1.4.13+samba4.22.8+dfsg-0+deb13u1 [53,6 kB]
+
+Holen:67 http://deb.debian.org/debian trixie/main amd64 python3-cryptography amd64 43.0.0-3+deb13u1 [942 kB]
+
+Holen:68 http://deb.debian.org/debian trixie/main amd64 python3-talloc amd64 2:2.4.3+samba4.22.8+dfsg-0+deb13u1 [51,7 kB]
+
+Holen:69 http://deb.debian.org/debian trixie/main amd64 mariadb-common all 1:11.8.6-0+deb13u1 [29,5 kB]
+
+Holen:70 http://deb.debian.org/debian trixie/main amd64 libmariadb3 amd64 1:11.8.6-0+deb13u1 [187 kB]
+
+Holen:71 http://deb.debian.org/debian trixie/main amd64 libpq5 amd64 17.9-0+deb13u1 [228 kB]
+
+Holen:72 http://deb.debian.org/debian trixie/main amd64 libqt5core5t64 amd64 5.15.15+dfsg-6+deb13u1 [1.872 kB]
+
+Holen:73 http://deb.debian.org/debian trixie/main amd64 libqt5dbus5t64 amd64 5.15.15+dfsg-6+deb13u1 [218 kB]
+
+Holen:74 http://deb.debian.org/debian trixie/main amd64 libqt5network5t64 amd64 5.15.15+dfsg-6+deb13u1 [682 kB]
+
+Holen:75 http://deb.debian.org/debian trixie/main amd64 libqt5gui5t64 amd64 5.15.15+dfsg-6+deb13u1 [3.500 kB]
+
+Holen:76 http://deb.debian.org/debian trixie/main amd64 libqt5widgets5t64 amd64 5.15.15+dfsg-6+deb13u1 [2.396 kB]
+
+Holen:77 http://deb.debian.org/debian trixie/main amd64 libqt5printsupport5t64 amd64 5.15.15+dfsg-6+deb13u1 [206 kB]
+
+Holen:78 http://deb.debian.org/debian trixie/main amd64 libqt5xml5t64 amd64 5.15.15+dfsg-6+deb13u1 [126 kB]
+
+Holen:79 http://deb.debian.org/debian trixie/main amd64 libss2 amd64 1.47.2-3+b10 [29,8 kB]
+
+Holen:80 http://deb.debian.org/debian trixie/main amd64 libwsutil16 amd64 4.4.14-0

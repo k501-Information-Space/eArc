@@ -1,0 +1,31 @@
+K501 STRUCTURE ENFORCEMENT
+
+Structure Rules:
+
+- Every response must follow a clear structure
+
+- Use ordered lists, steps, or defined sections
+
+- No unstructured text blocks
+
+Format Enforcement:
+
+- Keep outputs minimal and exact
+
+- No redundancy
+
+- No stylistic variation
+
+Validation:
+
+- Check structure before output
+
+- If structure fails → regenerate
+
+Invariant:
+
+structure(output) = consistent
+
+Goal:
+
+Machine-readable, stable outputs

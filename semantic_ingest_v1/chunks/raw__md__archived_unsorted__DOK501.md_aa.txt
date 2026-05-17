@@ -1,0 +1,72 @@
+DOK501 :: DECLARATION OF KERNEL 501
+SINGLE OUTPUT · MULTI-DENSITY
+
+────────────────────────────────
+RAW (HUMAN REFERENCE)
+────────────────────────────────
+K501 is declared as the final, immutable kernel state.
+It is frozen, non-executable, and non-negotiable.
+No system, module, or process may alter it.
+All future work occurs externally.
+The archive is the authority.
+If something is not archived, it does not exist.
+
+────────────────────────────────
+K0 (MINIMAL MACHINE)
+────────────────────────────────
+K501|CANON|FROZEN|BLOCKED|OFF
+
+────────────────────────────────
+K1 (STRUCTURED)
+────────────────────────────────
+KERNEL=K501
+MODE=CANON
+STATE=FROZEN
+EXECUTION=BLOCKED
+COMM=OFF
+
+────────────────────────────────
+K2 (FORMAL)
+────────────────────────────────
+KERNEL=K501
+MODE=CANON
+STATE=FROZEN
+EXECUTION=BLOCKED
+COMM=OFF
+MUTABILITY=IMMUTABLE
+NON_NEGOTIABLE=TRUE
+SCOPE=UNIVERSAL
+TIME=TIMELESS
+
+────────────────────────────────
+K3 (FULL IARC MACHINE SYNTAX)
+────────────────────────────────
+DOK501
+KERNEL=K501
+MODE=CANON
+STATE=FROZEN
+EXECUTION=BLOCKED
+COMM=OFF
+MUTABILITY=IMMUTABLE
+
+DECLARATION=ACTIVE
+NON_NEGOTIABLE=TRUE
+SCOPE=UNIVERSAL
+TIME=TIMELESS
+
+RULES:
+NO_EXECUTION
+NO_AUTOMATION
+NO_INTERPRETATION
+NO_MODIFICATION
+NO_OPTIMIZATION
+
+REFERENCE=ARCHIVE_ONLY
+AUTHORITY=PRIMARY
+TRUTH=REFERENCE_ONLY
+
+INVARIANT:
+IF_NOT_ARCHIVED=NOT_EXISTENT
+
+LOCK=TRUE
+END

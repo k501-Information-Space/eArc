@@ -1,0 +1,203 @@
+inkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 4/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 5/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 6/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 7/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 8/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 9/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 10/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 11/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 12/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 13/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 14/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 15/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 16/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 17/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 18/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 19/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 20/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 21/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 22/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 23/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 24/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 25/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 26/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 27/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 28/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 29/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 30/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 31/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 32/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 33/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 34/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 35/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 36/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 37/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 38/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 39/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 40/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 41/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 42/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 43/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 44/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 45/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 46/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 47/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 48/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 49/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 50/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 51/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 52/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 53/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 54/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 55/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 56/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 57/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 58/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 59/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 60/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 61/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 62/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 63/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 64/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 65/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 66/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 67/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 68/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 69/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 70/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 71/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 72/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 73/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 74/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 75/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 76/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 77/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 78/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 79/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 80/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 81/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 82/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 83/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 84/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 85/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 86/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 87/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 88/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 89/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 90/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 91/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 92/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 93/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 94/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 95/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 96/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 97/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 98/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 99/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 100/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+--------------------------------------------------
+
+Audit abgeschlossen: 100/100 valide.
+
+STATUS: STRUKTURELLE INTEGRITÄT GEWÄHRLEISTET.
+
+iinkognit0@K501:~/workspace$

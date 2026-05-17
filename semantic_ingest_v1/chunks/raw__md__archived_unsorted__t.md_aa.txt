@@ -1,0 +1,283 @@
+iinkognit0@K501:~/workspace$ sudo gcc -O3 -march=sandybridge -pthread k501_v24.c -lcrypto -o k501_v24
+
+[sudo] Passwort für iinkognit0:
+
+cc1: fatal error: k501_v24.c: Datei oder Verzeichnis nicht gefunden
+
+compilation terminated.
+
+iinkognit0@K501:~/workspace$ gcc -O3 -march=sandybridge -pthread ~/workspace/src/k501_kernel_v24.c -lcrypto -o ~/workspace/k501_v24
+
+iinkognit0@K501:~/workspace$ sudo ~/workspace/k501_v24
+
+[K501] Kernel V2.4 High-Inertia Mode Active
+
+[K501] Core 0: Writer | Core 1: Producer
+
+[K501] Sequence Complete. 1M Frames anchored.
+
+iinkognit0@K501:~/workspace$ ls -lh ~/workspace/archive/little_alpha_storage/frames.ndjson
+
+-rw-rw-r-- 1 iinkognit0 iinkognit0 159M 17. Mär 03:13 /home/iinkognit0/workspace/archive/little_alpha_storage/frames.ndjson
+
+iinkognit0@K501:~/workspace$ gcc -O3 -march=sandybridge -pthread ~/workspace/src/k501_kernel_v25_mmap.c -lcrypto -o ~/workspace/k501_v25
+
+iinkognit0@K501:~/workspace$ time sudo ~/workspace/k501_v25 ~/k501_ingest_staging/input
+
+[K501] Kernel V2.5 MMAP-Ingest Active
+
+[K501] eArc Ingest Complete.
+
+real 0m0,032s
+
+user 0m0,008s
+
+sys 0m0,017s
+
+iinkognit0@K501:~/workspace$ gcc -O3 -march=sandybridge -pthread ~/workspace/src/k501_kernel_v26_deep.c -lcrypto -o ~/workspace/k501_v26
+
+iinkognit0@K501:~/workspace$ time sudo ~/workspace/k501_v26 /home/iinkognit0/k501_ingest_staging/input
+
+[K501] Ingested Chunks: 164004
+
+real 0m6,999s
+
+user 0m0,018s
+
+sys 0m0,008s
+
+iinkognit0@K501:~/workspace$ tail -n 5 archive/little_alpha_storage/frames.ndjson
+
+{"id":"/home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T520/Pfad-home-iinkognit0-/K501Gemini/__pycache__/k501_env.cpython-313.pyc:0","t":1773717454,"h":"bf6b732c81982f15db3f58c507c3aab829792d5686a6a51e85870c665d5ddfe2"}
+
+{"id":"/home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T520/Pfad-home-iinkognit0-/K501Gemini/k501_env.py:0","t":1773717454,"h":"43986dc1164126c9d8ffe12e960b1ebc928cc083d761614c0d5398b1404e3881"}
+
+{"id":"/home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T520/Pfad-home-iinkognit0-/K501Gemini/setup/setup_step2.sh:0","t":1773717454,"h":"0377d472e39b46fd794bf59153b061ef94d28081fa0d593cb1808225d7a81840"}
+
+04"}
+
+{"id":"/home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T520/Pfad-home-iinkognit0-/K501Gemini/setup/setup_step1.sh:0","t":1773717454,"h":"4f42b69e51f02f927ccf973591d7147d569699efdb513cf291aced9bc3b89877"}
+
+iinkognit0@K501:~/workspace$ python3 ~/workspace/src/k501_auditor.py
+
+--- K501 Auditor: Prüfe 100 zufällige Chunks ---
+
+[X] Chunk 1/100: F-000000896653... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 2/100: F-000000841039... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 3/100: F-000000370920... -> not enough values to unpack (expected 2, got 1)
+
+[✓] Chunk 4/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 5/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[X] Chunk 6/100: F-000000023544... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 7/100: F-000000357372... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 8/100: F-000000442876... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 9/100: F-000000904471... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 10/100: F-000000477578... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 11/100: F-000000381647... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 12/100: F-000000765524... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 13/100: F-000000083832... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 14/100: F-000000994908... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 15/100: F-000000259313... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 16/100: F-000000709596... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 17/100: F-000000960605... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 18/100: F-000000940871... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 19/100: CHUNK-475d773bed4e033565ea6c545ebb16fa6853737f5841b7321a82f8... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 20/100: F-000000840163... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 21/100: F-000000973112... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 22/100: CHUNK-eda25a4a390427555d3ce89c96289557bdc69beb900e85aed33e66... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 23/100: F-000000094711... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 24/100: F-000000040638... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 25/100: F-000000098941... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 26/100: F-000000327779... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 27/100: F-000000294305... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 28/100: F-000000778149... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 29/100: F-000000642532... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 30/100: F-000000725871... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 31/100: F-000000726694... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 32/100: F-000000986568... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 33/100: F-000000178405... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 34/100: F-000000087191... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 35/100: F-000000006355... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 36/100: F-000000767456... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 37/100: F-000000165788... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 38/100: F-000000254922... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 39/100: F-000000332260... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 40/100: F-000000306002... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 41/100: F-000000719372... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 42/100: F-000000212419... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 43/100: F-000000154102... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 44/100: F-000000379902... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 45/100: F-000000120143... -> not enough values to unpack (expected 2, got 1)
+
+[✓] Chunk 46/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[X] Chunk 47/100: F-000000854265... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 48/100: F-000000554095... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 49/100: F-000000617820... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 50/100: F-000000060365... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 51/100: F-000000677069... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 52/100: F-000000833559... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 53/100: F-000000441227... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 54/100: F-000000364158... -> not enough values to unpack (expected 2, got 1)
+
+[✓] Chunk 55/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[X] Chunk 56/100: F-000000500712... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 57/100: F-000000152200... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 58/100: CHUNK-eeb266cfced9bebc4674df5bd7ff5be754531a7130085ccc2a8fa1... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 59/100: F-000000354190... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 60/100: F-000000761955... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 61/100: F-000000287815... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 62/100: F-000000193801... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 63/100: F-000000374681... -> not enough values to unpack (expected 2, got 1)
+
+[✓] Chunk 64/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[X] Chunk 65/100: F-000000374102... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 66/100: F-000000878942... -> not enough values to unpack (expected 2, got 1)
+
+[✓] Chunk 67/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[X] Chunk 68/100: F-000000048807... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 69/100: F-000000498421... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 70/100: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 71/100: F-000000819702... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 72/100: F-000000594448... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 73/100: F-000000321734... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 74/100: F-000000013591... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 75/100: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 76/100: F-000000623921... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 77/100: F-000000249594... -> not enough values to unpack (expected 2, got 1)
+
+[✓] Chunk 78/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[X] Chunk 79/100: F-000000805119... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 80/100: F-000000997372... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 81/100: F-000000342250... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 82/100: F-000000577603... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 83/100: F-000000366799... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 84/100: F-000000822104... -> not enough values to unpack (expected 2, got 1)
+
+[✓] Chunk 85/100: /home/iinkognit0/k501_ingest_staging/input/K501Gemini_N01_T5... -> OK
+
+[✓] Chunk 86/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[X] Chunk 87/100: F-000000028629... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 88/100: CHUNK-475d773bed4e033565ea6c545ebb16fa6853737f5841b7321a82f8... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 89/100: F-000000555473... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 90/100: F-000000379863... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 91/100: CHUNK-c8ac2030a28d2091f5209b756c9e88a8aa38cce8f60b4490ade6f7... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 92/100: F-000000599326... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 93/100: F-000000634979... -> not enough values to unpack (expected 2, got 1)
+
+[✓] Chunk 94/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[X] Chunk 95/100: F-000000079171... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 96/100: F-000000131572... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 97/100: F-000000036914... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 98/100: F-000000808536... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 99/100: F-000000828337... -> not enough values to unpack (expected 2, got 1)
+
+[X] Chunk 100/100: F-000000344879... -> not enough values to unpack (expected 2, got 1)
+
+--------------------------------------------------
+
+Audit abgeschlossen: 10/100 valide.
+
+iinkognit0@K501:~/workspace$ rm ~/workspace/archive/little_alpha_storage/frames.ndjson
+
+iinkognit0@K501:~/workspace$ sudo ~/workspace/k501_v26 /home/iinkognit0/k501_ingest_staging/input
+
+[K501] Ingested Chunks: 164004
+
+iinkognit0@K501:~/workspace$ python3 ~/workspace/src/k501_auditor.py
+
+--- K501 Auditor: Prüfe 100 zufällige Chunks ---
+
+[✓] Chunk 1/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 2/100: /home/iinkognit0/k501_ingest_staging/input/Obsidian Backups/... -> OK
+
+[✓] Chunk 3/100: /home/i

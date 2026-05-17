@@ -1,0 +1,10 @@
+lves all compiler dependencies.
+
+Please run the following in your terminal to clear the corrupted object files and compile the clean binary:
+
+Bash
+
+make clean  
+make  
+
+Does the compiler successfully generate the k501_alpha executable?

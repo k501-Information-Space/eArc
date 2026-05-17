@@ -1,0 +1,199 @@
+w, "tat1_generate", f"feeds generated: {count} artifacts")
+    )
+    con.commit()
+    con.close()
+
+    # index feeds as artifacts? (optional) keep them outside vault: we still index them for integrity
+    index_paths(cfg, [rss_path, atom_path], source="iarc")
+    return rss_path, atom_path
+
+
+# ----------------------------
+# Manifest / Bundle / Freeze
+# ----------------------------
+
+def build_manifest(cfg: KernelConfig) -> Path:
+    now = utc_now()
+    con = db_connect(cfg)
+    cur = con.cursor()
+    cur.execute("SELECT COUNT(*) FROM artifacts")
+    artifacts = cur.fetchone()[0]
+    cur.execute("SELECT COUNT(*) FROM events")
+    events = cur.fetchone()[0]
+    con.close()
+
+    hashes: Dict[str, str] = {}
+    for p in [cfg.root / "feeds" / "tat1.rss", cfg.root / "feeds" / "tat1.atom", cfg.root / "index" / "FREEZE.marker"]:
+        if p.exists():
+            hashes[str(p.relative_to(cfg.root)).replace("\\", "/")] = sha256_file(p)
+
+    manifest = {
+        "generated_utc": now,
+        "root": "earc/",
+        "kernel": {"mode": cfg.mode, "state": cfg.state, "comm": cfg.comm_default},
+        "counts": {"artifacts": artifacts, "events": events},
+        "hashes": hashes,
+        "policy": {"read": "read_only", "write": cfg.policy_write, "comm": cfg.comm_default},
+        "build": {"deterministic_intent": True}
+    }
+
+    out = cfg.root / "index" / "manifest.json"
+    out.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    index_paths(cfg, [out], source="iarc")
+    return out
+
+def build_bundle(cfg: KernelConfig) -> Path:
+    exports_dir = cfg.root / "exports"
+    exports_dir.mkdir(parents=True, exist_ok=True)
+    tag = _dt.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    bundle = exports_dir / f"earc_bundle_{tag}.zip"
+
+    include = [
+        cfg.root / "diamond",
+        cfg.root / "vault",
+        cfg.root / "index" / "earc.sqlite",
+        cfg.root / "index" / "manifest.json",
+        cfg.root / "index" / "FREEZE.marker",
+        cfg.root / "feeds" / "tat1.rss",
+        cfg.root / "feeds" / "tat1.atom",
+    ]
+
+    with zipfile.ZipFile(bundle, "w", compression=zipfile.ZIP_DEFLATED) as z:
+        for item in include:
+            if item.is_dir():
+                for f in item.rglob("*"):
+                    if f.is_file():
+                        z.write(f, f.relative_to(cfg.root))
+            elif item.is_file():
+                z.write(item, item.relative_to(cfg.root))
+
+    con = db_connect(cfg)
+    cur = con.cursor()
+    cur.execute(
+        "INSERT INTO events (timestamp_utc,event,details) VALUES (?,?,?)",
+        (utc_now(), "bundle_build", f"bundle={bundle.name}")
+    )
+    con.commit()
+    con.close()
+
+    return bundle
+
+def set_freeze_marker(cfg: KernelConfig) -> Path:
+    p = cfg.root / "index" / "FREEZE.marker"
+    content = "\n".join([
+        "state: FROZEN",
+        "scope: earc_bundle",
+        "policy: read_only_core / append_only_events",
+        f"comm: {cfg.comm_default}",
+        f"generated_utc: {utc_now()}",
+        ""
+    ])
+    p.write_text(content, encoding="utf-8")
+
+    con = db_connect(cfg)
+    cur = con.cursor()
+    cur.execute(
+        "INSERT INTO events (timestamp_utc,event,details) VALUES (?,?,?)",
+        (utc_now(), "freeze", "build closed: FREEZE.marker set")
+    )
+    con.commit()
+    con.close()
+
+    index_paths(cfg, [p], source="iarc")
+    return p
+
+
+# ----------------------------
+# Orchestration
+# ----------------------------
+
+def run_full_pipeline(cfg: KernelConfig) -> None:
+    """
+    Minimal, calm, deterministic intent:
+    init -> scan/index -> mark -> pack -> superpack -> tat1 -> manifest -> freeze -> manifest -> bundle
+    """
+    db_init(cfg)
+    scan_and_index(cfg)
+    spirit_mark_patterns(cfg)
+    build_pack(cfg)
+    build_superpack(cfg)
+    tat1_generate(cfg)
+    build_manifest(cfg)
+    set_freeze_marker(cfg)
+    build_manifest(cfg)
+    build_bundle(cfg)
+
+def status(cfg: KernelConfig) -> str:
+    p_db = db_path(cfg)
+    ok_db = p_db.exists()
+    out = {
+        "kernel": {"mode": cfg.mode, "state": cfg.state, "comm": cfg.comm_default},
+        "paths": {
+            "root": str(cfg.root),
+            "db": str(p_db),
+            "feeds": str(cfg.root / "feeds"),
+            "vault": str(cfg.root / "vault")
+        },
+        "ready": bool(ok_db),
+        "counts": {}
+    }
+    if ok_db:
+        con = db_connect(cfg)
+        cur = con.cursor()
+        cur.execute("SELECT COUNT(*) FROM artifacts")
+        out["counts"]["artifacts"] = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM events")
+        out["counts"]["events"] = cur.fetchone()[0]
+        con.close()
+    return json.dumps(out, indent=2)
+
+
+# ----------------------------
+# CLI
+# ----------------------------
+
+def main():
+    cfg = KernelConfig()
+
+    ap = argparse.ArgumentParser(prog="diamond_shell", add_help=True)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+
+    sub.add_parser("init", help="init dirs + sqlite schema")
+    sub.add_parser("scan", help="scan vault+diamond and index into sqlite (read-only)")
+    sub.add_parser("mark", help="Spirit mark-only frame (green/yellow/red)")
+    sub.add_parser("pack", help="build pack summary from frames")
+    sub.add_parser("superpack", help="build superpack overview from packs")
+    sub.add_parser("tat1", help="generate local RSS/Atom artifacts (COMM OFF)")
+    sub.add_parser("manifest", help="write index/manifest.json")
+    sub.add_parser("freeze", help="set FREEZE.marker + event log (append-only)")
+    sub.add_parser("bundle", help="zip bundle to exports/")
+    sub.add_parser("run", help="run full minimal pipeline end-to-end")
+    sub.add_parser("status", help="print status json")
+
+    args = ap.parse_args()
+
+    if args.cmd == "init":
+        db_init(cfg)
+    elif args.cmd == "scan":
+        scan_and_index(cfg)
+    elif args.cmd == "mark":
+        spirit_mark_patterns(cfg)
+    elif args.cmd == "pack":
+        build_pack(cfg)
+    elif args.cmd == "superpack":
+        build_superpack(cfg)
+    elif args.cmd == "tat1":
+        tat1_generate(cfg)
+    elif args.cmd == "manifest":
+        build_manifest(cfg)
+    elif args.cmd == "freeze":
+        set_freeze_marker(cfg)
+    elif args.cmd == "bundle":
+        build_bundle(cfg)
+    elif args.cmd == "run":
+        run_full_pipeline(cfg)
+    elif args.cmd == "status":
+        print(status(cfg))
+
+if __name__ == "__main__":
+    main()

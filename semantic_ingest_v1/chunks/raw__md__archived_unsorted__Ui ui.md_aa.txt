@@ -1,0 +1,709 @@
+/home/oai/eArc/UI/eArc-000-UI-0001_UI_V1_Android_Structure_Package.md
+
+---
+
+id: eArc-000-UI-0001
+
+title: UI V1 Android Struktur Package
+
+type: ui_android_structure
+
+version: 1.0
+
+status: DRAFT
+
+created: 2026-01-07
+
+updated: 2026-01-07
+
+scope: PROJECT_BOOT
+
+---
+
+  
+
+# UI V1 Android Struktur (Punkt 1–3 abgeschlossen)
+
+  
+
+Ziel: **Start → Consent → Session** (Mobile First) als lauffähige Android-Struktur.
+
+  
+
+Technik: **Kotlin + Jetpack Compose + Navigation Compose**  
+
+Hinweis: Kernel/LLM-Anbindung bleibt **Stub** (Module später). UI ist clean und finalisierbar.
+
+  
+
+As I State Iinkognit0.
+
+/home/oai/eArc/UI/android_app_structure_tree.txt
+
+eArcUI/
+
+  app/
+
+    src/main/
+
+      AndroidManifest.xml
+
+      java/com/earc/ui/
+
+        MainActivity.kt
+
+        nav/AppNav.kt
+
+        ui/theme/Color.kt
+
+        ui/theme/Theme.kt
+
+        ui/theme/Type.kt
+
+        ui/screens/StartScreen.kt
+
+        ui/screens/ConsentScreen.kt
+
+        ui/screens/SessionScreen.kt
+
+        core/KernelBridge.kt
+
+      res/values/
+
+        strings.xml
+
+  build.gradle (Project)
+
+  settings.gradle
+
+  app/build.gradle (Module)
+
+// /home/oai/eArc/UI/eArcUI/settings.gradle
+
+pluginManagement {
+
+  repositories {
+
+    google()
+
+    mavenCentral()
+
+    gradlePluginPortal()
+
+  }
+
+}
+
+dependencyResolutionManagement {
+
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+  repositories {
+
+    google()
+
+    mavenCentral()
+
+  }
+
+}
+
+rootProject.name = "eArcUI"
+
+include(":app")
+
+// /home/oai/eArc/UI/eArcUI/build.gradle
+
+plugins {
+
+  id "com.android.application" version "8.2.2" apply false
+
+  id "org.jetbrains.kotlin.android" version "1.9.22" apply false
+
+}
+
+// /home/oai/eArc/UI/eArcUI/app/build.gradle
+
+plugins {
+
+  id "com.android.application"
+
+  id "org.jetbrains.kotlin.android"
+
+}
+
+  
+
+android {
+
+  namespace "com.earc.ui"
+
+  compileSdk 34
+
+  
+
+  defaultConfig {
+
+    applicationId "com.earc.ui"
+
+    minSdk 24
+
+    targetSdk 34
+
+    versionCode 1
+
+    versionName "1.0"
+
+  }
+
+  
+
+  buildFeatures { compose true }
+
+  
+
+  composeOptions { kotlinCompilerExtensionVersion "1.5.8" }
+
+  
+
+  kotlinOptions { jvmTarget = "17" }
+
+}
+
+  
+
+dependencies {
+
+  implementation platform("androidx.compose:compose-bom:2024.02.00")
+
+  implementation "androidx.activity:activity-compose:1.8.2"
+
+  implementation "androidx.compose.ui:ui"
+
+  implementation "androidx.compose.ui:ui-tooling-preview"
+
+  implementation "androidx.compose.material3:material3"
+
+  implementation "androidx.navigation:navigation-compose:2.7.7"
+
+  debugImplementation "androidx.compose.ui:ui-tooling"
+
+}
+
+<!-- /home/oai/eArc/UI/eArcUI/app/src/main/AndroidManifest.xml -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <application
+
+    android:label="@string/app_name"
+
+    android:icon="@mipmap/ic_launcher"
+
+    android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+
+    <activity
+
+      android:name=".MainActivity"
+
+      android:exported="true">
+
+      <intent-filter>
+
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+
+      </intent-filter>
+
+    </activity>
+
+  </application>
+
+</manifest>
+
+<!-- /home/oai/eArc/UI/eArcUI/app/src/main/res/values/strings.xml -->
+
+<resources>
+
+  <string name="app_name">eArc</string>
+
+  
+
+  <string name="start_title">eArc</string>
+
+  <string name="start_subtitle">Ein Raum für Ordnung, Ruhe und Denken.</string>
+
+  <string name="start_cta">Session beginnen</string>
+
+  
+
+  <string name="consent_title">Haltung</string>
+
+  <string name="consent_text">Diese Session dient Klarheit, Ruhe und Ordnung.\nDu bestimmst das Tempo.</string>
+
+  <string name="consent_continue">Weiter</string>
+
+  <string name="consent_cancel">Abbrechen</string>
+
+  <string name="consent_info">Was passiert hier?</string>
+
+  <string name="consent_info_text">Du schreibst. Das System ordnet. Keine Eile, keine Bewertung.</string>
+
+  
+
+  <string name="session_status">Session aktiv</string>
+
+  <string name="session_mode">Modus: Denkmodus</string>
+
+  <string name="session_placeholder">Was möchtest du ordnen oder aussprechen?</string>
+
+  <string name="session_send">Senden</string>
+
+  <string name="session_pause">Pause</string>
+
+  
+
+  <string name="pause_title">Pause</string>
+
+  <string name="pause_text">Stille ist erlaubt.</string>
+
+  <string name="pause_resume">Fortsetzen</string>
+
+  <string name="pause_end">Session beenden</string>
+
+  
+
+  <string name="end_title">Session beendet</string>
+
+  <string name="end_text">Nichts geht verloren.</string>
+
+  <string name="end_back">Zurück zum Start</string>
+
+</resources>
+
+// /home/oai/eArc/UI/eArcUI/app/src/main/java/com/earc/ui/MainActivity.kt
+
+package com.earc.ui
+
+  
+
+import android.os.Bundle
+
+import androidx.activity.ComponentActivity
+
+import androidx.activity.compose.setContent
+
+import com.earc.ui.nav.AppNav
+
+import com.earc.ui.ui.theme.EArcTheme
+
+  
+
+class MainActivity : ComponentActivity() {
+
+  override fun onCreate(savedInstanceState: Bundle?) {
+
+    super.onCreate(savedInstanceState)
+
+    setContent {
+
+      EArcTheme {
+
+        AppNav()
+
+      }
+
+    }
+
+  }
+
+}
+
+// /home/oai/eArc/UI/eArcUI/app/src/main/java/com/earc/ui/nav/AppNav.kt
+
+package com.earc.ui.nav
+
+  
+
+import androidx.compose.runtime.Composable
+
+import androidx.navigation.compose.NavHost
+
+import androidx.navigation.compose.composable
+
+import androidx.navigation.compose.rememberNavController
+
+import com.earc.ui.ui.screens.ConsentScreen
+
+import com.earc.ui.ui.screens.SessionScreen
+
+import com.earc.ui.ui.screens.StartScreen
+
+  
+
+object Routes {
+
+  const val START = "start"
+
+  const val CONSENT = "consent"
+
+  const val SESSION = "session"
+
+}
+
+  
+
+@Composable
+
+fun AppNav() {
+
+  val nav = rememberNavController()
+
+  
+
+  NavHost(navController = nav, startDestination = Routes.START) {
+
+    composable(Routes.START) {
+
+      StartScreen(
+
+        onStart = { nav.navigate(Routes.CONSENT) }
+
+      )
+
+    }
+
+    composable(Routes.CONSENT) {
+
+      ConsentScreen(
+
+        onContinue = { nav.navigate(Routes.SESSION) },
+
+        onCancel = { nav.popBackStack(Routes.START, inclusive = false) }
+
+      )
+
+    }
+
+    composable(Routes.SESSION) {
+
+      SessionScreen(
+
+        onEndSession = { nav.popBackStack(Routes.START, inclusive = false) }
+
+      )
+
+    }
+
+  }
+
+}
+
+// /home/oai/eArc/UI/eArcUI/app/src/main/java/com/earc/ui/core/KernelBridge.kt
+
+package com.earc.ui.core
+
+  
+
+/**
+
+ * Stub: Kernel / LLM Integration folgt als Modul.
+
+ * Aktuell liefert es nur ruhige, kurze System-Antworten.
+
+ */
+
+object KernelBridge {
+
+  fun analyzeAndRespond(userText: String): String {
+
+    val trimmed = userText.trim()
+
+    if (trimmed.isEmpty()) return "Ich bin da. Möchtest du schreiben oder innehalten?"
+
+    return "Ich habe verstanden. Möchtest du weitergehen oder innehalten?"
+
+  }
+
+}
+
+// /home/oai/eArc/UI/eArcUI/app/src/main/java/com/earc/ui/ui/screens/StartScreen.kt
+
+package com.earc.ui.ui.screens
+
+  
+
+import androidx.compose.foundation.layout.Arrangement
+
+import androidx.compose.foundation.layout.Column
+
+import androidx.compose.foundation.layout.Spacer
+
+import androidx.compose.foundation.layout.fillMaxSize
+
+import androidx.compose.foundation.layout.height
+
+import androidx.compose.material3.Button
+
+import androidx.compose.material3.MaterialTheme
+
+import androidx.compose.material3.Text
+
+import androidx.compose.runtime.Composable
+
+import androidx.compose.ui.Alignment
+
+import androidx.compose.ui.Modifier
+
+import androidx.compose.ui.res.stringResource
+
+import androidx.compose.ui.text.style.TextAlign
+
+import androidx.compose.ui.unit.dp
+
+import com.earc.ui.R
+
+  
+
+@Composable
+
+fun StartScreen(onStart: () -> Unit) {
+
+  Column(
+
+    modifier = Modifier.fillMaxSize(),
+
+    verticalArrangement = Arrangement.Center,
+
+    horizontalAlignment = Alignment.CenterHorizontally
+
+  ) {
+
+    Text(
+
+      text = stringResource(R.string.start_title),
+
+      style = MaterialTheme.typography.headlineLarge
+
+    )
+
+    Spacer(Modifier.height(8.dp))
+
+    Text(
+
+      text = stringResource(R.string.start_subtitle),
+
+      style = MaterialTheme.typography.bodyLarge,
+
+      textAlign = TextAlign.Center
+
+    )
+
+    Spacer(Modifier.height(20.dp))
+
+    Button(onClick = onStart) {
+
+      Text(text = stringResource(R.string.start_cta))
+
+    }
+
+  }
+
+}
+
+// /home/oai/eArc/UI/eArcUI/app/src/main/java/com/earc/ui/ui/screens/ConsentScreen.kt
+
+package com.earc.ui.ui.screens
+
+  
+
+import androidx.compose.foundation.layout.Arrangement
+
+import androidx.compose.foundation.layout.Column
+
+import androidx.compose.foundation.layout.Spacer
+
+import androidx.compose.foundation.layout.fillMaxSize
+
+import androidx.compose.foundation.layout.height
+
+import androidx.compose.material3.AlertDialog
+
+import androidx.compose.material3.Button
+
+import androidx.compose.material3.OutlinedButton
+
+import androidx.compose.material3.Text
+
+import androidx.compose.runtime.*
+
+import androidx.compose.ui.Alignment
+
+import androidx.compose.ui.Modifier
+
+import androidx.compose.ui.res.stringResource
+
+import androidx.compose.ui.unit.dp
+
+import com.earc.ui.R
+
+  
+
+@Composable
+
+fun ConsentScreen(
+
+  onContinue: () -> Unit,
+
+  onCancel: () -> Unit
+
+) {
+
+  var showInfo by remember { mutableStateOf(false) }
+
+  
+
+  Column(
+
+    modifier = Modifier.fillMaxSize(),
+
+    verticalArrangement = Arrangement.Center,
+
+    horizontalAlignment = Alignment.CenterHorizontally
+
+  ) {
+
+    Text(text = stringResource(R.string.consent_title))
+
+    Spacer(Modifier.height(10.dp))
+
+    Text(text = stringResource(R.string.consent_text))
+
+    Spacer(Modifier.height(20.dp))
+
+  
+
+    Button(onClick = onContinue) { Text(stringResource(R.string.consent_continue)) }
+
+    Spacer(Modifier.height(10.dp))
+
+    OutlinedButton(onClick = onCancel) { Text(stringResource(R.string.consent_cancel)) }
+
+    Spacer(Modifier.height(10.dp))
+
+    OutlinedButton(onClick = { showInfo = true }) { Text(stringResource(R.string.consent_info)) }
+
+  }
+
+  
+
+  if (showInfo) {
+
+    AlertDialog(
+
+      onDismissRequest = { showInfo = false },
+
+      confirmButton = {
+
+        Button(onClick = { showInfo = false }) { Text("OK") }
+
+      },
+
+      title = { Text(stringResource(R.string.consent_info)) },
+
+      text = { Text(stringResource(R.string.consent_info_text)) }
+
+    )
+
+  }
+
+}
+
+// /home/oai/eArc/UI/eArcUI/app/src/main/java/com/earc/ui/ui/screens/SessionScreen.kt
+
+package com.earc.ui.ui.screens
+
+  
+
+import androidx.compose.foundation.layout.*
+
+import androidx.compose.material3.*
+
+import androidx.compose.runtime.*
+
+import androidx.compose.ui.Modifier
+
+import androidx.compose.ui.res.stringResource
+
+import androidx.compose.ui.unit.dp
+
+import com.earc.ui.R
+
+import com.earc.ui.core.KernelBridge
+
+  
+
+@Composable
+
+fun SessionScreen(onEndSession: () -> Unit) {
+
+  var input by remember { mutableStateOf("") }
+
+  var systemText by remember { mutableStateOf("") }
+
+  var showPause by remember { mutableStateOf(false) }
+
+  var ended by remember { mutableStateOf(false) }
+
+  
+
+  if (ended) {
+
+    Column(
+
+      modifier = Modifier.fillMaxSize().padding(20.dp),
+
+      verticalArrangement = Arrangement.Center
+
+    ) {
+
+      Text(text = stringResource(R.string.end_title), style = MaterialTheme.typography.headlineSmall)
+
+      Spacer(Modifier.height(8.dp))
+
+      Text(text = stringResource(R.string.end_text))
+
+      Spacer(Modifier.height(18.dp))
+
+      Button(onClick = onEndSession) { Text(stringResource(R.string.end_back)) }
+
+    }
+
+    return
+
+  }
+
+  
+
+  Column(
+
+    modifier = Modifier.fillMaxSize().padding(16.dp)
+
+  ) {
+
+    Text(text = stringResource(R.string.session_status), style = MaterialTheme.typography.titleMedium)
+
+    Spacer(Modifier.height(4.dp))
+
+    Text(text = stringResource(R.string.session_mode), style = MaterialTheme.typography.bodySmall)
+
+    Spacer(Modifier.height(14.dp))
+
+  
+
+    if (systemText.isNotBlank()) {
+
+      Surface(tonalElevation = 2.dp, modifier = Modifier.fillMaxWidth()) {
+
+        Text(text = systemText, m
