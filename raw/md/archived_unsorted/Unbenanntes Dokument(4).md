@@ -1,0 +1,1 @@
+Model: ollama pull qwen2:0.5b-instruct

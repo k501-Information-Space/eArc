@@ -1,0 +1,4116 @@
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000001.json
+
+└─ Content Hash: a0d2b30ea5cc267a...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000002.json
+
+└─ Content Hash: fd38ffdb15cb520d...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000003.json
+
+└─ Content Hash: c933bc136705f65f...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000004.json
+
+└─ Content Hash: d1665bc3569c3d8d...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000005.json
+
+└─ Content Hash: 87583688ff4a23d6...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000006.json
+
+└─ Content Hash: 67bbe5a7ceac3d12...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000007.json
+
+└─ Content Hash: 4937c5b54bafb07d...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000008.json
+
+└─ Content Hash: 20d6c05c0c16357f...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000009.json
+
+└─ Content Hash: 1dc7c83c9d504e48...
+
+[FRAMER] Constructed: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000010.json
+
+└─ Content Hash: deef61b77a630d24...
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000000
+
+└─ Hash: 0ee4acdfb791cbd8fb72e7c5bd35416c1eba525d8c2be39f6e3aac31135b07ca
+
+└─ T: 1773716517
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000001
+
+└─ Hash: 3d3672f0e87f7cf6539b50f6c0ef8a82adc8f3fc4bd9bfaa0d314fab27709e02
+
+└─ T: 1773716518
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000002
+
+└─ Hash: 15673c07e6f75c6193ca60dd6e2dde61df1d3d73a9775eaa5d12af649daea775
+
+└─ T: 1773716519
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000003
+
+└─ Hash: 35c74541d75a810eeaa930f2c8115102d47f153c7264e3c0b5726b5f186b3c42
+
+└─ T: 1773716520
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000004
+
+└─ Hash: 729ba45cbc602c552f2785522ee662da38e85cec94ff8601c652016bed3baadc
+
+└─ T: 1773716521
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000005
+
+└─ Hash: db4bcd1e0c8392cd83269c9aba5fe21f90727eadc7064efb172c46b8a79a1e22
+
+└─ T: 1773716522
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000006
+
+└─ Hash: a425a0d7ea8c588835968c75b34962369fc6f70d81c2bde9563b510a92b9f568
+
+└─ T: 1773716523
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000007
+
+└─ Hash: ce7a047cc4f97bcd143c7594d89bfcbde42806750f579d88ed77e6d2dd511de3
+
+└─ T: 1773716524
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000008
+
+└─ Hash: cbe1e6168887620f399b7c03e391e0aab8e42f96ee93adaee333beecfb1340fa
+
+└─ T: 1773716525
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000009
+
+└─ Hash: 7eba6d4b0646450e1103406cd103551b7a7d3d2f63d4a19cb55107b0ada6e48c
+
+└─ T: 1773716526
+
+[LINKER] Appended: CHUNK-1bf8750f1d6129b3b15a8295044f334947c4f235bd3dca8678075f7bf0eaec99-000010
+
+└─ Hash: 8a13c71d130df323246c30e97eede4924d077ae5d3976653cde90b1745f8d4ef
+
+└─ T: 1773716527
+
+[NORMALIZER] Source: Relativitätstheorie.md (Hash: a5f1c9071ec8edb4...)
+
+[NORMALIZER] Output: NORM-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8.txt (Hash: 1f94b28f328c6a88...)
+
+[SEGMENTER] Processed 32839 bytes into 9 blocks.
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000000.json
+
+└─ Content Hash: e332d530b9e6cc15...
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000001.json
+
+└─ Content Hash: 79654074cc390132...
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000002.json
+
+└─ Content Hash: 73803967084ae227...
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000003.json
+
+└─ Content Hash: 58e22a12422aca31...
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000004.json
+
+└─ Content Hash: 5655ad70ea571937...
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000005.json
+
+└─ Content Hash: f8e103c419f67be4...
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000006.json
+
+└─ Content Hash: 51be230c5b164d31...
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000007.json
+
+└─ Content Hash: c38fdcce3743ed45...
+
+[FRAMER] Constructed: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000008.json
+
+└─ Content Hash: e12a7696d0d28665...
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000000
+
+└─ Hash: 41ad46723945455f3bf8e3d63e721743933c78c91d648e60743f95f6958b7c07
+
+└─ T: 1773716528
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000001
+
+└─ Hash: d35e275c201cf7e91458a240bf886abfc4915ee562f958daf1f4bf48e18ef1e6
+
+└─ T: 1773716529
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000002
+
+└─ Hash: 9953f246944bc5f5c1822fdd20be079e277b3414755ad295364bc3b92b40c1ce
+
+└─ T: 1773716530
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000003
+
+└─ Hash: 95f9a8f8af82c75fccd2594d59f355c2ce26f862222fcd1e26a8531322c9579e
+
+└─ T: 1773716531
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000004
+
+└─ Hash: 6d8c15ade7dfd306b36d808462251fa15c34ae8e38c90d399d621fa9a88eaac7
+
+└─ T: 1773716532
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000005
+
+└─ Hash: 8d0f8a682a54ec4ad5269101e8abbcabb08de289eb26e8e6073e94eb1de5cb24
+
+└─ T: 1773716533
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000006
+
+└─ Hash: 7e6d3b58ef2a4f5421e675272349a051c1dbbb8385c37a9158922a84fd8ab9c4
+
+└─ T: 1773716534
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000007
+
+└─ Hash: 67faebf20334387a1b8198fd6dd016485b1f743b930213aadf75106af3df4e7e
+
+└─ T: 1773716535
+
+[LINKER] Appended: CHUNK-a5f1c9071ec8edb4b70682ab8780b6798173db03a11eb569cdb13337926988a8-000008
+
+└─ Hash: 346453316a46e971cc7e9d1f4276781854084dc904562a0fa99bf34b1f43d9de
+
+└─ T: 1773716536
+
+[NORMALIZER] Source: Kernfusion.md (Hash: 6a50f81828adb1e2...)
+
+[NORMALIZER] Output: NORM-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83.txt (Hash: 6e4c7952ce5fa449...)
+
+[SEGMENTER] Processed 28552 bytes into 7 blocks.
+
+[FRAMER] Constructed: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000000.json
+
+└─ Content Hash: 88ad4b716aa75bec...
+
+[FRAMER] Constructed: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000001.json
+
+└─ Content Hash: 786b4d0bd6e966e8...
+
+[FRAMER] Constructed: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000002.json
+
+└─ Content Hash: f22f01f399c0b50c...
+
+[FRAMER] Constructed: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000003.json
+
+└─ Content Hash: 25708aa6e6101cda...
+
+[FRAMER] Constructed: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000004.json
+
+└─ Content Hash: 8a448693d0ca1bdb...
+
+[FRAMER] Constructed: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000005.json
+
+└─ Content Hash: f0cb9f3a0928da66...
+
+[FRAMER] Constructed: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000006.json
+
+└─ Content Hash: 8730c6828b2d814b...
+
+[LINKER] Appended: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000000
+
+└─ Hash: 3b41f9a5da673c1be85b68915ab0a7778f13944309d9af4ffd38babcc1b430ab
+
+└─ T: 1773716537
+
+[LINKER] Appended: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000001
+
+└─ Hash: 3f6aafcf1abfb53c3c821638acb6b4d51f7a8a105624a668f74fccb8c8c850ab
+
+└─ T: 1773716538
+
+[LINKER] Appended: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000002
+
+└─ Hash: f36c7dadab7d6eb688ba264b8d2e66a4437b19c2ff8a68f97a898f5e8c2a3343
+
+└─ T: 1773716539
+
+[LINKER] Appended: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000003
+
+└─ Hash: 1407c7fcca22c49a5209412e7083b343005a4161ba7dfb416138401c58867b6b
+
+└─ T: 1773716540
+
+[LINKER] Appended: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000004
+
+└─ Hash: 41ceb46be5a04c084352d9a98b2b66363ccc8dca9d6237365680d52297146ef8
+
+└─ T: 1773716541
+
+[LINKER] Appended: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000005
+
+└─ Hash: ebd702abe8bcc173e306f9c4098e7e91c5fd1eca0b32bd38d1e4e50f79cf54b2
+
+└─ T: 1773716542
+
+[LINKER] Appended: CHUNK-6a50f81828adb1e24e055cce4f8b7bb4ce8b64f60dc258363435bb2d02fe6b83-000006
+
+└─ Hash: d57659ab765e9cd5ae5ee7a4353e6ff8654dffb4cdc1ec43567ba263b4761fda
+
+└─ T: 1773716543
+
+[NORMALIZER] Source: Mark Aurel.md (Hash: 6bdc0f9a4a688cff...)
+
+[NORMALIZER] Output: NORM-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8.txt (Hash: 9638f3a8bfd779d0...)
+
+[SEGMENTER] Processed 90307 bytes into 23 blocks.
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000000.json
+
+└─ Content Hash: a8f2b10b51268e12...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000001.json
+
+└─ Content Hash: 7aecbf8697b8eacd...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000002.json
+
+└─ Content Hash: 788e0666c35ce690...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000003.json
+
+└─ Content Hash: 880786a9ebe51b3b...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000004.json
+
+└─ Content Hash: 4911611b194888fd...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000005.json
+
+└─ Content Hash: 45a913d677ec49a0...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000006.json
+
+└─ Content Hash: 96fd268856c7cf67...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000007.json
+
+└─ Content Hash: bfd734c0dd8417d1...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000008.json
+
+└─ Content Hash: 24d7f88a22fce43e...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000009.json
+
+└─ Content Hash: 10b473801d50b82b...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000010.json
+
+└─ Content Hash: 2789e8a0ab979da0...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000011.json
+
+└─ Content Hash: 6717d00616762a50...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000012.json
+
+└─ Content Hash: 6843fdebe8cf09b3...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000013.json
+
+└─ Content Hash: b93fcd8db1a38a11...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000014.json
+
+└─ Content Hash: d7fa1530465215f8...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000015.json
+
+└─ Content Hash: d74752ea25892739...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000016.json
+
+└─ Content Hash: 0b1748ea94acef1d...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000017.json
+
+└─ Content Hash: 8080b57f809e4dc3...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000018.json
+
+└─ Content Hash: dc9a8a754bf7043b...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000019.json
+
+└─ Content Hash: f7760fdb8742fdf0...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000020.json
+
+└─ Content Hash: adf94b287ea75a73...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000021.json
+
+└─ Content Hash: 44c3e566d058b454...
+
+[FRAMER] Constructed: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000022.json
+
+└─ Content Hash: 18b4c96e35fed463...
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000000
+
+└─ Hash: 216d44c2d5eb87cb82104eceb52d80b5fafba9a19c9e23e3fdc20d3b71c5a7a0
+
+└─ T: 1773716544
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000001
+
+└─ Hash: 9875233a87cc1cabb394932bd0d56af346c525ad769aa22b8f5f4495f9f2effb
+
+└─ T: 1773716545
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000002
+
+└─ Hash: e91ea37950b62058d3eb2a897de5b79bec15e4db5cf95d57d69410d39f63da89
+
+└─ T: 1773716546
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000003
+
+└─ Hash: a0146dce5f683380fa7f2c7026708fc4e098540b7777c702edfdd4106419161c
+
+└─ T: 1773716547
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000004
+
+└─ Hash: 596ae457275fbcb900e72c974d75b1a72e0f1cfe07093f796216250176523995
+
+└─ T: 1773716548
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000005
+
+└─ Hash: 32bad4fefc7c82d96f65a2830dadbc3a37f2e487cefa0ea58fcc07611cc6a25f
+
+└─ T: 1773716549
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000006
+
+└─ Hash: 84e896bedc008e1ca691a56c636038b1cdd30abb82ae05081c4517b05d307eea
+
+└─ T: 1773716550
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000007
+
+└─ Hash: c33caa1cc8cd052fbe45761dc20b18746dfaf7fb5ff0e5156e886b72f01e86bc
+
+└─ T: 1773716551
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000008
+
+└─ Hash: f2f901e48d01dcb8d215da377969954b95bb823160407404e65de657c7e6d4d8
+
+└─ T: 1773716552
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000009
+
+└─ Hash: efc4e321fc76512039903cdf9b787231a0e7a6b7630660541b7f6216242cac41
+
+└─ T: 1773716553
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000010
+
+└─ Hash: f3eda36b7022150a46d16ab019a81c47cd5095eabb02bada9a7c02a140b03080
+
+└─ T: 1773716554
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000011
+
+└─ Hash: e43ca0ac99589697f7a8d5ed2e92052a8f1d832ca09410b3951df510024ad6a4
+
+└─ T: 1773716555
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000012
+
+└─ Hash: 0a21d3046c56c7a39a200accf6f5678f9ad7edece22a57d100b338c1a8c384b3
+
+└─ T: 1773716556
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000013
+
+└─ Hash: 4ca127262bf9f18fddeb1bf227a7a7aeb3e59c764bab8b96bfab063effb0396a
+
+└─ T: 1773716557
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000014
+
+└─ Hash: 57f18bf65e22df0ae09b47b97b62bc7302efd7f20d22c9f797da0df361748af3
+
+└─ T: 1773716558
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000015
+
+└─ Hash: bdd89329d77ef235bcdc7b1b71df5ad5b2d87c7bd7b8b74cc53879b84acad5d6
+
+└─ T: 1773716559
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000016
+
+└─ Hash: d6b384ffc8c8e3688e8be48af49b9f83061dc45667b2db0c14b4bf6806f344f9
+
+└─ T: 1773716560
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000017
+
+└─ Hash: f97f3715e20ea27405184fd837f9d5fd6a4eb2488b218413e2bd5af597f344f9
+
+└─ T: 1773716561
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000018
+
+└─ Hash: 07d84c5c37c197c4058bef93e44ead21f46b4c195f38c63d7538fc5e118c0ce7
+
+└─ T: 1773716562
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000019
+
+└─ Hash: 6a60143a9119f0c95a41bb2875dcd9cb4e0590935cb37739fca4cffa300d01ed
+
+└─ T: 1773716563
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000020
+
+└─ Hash: e6ab77f58679e8e88ec10f757391a6faed1a2f5efa2d33b41f8518f986fd417b
+
+└─ T: 1773716564
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000021
+
+└─ Hash: 076420100eccd03c0ceb8eeb6436726dafa0ea423fc45bf6425cd5a57efbac61
+
+└─ T: 1773716565
+
+[LINKER] Appended: CHUNK-6bdc0f9a4a688cff4c34b15bcfc469cdeda4ab27da03653fcd59ebf9691fd7b8-000022
+
+└─ Hash: 0647c56f8fb33be1c4a05388acdb09f409bdcc95bbaa8a68bc02cd32235ef293
+
+└─ T: 1773716566
+
+[NORMALIZER] Source: Proton-Bor-Fusion.md (Hash: 2601bd5c22b17056...)
+
+[NORMALIZER] Output: NORM-2601bd5c22b170564ce41c50c3504d4e54d6e964491c6669773f36040528c708.txt (Hash: eabbcd4942ab0e71...)
+
+[SEGMENTER] Processed 3578 bytes into 1 blocks.
+
+[FRAMER] Constructed: CHUNK-2601bd5c22b170564ce41c50c3504d4e54d6e964491c6669773f36040528c708-000000.json
+
+└─ Content Hash: eabbcd4942ab0e71...
+
+[LINKER] Appended: CHUNK-2601bd5c22b170564ce41c50c3504d4e54d6e964491c6669773f36040528c708-000000
+
+└─ Hash: 38ca76d0821df1e10a3f35ed271e86786e9303b78523e74e491b2e1e0d4dc8d3
+
+└─ T: 1773716567
+
+[NORMALIZER] Source: Diktatur.md (Hash: 197a155e5880a470...)
+
+[NORMALIZER] Output: NORM-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe.txt (Hash: 758fe8137da500b9...)
+
+[SEGMENTER] Processed 86022 bytes into 22 blocks.
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000000.json
+
+└─ Content Hash: 402b933467924fa6...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000001.json
+
+└─ Content Hash: ef6fa15c5fb1b69c...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000002.json
+
+└─ Content Hash: ceeac3078484cb06...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000003.json
+
+└─ Content Hash: dbc00c3e5c510547...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000004.json
+
+└─ Content Hash: cf0423870eb48343...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000005.json
+
+└─ Content Hash: 53248fb9c8ab9bde...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000006.json
+
+└─ Content Hash: b24d65f281384a70...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000007.json
+
+└─ Content Hash: b0204b9e96dab3b5...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000008.json
+
+└─ Content Hash: 7ff0bc75a7871f9c...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000009.json
+
+└─ Content Hash: 87455762b0dc6072...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000010.json
+
+└─ Content Hash: c316f1744423a012...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000011.json
+
+└─ Content Hash: dbe74b2fc028c1eb...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000012.json
+
+└─ Content Hash: 2fdc93cc890954aa...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000013.json
+
+└─ Content Hash: c88725ded2ddd6db...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000014.json
+
+└─ Content Hash: 1edf76acbf5b6a6c...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000015.json
+
+└─ Content Hash: 2884d4c333ae8e30...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000016.json
+
+└─ Content Hash: a9ec7efdadae481f...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000017.json
+
+└─ Content Hash: 6ae0485154146134...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000018.json
+
+└─ Content Hash: 267f0310e129d46c...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000019.json
+
+└─ Content Hash: 1b00215b9617c001...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000020.json
+
+└─ Content Hash: 3fd72c32cdb3ffcd...
+
+[FRAMER] Constructed: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000021.json
+
+└─ Content Hash: 9029614f3d334fee...
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000000
+
+└─ Hash: df3748d3c4c2176d792818dc292a41c691b94429ae8be513c03b06d3f475657c
+
+└─ T: 1773716568
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000001
+
+└─ Hash: 08d1e93a6f70047ce8aa9e83d3a7d77fbc43ccb4f8d0595fe3580c626c17b4bc
+
+└─ T: 1773716569
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000002
+
+└─ Hash: 4be6e04ecec93dba1779a0d167b90e3222fe2a5c536c38cb34c730b3ded64c1c
+
+└─ T: 1773716570
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000003
+
+└─ Hash: fe7e652041a2f2aedd8eba3e1063e4b7c85858d755569737e94227ddb5874ce7
+
+└─ T: 1773716571
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000004
+
+└─ Hash: 535369baccf8eb49ed251d432441141cf68aecdd4d6ba7e3c17e144603f8e73b
+
+└─ T: 1773716572
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000005
+
+└─ Hash: ad754d6477f604a5899282d5d84eb0e659ebeacc0bfe5f4b642a44951d014947
+
+└─ T: 1773716573
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000006
+
+└─ Hash: 7547c3d91e21aff8e5f6c068047f6c2c155218395b915c1bb1484844b3b41713
+
+└─ T: 1773716574
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000007
+
+└─ Hash: 7f5056f74242ff268b0631f1bb3dcb74e8c510956a7d38a01ebadc0f7c1f3154
+
+└─ T: 1773716575
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000008
+
+└─ Hash: dccc8c948838b6277c767304b0ed9909c043a24a5b70dcaedbb7367715b296fd
+
+└─ T: 1773716576
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000009
+
+└─ Hash: a28c65bce3c41a0f423d913f6bf24b193905f8b5cda8422899e1068fb4390876
+
+└─ T: 1773716577
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000010
+
+└─ Hash: 785a79bbe819e7caea8c18d7bdfb3fd70dea5d54e2b1dbc0ed9e70122ce3bf6b
+
+└─ T: 1773716578
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000011
+
+└─ Hash: c356e7529b1adc5dacc63ca88984bdb80ea404bb4664d655ab941137783b6e75
+
+└─ T: 1773716579
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000012
+
+└─ Hash: 5dd07a9a716dbaf9a0cf270b42705b3cd47fac83d920fd7790a50f24a8180e34
+
+└─ T: 1773716580
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000013
+
+└─ Hash: f3972ed132d3ade54c3a3828885f4bf91770b135ccf90df12745ce283d2837f8
+
+└─ T: 1773716581
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000014
+
+└─ Hash: 68a0d0afa453f0d224fd6703fdc2eb0ab5edda2a56fac651a1507bd9d786f501
+
+└─ T: 1773716582
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000015
+
+└─ Hash: bc6d1f18fc4153cb8659d9b43acd4a9541b29a146e7b3bd64778e979a63e0343
+
+└─ T: 1773716583
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000016
+
+└─ Hash: 416c652a140688cd7caa20570fa79fe7dc4ff2cf020a49a6b405be4cc2d63fd7
+
+└─ T: 1773716584
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000017
+
+└─ Hash: b0619aad040ef923c7183672b5def11b7f7ba377db5da13323ead7680fc3facb
+
+└─ T: 1773716585
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000018
+
+└─ Hash: 653cf40c8185aeb7fe7312266de23926e6f2e9971d9529696b1fb79bd96cbf3e
+
+└─ T: 1773716586
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000019
+
+└─ Hash: 6b07b0f79fa61223a7e4c5ec6f1129128bf5a2aa0c3de488607c0a636337ae25
+
+└─ T: 1773716587
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000020
+
+└─ Hash: 8faecd41b30930aafdb1a34d2e34e4f2e70d084c055f893d5d128779f72b1e02
+
+└─ T: 1773716588
+
+[LINKER] Appended: CHUNK-197a155e5880a470b6fdd3b448d073608e7152c4e220a9d41cbac4ea383319fe-000021
+
+└─ Hash: 3315dbee3cbe44603a96fccada3b6616f650dd76aeceb351cbbc95a846c56a22
+
+└─ T: 1773716589
+
+[NORMALIZER] Source: CERN.md (Hash: e39f24bed664d7d0...)
+
+[NORMALIZER] Output: NORM-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f.txt (Hash: ae68d7ec9b008823...)
+
+[SEGMENTER] Processed 38010 bytes into 10 blocks.
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000000.json
+
+└─ Content Hash: 7b680271b4a35707...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000001.json
+
+└─ Content Hash: c17cb5b7602c9a07...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000002.json
+
+└─ Content Hash: 2ef96d9b13b7e61f...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000003.json
+
+└─ Content Hash: e870642298e62ac8...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000004.json
+
+└─ Content Hash: 792c0624b4ec502c...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000005.json
+
+└─ Content Hash: 145de625ab9874fc...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000006.json
+
+└─ Content Hash: 008261a2de72382e...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000007.json
+
+└─ Content Hash: b05b47cf01815f2c...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000008.json
+
+└─ Content Hash: 0c0810ee68a80162...
+
+[FRAMER] Constructed: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000009.json
+
+└─ Content Hash: 212f31f8d882ef40...
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000000
+
+└─ Hash: c9e9a4e0273cd8b19290b666942869a71f0c6ab5b6e88022dd2287c58431b346
+
+└─ T: 1773716590
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000001
+
+└─ Hash: 15ffc87017094aa46e5a4c5c8da1baa17852ee7bab7c6e6660f817860908d808
+
+└─ T: 1773716591
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000002
+
+└─ Hash: 30b489ef284a8eda670f4b4e2ee78fab642f6a50f8eddd05879c02361a280a7e
+
+└─ T: 1773716592
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000003
+
+└─ Hash: f993f2f42477f41284ab00303911ea36277d405d6dddabff68698aff76e126c8
+
+└─ T: 1773716593
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000004
+
+└─ Hash: c5608e87b07b6399202d1f11415f80f349b7ca5e96eb8560c79f668b3c54fef3
+
+└─ T: 1773716594
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000005
+
+└─ Hash: 84198db92d7f4da7e30d69510b2972f2f0e09cab2634a9cf079bf4d85aa1c903
+
+└─ T: 1773716595
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000006
+
+└─ Hash: d4bcd7cacd844bcdb8c0f9ca72f332b852a8da440a7e0ae1dbb368a55d30cf21
+
+└─ T: 1773716596
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000007
+
+└─ Hash: 47a4530843939f87eec7528d933935812fdb30bb605dded09573eedcb6d92eef
+
+└─ T: 1773716597
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000008
+
+└─ Hash: 44d6264fbd1cac0aa1293e18d97d12469c6f1565eade64a1a66a219dfab70971
+
+└─ T: 1773716598
+
+[LINKER] Appended: CHUNK-e39f24bed664d7d0adbaa6dfa0e5939de8f7434c14be58de0c580648205eb89f-000009
+
+└─ Hash: d376420eae9bdeae00b1fbb9c8290c67c3d117c70719563a1cdf7eca3ffd9666
+
+└─ T: 1773716599
+
+[NORMALIZER] Source: Neutronenstern.md (Hash: d4fe523521adb27a...)
+
+[NORMALIZER] Output: NORM-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e.txt (Hash: 221dc5a6df6f76ae...)
+
+[SEGMENTER] Processed 34415 bytes into 9 blocks.
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000000.json
+
+└─ Content Hash: 8aa8742a35ff14b9...
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000001.json
+
+└─ Content Hash: ec0a0d5eab34b6f0...
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000002.json
+
+└─ Content Hash: b68c6c4a8a59c3ce...
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000003.json
+
+└─ Content Hash: 5c03a19057e30395...
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000004.json
+
+└─ Content Hash: 38b7bdad6c9827e2...
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000005.json
+
+└─ Content Hash: 4d4070db6df79feb...
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000006.json
+
+└─ Content Hash: 11df7df84059f973...
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000007.json
+
+└─ Content Hash: 7302ac4dccd28583...
+
+[FRAMER] Constructed: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000008.json
+
+└─ Content Hash: 63c4ef80f5b21a69...
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000000
+
+└─ Hash: 74186f5149ab8f3c7afa60a03ae1f2163856de791a693ca802ecbc9a1ecbc5cb
+
+└─ T: 1773716600
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000001
+
+└─ Hash: 485a891753db0e882d2de4423551a90c1969904c48cccf549f445ac937a19452
+
+└─ T: 1773716601
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000002
+
+└─ Hash: 572855018c19a2b26f49e8828e7d729af5f0d03c5cd1f2cf2ab625c45f9abedf
+
+└─ T: 1773716602
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000003
+
+└─ Hash: d6cb39aafe197869d988d72dafc29ee98bbbc0abbb566caf589caf23d4d3a2de
+
+└─ T: 1773716603
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000004
+
+└─ Hash: b9a8a140ed2094a059faa200f0b4d40649e0f175f5eac62a71c24f5e46fa5b31
+
+└─ T: 1773716604
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000005
+
+└─ Hash: d3e659c8ed86511bb1657f6fae3559907fee4a933668138bb5a48c9dc3582f3c
+
+└─ T: 1773716605
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000006
+
+└─ Hash: 769f39033161b37f03bee7fc512746e9ef72f9a705bda0760f03d2639c98c381
+
+└─ T: 1773716606
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000007
+
+└─ Hash: aa7d41da878e93fd8a35d41f04c4bac835fc592ce6fa7f6c3626773af2f25717
+
+└─ T: 1773716607
+
+[LINKER] Appended: CHUNK-d4fe523521adb27adcbbffce7f015f986e086c3af6c1db4d5c83d4a233a4708e-000008
+
+└─ Hash: 0ccf0bb7037fd4eab538589462e2f13a9a3a54004ed9b4578c4afab11cbfc48a
+
+└─ T: 1773716608
+
+[NORMALIZER] Source: Ewigkeit.md (Hash: 8cdca544a3223465...)
+
+[NORMALIZER] Output: NORM-8cdca544a3223465054b00d057a6c25f088129082fede0d668df391d18ad1c64.txt (Hash: ef06a797e5f1394a...)
+
+[SEGMENTER] Processed 6414 bytes into 2 blocks.
+
+[FRAMER] Constructed: CHUNK-8cdca544a3223465054b00d057a6c25f088129082fede0d668df391d18ad1c64-000000.json
+
+└─ Content Hash: 6f4c9ea32b424278...
+
+[FRAMER] Constructed: CHUNK-8cdca544a3223465054b00d057a6c25f088129082fede0d668df391d18ad1c64-000001.json
+
+└─ Content Hash: 72bd9c5d5975c75d...
+
+[LINKER] Appended: CHUNK-8cdca544a3223465054b00d057a6c25f088129082fede0d668df391d18ad1c64-000000
+
+└─ Hash: f86eedf1bcc63d3d85b09635b5bf0438cfda11c4a98d1e11068e37b7a7c800b0
+
+└─ T: 1773716609
+
+[LINKER] Appended: CHUNK-8cdca544a3223465054b00d057a6c25f088129082fede0d668df391d18ad1c64-000001
+
+└─ Hash: c5853506f01359dcbbfa676f719b0f9b85a93156938ebf5cebec9519625e42bc
+
+└─ T: 1773716610
+
+[NORMALIZER] Source: Religion.md (Hash: 4f49b452be88d07f...)
+
+[NORMALIZER] Output: NORM-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025.txt (Hash: 94d75b0c17b4f366...)
+
+[SEGMENTER] Processed 126170 bytes into 31 blocks.
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000000.json
+
+└─ Content Hash: 59d6ec1a110f0ffc...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000001.json
+
+└─ Content Hash: ff0ada7dff212d19...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000002.json
+
+└─ Content Hash: 2a4d7555e60b8ead...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000003.json
+
+└─ Content Hash: 694dfc52b030aa5e...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000004.json
+
+└─ Content Hash: 60966b5e25cdc19a...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000005.json
+
+└─ Content Hash: 398d1bf5629aafd1...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000006.json
+
+└─ Content Hash: 05dbf5b32c3f55e5...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000007.json
+
+└─ Content Hash: 4ffd2b93c3eec9d3...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000008.json
+
+└─ Content Hash: 96b0a9cda6d8a347...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000009.json
+
+└─ Content Hash: 86fcd3649e1d4160...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000010.json
+
+└─ Content Hash: 41711d9cb501d51d...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000011.json
+
+└─ Content Hash: c4358faa991feb04...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000012.json
+
+└─ Content Hash: 79226a72691fe852...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000013.json
+
+└─ Content Hash: 9c7a6aca01f07ae7...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000014.json
+
+└─ Content Hash: 68c00de8bba292f3...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000015.json
+
+└─ Content Hash: 970aa9ed8b16186c...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000016.json
+
+└─ Content Hash: 18de07f4c710e072...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000017.json
+
+└─ Content Hash: f8948bbcc1e2ae5b...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000018.json
+
+└─ Content Hash: 5e3c968a7b9688c7...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000019.json
+
+└─ Content Hash: 9959b3e21b36c101...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000020.json
+
+└─ Content Hash: e8005ba3f4860b80...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000021.json
+
+└─ Content Hash: 75b449e03ca06e0a...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000022.json
+
+└─ Content Hash: a1a7967fc49274c1...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000023.json
+
+└─ Content Hash: fb61e740bb99d9de...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000024.json
+
+└─ Content Hash: ed6c5e287cdf5f86...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000025.json
+
+└─ Content Hash: ec1912c3e201e6c3...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000026.json
+
+└─ Content Hash: 4536bcb9e4c8c26b...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000027.json
+
+└─ Content Hash: 1cfcdadd28063571...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000028.json
+
+└─ Content Hash: 2ceabf8748802f74...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000029.json
+
+└─ Content Hash: 4bce3628ace9c742...
+
+[FRAMER] Constructed: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000030.json
+
+└─ Content Hash: 2e8ed3d45b3c83de...
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000000
+
+└─ Hash: 433a02073233155f588f43210801d146081d23c7b78f2482e43de045420d2823
+
+└─ T: 1773716611
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000001
+
+└─ Hash: 95c281fa6085a72048f16794100ae8c71c9a7dfd1fbb92c8cd616e3a63e70e48
+
+└─ T: 1773716612
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000002
+
+└─ Hash: 0c1ae36a874d4f5bf1867d9adcad8f6302cc614c456415b0300344b8428a945f
+
+└─ T: 1773716613
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000003
+
+└─ Hash: d9c22668b3051c9bce594810db0158d2b7d69c67fa396cd7405b78746e40e1fe
+
+└─ T: 1773716614
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000004
+
+└─ Hash: a925bec5d41589a6a34d79a26c0c880153af55ea0ef392e02e9912a6272ade8c
+
+└─ T: 1773716615
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000005
+
+└─ Hash: bd5b392393bf838055ad3644bcd731b3673d51ec165abe2b56d308cba09e9ddd
+
+└─ T: 1773716616
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000006
+
+└─ Hash: 9baf9865baaa696f19cd0d51da5464c6ed5548b2b0ac95261abc626ba2187b43
+
+└─ T: 1773716617
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000007
+
+└─ Hash: a36014ce3a7b4c57e5025b0f53490135cf36153e2bf1f95307c8bdb37da1b45b
+
+└─ T: 1773716618
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000008
+
+└─ Hash: 934b095a3c84acea71f6308f3d8e192c67530b66d4bfcde9c9db7fb96054f5ff
+
+└─ T: 1773716619
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000009
+
+└─ Hash: 82138a1a34bb41fe53e4ab80d4eb69f07c84440bc5309d05c57c253766586372
+
+└─ T: 1773716620
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000010
+
+└─ Hash: 557dabc2611dae867c82c197419aeb83cf730169de4288116761f94168241ec2
+
+└─ T: 1773716621
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000011
+
+└─ Hash: 08920ebe70f7b0085ebb9ff4c542c2b051dbabca614ce8e30b6bf38877502414
+
+└─ T: 1773716622
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000012
+
+└─ Hash: 5bbd19a752f1e7742e1d62beacb45005ce28fb6a9e34afd8dd24bf7e461ef60d
+
+└─ T: 1773716623
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000013
+
+└─ Hash: 37dfe52b15424c75c9591b0e864c5f0653711564998018d6575fa35e7df0e209
+
+└─ T: 1773716624
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000014
+
+└─ Hash: 9c6449a05ee09797b15069110a2ad6fd2f9d8574200ad935e6524578712ec4c0
+
+└─ T: 1773716625
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000015
+
+└─ Hash: 2028f0b09c114919c4a088c8e30abee0c323e59c4bbf173195f2202dd8fb0d41
+
+└─ T: 1773716626
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000016
+
+└─ Hash: c86979b9673436af6c5e2d1c53d10166922fe8b34489e344893337db6ac68cf6
+
+└─ T: 1773716627
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000017
+
+└─ Hash: 738d033dd121cd45787095faeea4b87fe47b157cd4bcd9656a5cde362bb64673
+
+└─ T: 1773716628
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000018
+
+└─ Hash: 07f8e9db23df6a573ef39013c334ddd0e6e3cdedfef3c45e2c321da12adffca2
+
+└─ T: 1773716629
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000019
+
+└─ Hash: 1f85f1fe7ae7114748849be66107f122f019d9f64e1d6d06609b0250544aa0f1
+
+└─ T: 1773716630
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000020
+
+└─ Hash: 944d297e64052d8efa47ad8a459aba6ac88d9cb755dbae3f134630c6959528c7
+
+└─ T: 1773716631
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000021
+
+└─ Hash: ed3a1bb333498328981b55073f9264d27a46238096e5b7382e4717dcfe115e13
+
+└─ T: 1773716632
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000022
+
+└─ Hash: 0d2864619519091d6da0778828762918950c3e3042f9acae0153669825e7d660
+
+└─ T: 1773716633
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000023
+
+└─ Hash: faf278fff623dba7bc9379367d7d67d3b48b62944452190edd42a9875e27430f
+
+└─ T: 1773716634
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000024
+
+└─ Hash: 6f67bfbc6789a7dc9023266a9181ef85bd4340a6a016470179fa79436770233c
+
+└─ T: 1773716635
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000025
+
+└─ Hash: 916f920373da45a77c71dfc3f94b2c5eb476432541a402ca74afc9a98b61e4d7
+
+└─ T: 1773716636
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000026
+
+└─ Hash: 576e7eb700bfecab9d8f09cb429536f848c6e5986ef25deeb218505646d1ebb0
+
+└─ T: 1773716637
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000027
+
+└─ Hash: f26ef7ad601edc7f6e9497ae9401d9f67ef6b777228debb3f3843d1433cd14eb
+
+└─ T: 1773716638
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000028
+
+└─ Hash: 0052c3f826da578385954741a46f6be84190328e56f6be12dffde4fe0baac5b1
+
+└─ T: 1773716639
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000029
+
+└─ Hash: 723ce41e9b3003d3a9ef892bc59160c30e6c719e284625e9d15a43f5701f541a
+
+└─ T: 1773716640
+
+[LINKER] Appended: CHUNK-4f49b452be88d07fcc934dd0f5a4f849d953a073a8db3c517e173eed9f99e025-000030
+
+└─ Hash: fa93c65a8a2fb7c83fd9787687826e421142b08ba78503dc1ac989c3959e12e2
+
+└─ T: 1773716641
+
+[NORMALIZER] Source: Liste der Staatsformen und Regierungssysteme.md (Hash: 786fe9e7b0a404f9...)
+
+[NORMALIZER] Output: NORM-786fe9e7b0a404f90714c5a216fcc83bb3fee9e7726299648e36b63402c22d91.txt (Hash: 9b90cd662c8eed81...)
+
+[SEGMENTER] Processed 10589 bytes into 3 blocks.
+
+[FRAMER] Constructed: CHUNK-786fe9e7b0a404f90714c5a216fcc83bb3fee9e7726299648e36b63402c22d91-000000.json
+
+└─ Content Hash: 13e37b743b40bbee...
+
+[FRAMER] Constructed: CHUNK-786fe9e7b0a404f90714c5a216fcc83bb3fee9e7726299648e36b63402c22d91-000001.json
+
+└─ Content Hash: e57de92b3b19e3ef...
+
+[FRAMER] Constructed: CHUNK-786fe9e7b0a404f90714c5a216fcc83bb3fee9e7726299648e36b63402c22d91-000002.json
+
+└─ Content Hash: ebbf79d01964e987...
+
+[LINKER] Appended: CHUNK-786fe9e7b0a404f90714c5a216fcc83bb3fee9e7726299648e36b63402c22d91-000000
+
+└─ Hash: 9f949d3b7f594c71c6387e376d16cd3fec1b8d3229824c061f7ffbcc2f41e22c
+
+└─ T: 1773716642
+
+[LINKER] Appended: CHUNK-786fe9e7b0a404f90714c5a216fcc83bb3fee9e7726299648e36b63402c22d91-000001
+
+└─ Hash: c9f7689498da28424569f1f989eae546b0902c1bf82dd1a6d415ce9a9b1f81ce
+
+└─ T: 1773716643
+
+[LINKER] Appended: CHUNK-786fe9e7b0a404f90714c5a216fcc83bb3fee9e7726299648e36b63402c22d91-000002
+
+└─ Hash: e079fdfce290945e16784dd57634a33ce10bc3260df9c34d2b28a30254bec428
+
+└─ T: 1773716644
+
+[NORMALIZER] Source: Selbstbetrachtungen.md (Hash: 5ff7812a910abe77...)
+
+[NORMALIZER] Output: NORM-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e.txt (Hash: cfe622c9e12d7a59...)
+
+[SEGMENTER] Processed 80483 bytes into 20 blocks.
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000000.json
+
+└─ Content Hash: 28eed70161270256...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000001.json
+
+└─ Content Hash: c5cb65716a09bea4...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000002.json
+
+└─ Content Hash: af10319350686955...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000003.json
+
+└─ Content Hash: fd63d09d4c3a1eea...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000004.json
+
+└─ Content Hash: d27170bc39275704...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000005.json
+
+└─ Content Hash: c9274178009e5f48...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000006.json
+
+└─ Content Hash: 7854dcd3e1410926...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000007.json
+
+└─ Content Hash: 8689e70b4bc5aad3...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000008.json
+
+└─ Content Hash: 111ecb369cef3260...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000009.json
+
+└─ Content Hash: b885bda8a1056727...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000010.json
+
+└─ Content Hash: 5be8f1e1e5a2b4cf...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000011.json
+
+└─ Content Hash: b2a84fec470c8c1c...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000012.json
+
+└─ Content Hash: a0783025b7dcffea...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000013.json
+
+└─ Content Hash: 459e700fb1d426b1...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000014.json
+
+└─ Content Hash: e6703f2ec1831b2c...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000015.json
+
+└─ Content Hash: ccff826a2448a762...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000016.json
+
+└─ Content Hash: 0b8dbb60269da0da...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000017.json
+
+└─ Content Hash: 3880790c611d0706...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000018.json
+
+└─ Content Hash: c6a790e9fa2e0791...
+
+[FRAMER] Constructed: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000019.json
+
+└─ Content Hash: 649b3d76f7c91191...
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000000
+
+└─ Hash: 00b62bf10bd44ff360a5cfe33a4e5a9f8185c31bcefdd411df11ad9f2e6c7070
+
+└─ T: 1773716645
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000001
+
+└─ Hash: 44aabad922914c8c34ca86626fd907c1fb6a1299d020f1c9a4ebce7ccb06dc4a
+
+└─ T: 1773716646
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000002
+
+└─ Hash: 12afea70083d09023c1f92f5b7c2539e2e01bff1b6171ff69b88a7adcfa7f5d3
+
+└─ T: 1773716647
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000003
+
+└─ Hash: 509cadc3c0db1b8239bf3968393ca537f9fad0314620a5b05fd69732ad74242d
+
+└─ T: 1773716648
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000004
+
+└─ Hash: 470b30a1983118de378bed78098ec404b5a714edc0434b46a7c315bfbd6f812b
+
+└─ T: 1773716649
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000005
+
+└─ Hash: 5f6ec69e85bb48d11f9825ecd0ce67f8fe3ae1b01b31906440cd77287d60bc14
+
+└─ T: 1773716650
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000006
+
+└─ Hash: e10fa4c2664c3dd7394a1005143ad93a1006916cbaee93a857a18ea850744dd6
+
+└─ T: 1773716651
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000007
+
+└─ Hash: d37d79c97b49e62bad3ee28858c2f9d87cdb71a8a5ebeb9c1cb78312b9100416
+
+└─ T: 1773716652
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000008
+
+└─ Hash: c76e193e9e0ff06d5ee4646ee87d50af32c6b10d5a16a0b379d04c1d5724944e
+
+└─ T: 1773716653
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000009
+
+└─ Hash: fad8a1b9696bc157800dc8c9ffb2e393e8d621dd8b47172ac68ba6b9791f6ec7
+
+└─ T: 1773716654
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000010
+
+└─ Hash: 51387b612162e3e519a1c3efc1b3fee49ca274b78fd13fcf4ec9a99170c29fb6
+
+└─ T: 1773716655
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000011
+
+└─ Hash: 4f731e1c1cca6ba82300e362059d6d0ba4324a5f1c00e22c2db99db982fa5703
+
+└─ T: 1773716656
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000012
+
+└─ Hash: 133b93ef7ef62344472a959377086577e3e146450f3c424fd4e2f2dc39e52e7a
+
+└─ T: 1773716657
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000013
+
+└─ Hash: ce4bd5f177ba688a3ddb3e2165100dec4fee0ccced484cd7adc6209c77d0333b
+
+└─ T: 1773716658
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000014
+
+└─ Hash: ca9cd70331e36489635580124ba1fe27ec055f1a5f3a3bfd6545258572d5ba95
+
+└─ T: 1773716659
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000015
+
+└─ Hash: 381f23ffa0a2b7187c9087012e1c6a4594015e5a347ce0c513b0ee83f9186a55
+
+└─ T: 1773716660
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000016
+
+└─ Hash: 03de10aa8e095e53ea4ad9848f36da8c1ef1e5598ed3184872e6656f6d20c4f5
+
+└─ T: 1773716661
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000017
+
+└─ Hash: fd413c92dc4f65ee64aee2a28e02072cea77181c4ceda18826088de42080ab32
+
+└─ T: 1773716662
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000018
+
+└─ Hash: 12607a1b226f2caad696d82c47805cfc81b0d4bdfa80c187cca51d5e39e24a93
+
+└─ T: 1773716663
+
+[LINKER] Appended: CHUNK-5ff7812a910abe77deb78f87f81d4bb39ec50206d1695848c1719587f3331b7e-000019
+
+└─ Hash: 163d0fdd1e2337c26edf9d2b3141b3958379f635129ab4daaadb3f9bbd641c7f
+
+└─ T: 1773716664
+
+[NORMALIZER] Source: Platon.md (Hash: 51bf100a35faf7b7...)
+
+[NORMALIZER] Output: NORM-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4.txt (Hash: fb47d70b30fa53e6...)
+
+[SEGMENTER] Processed 194330 bytes into 48 blocks.
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000000.json
+
+└─ Content Hash: 76537b1f41ec68e9...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000001.json
+
+└─ Content Hash: aa4f2e6ba95b11aa...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000002.json
+
+└─ Content Hash: 6ded78c9b64f9c1c...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000003.json
+
+└─ Content Hash: 02046104fa03941e...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000004.json
+
+└─ Content Hash: 836eda5c85b69eca...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000005.json
+
+└─ Content Hash: e3c80fd0d7382b43...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000006.json
+
+└─ Content Hash: eb1575045622daeb...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000007.json
+
+└─ Content Hash: dda428a8d2f8762c...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000008.json
+
+└─ Content Hash: e7da84d298a1be28...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000009.json
+
+└─ Content Hash: 813946d4b39a7b8f...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000010.json
+
+└─ Content Hash: 6f3dc2fe30286c31...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000011.json
+
+└─ Content Hash: b205553257f21560...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000012.json
+
+└─ Content Hash: a0976cb25b9e76ea...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000013.json
+
+└─ Content Hash: 3130d8720126b487...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000014.json
+
+└─ Content Hash: e720604aa42cc1af...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000015.json
+
+└─ Content Hash: e395a30f4e07d3af...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000016.json
+
+└─ Content Hash: 4fdef588c7a105a7...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000017.json
+
+└─ Content Hash: dd6187e8a44253c7...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000018.json
+
+└─ Content Hash: d128404af9ce0628...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000019.json
+
+└─ Content Hash: 5c19be1d57093028...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000020.json
+
+└─ Content Hash: fce700e81311cd1c...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000021.json
+
+└─ Content Hash: 108406c717597344...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000022.json
+
+└─ Content Hash: ddff81fd8c5edd9f...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000023.json
+
+└─ Content Hash: d3eba264b300d66d...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000024.json
+
+└─ Content Hash: f3ae69a0dd2d85ec...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000025.json
+
+└─ Content Hash: a8bf5acfc158e390...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000026.json
+
+└─ Content Hash: a4e0fd2c5859a950...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000027.json
+
+└─ Content Hash: 0f68c195b2edbc89...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000028.json
+
+└─ Content Hash: 8b763182450fc07d...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000029.json
+
+└─ Content Hash: c87ae97221189580...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000030.json
+
+└─ Content Hash: 62483c66164bb7f6...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000031.json
+
+└─ Content Hash: 41e34e44c6d97dca...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000032.json
+
+└─ Content Hash: af4c508a35de8360...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000033.json
+
+└─ Content Hash: d45c0ab0ba2e7257...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000034.json
+
+└─ Content Hash: bf7658095a3e9689...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000035.json
+
+└─ Content Hash: 1f640338641cd8ed...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000036.json
+
+└─ Content Hash: 3a3cc393dd604ea1...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000037.json
+
+└─ Content Hash: d72c8f8e40c22d6d...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000038.json
+
+└─ Content Hash: e9bd095c834bf402...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000039.json
+
+└─ Content Hash: e647f0a44c6f2a83...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000040.json
+
+└─ Content Hash: e9e3b8e3643d1247...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000041.json
+
+└─ Content Hash: 278003fbaddb778f...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000042.json
+
+└─ Content Hash: 5166ba067a1c4162...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000043.json
+
+└─ Content Hash: 98675525c63b2f63...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000044.json
+
+└─ Content Hash: 93d86c08ba1eb947...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000045.json
+
+└─ Content Hash: fb984b5ca416f93a...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000046.json
+
+└─ Content Hash: 7b26a120384af11d...
+
+[FRAMER] Constructed: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000047.json
+
+└─ Content Hash: 088b23b2b3001117...
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000000
+
+└─ Hash: 902fee3d6876bdfff79bdfd1e983bc1ca6dc96dce797eab1df26d5567152c5b1
+
+└─ T: 1773716665
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000001
+
+└─ Hash: 07f473ae3f74122be4c1a2a54bb91dbb78556b2b7127ff7efbfe783f5fcdf84f
+
+└─ T: 1773716666
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000002
+
+└─ Hash: aebfd9e70651f58f9696b7ae94038b0e05d1584e0ea62746a6eff9996f612d73
+
+└─ T: 1773716667
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000003
+
+└─ Hash: a641a9a3006e3079731be70aec7dc3a455398b109e244744cf6a314a7e25b0b3
+
+└─ T: 1773716668
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000004
+
+└─ Hash: 85a741f0a0e61cff21f6694f530207b7b506fd8151bf19105c7c1e5d2bd3295f
+
+└─ T: 1773716669
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000005
+
+└─ Hash: e5ef28564d26af2da06b9a6f84dc5097ea1eec2bff90ceebd81da2d3ca09e0c4
+
+└─ T: 1773716670
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000006
+
+└─ Hash: d82c735ae41c50294755c716f89eaf93a596e1bf827a51f30933c9035fe9cb07
+
+└─ T: 1773716671
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000007
+
+└─ Hash: 48f30495722003668a9c3b32f20a57b581204b5fc2d4f14bf8dfff90e7c05220
+
+└─ T: 1773716672
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000008
+
+└─ Hash: ec1d3911c5fa1f8f58f77d93614fa0e87194cdca14b51b972eebdd239584fcca
+
+└─ T: 1773716673
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000009
+
+└─ Hash: 6b2c777605370b27ba721cc79a7b4fe3adeacb9d3b1d0bf9f248b139fafcd876
+
+└─ T: 1773716674
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000010
+
+└─ Hash: 76c7129bb91fee518c26944cb12ccafc452767ea9b9e9ab815b2d0da624f5c2c
+
+└─ T: 1773716675
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000011
+
+└─ Hash: 422c6ac7425ac4fa89efe7d1f2da5e721ffde1cddb8844a11c05180f6e6be9a1
+
+└─ T: 1773716676
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000012
+
+└─ Hash: 23ef76d1d19e8e4e854197dc8140ca05a205ef71450ba698b158ffe0f1f88d59
+
+└─ T: 1773716677
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000013
+
+└─ Hash: 49516b0aaddb3d1237af1ba937a77065df0785910a8c931420618c7223c2df67
+
+└─ T: 1773716678
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000014
+
+└─ Hash: a491edca480807beb1ba8f3b3b3f8bc698acf601a8920ebe24a233a123cdf867
+
+└─ T: 1773716679
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000015
+
+└─ Hash: ce7614967febcb4c8e1dc5a94b3598b8af5b00256212b328bdf1630d67ba04eb
+
+└─ T: 1773716680
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000016
+
+└─ Hash: 9d337910f0b1a8ad30dc1fc5caf5e0143f7fc5d0e3d589382186f0ba2f984e4f
+
+└─ T: 1773716681
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000017
+
+└─ Hash: 04ba1796bf33ef16562cc76018c2c8e10c44b0f9e830a496d66a0ad54ec8af1b
+
+└─ T: 1773716682
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000018
+
+└─ Hash: 91090920c85efdc25d9ed33034b07ea220739ccd681dea68d7e571616e9f51ea
+
+└─ T: 1773716683
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000019
+
+└─ Hash: f57bb9d4d00b7cf91e2ab9e16c7cf389d87a343b7a2bf3b204a94bc2ca502d6d
+
+└─ T: 1773716684
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000020
+
+└─ Hash: ba33f6bf9f81885c597fecb618593c9dd911e713845a0c7a5b47ed510c42c9bc
+
+└─ T: 1773716685
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000021
+
+└─ Hash: f201829cd298c385c8c0093d54bda0d5b9ee30c8b1f17245b835f10049649012
+
+└─ T: 1773716686
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000022
+
+└─ Hash: 0a4c4b432f385b146d1b34149ba07364b075855756f3a6884ed6c4813f636a08
+
+└─ T: 1773716687
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000023
+
+└─ Hash: c3eff2a04c14eb79276152ac2ece4c2f736fa810d1f0e7c9ab8fb1a711b4170b
+
+└─ T: 1773716688
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000024
+
+└─ Hash: bbb36a6398aedbb0f073e1ec3b33e16293ba8bea57ab316646e1e4cf572f04db
+
+└─ T: 1773716689
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000025
+
+└─ Hash: 6c1a73484f81bacde63741c08c616e79b5d4ba84896d12a8f2903e421bb1b8c9
+
+└─ T: 1773716690
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000026
+
+└─ Hash: f1793e60403655a29152998da2b6e13dc01420e69ddf58326c55b254fe932aa9
+
+└─ T: 1773716691
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000027
+
+└─ Hash: 0af84feaf11c765f0c742578f7bf166a7b13e35ec32aa0afd724670d2c47f11d
+
+└─ T: 1773716692
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000028
+
+└─ Hash: 8f1d4f8ca83878095a2764223b70a90a234e77c7129cdcda0ba1000282724864
+
+└─ T: 1773716693
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000029
+
+└─ Hash: 9fbd985a06ac7cfc20d163c89938bf90b572a16e48af71ecabba75013d14c7c7
+
+└─ T: 1773716694
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000030
+
+└─ Hash: 2fc987b4cb3a1f501c09224c3d9e90802fb1782a8d6d80a9178d57716b8d7f1e
+
+└─ T: 1773716695
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000031
+
+└─ Hash: ae54c8e09a4759e06a2523d1990bf82f76e538458e1471582bbc3de152f567fd
+
+└─ T: 1773716696
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000032
+
+└─ Hash: a91ebbd25716d3abd339ee15df16fd787a36f5ddd52dd8cca5d005d56b90a510
+
+└─ T: 1773716697
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000033
+
+└─ Hash: b21dfc6e8bf439af016973a912a85f120b4980361c484484e162b98d3f0a68c3
+
+└─ T: 1773716698
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000034
+
+└─ Hash: 8338589eabc1dec5777abf74014af3c992678a5286cf7fb9e7bcded0a55a4ac3
+
+└─ T: 1773716699
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000035
+
+└─ Hash: b1e2b704cb32cffa2e3de31c351f603e8924229d2bdaee568bd83a269889bd54
+
+└─ T: 1773716700
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000036
+
+└─ Hash: 187acc8bf3821c96ee709cfd64d82aca06f11f776f20a0323ed6f2b0e874521a
+
+└─ T: 1773716701
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000037
+
+└─ Hash: 293f32a2a4471b8fe1e320e025075335b5f916ed0c9a40fe228bd113d70a3856
+
+└─ T: 1773716702
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000038
+
+└─ Hash: 3b18882dd5bd00d0ea73f6c0e58441901faed12d143b2035d010ef8a505fc916
+
+└─ T: 1773716703
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000039
+
+└─ Hash: 79212ed32acd0af2c61f9f08518e50283b034564bf1044a293c9f23bfd9d9eab
+
+└─ T: 1773716704
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000040
+
+└─ Hash: 6f0b191cb1c98048aecd3ffe1d8c95889233242812a87bc0579184e14bca73a4
+
+└─ T: 1773716705
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000041
+
+└─ Hash: 9e34e6151c76ea28fd2161b0ac7d357c4d0bd3bf7dabec6c2653cc168b5ddbdb
+
+└─ T: 1773716706
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000042
+
+└─ Hash: e1dac47ee61ee19d8b8c20758452ce01fdb224328a07d0f063529785f6fdce9f
+
+└─ T: 1773716707
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000043
+
+└─ Hash: deca18bcdb7b9a15154fff9c281ecad25a5a56896e8a8b0797929ce68eb00bb0
+
+└─ T: 1773716708
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000044
+
+└─ Hash: e89960bc2d4ecf795a34a9a3cb7a90304849b98a551327f2a8d7994dab33b60a
+
+└─ T: 1773716709
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000045
+
+└─ Hash: f925fa56e12b4be14635b3cbe63f8be415eac52cd903e644620e9e62e667a020
+
+└─ T: 1773716710
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000046
+
+└─ Hash: d86f1da339d33bcb8233630f97ff3c3e81c0c669d83347cb0a8afd3747fb6464
+
+└─ T: 1773716711
+
+[LINKER] Appended: CHUNK-51bf100a35faf7b737b71e213bb4bc640ca458656a1e5f211fdaef3f32c7bee4-000047
+
+└─ Hash: 32a62c06b8481318eaf49e987a8dc7ea598721295f4cb540267444b54baf3499
+
+└─ T: 1773716712
+
+[NORMALIZER] Source: Quantenobjekt.md (Hash: 0d4e61bac28d13ee...)
+
+[NORMALIZER] Output: NORM-0d4e61bac28d13eeb07942659d9c5a4b7aa3f466d3e3798fb119c419204ad1c7.txt (Hash: e381df7b723cb29e...)
+
+[SEGMENTER] Processed 5128 bytes into 2 blocks.
+
+[FRAMER] Constructed: CHUNK-0d4e61bac28d13eeb07942659d9c5a4b7aa3f466d3e3798fb119c419204ad1c7-000000.json
+
+└─ Content Hash: 6b40bbaafb661591...
+
+[FRAMER] Constructed: CHUNK-0d4e61bac28d13eeb07942659d9c5a4b7aa3f466d3e3798fb119c419204ad1c7-000001.json
+
+└─ Content Hash: 0048b9ac685f57d0...
+
+[LINKER] Appended: CHUNK-0d4e61bac28d13eeb07942659d9c5a4b7aa3f466d3e3798fb119c419204ad1c7-000000
+
+└─ Hash: 6325cb722bb330e857ca73ac0b611a8ab5d47f4e509381fde7b5e7504eaff1dc
+
+└─ T: 1773716713
+
+[LINKER] Appended: CHUNK-0d4e61bac28d13eeb07942659d9c5a4b7aa3f466d3e3798fb119c419204ad1c7-000001
+
+└─ Hash: 4727b16ee726310f61e86e5794a4be281e2eda6aab3ff1eccc1ec86c5ee6d56d
+
+└─ T: 1773716714
+
+—--
+
+|Unix Epoch|1773697568|
+|---|---|
+|Time (UTC)|Mon Mar 16 21:46:08 2026 UTC|
+|---|---|
+|Time (Europe/Berlin)|Mon Mar 16 22:46:08 2026 CET|
+|---|---|
+
+└─ Content Hash: 526a3939765f94ed...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000622.json
+
+└─ Content Hash: 43e35e6404869898...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000623.json
+
+└─ Content Hash: f1ba80d5aec8c681...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000624.json
+
+└─ Content Hash: b7b3ba02758b904e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000625.json
+
+└─ Content Hash: 978a424566ccdb01...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000626.json
+
+└─ Content Hash: 26baecc03c2f27fc...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000627.json
+
+└─ Content Hash: 0bd765e4f839dd7f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000628.json
+
+└─ Content Hash: bf5a327f7bb755e1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000629.json
+
+└─ Content Hash: 6657645f7dec5529...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000630.json
+
+└─ Content Hash: 95933deaa00ac29e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000631.json
+
+└─ Content Hash: 90886534456c930d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000632.json
+
+└─ Content Hash: 3480b91de7169533...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000633.json
+
+└─ Content Hash: 4e42a2f930b98fab...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000634.json
+
+└─ Content Hash: 6ab8328dcc285593...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000635.json
+
+└─ Content Hash: f11be92f4a767687...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000636.json
+
+└─ Content Hash: 6fb69dfd978c9470...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000637.json
+
+└─ Content Hash: 2a2201a9e12cca4e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000638.json
+
+└─ Content Hash: 6f3a85b29755bf2d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000639.json
+
+└─ Content Hash: 61227a05a2e9ab43...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000640.json
+
+└─ Content Hash: 667963f8f74e8a9f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000641.json
+
+└─ Content Hash: 669418e86ac047f1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000642.json
+
+└─ Content Hash: 9588f53c1220c7ed...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000643.json
+
+└─ Content Hash: e736a6bf2ace7877...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000644.json
+
+└─ Content Hash: aa5df9f271d04770...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000645.json
+
+└─ Content Hash: 26654edcd10d2d43...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000646.json
+
+└─ Content Hash: 1d860161ede7d6f1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000647.json
+
+└─ Content Hash: 8e6bb83cb00f42b4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000648.json
+
+└─ Content Hash: efb75400e81f60d2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000649.json
+
+└─ Content Hash: ffa5cfc8c41b60c2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000650.json
+
+└─ Content Hash: f8845bab27d1e15b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000651.json
+
+└─ Content Hash: abaa5fb5509f6804...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000652.json
+
+└─ Content Hash: a3832b0348a3924c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000653.json
+
+└─ Content Hash: 67540230a7fc7602...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000654.json
+
+└─ Content Hash: 936984dba806d20b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000655.json
+
+└─ Content Hash: 2ec4cbfa297f2a56...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000656.json
+
+└─ Content Hash: 5cd2c1a3b6f4285a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000657.json
+
+└─ Content Hash: 6d654089eb555c86...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000658.json
+
+└─ Content Hash: 88be97c9701e561e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000659.json
+
+└─ Content Hash: 37191c21bcddf1cb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000660.json
+
+└─ Content Hash: 0efde52346f372cb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000661.json
+
+└─ Content Hash: 7f0c869e0f215d6b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000662.json
+
+└─ Content Hash: c4f06e1d670e2454...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000663.json
+
+└─ Content Hash: 10a27625bd8f895c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000664.json
+
+└─ Content Hash: 36f5ec560506619f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000665.json
+
+└─ Content Hash: df5a2138f07e7f17...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000666.json
+
+└─ Content Hash: 57188c3538bb9a1e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000667.json
+
+└─ Content Hash: 3168830879758f80...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000668.json
+
+└─ Content Hash: 7b5984c386d5bb46...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000669.json
+
+└─ Content Hash: 6409ba95600056d1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000670.json
+
+└─ Content Hash: 4013704b81ad6313...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000671.json
+
+└─ Content Hash: 1a46e0b03e157e51...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000672.json
+
+└─ Content Hash: 24b65510cc407c23...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000673.json
+
+└─ Content Hash: ab590ba07b3fd79e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000674.json
+
+└─ Content Hash: 45b0004d4492cda7...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000675.json
+
+└─ Content Hash: fa40fe347fcd7028...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000676.json
+
+└─ Content Hash: fe00aff6cd5305f4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000677.json
+
+└─ Content Hash: 2cc56e93a160b8ab...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000678.json
+
+└─ Content Hash: 9fef344ce6de23b0...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000679.json
+
+└─ Content Hash: f509cdc2362e73f3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000680.json
+
+└─ Content Hash: 35d06b87814b2c6a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000681.json
+
+└─ Content Hash: 3a4c8a500f1f7f61...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000682.json
+
+└─ Content Hash: 75e071d65f2d830c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000683.json
+
+└─ Content Hash: 785010090f6f2e98...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000684.json
+
+└─ Content Hash: cc5b233626022815...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000685.json
+
+└─ Content Hash: 8e1291730ffefc9a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000686.json
+
+└─ Content Hash: cff738b14e59819e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000687.json
+
+└─ Content Hash: 1090f37f43fd3729...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000688.json
+
+└─ Content Hash: 030dc79b923d7290...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000689.json
+
+└─ Content Hash: a0e15b9170b91b97...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000690.json
+
+└─ Content Hash: dc8d3a0fd59cb89a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000691.json
+
+└─ Content Hash: a5c7463b6f4fb9e3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000692.json
+
+└─ Content Hash: 5411993ed7dfdfc6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000693.json
+
+└─ Content Hash: 22068d791e081e0e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000694.json
+
+└─ Content Hash: 0e8d6a33ebc4dac1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000695.json
+
+└─ Content Hash: b80206d358f2ab53...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000696.json
+
+└─ Content Hash: b0def9d9296552d3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000697.json
+
+└─ Content Hash: fb69957743c9ac82...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000698.json
+
+└─ Content Hash: 84d8784cb63db2e1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000699.json
+
+└─ Content Hash: 747526333d4358a2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000700.json
+
+└─ Content Hash: e023fb4e001ef8c6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000701.json
+
+└─ Content Hash: 8659be158390aa77...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000702.json
+
+└─ Content Hash: 3b59d35f018f18de...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000703.json
+
+└─ Content Hash: fe75976b851cab2e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000704.json
+
+└─ Content Hash: 12f469d5b80ddee7...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000705.json
+
+└─ Content Hash: 84ee37bc103edc3a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000706.json
+
+└─ Content Hash: f73d07aa0720e9a8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000707.json
+
+└─ Content Hash: 2a555a329e69dd91...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000708.json
+
+└─ Content Hash: 6b1e700725fe9183...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000709.json
+
+└─ Content Hash: 9d2c11f5f87617a5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000710.json
+
+└─ Content Hash: 3dda65703efd96ff...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000711.json
+
+└─ Content Hash: 66d6afc37017badf...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000712.json
+
+└─ Content Hash: de4a5238b9a3eba1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000713.json
+
+└─ Content Hash: 9d222305f4ece15d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000714.json
+
+└─ Content Hash: ece0faf8b2fe46a2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000715.json
+
+└─ Content Hash: 972a07cf76d085b0...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000716.json
+
+└─ Content Hash: e10d92206a7c4874...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000717.json
+
+└─ Content Hash: a83f9385b83af2a7...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000718.json
+
+└─ Content Hash: 3b0b0c7568a46379...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000719.json
+
+└─ Content Hash: 5f694788c4358417...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000720.json
+
+└─ Content Hash: d731133d5bb2aabb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000721.json
+
+└─ Content Hash: 43ac7304dedda9b2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000722.json
+
+└─ Content Hash: 34235ad71c5ea4df...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000723.json
+
+└─ Content Hash: a721ec201575022e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000724.json
+
+└─ Content Hash: 11ed4e342b96a64c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000725.json
+
+└─ Content Hash: 01effcc17a863473...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000726.json
+
+└─ Content Hash: bf07de08a67f5afc...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000727.json
+
+└─ Content Hash: 7ce7634a3c7a486f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000728.json
+
+└─ Content Hash: b009fd13cfdd3232...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000729.json
+
+└─ Content Hash: 61b1c9c4fae7d604...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000730.json
+
+└─ Content Hash: 4aab0a6f100332a8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000731.json
+
+└─ Content Hash: 081502e096a5210b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000732.json
+
+└─ Content Hash: 6a0672203bfd94fc...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000733.json
+
+└─ Content Hash: e6860690cc0fb67c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000734.json
+
+└─ Content Hash: 7aba692cdaaa27af...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000735.json
+
+└─ Content Hash: 1a97fd79d599acf6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000736.json
+
+└─ Content Hash: 01040d7d8c21f2b8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000737.json
+
+└─ Content Hash: 4ba99115c190f211...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000738.json
+
+└─ Content Hash: 1ce1b4b112f12002...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000739.json
+
+└─ Content Hash: 3f4871259fce0b54...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000740.json
+
+└─ Content Hash: 6f8d8c00e2dcf3ff...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000741.json
+
+└─ Content Hash: 9b8d1c3b0285de6f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000742.json
+
+└─ Content Hash: 28f4e0b58c55a1d4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000743.json
+
+└─ Content Hash: 235de2bda094e59d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000744.json
+
+└─ Content Hash: 9e3087295760dcfa...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000745.json
+
+└─ Content Hash: 89e201583c6fda4b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000746.json
+
+└─ Content Hash: 6c01d3651d592e7c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000747.json
+
+└─ Content Hash: ced136621e8723b8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000748.json
+
+└─ Content Hash: beccb069fb5b7f0c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000749.json
+
+└─ Content Hash: aa81545ed8fb9ada...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000750.json
+
+└─ Content Hash: 3175e6ad9b41f164...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000751.json
+
+└─ Content Hash: b3c89d4bcb889542...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000752.json
+
+└─ Content Hash: 72c6ad214c65c940...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000753.json
+
+└─ Content Hash: 6c2fa8d30c24c3d1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000754.json
+
+└─ Content Hash: 743d6b34b079af10...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000755.json
+
+└─ Content Hash: 666280ade87fdd9f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000756.json
+
+└─ Content Hash: 03a20790708aef5c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000757.json
+
+└─ Content Hash: 7f6f6ee75b13e072...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000758.json
+
+└─ Content Hash: ab9f1004643dfc47...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000759.json
+
+└─ Content Hash: d6d77d7d362ec5ae...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000760.json
+
+└─ Content Hash: 5da51e629c14c77f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000761.json
+
+└─ Content Hash: 562e86b56cc16b64...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000762.json
+
+└─ Content Hash: 20af0325c5f6655e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000763.json
+
+└─ Content Hash: 3e91b98d1273579f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000764.json
+
+└─ Content Hash: ed832353ae14a8e2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000765.json
+
+└─ Content Hash: e47e884c9b413020...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000766.json
+
+└─ Content Hash: 90c91214760bc5cd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000767.json
+
+└─ Content Hash: e7427f3b4d7a1295...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000768.json
+
+└─ Content Hash: 5eda9ff8ab62110f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000769.json
+
+└─ Content Hash: 2e95124a4d995793...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000770.json
+
+└─ Content Hash: 73d3c80909483feb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000771.json
+
+└─ Content Hash: 8be233eccc45e48c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000772.json
+
+└─ Content Hash: a0bed37d0d00f884...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000773.json
+
+└─ Content Hash: 7fb9d684275b7086...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000774.json
+
+└─ Content Hash: 0208fbcb81c910c9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000775.json
+
+└─ Content Hash: 43c178f4c461690b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000776.json
+
+└─ Content Hash: 4ae34a0f2c470784...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000777.json
+
+└─ Content Hash: 3409b721d56cb963...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000778.json
+
+└─ Content Hash: fba4a477aba88a68...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000779.json
+
+└─ Content Hash: a44d08d58d804ff8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000780.json
+
+└─ Content Hash: 1af317f3a33b0175...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000781.json
+
+└─ Content Hash: 177f2e77acc5ab58...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000782.json
+
+└─ Content Hash: 557e49ab64067d14...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000783.json
+
+└─ Content Hash: 5143ca6cd5eeb6a4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000784.json
+
+└─ Content Hash: 6263b3e02c76e8a3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000785.json
+
+└─ Content Hash: 714ae8944483f341...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000786.json
+
+└─ Content Hash: c8d17e4eec36178d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000787.json
+
+└─ Content Hash: 3fc169f462b7ef5c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000788.json
+
+└─ Content Hash: 1352dfd4a63b92e9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000789.json
+
+└─ Content Hash: 183515ff7c2987b1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000790.json
+
+└─ Content Hash: 726307027459bd62...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000791.json
+
+└─ Content Hash: 4dfe4f6aedc15027...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000792.json
+
+└─ Content Hash: 7d2ad6c2d2505797...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000793.json
+
+└─ Content Hash: 8aa69c2c798d2564...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000794.json
+
+└─ Content Hash: efee156465fe737d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000795.json
+
+└─ Content Hash: 8ab28b10d9fdac8b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000796.json
+
+└─ Content Hash: 235bb6e3a6f9cbe6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000797.json
+
+└─ Content Hash: 3e643916e2328962...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000798.json
+
+└─ Content Hash: aea5b96d7489ffeb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000799.json
+
+└─ Content Hash: f1fdf6f4d049ea6a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000800.json
+
+└─ Content Hash: 9236836f457878b0...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000801.json
+
+└─ Content Hash: 0ec154970c34d745...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000802.json
+
+└─ Content Hash: 24db689bfd020700...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000803.json
+
+└─ Content Hash: 969b31a80c9e4d3e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000804.json
+
+└─ Content Hash: e1e6ab001bcbf4d9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000805.json
+
+└─ Content Hash: a7b3168a9559c6ad...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000806.json
+
+└─ Content Hash: ef0ea388774aa346...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000807.json
+
+└─ Content Hash: 8e2101cdd6896105...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000808.json
+
+└─ Content Hash: 4b2f10dff051df02...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000809.json
+
+└─ Content Hash: b7316430cdc99f22...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000810.json
+
+└─ Content Hash: d79e6c62af2b102e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000811.json
+
+└─ Content Hash: c03691bfe1b529a6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000812.json
+
+└─ Content Hash: e9cd4acdb7b350bb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000813.json
+
+└─ Content Hash: 6449ad8e6d788019...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000814.json
+
+└─ Content Hash: 5f32532a58b413a9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000815.json
+
+└─ Content Hash: 59e23d2dbd215279...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000816.json
+
+└─ Content Hash: 9f550c3ceff99c0e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000817.json
+
+└─ Content Hash: d212da20d4c71997...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000818.json
+
+└─ Content Hash: b7c467152a57a5c9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000819.json
+
+└─ Content Hash: 9fde06fec0e221cf...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000820.json
+
+└─ Content Hash: ff38c131c6721883...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000821.json
+
+└─ Content Hash: 8fd8135dbb4e8dce...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000822.json
+
+└─ Content Hash: 4fcd887fa7b94def...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000823.json
+
+└─ Content Hash: 9924ec7cfc6bee57...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000824.json
+
+└─ Content Hash: 35c2e322723059eb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000825.json
+
+└─ Content Hash: f14a6f64e632b1f8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000826.json
+
+└─ Content Hash: dd49054967b31cbd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000827.json
+
+└─ Content Hash: c3374249e5f5ed95...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000828.json
+
+└─ Content Hash: cd8b51c966177a41...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000829.json
+
+└─ Content Hash: 479275931ddf1c9c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000830.json
+
+└─ Content Hash: 0b87ceec3e954877...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000831.json
+
+└─ Content Hash: 97cc875d6fccf7eb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000832.json
+
+└─ Content Hash: 64984aca759c83b7...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000833.json
+
+└─ Content Hash: 219e5736697c3bda...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000834.json
+
+└─ Content Hash: 0731c2994f6f2409...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000835.json
+
+└─ Content Hash: 2f1b5bb1ebcc7ab5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000836.json
+
+└─ Content Hash: e01823b2692f5d78...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000837.json
+
+└─ Content Hash: 33292d316d01c5c2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000838.json
+
+└─ Content Hash: 5aad29ad698ad8d9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000839.json
+
+└─ Content Hash: b921ed335b36181a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000840.json
+
+└─ Content Hash: c4ea9dd7130de039...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000841.json
+
+└─ Content Hash: bd39d88442b65482...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000842.json
+
+└─ Content Hash: e82808ac09f2316c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000843.json
+
+└─ Content Hash: 8b1c0f3f5eae1dcf...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000844.json
+
+└─ Content Hash: 189fc2c49db73def...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000845.json
+
+└─ Content Hash: 095286103a9f97dd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000846.json
+
+└─ Content Hash: 3fb69fca8fa807fc...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000847.json
+
+└─ Content Hash: 1d5162e0aa95fb79...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000848.json
+
+└─ Content Hash: f8f81ac2c0ee588d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000849.json
+
+└─ Content Hash: 157b217bdb3ffa28...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000850.json
+
+└─ Content Hash: f72a36a58ed0238f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000851.json
+
+└─ Content Hash: c3cc46759e4717ac...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000852.json
+
+└─ Content Hash: d0f7b3230c48ec74...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000853.json
+
+└─ Content Hash: ed9f938ec5cb0cda...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000854.json
+
+└─ Content Hash: 179889042736b19e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000855.json
+
+└─ Content Hash: 4ad7b9e20257aa97...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000856.json
+
+└─ Content Hash: 0113d00dd36db4de...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000857.json
+
+└─ Content Hash: 333e47841d7a7e09...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000858.json
+
+└─ Content Hash: 371c795168cb1f22...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000859.json
+
+└─ Content Hash: e1da2e9d70504e3e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000860.json
+
+└─ Content Hash: 6cf4e7d49c28b69b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000861.json
+
+└─ Content Hash: 5d91a10a7744b5a9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000862.json
+
+└─ Content Hash: 9b8a65123277dddf...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000863.json
+
+└─ Content Hash: 24926fd39c91bfb6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000864.json
+
+└─ Content Hash: 9809abc556339a08...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000865.json
+
+└─ Content Hash: fee07e1ae6aaaeab...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000866.json
+
+└─ Content Hash: 5f2bc2db8e5be500...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000867.json
+
+└─ Content Hash: e13ad271e94aaf21...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000868.json
+
+└─ Content Hash: 0641003913a88fea...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000869.json
+
+└─ Content Hash: f695ee892251db5d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000870.json
+
+└─ Content Hash: 1477438b525409ef...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000871.json
+
+└─ Content Hash: e90a78ecfbe39679...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000872.json
+
+└─ Content Hash: fc662d6bd38702bb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000873.json
+
+└─ Content Hash: 7d90094baeb97735...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000874.json
+
+└─ Content Hash: de9e9d3934dd3b5e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000875.json
+
+└─ Content Hash: b5675d98f6a35dcd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000876.json
+
+└─ Content Hash: 20b0eb0d8e290f40...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000877.json
+
+└─ Content Hash: 67bc4811e6a1b83c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000878.json
+
+└─ Content Hash: f67bef5c8567aa53...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000879.json
+
+└─ Content Hash: 012b27c0af4327f6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000880.json
+
+└─ Content Hash: c3c1ecef5c24a235...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000881.json
+
+└─ Content Hash: 9911e9f6d0d91985...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000882.json
+
+└─ Content Hash: 0a2601dde74a183d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000883.json
+
+└─ Content Hash: 18845e60c056e8c9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000884.json
+
+└─ Content Hash: 96d35d53145e6178...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000885.json
+
+└─ Content Hash: fa70ee91768445b5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000886.json
+
+└─ Content Hash: fb2f4eef94e53c32...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000887.json
+
+└─ Content Hash: 96f34649ac60b374...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000888.json
+
+└─ Content Hash: ef2d2e85ead0372f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000889.json
+
+└─ Content Hash: 06f2225111bd395a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000890.json
+
+└─ Content Hash: 488fd83cf1cedccb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000891.json
+
+└─ Content Hash: f2440fcbdc6d8118...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000892.json
+
+└─ Content Hash: f13e53ac864cd2ff...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000893.json
+
+└─ Content Hash: 027324c786ac554f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000894.json
+
+└─ Content Hash: 32a47354c4e99c3e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000895.json
+
+└─ Content Hash: 97bb1ab0b1568e5a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000896.json
+
+└─ Content Hash: 18983b9e68020221...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000897.json
+
+└─ Content Hash: 01fc3e3aeb6b55f1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000898.json
+
+└─ Content Hash: bdee77fd9ddded32...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000899.json
+
+└─ Content Hash: ea5e13876d4c64dd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000900.json
+
+└─ Content Hash: 74fadb142fa96c58...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000901.json
+
+└─ Content Hash: bdc540836f9c8f71...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000902.json
+
+└─ Content Hash: abb67de9f52c14f4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000903.json
+
+└─ Content Hash: 73519064d2a5e569...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000904.json
+
+└─ Content Hash: dd50a5dd0d6682c5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000905.json
+
+└─ Content Hash: 7ccec4e3359f8d4e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000906.json
+
+└─ Content Hash: 75b5d654a45040da...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000907.json
+
+└─ Content Hash: 4b1c3043d2c73630...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000908.json
+
+└─ Content Hash: 1461e924a0674930...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000909.json
+
+└─ Content Hash: b835ae195e0dfa04...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000910.json
+
+└─ Content Hash: 184a5ddb44980e9e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000911.json
+
+└─ Content Hash: 933dba333fdb5867...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000912.json
+
+└─ Content Hash: bd3acf5adce5b1dd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000913.json
+
+└─ Content Hash: 4bfb9765c8e4872e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000914.json
+
+└─ Content Hash: cffced2e588be7c3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000915.json
+
+└─ Content Hash: e8dabf925da0f285...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000916.json
+
+└─ Content Hash: ed8a158cff8991ec...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000917.json
+
+└─ Content Hash: 652e1b61ae96b39e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000918.json
+
+└─ Content Hash: 001f3bd25da4a8e6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000919.json
+
+└─ Content Hash: 5b31bfff770e8e7c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000920.json
+
+└─ Content Hash: db1a5d19c1890556...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000921.json
+
+└─ Content Hash: 155d0c208f7480db...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000922.json
+
+└─ Content Hash: bc98b22b0e074ea7...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000923.json
+
+└─ Content Hash: afdcd6079ab354d4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000924.json
+
+└─ Content Hash: 9fb92907e3b8f7d8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000925.json
+
+└─ Content Hash: 776cfd1b2b96431a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000926.json
+
+└─ Content Hash: 11ea4c8199737147...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000927.json
+
+└─ Content Hash: 78b4557019423698...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000928.json
+
+└─ Content Hash: 6c5d6b3c8519abf4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000929.json
+
+└─ Content Hash: 5535243ce5d09c60...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000930.json
+
+└─ Content Hash: 86a0e056012e21c3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000931.json
+
+└─ Content Hash: 789c4dd928b54c90...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000932.json
+
+└─ Content Hash: 877de4b7e4336cf9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000933.json
+
+└─ Content Hash: c42dcdf931ea39ad...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000934.json
+
+└─ Content Hash: 58f1dcada09763d3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000935.json
+
+└─ Content Hash: 78740a129ac873a5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000936.json
+
+└─ Content Hash: 818f1f7fa190b36b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000937.json
+
+└─ Content Hash: b20eac40b2e8dafd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000938.json
+
+└─ Content Hash: e7a9a0ced1bde785...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000939.json
+
+└─ Content Hash: 432d82f88237dd32...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000940.json
+
+└─ Content Hash: 96a7f6a98da235cb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000941.json
+
+└─ Content Hash: 18b6557404976231...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000942.json
+
+└─ Content Hash: 9bd8dffbfabab776...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000943.json
+
+└─ Content Hash: d126e922cd6cbca0...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000944.json
+
+└─ Content Hash: 7f49f21f3ebb3e0d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000945.json
+
+└─ Content Hash: ecc8f28eb9dae7e3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000946.json
+
+└─ Content Hash: ded9021ac2272127...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000947.json
+
+└─ Content Hash: 2f8dadea6a82867c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000948.json
+
+└─ Content Hash: da2f92af167e6e05...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000949.json
+
+└─ Content Hash: 363a59a074bd85d9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000950.json
+
+└─ Content Hash: c7e2b15dcbe94b67...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000951.json
+
+└─ Content Hash: 45abb96914552f06...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000952.json
+
+└─ Content Hash: f8ef77d447b355ff...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000953.json
+
+└─ Content Hash: 4a6b8df60ebefcc5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000954.json
+
+└─ Content Hash: d1938f1a3af40304...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000955.json
+
+└─ Content Hash: e941f39a9ca77eac...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000956.json
+
+└─ Content Hash: a4a9fe13f8524b03...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000957.json
+
+└─ Content Hash: 130aa8807e9d0d72...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000958.json
+
+└─ Content Hash: d4b49dbfc8096b50...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000959.json
+
+└─ Content Hash: 066247924b4e104d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000960.json
+
+└─ Content Hash: 5178e9bc7efb1ec8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000961.json
+
+└─ Content Hash: fa0546acfa56548f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000962.json
+
+└─ Content Hash: ccfc262777332a3f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000963.json
+
+└─ Content Hash: ba9f9791f32421eb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000964.json
+
+└─ Content Hash: 2067683b02065d41...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000965.json
+
+└─ Content Hash: cafc4add7b6e265f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000966.json
+
+└─ Content Hash: 2d2d2332aabc02ea...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000967.json
+
+└─ Content Hash: 6ec8e4aaa725c597...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000968.json
+
+└─ Content Hash: 83982b0fc29d0534...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000969.json
+
+└─ Content Hash: 84d65a65c29c05fe...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000970.json
+
+└─ Content Hash: 6522f8a16ed2749d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000971.json
+
+└─ Content Hash: 4bb4289879519935...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000972.json
+
+└─ Content Hash: a8b8e22b5e112094...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000973.json
+
+└─ Content Hash: 846e0783b7a94100...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000974.json
+
+└─ Content Hash: 3fbfe36f412ac3a3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000975.json
+
+└─ Content Hash: 59c82ce3d65b05ff...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000976.json
+
+└─ Content Hash: f2f9276fa6c4f35a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000977.json
+
+└─ Content Hash: dfa1d7c3f9b0a966...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000978.json
+
+└─ Content Hash: 64639cec6e19d499...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000979.json
+
+└─ Content Hash: fae4b6c1e769bcea...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000980.json
+
+└─ Content Hash: 4e38b3ddd4f59b2d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000981.json
+
+└─ Content Hash: fabac3deebec4ff3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000982.json
+
+└─ Content Hash: 5cc953cc0ab13969...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000983.json
+
+└─ Content Hash: a57aadf312dd2ffb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000984.json
+
+└─ Content Hash: 44bf83dc9e23f6cb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000985.json
+
+└─ Content Hash: 07dac6b80383acab...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000986.json
+
+└─ Content Hash: 485209685863486f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000987.json
+
+└─ Content Hash: 98faaf8658624b30...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000988.json
+
+└─ Content Hash: e0e68b951dd8a86c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000989.json
+
+└─ Content Hash: 1513ff03b1340add...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000990.json
+
+└─ Content Hash: aebb12abc8769b1d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000991.json
+
+└─ Content Hash: 58957fdbea456328...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000992.json
+
+└─ Content Hash: 5970b91b893866c8...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000993.json
+
+└─ Content Hash: ca086b6eade50513...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000994.json
+
+└─ Content Hash: 8332730e41a6dccd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000995.json
+
+└─ Content Hash: b61f71337e56fff4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000996.json
+
+└─ Content Hash: b93627cd1e813558...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000997.json
+
+└─ Content Hash: cfa5c9da3d74b09f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000998.json
+
+└─ Content Hash: d5c6e77e207ef0eb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-000999.json
+
+└─ Content Hash: 6c1114e698af83b6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001000.json
+
+└─ Content Hash: 9f4d78bee49c8808...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001001.json
+
+└─ Content Hash: 66b41dd60b76909a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001002.json
+
+└─ Content Hash: 472b6d742e3b4c09...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001003.json
+
+└─ Content Hash: 4badf8c66912ecd3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001004.json
+
+└─ Content Hash: db84276b29492d9c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001005.json
+
+└─ Content Hash: fbd8b8939b11e192...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001006.json
+
+└─ Content Hash: 3ba3d5f387beddcf...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001007.json
+
+└─ Content Hash: e6d4e2c4de10e7ca...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001008.json
+
+└─ Content Hash: 234495c09306d0e0...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001009.json
+
+└─ Content Hash: 1107c613990bde42...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001010.json
+
+└─ Content Hash: b5a5e64e49fe6f8e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001011.json
+
+└─ Content Hash: af908715b3199bcd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001012.json
+
+└─ Content Hash: ed8ea57f9e6dcd93...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001013.json
+
+└─ Content Hash: ceea5c8a990a1aaf...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001014.json
+
+└─ Content Hash: 8af116b90709f263...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001015.json
+
+└─ Content Hash: a9b6776dfae8393d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001016.json
+
+└─ Content Hash: d714794479e623f3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001017.json
+
+└─ Content Hash: 53c2d9000d5a3691...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001018.json
+
+└─ Content Hash: 6995e06374b1925d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001019.json
+
+└─ Content Hash: d749e330064c4a00...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001020.json
+
+└─ Content Hash: 8abbbc8df54d24f3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001021.json
+
+└─ Content Hash: 1db1ffb5eeb4a964...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001022.json
+
+└─ Content Hash: ddae2e3cef76a2ba...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001023.json
+
+└─ Content Hash: c571b15e623fc71e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001024.json
+
+└─ Content Hash: 9b51ecef2b1ff6be...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001025.json
+
+└─ Content Hash: 141005250c28ed64...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001026.json
+
+└─ Content Hash: 46e64ab58180bd3a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001027.json
+
+└─ Content Hash: 9b0779d107de8495...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001028.json
+
+└─ Content Hash: 6577fe9cb7a00e44...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001029.json
+
+└─ Content Hash: aa0c88380a914971...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001030.json
+
+└─ Content Hash: 10afcb45b84d1db1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001031.json
+
+└─ Content Hash: 1506cc8263ec7634...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001032.json
+
+└─ Content Hash: 9fdafe224a07c92c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001033.json
+
+└─ Content Hash: 586651654002f7c2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001034.json
+
+└─ Content Hash: 0fc000626d7c9e5a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001035.json
+
+└─ Content Hash: b0f871f639979b39...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001036.json
+
+└─ Content Hash: 2a10f319b418d32d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001037.json
+
+└─ Content Hash: 9d71199d01f33655...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001038.json
+
+└─ Content Hash: f5df54fec3c34da5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001039.json
+
+└─ Content Hash: 2b9aa4577017e8d4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001040.json
+
+└─ Content Hash: 2f234904eea2558d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001041.json
+
+└─ Content Hash: 008bf724dc8209aa...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001042.json
+
+└─ Content Hash: 098993128a31b9ca...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001043.json
+
+└─ Content Hash: 32821c861fa61b04...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001044.json
+
+└─ Content Hash: c75e8cec7afd8c72...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001045.json
+
+└─ Content Hash: 265f4116acf99b9b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001046.json
+
+└─ Content Hash: 65512cdefe6a8364...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001047.json
+
+└─ Content Hash: 0381e515cee306cc...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001048.json
+
+└─ Content Hash: 78217668eaaf3f68...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001049.json
+
+└─ Content Hash: da8c858fcd9bcbfc...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001050.json
+
+└─ Content Hash: e876251036c17ffb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001051.json
+
+└─ Content Hash: 41220aab39be570f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001052.json
+
+└─ Content Hash: cae020cdf907d6f3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001053.json
+
+└─ Content Hash: e6e9c67c70f390d3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001054.json
+
+└─ Content Hash: c725289baac391f5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001055.json
+
+└─ Content Hash: e5c205e51e83c024...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001056.json
+
+└─ Content Hash: 417b8c90fddd1add...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001057.json
+
+└─ Content Hash: 85e02c16761fde46...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001058.json
+
+└─ Content Hash: 178616c034be03fa...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001059.json
+
+└─ Content Hash: 453285a7452ffd54...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001060.json
+
+└─ Content Hash: 0c24a93c2310a2ea...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001061.json
+
+└─ Content Hash: 68e0a088d6776972...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001062.json
+
+└─ Content Hash: 5e2da17f5fd8dcde...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001063.json
+
+└─ Content Hash: 7b11840be25a3b32...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001064.json
+
+└─ Content Hash: 6c1ddf9cb4f7b871...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001065.json
+
+└─ Content Hash: ee9fb5ee90e49040...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001066.json
+
+└─ Content Hash: 2131526f7b399451...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001067.json
+
+└─ Content Hash: 9bec834a7d17fc54...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001068.json
+
+└─ Content Hash: b7900e3080c787fd...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001069.json
+
+└─ Content Hash: dc98dd81edffc33d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001070.json
+
+└─ Content Hash: d2eeda709e82fc85...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001071.json
+
+└─ Content Hash: a93b77c4d80ff281...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001072.json
+
+└─ Content Hash: 37fed777b4f9c084...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001073.json
+
+└─ Content Hash: 0582beda79c90f62...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001074.json
+
+└─ Content Hash: 2dfeead456b1c325...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001075.json
+
+└─ Content Hash: d167c62ad8b773a6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001076.json
+
+└─ Content Hash: 1064bf4d6b5b8b95...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001077.json
+
+└─ Content Hash: a975591ec082dcd6...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001078.json
+
+└─ Content Hash: 83b166d8327e4b2f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001079.json
+
+└─ Content Hash: b221b3f7729c99f5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001080.json
+
+└─ Content Hash: 8c09092167cd10d2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001081.json
+
+└─ Content Hash: 8274cc811a94f5f9...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001082.json
+
+└─ Content Hash: 727d03fabd4824c3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001083.json
+
+└─ Content Hash: a659bd6a546a241f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001084.json
+
+└─ Content Hash: 8c61b1d7665a5ae2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001085.json
+
+└─ Content Hash: a1c5bfca25857253...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001086.json
+
+└─ Content Hash: cdb132011d21c7ff...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001087.json
+
+└─ Content Hash: 7781f5de11a0b850...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001088.json
+
+└─ Content Hash: 04de4986712b13ba...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001089.json
+
+└─ Content Hash: 35deaee5388c81cf...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001090.json
+
+└─ Content Hash: 103029246b0f87b4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001091.json
+
+└─ Content Hash: a4266d9e153baa3a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001092.json
+
+└─ Content Hash: de9109867c0d29cf...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001093.json
+
+└─ Content Hash: 88b491a5d07d870a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001094.json
+
+└─ Content Hash: 042b78bf8b6c18f0...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001095.json
+
+└─ Content Hash: 96cdc6756801c379...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001096.json
+
+└─ Content Hash: 850f074bd1d35e41...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001097.json
+
+└─ Content Hash: 91b2054d0bb38462...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001098.json
+
+└─ Content Hash: 46f5250b477da0c5...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001099.json
+
+└─ Content Hash: a3256ca95ba786ea...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001100.json
+
+└─ Content Hash: db4e77d713067f90...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001101.json
+
+└─ Content Hash: 987b68472ae78b22...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001102.json
+
+└─ Content Hash: c705004cee6d0f02...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001103.json
+
+└─ Content Hash: 641c3393d3bd5802...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001104.json
+
+└─ Content Hash: ba173f73e56da94b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001105.json
+
+└─ Content Hash: 9681e96d00eb2358...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001106.json
+
+└─ Content Hash: 25a3156cbe8cdc41...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001107.json
+
+└─ Content Hash: 5e5832015d45aa8c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001108.json
+
+└─ Content Hash: 4702f899c4304967...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001109.json
+
+└─ Content Hash: bb945f41fd844d52...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001110.json
+
+└─ Content Hash: 536a0bdd326d7066...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001111.json
+
+└─ Content Hash: 75c8e9794381a2a4...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001112.json
+
+└─ Content Hash: 3f5f0a8936821263...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001113.json
+
+└─ Content Hash: d50bc19212385c2a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001114.json
+
+└─ Content Hash: fb189dcdda477bb0...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001115.json
+
+└─ Content Hash: 1a3c271c76793be2...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001116.json
+
+└─ Content Hash: 1ee93f73776f3d2d...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001117.json
+
+└─ Content Hash: e7175d16185faeab...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001118.json
+
+└─ Content Hash: dc1c7e75c9515a61...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001119.json
+
+└─ Content Hash: 3dedde18d0a665fb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001120.json
+
+└─ Content Hash: cd09e3112d5972e3...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001121.json
+
+└─ Content Hash: a8e2c9c078a56a92...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001122.json
+
+└─ Content Hash: 9384f028304bd10b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001123.json
+
+└─ Content Hash: cd45ee771193ee12...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001124.json
+
+└─ Content Hash: 8b92440dec7e867f...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001125.json
+
+└─ Content Hash: 1307401a05cf0f2b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001126.json
+
+└─ Content Hash: 78376046bdb3d4eb...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001127.json
+
+└─ Content Hash: c6f75aa513e9ab4a...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001128.json
+
+└─ Content Hash: 1697da17b9e7bc6e...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001129.json
+
+└─ Content Hash: d9a05d7802683164...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001130.json
+
+└─ Content Hash: 880760537c75107b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001131.json
+
+└─ Content Hash: fd75084384397d5c...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001132.json
+
+└─ Content Hash: 541f32e7bb5aab6b...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001133.json
+
+└─ Content Hash: 5eababcededa9fc1...
+
+[FRAMER] Constructed: CHUNK-31a7080e438c802c6084ed2a68dbdd18e14308ddb6934cb4834f7b0048306d22-001134.json
+
+└─ Content Hash: 83b4861a5b54499b...
