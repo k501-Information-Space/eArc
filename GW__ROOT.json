@@ -1,0 +1,78 @@
+{
+  "gateway_standard": "K501_Gateway_v1",
+  "gateway_type": "ROOT",
+  "gateway_file": "GW__ROOT.json",
+  "status": "CANONICAL",
+  "mode": "STRICT",
+  "system": "K501 Information Space",
+  "repository": "eArc",
+  "repository_url": "https://github.com/k501-Information-Space/eArc",
+  "author": "Patrick R. Miller (Iinkognit0)",
+
+  "time_anchor": {
+    "unix_epoch": 1778976550,
+    "utc": "Sun May 17 00:09:10 2026 UTC",
+    "europe_amsterdam": "Sun May 17 02:09:10 2026 CEST"
+  },
+
+  "principles": [
+    "APPEND_ONLY",
+    "NO_SEMANTIC_DRIFT",
+    "DETERMINISTIC_STRUCTURE",
+    "PRESERVE_HISTORY",
+    "STRUCTURAL_CONTINUITY",
+    "HUMAN_MACHINE_ORIENTATION"
+  ],
+
+  "primary_zones": {
+    "canonical": [
+      "canonical/",
+      "spec/"
+    ],
+
+    "runtime": [
+      "src/",
+      "include/",
+      "build/"
+    ],
+
+    "archive": [
+      "archive/",
+      "raw/"
+    ],
+
+    "analysis": [
+      "_ANALYSIS/",
+      "_remote_audit/",
+      "_runtime_seal/",
+      "_topology_map/",
+      "_mainline_freeze/"
+    ]
+  },
+
+  "navigation": {
+    "entry_order": [
+      "README.md",
+      "Gateway.md",
+      "GW__ROOT.json"
+    ]
+  },
+
+  "external_references": {
+    "website": "https://iinkognit0.de/",
+    "mastodon": "https://mastodon.social/@K501",
+    "devto": "https://dev.to/k501is",
+    "github_author": "https://github.com/Iinkognit0",
+    "github_org": "https://github.com/k501-Information-Space"
+  },
+
+  "runtime_state": {
+    "drift": "NONE",
+    "state": "CANONICAL",
+    "runtime_hash": "565377054a1f8f6ba8bd137ddd4ab91394a48b93935ba9abe07610e2c0008457"
+  },
+
+  "k501_observation": {
+    "statement": "Stable orientation layers reduce semantic entropy and increase long-term machine-readable continuity."
+  }
+}

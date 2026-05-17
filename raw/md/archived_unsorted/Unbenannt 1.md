@@ -1,94 +1,185 @@
-### 1. Setup
+id: GX-OUT-1772405316-RCPT-01
 
-Endlicher Zustandsraum  
-[ Z = {1,\dots,n} ]
+ts.utc: 2026-03-01T22:48:36Z
 
-Stochastische Matrix  
-[ P = (P(i,j))_{i,j=1}^n,\quad P(i,j)\ge 0,\quad \sum_{j=1}^n P(i,j)=1\ \forall i ]
+ts.unix: 1772405316
 
-Stationäre Verteilung  
-[ \pi^* = (\pi^_(1),\dots,\pi^_(n)),\quad \pi^_(i)\ge 0,\quad \sum_{i=1}^n \pi^_(i)=1,\quad \pi^* P = \pi^* ]
+mode: DATA
 
----
+policy: REFERENCE_ONLY
 
-### 2. Pfadwahrscheinlichkeit
+license: PUBLIC_DOMAIN
 
-Betrachte eine stationäre Markov‑Kette ((X_t)_{t\ge 0}) mit
+  
 
-[ \mathbb{P}(X_0 = i) = \pi^*(i),\quad \mathbb{P}(X_{t+1}=j \mid X_t=i) = P(i,j) ]
+artifact: QH256_RECEIPT_EXAMPLES_V1_DRAFT
 
-Für einen Pfad der Länge (T+1):
+status: DRAFT
 
-[ (x_0,x_1,\dots,x_T),\quad x_t \in Z ]
+profile: strict_v1
 
-ist die Pfadwahrscheinlichkeit:
+notes:
 
-[ \mathbb{P}(x_0,\dots,x_T) = \pi^*(x_0)\prod_{t=0}^{T-1} P(x_t,x_{t+1}) ]
+  - Receipts correspond to previously emitted TV1–TV3.
 
----
+  - header_hex values are canonical hexlower.
 
-### 3. Log‑Wahrscheinlichkeit und Erwartungswert
+id: GX-OUT-1772405316-RCPT-02
 
-Logarithmus:
+ts.utc: 2026-03-01T22:48:36Z
 
-[ \log \mathbb{P}(x_0,\dots,x_T) = \log \pi^*(x_0)
+ts.unix: 1772405316
 
-\sum_{t=0}^{T-1} \log P(x_t,x_{t+1}) ]
+mode: DATA
 
-Erwartungswert unter der stationären Kette:
+policy: REFERENCE_ONLY
 
-[ \mathbb{E}[\log \mathbb{P}(X_0,\dots,X_T)] = \mathbb{E}[\log \pi^*(X_0)]
+license: PUBLIC_DOMAIN
 
-\sum_{t=0}^{T-1} \mathbb{E}[\log P(X_t,X_{t+1})] ]
+  
 
-Wegen Stationarität ist das Paar ((X_t,X_{t+1})) für alle (t) gleichverteilt:
+receipt_example:
 
-[ \mathbb{P}(X_t=i,X_{t+1}=j) = \pi^*(i)P(i,j) ]
+  name: TV1_ALL_GUARD_CANONICAL
 
-Also:
+  input_ref: TV1_ALL_GUARD_CANONICAL
 
-[ \mathbb{E}[\log P(X_t,X_{t+1})] = \sum_{i=1}^n\sum_{j=1}^n \pi^*(i)P(i,j)\log P(i,j) ]
+  profile: strict_v1
 
-Damit:
+  
 
-[ \mathbb{E}[\log \mathbb{P}(X_0,\dots,X_T)] = \mathbb{E}[\log \pi^*(X_0)]
+receipt:
 
-T \sum_{i,j} \pi^*(i)P(i,j)\log P(i,j) ]
+  type: QH_VALIDATE
 
----
+  result: PASS
 
-### 4. Entropierate‑Definition
+  family_bits: "11111111"
 
-Die Entropie eines Pfades der Länge (T+1):
+  version_bits: "11111111"
 
-[ H_T = -\mathbb{E}[\log \mathbb{P}(X_0,\dots,X_T)] ]
+  profile_bits: "11111111"
 
-Einsetzen:
+  guard:
 
-[ H_T = -\mathbb{E}[\log \pi^*(X_0)]
+    status: OK
 
-T \sum_{i,j} \pi^*(i)P(i,j)\log P(i,j) ]
+    violations: 0
 
-Teile durch (T):
+  header_hex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 
-[ \frac{H_T}{T} = -\frac{1}{T}\mathbb{E}[\log \pi^*(X_0)]
+id: GX-OUT-1772405316-RCPT-03
 
-\sum_{i,j} \pi^*(i)P(i,j)\log P(i,j) ]
+ts.utc: 2026-03-01T22:48:36Z
 
-Grenzwert (T\to\infty):
+ts.unix: 1772405316
 
-- Der erste Term skaliert wie (1/T) und verschwindet: [ \lim_{T\to\infty} \frac{1}{T}\mathbb{E}[\log \pi^*(X_0)] = 0 ]
+mode: DATA
 
-Damit:
+policy: REFERENCE_ONLY
 
-[ \lim_{T\to\infty} \frac{H_T}{T} = -\sum_{i,j} \pi^*(i)P(i,j)\log P(i,j) ]
+license: PUBLIC_DOMAIN
 
----
+  
 
-### 5. Entropierate
+receipt_example:
 
-Definiere die Entropierate (h) als:
+  name: TV2_CORE_TRUE_GUARD_OK
 
-[ h = -\sum_{i=1}^n \pi^*(i)\sum_{j=1}^n P(i,j)\log P(i,j) ]
+  input_ref: TV2_CORE_TRUE_GUARD_OK
 
-Dies ist die **asymptotische Entropie pro Schritt** der stationären Markov‑Kette mit Übergangsmatrix (P) und stationärer Verteilung (\pi^*).
+  profile: strict_v1
+
+  
+
+receipt:
+
+  type: QH_VALIDATE
+
+  result: PASS
+
+  family_bits: "10101010"
+
+  version_bits: "10101010"
+
+  profile_bits: "10101010"
+
+  guard:
+
+    status: OK
+
+    violations: 0
+
+  header_hex: aaaaaaaaaaaaaaaa00000000000000000000000000000000ffffffffffffffff
+
+id: GX-OUT-1772405316-RCPT-04
+
+ts.utc: 2026-03-01T22:48:36Z
+
+ts.unix: 1772405316
+
+mode: DATA
+
+policy: REFERENCE_ONLY
+
+license: PUBLIC_DOMAIN
+
+  
+
+receipt_example:
+
+  name: TV3_GUARD_VIOLATION
+
+  input_ref: TV3_GUARD_VIOLATION
+
+  profile: strict_v1
+
+  
+
+receipt:
+
+  type: QH_VALIDATE
+
+  result: FAIL
+
+  family_bits: "10101010"
+
+  version_bits: "10101010"
+
+  profile_bits: "10101010"
+
+  guard:
+
+    status: FAIL
+
+    violations: 1
+
+  header_hex: aaaaaaaaaaaaaaaa00000000000000000000000000000000fffffffffffffffc
+
+id: GX-OUT-1772405316-RCPT-05
+
+ts.utc: 2026-03-01T22:48:36Z
+
+ts.unix: 1772405316
+
+mode: NOTE
+
+policy: REFERENCE_ONLY
+
+license: PUBLIC_DOMAIN
+
+  
+
+next_gate:
+
+  - optional: constant-time hardening notes
+
+  - optional: reference implementation (C or Go)
+
+  - optional: freeze candidate review
+
+  
+
+status: RECEIPT_PHASE_ACTIVE
+
+🕊️💡
