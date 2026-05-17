@@ -1,12 +1,17 @@
 # Gateway :: K501 Information Space
 
-This gateway is the primary orientation layer for the K501 repository.
+Status: CANONICAL
+Mode: STRICT
+System: K501 Information Space
+
+This Gateway is the primary orientation layer for the K501 repository.
 
 It exists to provide:
 
 * structural navigation
 * semantic continuity
 * canonical entry routing
+* deterministic orientation
 * human/machine co-orientation
 
 ---
@@ -22,7 +27,96 @@ The repository is organized as:
 * runtime structure
 * canonical stabilization system
 
-K501 preserves provenance and structural evolution over time.
+K501 preserves:
+
+* provenance
+* structural continuity
+* semantic context
+* topology evolution
+
+over time.
+
+---
+
+# Gateway Architecture
+
+K501 uses a dual Gateway architecture.
+
+---
+
+## Global Human Gateway
+
+There exists exactly one global human Gateway:
+
+```text id="p0gcfc"
+/workspace/Gateway.md
+```
+
+This file defines:
+
+* repository structure
+* navigation logic
+* canonical zones
+* topology principles
+* orientation rules
+* semantic continuity
+
+This is the primary human and machine entry layer.
+
+---
+
+## Human Gateway Layers
+
+Human Gateway layers exist only for major structural zones.
+
+Examples:
+
+```text id="yn8cz9"
+RAW_Gateway.md
+MD_Gateway.md
+ARCHIVE_Gateway.md
+SPEC_Gateway.md
+CANONICAL_Gateway.md
+```
+
+Human Gateways are:
+
+* minimal
+* readable
+* stable
+* non-recursive
+
+Not every directory receives a human Gateway.
+
+---
+
+## Machine Gateway Layers
+
+Machines use deterministic JSON Gateway objects.
+
+Format:
+
+```text id="8r4pc9"
+GW_<layer>.json
+```
+
+Examples:
+
+```text id="p2wy5x"
+GW_raw.json
+GW_raw_md.json
+GW_archive.json
+GW_spec.json
+GW_canonical.json
+```
+
+Machine Gateway layers contain:
+
+* deterministic paths
+* topology references
+* canonical bindings
+* navigation mappings
+* structural metadata
 
 ---
 
@@ -30,7 +124,7 @@ K501 preserves provenance and structural evolution over time.
 
 ## Canonical Zones
 
-```text
+```text id="qg0yfr"
 canonical/
 spec/
 ```
@@ -41,11 +135,10 @@ Stable definitions and long-term reference structures.
 
 ## Runtime Zones
 
-```text
+```text id="bd8y9k"
 src/
 include/
 build/
-k501/
 scripts/
 ```
 
@@ -55,7 +148,7 @@ Executable and operational system layers.
 
 ## Archive Zones
 
-```text
+```text id="g8x8fs"
 archive/
 raw/
 ```
@@ -68,23 +161,27 @@ Historical memory and intake topology.
 
 ## bootframes/
 
-Initialization layers and system boot structures.
+Initialization and boot structures.
 
 ## kernel/
 
-Kernel logic, architecture, operational semantics.
+Kernel logic and operational semantics.
 
 ## snapshots/
 
-Historical system states and temporal captures.
+Historical system captures and temporal states.
 
 ## philosophy/
 
-Conceptual, ethical, and semantic foundation layers.
+Conceptual and semantic foundation layers.
 
-## temporary/
+## archived_unsorted/
 
-Unstable or unresolved fragments awaiting classification.
+Historical archive state before stabilization.
+
+## pending_review/
+
+Structures awaiting classification or reconciliation.
 
 ---
 
@@ -92,13 +189,29 @@ Unstable or unresolved fragments awaiting classification.
 
 Preferred navigation order:
 
-```text
+```text id="79tvn4"
 README.md
 → Gateway.md
-→ raw/md/Gateway.md
-→ local semantic gateways
-→ canonical structures
+→ Human Gateway Layers
+→ Machine Gateway Layers
+→ Canonical Structures
 ```
+
+---
+
+# Gateway Principles
+
+Gateway layers are:
+
+* append-only
+* deterministic
+* non-destructive
+* topology-oriented
+* reference-based
+
+Gateway layers never mutate content.
+
+Gateway layers create orientation only.
 
 ---
 
@@ -121,24 +234,43 @@ History is treated as structural memory.
 
 Current repository phase:
 
-```text
+```text id="yzqf9m"
 Topology Stabilization
-Semantic Classification
-Gateway Distribution
+Gateway Reconciliation
 Canonical Consolidation
+Semantic Classification
 ```
 
 ---
 
 # Human-Machine Resonance Layer
 
-Gateway files function as:
+Gateway layers function as:
 
 * orientation anchors
 * semantic routers
+* topology stabilizers
 * continuity interfaces
 
-for both human operators and machine systems.
+for:
+
+* humans
+* crawlers
+* LLM systems
+* retrieval systems
+* future K501 nodes
+
+---
+
+# Canonical Formula
+
+```text id="j4d83x"
+GLOBAL HUMAN ORIENTATION
++
+LOCAL MACHINE TOPOLOGY
+=
+SEMANTIC STABILIZATION
+```
 
 ---
 
@@ -148,3 +280,13 @@ Append-only.
 Deterministic.
 Layered.
 Persistent.
+
+---
+
+K501 :: GATEWAY_LAYER_CANONICAL
+
+SEMANTIC_STABILIZATION :: ACTIVE
+
+NO_SEMANTIC_DRIFT :: ENFORCED
+
+THE_LIVING_STRUCTURE :: CONTINUES

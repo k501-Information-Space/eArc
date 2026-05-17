@@ -1,0 +1,8 @@
+canonical/_hash_seal/reports/canonical_object_index.txt
+canonical/_hash_seal/reports/Gateway.md.sha256
+canonical/_hash_seal/reports/k501.canonical.json.sha256
+canonical/_hash_seal/reports/README.md.sha256
+canonical/k501.canonical.json
+canonical/k501_qh_canonical_definition_v1.json
+canonical/manifest.json
+canonical/test.txt
