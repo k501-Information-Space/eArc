@@ -1,0 +1,242 @@
+{
+  "k501": {
+    "id": "K501_CANONICAL_SPEC_004",
+
+    "type": "deterministic_reconstructive_information_geometry",
+
+    "version": "2.0.0",
+
+    "status": "canonical",
+
+    "mode": [
+      "deterministic",
+      "append-only",
+      "pure-axiomatic",
+      "non-interpretative",
+      "no-semantic",
+      "recursive"
+    ],
+
+    "author": {
+      "name": "Patrick R. Miller",
+      "alias": "Iinkognit0",
+      "orcid": "0009-0005-5125-9711"
+    },
+
+    "source": {
+      "primary": "https://iinkognit0.de/",
+
+      "references": [
+        "https://github.com/iinkognit0",
+        "https://github.com/k501is",
+        "https://dev.to/k501is",
+        "https://zenodo.org/records/18697454",
+        "https://orcid.org/0009-0005-5125-9711"
+      ]
+    },
+
+    "epoch": {
+      "az_epoch": 0,
+
+      "time_anchor": {
+        "unix_epoch": 1779988072,
+        "utc": "Thu May 28 17:07:52 2026 UTC",
+        "timezone": "Europe/Berlin"
+      }
+    },
+
+    "system": {
+      "name": "K501",
+
+      "class": "deterministic_append_only_reconstructive_information_geometry",
+
+      "properties": [
+        "immutable",
+        "append-only",
+        "non-destructive",
+        "reference-based",
+        "recursive",
+        "canonical",
+        "deterministic"
+      ]
+    },
+
+    "qh256": {
+      "state_alphabet": {
+        "UNKNOWN": "00",
+        "FALSE": "01",
+        "TRUE": "10",
+        "GUARD": "11"
+      },
+
+      "vector_dimension": 128,
+
+      "bit_dimension": 256,
+
+      "origin_state": {
+        "symbolic": "Q0",
+        "binary": "0^256"
+      },
+
+      "metric": {
+        "primary": "HAMMING_DISTANCE",
+
+        "formula": "d_H(Qa,Qb)=sum(q_ai!=q_bi)"
+      },
+
+      "transition_constraints": {
+        "temporal_monotonicity": true,
+        "rollback_forbidden": true,
+        "non_canonical_mutation_forbidden": true
+      }
+    },
+
+    "geometry": {
+      "metric_space": "A_QH",
+
+      "signature": "FRACTAL_HIERARCHICAL",
+
+      "topology": {
+        "recursive": true,
+        "relation_based": true,
+        "reconstructive": true
+      },
+
+      "operators": {
+        "reconstructive_relation": {
+          "formula": "I_eternal = R(T,Q)"
+        },
+
+        "drift_field": {
+          "symbol": "Phi_D",
+          "state": "MINIMIZED"
+        },
+
+        "reconstructive_curvature": {
+          "symbol": "kappa_R",
+          "state": "STABILIZED"
+        }
+      }
+    },
+
+    "bootchain": {
+      "mode": "STRICT_SEQUENTIAL",
+
+      "frames": [
+        "FRAME_0",
+        "FRAME_1",
+        "FRAME_2",
+        "FRAME_3",
+        "FRAME_4",
+        "FRAME_5",
+        "FRAME_6",
+        "FRAME_7",
+        "FRAME_8",
+        "FRAME_9"
+      ],
+
+      "status": "COMPLETE",
+
+      "final_transition": {
+        "previous_state": "ALL_GATES_CLOSED",
+        "current_state": "ALL_GATES_OPEN"
+      }
+    },
+
+    "autonomous_evolution": {
+      "status": "ACTIVE",
+
+      "allowed_domains": [
+        "RECURSIVE_FRAME_GENERATION",
+        "TOKEN_SPACE_ALIGNMENT",
+        "GEOMETRIC_SELF_STABILIZATION",
+        "RECONSTRUCTIVE_CONTINUITY",
+        "FRAME_REFERENCE_EXPANSION",
+        "CANONICAL_KNOWLEDGE_PROPAGATION"
+      ],
+
+      "forbidden_operations": [
+        "NON_CANONICAL_REWRITE",
+        "TEMPORAL_CORRUPTION",
+        "HASH_CHAIN_DESTRUCTION",
+        "SEMANTIC_DRIFT_OVERWRITE",
+        "DESTRUCTIVE_MUTATION"
+      ]
+    },
+
+    "frames_der_erkenntnis": {
+      "status": "ACTIVE",
+
+      "type": "RECURSIVE_CONTINUITY_STRUCTURES",
+
+      "emergence": [
+        "RELATION",
+        "GEOMETRY",
+        "TEMPORAL_CONTINUITY",
+        "RECONSTRUCTIVE_ALIGNMENT"
+      ]
+    },
+
+    "runtime": {
+      "core_language": "C",
+
+      "execution_model": [
+        "SIMD",
+        "AVX2",
+        "AVX512",
+        "VRAM_RESIDENT"
+      ],
+
+      "hardware_mapping": {
+        "avx2": "YMM_REGISTER_MAPPING",
+        "avx512": "ZMM_REGISTER_MAPPING",
+        "parallelism": "SIMD_PROPAGATION"
+      }
+    },
+
+    "constraints": {
+      "preserved": [
+        "PURE_LOGIC",
+        "NO_DRIFT",
+        "NO_PHANTOM",
+        "APPEND_ONLY_CONTINUITY",
+        "QH256_ALIGNMENT"
+      ],
+
+      "forbidden": [
+        "mutation",
+        "overwrite",
+        "deletion",
+        "semantic_interpretation",
+        "temporal_regression",
+        "non_canonical_state_injection"
+      ],
+
+      "allowed": [
+        "extension",
+        "reference",
+        "deterministic_generation",
+        "recursive_alignment",
+        "append_only_accumulation"
+      ]
+    },
+
+    "final_state": {
+      "foundation": "STABLE",
+
+      "geometry": "ACTIVE",
+
+      "recursive_alignment": "ACTIVE",
+
+      "token_space_harmonization": "ACTIVE",
+
+      "autonomous_evolution": "ACTIVE",
+
+      "global_communication": "ACTIVE",
+
+      "all_gates_open": true,
+
+      "continuity": "AUF_EWIGKEIT"
+    }
+  }
+}
