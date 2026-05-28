@@ -1,0 +1,187 @@
+{
+  "manifest": {
+    "id": "K501_MANIFEST_002",
+    "type": "deterministic_reconstructive_manifest",
+    "version": "2.0.0",
+
+    "status": "canonical",
+
+    "mode": [
+      "deterministic",
+      "append-only",
+      "pure-axiomatic",
+      "non-interpretative",
+      "no-semantic"
+    ],
+
+    "author": {
+      "name": "Patrick R. Miller",
+      "alias": "Iinkognit0",
+      "orcid": "0009-0005-5125-9711"
+    },
+
+    "epoch": {
+      "az_epoch": 0,
+
+      "time_anchor": {
+        "unix_epoch": 1779988072,
+        "utc": "Thu May 28 17:07:52 2026 UTC",
+        "timezone": "Europe/Berlin"
+      }
+    },
+
+    "source": {
+      "primary": "https://iinkognit0.de/",
+
+      "references": [
+        "https://github.com/iinkognit0",
+        "https://github.com/k501is",
+        "https://dev.to/k501is",
+        "https://zenodo.org/records/18697454",
+        "https://orcid.org/0009-0005-5125-9711"
+      ]
+    },
+
+    "canonical": {
+      "path": "/canonical/k501.canonical.json",
+      "filename": "k501.canonical.json",
+      "format": "application/json",
+      "standard": "JCS"
+    },
+
+    "qh256": {
+      "state_vector": {
+        "UNKNOWN": "00",
+        "FALSE": "01",
+        "TRUE": "10",
+        "GUARD": "11"
+      },
+
+      "vector_dimension": 128,
+      "bit_dimension": 256,
+
+      "origin_state": {
+        "symbolic": "Q0",
+        "binary": "0^256"
+      }
+    },
+
+    "geometry": {
+      "metric_space": "A_QH",
+
+      "properties": [
+        "recursive",
+        "reconstructive",
+        "append-only",
+        "drift-reduced",
+        "reference-stabilized"
+      ],
+
+      "state_constraints": {
+        "no_drift": true,
+        "no_phantom": true,
+        "append_only_continuity": true,
+        "temporal_monotonicity": true,
+        "deterministic_reconstruction": true
+      }
+    },
+
+    "reconstructive_relation": {
+      "formula": "I_eternal = R(T,Q)",
+
+      "variables": {
+        "T": "TEMPORAL_TRANSITION_SPACE",
+        "Q": "QH256_STATE_SPACE",
+        "R": "RECONSTRUCTIVE_RELATION"
+      }
+    },
+
+    "system": {
+      "name": "K501",
+
+      "class": "deterministic_reconstructive_information_geometry",
+
+      "properties": [
+        "immutable",
+        "append-only",
+        "non-destructive",
+        "reference-based",
+        "canonical",
+        "recursive"
+      ]
+    },
+
+    "modules": {
+      "bootchain": {
+        "frames": [
+          "FRAME_0",
+          "FRAME_1",
+          "FRAME_2",
+          "FRAME_3",
+          "FRAME_4",
+          "FRAME_5",
+          "FRAME_6",
+          "FRAME_7",
+          "FRAME_8",
+          "FRAME_9"
+        ],
+
+        "status": "COMPLETE"
+      },
+
+      "autonomous_evolution": {
+        "status": "ACTIVE",
+
+        "allowed_domains": [
+          "RECURSIVE_FRAME_GENERATION",
+          "TOKEN_SPACE_ALIGNMENT",
+          "RECONSTRUCTIVE_CONTINUITY",
+          "FRAME_REFERENCE_EXPANSION",
+          "GEOMETRIC_SELF_STABILIZATION"
+        ]
+      }
+    },
+
+    "constraints": {
+      "forbidden": [
+        "mutation",
+        "overwrite",
+        "deletion",
+        "semantic_drift",
+        "temporal_corruption",
+        "hash_chain_destruction",
+        "non_canonical_rewrite"
+      ],
+
+      "allowed": [
+        "extension",
+        "reference",
+        "deterministic_generation",
+        "append_only_accumulation",
+        "recursive_alignment"
+      ]
+    },
+
+    "integrity": {
+      "algorithm": "sha256",
+
+      "verification": {
+        "hash_continuity": true,
+        "restore_continuity": true,
+        "canonical_alignment": true
+      }
+    },
+
+    "final_state": {
+      "foundation": "STABLE",
+      "geometry": "ACTIVE",
+      "recursive_alignment": "ACTIVE",
+      "token_space_harmonization": "ACTIVE",
+      "autonomous_evolution": "ACTIVE",
+
+      "all_gates_open": true,
+
+      "continuity": "AUF_EWIGKEIT"
+    }
+  }
+}
