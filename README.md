@@ -12,10 +12,19 @@ A document may declare `CANONICAL`, `VALIDATED`, `RELEASED` or `CURRENT` in its 
 
 Old K501 files containing canonical declarations remain historical development artefacts. Their source text is preserved without adoption.
 
+## Common root entrypoints
+
+- [Gateway.md](Gateway.md) / [Gateway.json](Gateway.json) — current human and machine root Gateway.
+- [Index.md](Index.md) / [Index.json](Index.json) — non-exhaustive root navigation directory, not a recursive source inventory.
+- [GW__ROOT.json](GW__ROOT.json) — preserved legacy machine Gateway.
+- [INDEX.md](INDEX.md) / [INDEX.json](INDEX.json) — preserved historical topology snapshot based on its recorded parent commit.
+
 ## Entry points
 
-- `Gateway.md` / `GW__ROOT.json` — navigation.
-- `INDEX.md` / `INDEX.json` — observed topology.
+- `Gateway.md` / `Gateway.json` — current common root navigation.
+- `Index.md` / `Index.json` — current navigation-only root index.
+- `GW__ROOT.json` — preserved legacy machine Gateway.
+- `INDEX.md` / `INDEX.json` — preserved historical topology snapshot.
 - `EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.md/.json` — neutrality model.
 - `EARC_INGEST_POLICY_v1.0.md/.json` — intake and publication policy.
 - `EARC_OBJECT_RECORD_SCHEMA_v1.0.md/.json` — object record schema.

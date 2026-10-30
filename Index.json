@@ -1,0 +1,207 @@
+{
+  "schema_id": "K501_REPOSITORY_ROOT_INDEX/0.1.0-draft",
+  "index_id": "EARC-ROOT-NAVIGATION-INDEX",
+  "repository": "k501-Information-Space/eArc",
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "canonical_authority": "NONE",
+  "classification": "DERIVED_ROOT_NAVIGATION_DIRECTORY",
+  "completeness": {
+    "complete": false,
+    "scope": "SELECTED_ROOT_ENTRYPOINTS_AND_DECLARED_TOP_LEVEL_ZONES",
+    "recursive_tree_inventory": false,
+    "content_hash_inventory": false
+  },
+  "source_observation": {
+    "commit": "c376f91ab2accf25927cb972bf0a4eeac4df5ffe",
+    "branch": "main",
+    "operator_time_anchor": {
+      "unix_epoch": 1793389236,
+      "utc": "2026-10-30T19:40:36Z",
+      "europe_berlin": "2026-10-30T20:40:36+01:00",
+      "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+      "system_time_independently_verified": false
+    }
+  },
+  "historical_topology_snapshot": {
+    "human": "INDEX.md",
+    "machine": "INDEX.json",
+    "parent_commit": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "parent_tree_as_recorded": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "git_blobs": 4516,
+    "git_trees": 62,
+    "scope": "Historical parent snapshot only; source files are preserved unchanged."
+  },
+  "entry_count": 31,
+  "entries": [
+    {
+      "path": "README.md",
+      "kind": "HUMAN_ENTRY",
+      "relation": "CURRENT_ROOT"
+    },
+    {
+      "path": "Gateway.md",
+      "kind": "HUMAN_GATEWAY",
+      "relation": "COMMON_ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "Gateway.json",
+      "kind": "MACHINE_GATEWAY",
+      "relation": "COMMON_ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "Index.md",
+      "kind": "HUMAN_INDEX",
+      "relation": "COMMON_ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "Index.json",
+      "kind": "MACHINE_INDEX",
+      "relation": "COMMON_ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "GW__ROOT.json",
+      "kind": "LEGACY_MACHINE_GATEWAY",
+      "relation": "PRESERVED_HISTORICAL_ENTRYPOINT"
+    },
+    {
+      "path": "INDEX.md",
+      "kind": "LEGACY_HUMAN_TOPOLOGY_INDEX",
+      "relation": "PRESERVED_HISTORICAL_SNAPSHOT"
+    },
+    {
+      "path": "INDEX.json",
+      "kind": "LEGACY_MACHINE_TOPOLOGY_INDEX",
+      "relation": "PRESERVED_HISTORICAL_SNAPSHOT"
+    },
+    {
+      "path": "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.md",
+      "kind": "NEUTRALITY_MODEL",
+      "relation": "GOVERNING_MODEL_HUMAN"
+    },
+    {
+      "path": "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.json",
+      "kind": "NEUTRALITY_MODEL",
+      "relation": "GOVERNING_MODEL_MACHINE"
+    },
+    {
+      "path": "EARC_INGEST_POLICY_v1.0.md",
+      "kind": "INGEST_POLICY",
+      "relation": "GOVERNING_POLICY_HUMAN"
+    },
+    {
+      "path": "EARC_INGEST_POLICY_v1.0.json",
+      "kind": "INGEST_POLICY",
+      "relation": "GOVERNING_POLICY_MACHINE"
+    },
+    {
+      "path": "EARC_OBJECT_RECORD_SCHEMA_v1.0.md",
+      "kind": "OBJECT_RECORD_SCHEMA",
+      "relation": "GOVERNING_SCHEMA_HUMAN"
+    },
+    {
+      "path": "EARC_OBJECT_RECORD_SCHEMA_v1.0.json",
+      "kind": "OBJECT_RECORD_SCHEMA",
+      "relation": "GOVERNING_SCHEMA_MACHINE"
+    },
+    {
+      "path": "EARC_REPOSITORY_STATE_ANCHOR_1793335241.md",
+      "kind": "STATE_ANCHOR",
+      "relation": "TIME_SCOPED_OBSERVATION_HUMAN"
+    },
+    {
+      "path": "EARC_REPOSITORY_STATE_ANCHOR_1793335241.json",
+      "kind": "STATE_ANCHOR",
+      "relation": "TIME_SCOPED_OBSERVATION_MACHINE"
+    },
+    {
+      "path": "EARC_NEUTRALITY_TRANSITION_1793335241.md",
+      "kind": "TRANSITION_RECORD",
+      "relation": "HISTORICAL_TRANSITION_HUMAN"
+    },
+    {
+      "path": "EARC_NEUTRALITY_TRANSITION_1793335241.json",
+      "kind": "TRANSITION_RECORD",
+      "relation": "HISTORICAL_TRANSITION_MACHINE"
+    },
+    {
+      "path": "EARC_NEUTRALITY_VALIDATION_1793335241.md",
+      "kind": "VALIDATION_RECORD",
+      "relation": "SCOPED_VALIDATION_HUMAN"
+    },
+    {
+      "path": "EARC_NEUTRALITY_VALIDATION_1793335241.json",
+      "kind": "VALIDATION_RECORD",
+      "relation": "SCOPED_VALIDATION_MACHINE"
+    },
+    {
+      "path": "RIGHTS_REGISTER.json",
+      "kind": "RIGHTS_REGISTER",
+      "relation": "EXPLICIT_PER_OBJECT_RIGHTS"
+    },
+    {
+      "path": "LICENSE",
+      "kind": "LICENSE_INSTRUMENT",
+      "relation": "REPOSITORY_METADATA"
+    },
+    {
+      "path": "LICENSE-CONTENT",
+      "kind": "LICENSE_INSTRUMENT",
+      "relation": "REPOSITORY_METADATA"
+    },
+    {
+      "path": "raw/",
+      "kind": "ARCHIVE_ZONE",
+      "relation": "SOURCE_CORPUS"
+    },
+    {
+      "path": "archive/",
+      "kind": "ARCHIVE_ZONE",
+      "relation": "HISTORICAL_STORAGE"
+    },
+    {
+      "path": "src/",
+      "kind": "ARCHIVE_ZONE",
+      "relation": "DEVELOPMENT_CODE"
+    },
+    {
+      "path": "include/",
+      "kind": "ARCHIVE_ZONE",
+      "relation": "DEVELOPMENT_INTERFACES"
+    },
+    {
+      "path": "spec/",
+      "kind": "ARCHIVE_ZONE",
+      "relation": "WORKING_SPECIFICATIONS"
+    },
+    {
+      "path": "semantic_ingest_v1/",
+      "kind": "DERIVED_DATA_ZONE",
+      "relation": "DERIVED_CHUNKS_AND_EMBEDDINGS"
+    },
+    {
+      "path": "test_ingest_20/",
+      "kind": "TEST_DATA_ZONE",
+      "relation": "TEST_AND_INGEST_CORPUS"
+    },
+    {
+      "path": "canonical/",
+      "kind": "LEGACY_NAMED_ZONE",
+      "relation": "NO_EARC_AUTHORITY"
+    }
+  ],
+  "neutrality": {
+    "archive_authority": "NONE",
+    "source_declared_status_is_provenance_only": true,
+    "storage_indexing_hashing_or_linking_confers_authority": false,
+    "path_name_canonical_is_authority": false,
+    "unknown_remains_valid": true
+  },
+  "boundaries": {
+    "does_not_claim_recursive_completeness": true,
+    "does_not_replace_historical_topology_snapshot": true,
+    "does_not_validate_archived_content": true,
+    "does_not_clear_rights_or_privacy": true,
+    "does_not_select_current_versions": true
+  }
+}
