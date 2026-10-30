@@ -1,0 +1,69 @@
+{
+  "schema": "EARC_INGEST_POLICY/1.0.0",
+  "policy_id": "EARC_INGEST_POLICY_1.0",
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "operator_time_anchor": 1793335241,
+  "sequence": [
+    "INTAKE",
+    "QUARANTINE",
+    "INVENTORY",
+    "BYTE_IDENTITY",
+    "PROVENANCE",
+    "RIGHTS_AND_PRIVACY_TRIAGE",
+    "NEUTRAL_CLASSIFICATION",
+    "RELATION_LINKING",
+    "APPEND_ONLY_COMMIT",
+    "READ_BACK"
+  ],
+  "status_axes": {
+    "integrity": [
+      "NOT_CHECKED",
+      "HASH_MATCH",
+      "HASH_MISMATCH",
+      "UNAVAILABLE"
+    ],
+    "provenance": [
+      "UNKNOWN",
+      "SOURCE_RECORDED",
+      "PARTIALLY_CORROBORATED",
+      "CORROBORATED"
+    ],
+    "rights": [
+      "RIGHTS_OPEN",
+      "RIGHTS_REVIEWED",
+      "LICENSE_RECORDED",
+      "RESTRICTION_RECORDED"
+    ],
+    "privacy": [
+      "NOT_REVIEWED",
+      "REVIEW_REQUIRED",
+      "CLEARED_FOR_PUBLICATION",
+      "RESTRICTED"
+    ],
+    "content_review": [
+      "NOT_REVIEWED",
+      "STRUCTURE_READ",
+      "CONTENT_READ"
+    ],
+    "reproduction": [
+      "NOT_RUN",
+      "LOCAL_RESULT_RECORDED",
+      "INDEPENDENT_RESULT_RECORDED"
+    ]
+  },
+  "rules": [
+    "Ingestion is not approval.",
+    "Preserve exact source bytes and store derivatives separately.",
+    "Preserve source-declared status as an origin claim only.",
+    "eArc authority is always NONE.",
+    "No filename-based classification or silent deduplication.",
+    "No public publication with unresolved secrets, privacy or rights restrictions.",
+    "Unknown remains explicit.",
+    "Every committed object must be read back against its recorded identity."
+  ],
+  "license_default": "RIGHTS_OPEN",
+  "license_grants": "Explicit per-object entries in RIGHTS_REGISTER.json only.",
+  "conversation_exports": "Privacy and rights review required before public publication.",
+  "git_lfs": "Pointer identity and payload identity must be checked separately."
+}

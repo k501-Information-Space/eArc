@@ -1,0 +1,421 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "EARC_OBJECT_RECORD_SCHEMA_v1.0.json",
+  "title": "eArc Neutral Archive Object Record",
+  "description": "Descriptive, non-authoritative metadata for one archived source object or derivative. This schema does not confer validation, canonicality, rights or truth.",
+  "type": "object",
+  "required": [
+    "schema",
+    "record_id",
+    "object",
+    "origin",
+    "classification",
+    "claims",
+    "verification",
+    "rights",
+    "privacy",
+    "earc"
+  ],
+  "properties": {
+    "schema": {
+      "const": "EARC_OBJECT_RECORD/1.0.0"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "object": {
+      "type": "object",
+      "required": [
+        "archive_path",
+        "original_filename",
+        "byte_length",
+        "content_identity"
+      ],
+      "properties": {
+        "archive_path": {
+          "type": "string"
+        },
+        "original_filename": {
+          "type": "string"
+        },
+        "byte_length": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "media_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "encoding": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_identity": {
+          "type": "object",
+          "required": [
+            "algorithm",
+            "value",
+            "status"
+          ],
+          "properties": {
+            "algorithm": {
+              "enum": [
+                "SHA-256",
+                "UNKNOWN"
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "status": {
+              "enum": [
+                "NOT_COMPUTED",
+                "COMPUTED",
+                "VERIFIED_BY_READBACK",
+                "MISMATCH",
+                "UNAVAILABLE"
+              ]
+            },
+            "git_blob_sha": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "git_lfs_pointer_oid": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "lfs_payload_sha256": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "origin": {
+      "type": "object",
+      "properties": {
+        "source_system": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_commit_or_release": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_timestamp": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "collected_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ingestion_event_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "classification": {
+      "type": "object",
+      "required": [
+        "object_class",
+        "development_phase"
+      ],
+      "properties": {
+        "object_class": {
+          "enum": [
+            "WORKSPACE_SNAPSHOT",
+            "CODE_FRAGMENT",
+            "EXPERIMENTAL_CORE",
+            "QH256_IMPLEMENTATION",
+            "VALIDATION_ARTEFACT",
+            "PIPELINE_RELEASE",
+            "RUNTIME_RELEASE",
+            "SPECIFICATION_DRAFT",
+            "HISTORICAL_DECLARATION",
+            "PUBLICATION_RECORD",
+            "PUBLICATION_FILE",
+            "CONVERSATION_EXPORT",
+            "TEST_CORPUS",
+            "TEST_OUTPUT",
+            "BINARY_ARTEFACT",
+            "DERIVED_DATA",
+            "MANIFEST_OR_INDEX",
+            "UNKNOWN"
+          ]
+        },
+        "development_phase": {
+          "enum": [
+            "EARLY_EXPERIMENT",
+            "EXPERIMENTAL",
+            "DEVELOPMENT",
+            "RELEASE_CANDIDATE",
+            "RELEASED_IN_SOURCE_CONTEXT",
+            "HISTORICAL",
+            "UNKNOWN"
+          ]
+        },
+        "classification_basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "claims": {
+      "type": "object",
+      "properties": {
+        "source_declared_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_declared_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_declared_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "integrity",
+        "provenance",
+        "content_review",
+        "reproduction"
+      ],
+      "properties": {
+        "integrity": {
+          "enum": [
+            "NOT_CHECKED",
+            "HASH_MATCH",
+            "HASH_MISMATCH",
+            "UNAVAILABLE"
+          ]
+        },
+        "provenance": {
+          "enum": [
+            "UNKNOWN",
+            "SOURCE_RECORDED",
+            "PARTIALLY_CORROBORATED",
+            "CORROBORATED"
+          ]
+        },
+        "content_review": {
+          "enum": [
+            "NOT_REVIEWED",
+            "STRUCTURE_READ",
+            "CONTENT_READ"
+          ]
+        },
+        "reproduction": {
+          "enum": [
+            "NOT_RUN",
+            "LOCAL_RESULT_RECORDED",
+            "INDEPENDENT_RESULT_RECORDED"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "rights": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "RIGHTS_OPEN",
+            "RIGHTS_REVIEWED",
+            "LICENSE_RECORDED",
+            "RESTRICTION_RECORDED"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "grantor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rights_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "privacy": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "NOT_REVIEWED",
+            "REVIEW_REQUIRED",
+            "CLEARED_FOR_PUBLICATION",
+            "RESTRICTED"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "relations": {
+      "type": "object",
+      "properties": {
+        "derived_from": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "version_of": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "same_bytes_as": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conversation_context": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "supersedes_claim": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "earc": {
+      "type": "object",
+      "required": [
+        "repository_role",
+        "authority",
+        "assessment"
+      ],
+      "properties": {
+        "repository_role": {
+          "const": "NEUTRAL_DEVELOPMENT_ARCHIVE"
+        },
+        "authority": {
+          "const": "NONE"
+        },
+        "assessment": {
+          "enum": [
+            "NOT_ASSESSED",
+            "OBSERVATION_RECORDED",
+            "LIMITED_CHECK_RECORDED"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

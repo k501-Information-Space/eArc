@@ -1,0 +1,97 @@
+{
+  "schema": "EARC_NEUTRAL_ARCHIVE_MODEL/1.0.0",
+  "model_id": "EARC_NEUTRAL_ARCHIVE_MODEL_1.0",
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "canonical_authority": "NONE",
+  "endorsement": "NONE",
+  "validation_by_storage": "NONE",
+  "currentness_by_storage": "NONE",
+  "operator_time_anchor": {
+    "unix_epoch": 1793335241,
+    "utc": "2026-10-30T04:40:41Z",
+    "timezone": "Europe/Berlin"
+  },
+  "governing_rules": [
+    "eArc stores artefacts and provenance; it does not canonize, ratify, approve, endorse, select, deprecate or establish truth.",
+    "Source-declared claims are preserved as source claims and are never adopted as eArc authority.",
+    "A directory name, path, filename, index entry, manifest entry or checksum does not confer authority.",
+    "Source objects, ingestion events, archive records, derivatives, observations and interpretations remain distinct.",
+    "Unknown remains a valid state."
+  ],
+  "source_claim_fields": [
+    "source_declared_status",
+    "source_declared_by",
+    "source_declared_at",
+    "source_context",
+    "source_evidence"
+  ],
+  "earc_fields": {
+    "archive_role": "neutral descriptive classification",
+    "assessment": "NOT_ASSESSED by default",
+    "authority": "NONE always"
+  },
+  "object_classes": [
+    "WORKSPACE_SNAPSHOT",
+    "CODE_FRAGMENT",
+    "EXPERIMENTAL_CORE",
+    "QH256_IMPLEMENTATION",
+    "VALIDATION_ARTEFACT",
+    "PIPELINE_RELEASE",
+    "RUNTIME_RELEASE",
+    "SPECIFICATION_DRAFT",
+    "HISTORICAL_DECLARATION",
+    "PUBLICATION_RECORD",
+    "PUBLICATION_FILE",
+    "CONVERSATION_EXPORT",
+    "TEST_CORPUS",
+    "TEST_OUTPUT",
+    "BINARY_ARTEFACT",
+    "DERIVED_DATA",
+    "MANIFEST_OR_INDEX",
+    "UNKNOWN"
+  ],
+  "examples": [
+    {
+      "object_class": "VALIDATION_ARTEFACT",
+      "example": "QH256 v2 validation package",
+      "source_declared_status": "may be CANONICAL in its originating QH256 or publication context if that source says so",
+      "earc_archive_role": "archived validation artefact",
+      "earc_assessment": "NOT_ASSESSED unless a specific eArc observation exists",
+      "earc_authority": "NONE"
+    },
+    {
+      "object_class": "HISTORICAL_DECLARATION",
+      "example": "legacy file containing a canonical K501 declaration",
+      "source_declared_status": "preserve exact original declaration",
+      "earc_archive_role": "historical development declaration",
+      "earc_assessment": "NOT_ASSESSED unless separately observed",
+      "earc_authority": "NONE"
+    },
+    {
+      "object_class": "EXPERIMENTAL_CORE",
+      "example": "legacy experimental qh_core.c",
+      "source_declared_status": "as declared by source; otherwise UNKNOWN",
+      "earc_archive_role": "historical experimental code",
+      "earc_assessment": "STATIC_OBSERVATION only when a specific code review is recorded",
+      "earc_authority": "NONE"
+    }
+  ],
+  "object_layer_model": [
+    "SOURCE_OBJECT",
+    "INGESTION_EVENT",
+    "ARCHIVE_RECORD",
+    "DERIVED_OBJECT",
+    "OBSERVATION",
+    "INTERPRETATION"
+  ],
+  "legacy_paths": {
+    "canonical/": {
+      "path_status": "PRESERVED_LEGACY_PATH",
+      "authority": "NONE",
+      "interpretation": "directory name retained for historical path identity only; contents are archived development artefacts"
+    }
+  },
+  "relationship_to_external_authority": "External canonical status may be recorded as a source claim/reference; eArc neither grants nor revokes it.",
+  "append_only_correction": "Add new dated metadata observations; never silently rewrite source bytes or erase earlier claims."
+}

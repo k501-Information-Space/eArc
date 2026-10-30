@@ -1,0 +1,35 @@
+{
+  "schema": "EARC_NEUTRALITY_TRANSITION/1.0.0",
+  "transition_id": "EARC_NEUTRALITY_TRANSITION_1793335241",
+  "operator_time_anchor": 1793335241,
+  "parent_commit": "0429b08b710252e4e83799b8e8d19f0705433a53",
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "canonical_authority": "NONE",
+  "prior_wording": [
+    "GW__ROOT status CANONICAL",
+    "canonical/ described as canonical reference zone"
+  ],
+  "new_wording": [
+    "repository role NEUTRAL_DEVELOPMENT_ARCHIVE",
+    "repository/canonical authority NONE",
+    "source status is provenance claim only"
+  ],
+  "legacy_path": {
+    "path": "canonical/",
+    "preserved": true,
+    "authority": "NONE"
+  },
+  "source_objects_rewritten": false,
+  "objects_moved": false,
+  "objects_deleted": false,
+  "deduplication": false,
+  "example_object_record": "EARC_OBJECT_RECORD_qh_core.c_1793335241.json",
+  "rights_policy": {
+    "default": "RIGHTS_OPEN",
+    "exact_grants": "RIGHTS_REGISTER.json",
+    "no_folder_grants": true,
+    "no_blanket_MIT_for_src_include": true
+  },
+  "status": "DOCUMENTATION_AND_POLICY_TRANSITION"
+}

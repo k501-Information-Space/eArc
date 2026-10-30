@@ -1,0 +1,79 @@
+{
+  "schema": "EARC_OBJECT_RECORD/1.0.0",
+  "record_id": "EARC_OBJECT_SRC_QH_CORE_C_1793335241",
+  "object": {
+    "archive_path": "src/qh_core.c",
+    "original_filename": "qh_core.c",
+    "byte_length": 198,
+    "media_type": "text/x-c",
+    "encoding": "UTF-8",
+    "content_identity": {
+      "algorithm": "SHA-256",
+      "value": null,
+      "status": "NOT_COMPUTED",
+      "git_blob_sha": "5eadf75402eb1605268b93dffe939a55bb015595",
+      "git_lfs_pointer_oid": null,
+      "lfs_payload_sha256": null
+    }
+  },
+  "origin": {
+    "source_system": "GitHub",
+    "source_locator": "https://github.com/k501-Information-Space/eArc/blob/0429b08b710252e4e83799b8e8d19f0705433a53/src/qh_core.c",
+    "original_path": "src/qh_core.c",
+    "source_commit_or_release": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "source_timestamp": null,
+    "collected_at": "2026-10-30T04:40:41Z"
+  },
+  "classification": {
+    "object_class": "EXPERIMENTAL_CORE",
+    "development_phase": "EARLY_EXPERIMENT",
+    "classification_basis": "Operator says this is an old historical experimental core; no currentness or quality conclusion."
+  },
+  "claims": {
+    "source_declared_status": "HISTORICAL_EXPERIMENTAL_CORE",
+    "source_declared_by": "repository operator",
+    "source_declared_at": "2026-10-30T04:40:41Z",
+    "source_context": "operator clarification",
+    "source_evidence": [
+      "Operator states src/qh_core.c is old, historical and experimental."
+    ]
+  },
+  "verification": {
+    "integrity": "NOT_CHECKED",
+    "provenance": "SOURCE_RECORDED",
+    "content_review": "CONTENT_READ",
+    "reproduction": "NOT_RUN",
+    "evidence_refs": [
+      "Git blob 5eadf75402eb1605268b93dffe939a55bb015595",
+      "static source read"
+    ]
+  },
+  "rights": {
+    "status": "RIGHTS_OPEN",
+    "license": null,
+    "grantor": null,
+    "rights_evidence": []
+  },
+  "privacy": {
+    "status": "NOT_REVIEWED",
+    "notes": [
+      "No public redistribution clearance implied."
+    ]
+  },
+  "relations": {
+    "derived_from": [],
+    "version_of": null,
+    "same_bytes_as": [],
+    "conversation_context": [
+      "Operator-provided archival context"
+    ]
+  },
+  "earc": {
+    "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+    "authority": "NONE",
+    "assessment": "OBSERVATION_RECORDED",
+    "notes": [
+      "Not a correctness, security, release or canonicality verdict."
+    ]
+  }
+}

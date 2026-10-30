@@ -1,0 +1,165 @@
+{
+  "schema": "EARC_RIGHTS_REGISTER/1.0.0",
+  "register_id": "EARC_RIGHTS_REGISTER_1793335241",
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "default_status": "RIGHTS_OPEN",
+  "operator_time_anchor": 1793335241,
+  "rules": [
+    "Exact objects only",
+    "Unregistered objects RIGHTS_OPEN",
+    "No directory/prefix grants",
+    "Third-party terms prevail",
+    "Grantor must hold rights"
+  ],
+  "instruments": {
+    "MIT": {
+      "file": "LICENSE",
+      "spdx": "MIT",
+      "current_grants": []
+    },
+    "CC_BY_4_0": {
+      "file": "LICENSE-CONTENT",
+      "spdx": "CC-BY-4.0"
+    }
+  },
+  "grants": [
+    {
+      "id": "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0",
+      "paths": [
+        "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.md",
+        "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.json"
+      ],
+      "license": "CC-BY-4.0",
+      "grantor": "Patrick R. Miller (K501)",
+      "status": "LICENSE_RECORDED"
+    },
+    {
+      "id": "EARC_INGEST_POLICY_v1.0",
+      "paths": [
+        "EARC_INGEST_POLICY_v1.0.md",
+        "EARC_INGEST_POLICY_v1.0.json"
+      ],
+      "license": "CC-BY-4.0",
+      "grantor": "Patrick R. Miller (K501)",
+      "status": "LICENSE_RECORDED"
+    },
+    {
+      "id": "EARC_OBJECT_RECORD_SCHEMA_v1.0",
+      "paths": [
+        "EARC_OBJECT_RECORD_SCHEMA_v1.0.md",
+        "EARC_OBJECT_RECORD_SCHEMA_v1.0.json"
+      ],
+      "license": "CC-BY-4.0",
+      "grantor": "Patrick R. Miller (K501)",
+      "status": "LICENSE_RECORDED"
+    },
+    {
+      "id": "EARC_NEUTRALITY_TRANSITION_1793335241",
+      "paths": [
+        "EARC_NEUTRALITY_TRANSITION_1793335241.md",
+        "EARC_NEUTRALITY_TRANSITION_1793335241.json"
+      ],
+      "license": "CC-BY-4.0",
+      "grantor": "Patrick R. Miller (K501)",
+      "status": "LICENSE_RECORDED"
+    },
+    {
+      "id": "EARC_REPOSITORY_STATE_ANCHOR_1793335241",
+      "paths": [
+        "EARC_REPOSITORY_STATE_ANCHOR_1793335241.md",
+        "EARC_REPOSITORY_STATE_ANCHOR_1793335241.json"
+      ],
+      "license": "CC-BY-4.0",
+      "grantor": "Patrick R. Miller (K501)",
+      "status": "LICENSE_RECORDED"
+    },
+    {
+      "id": "EARC_NEUTRALITY_VALIDATION_1793335241",
+      "paths": [
+        "EARC_NEUTRALITY_VALIDATION_1793335241.md",
+        "EARC_NEUTRALITY_VALIDATION_1793335241.json"
+      ],
+      "license": "CC-BY-4.0",
+      "grantor": "Patrick R. Miller (K501)",
+      "status": "LICENSE_RECORDED"
+    },
+    {
+      "id": "EARC_NAVIGATION_INDEX",
+      "paths": [
+        "README.md",
+        "Gateway.md",
+        "GW__ROOT.json",
+        "INDEX.md",
+        "INDEX.json"
+      ],
+      "license": "CC-BY-4.0",
+      "grantor": "Patrick R. Miller (K501)",
+      "status": "LICENSE_RECORDED"
+    },
+    {
+      "id": "EARC_RIGHTS_ADMINISTRATION",
+      "paths": [
+        "LICENSE_MAP.md",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "license": "CC-BY-4.0",
+      "grantor": "Patrick R. Miller (K501)",
+      "status": "LICENSE_RECORDED"
+    }
+  ],
+  "explicit_non_grants": [
+    {
+      "path": "src/**",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "include/**",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "raw/**",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "archive/**",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "spec/**",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "semantic_ingest_v1/**",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "test_ingest_20/**",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "canonical/**",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "historical underscore-prefixed directories",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "k501_core.bin",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "output.ndjson",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "run1.ndjson",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    },
+    {
+      "path": "structure.txt",
+      "status": "RIGHTS_OPEN_UNLESS_SEPARATELY_REGISTERED"
+    }
+  ]
+}

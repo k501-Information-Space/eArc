@@ -1,81 +1,153 @@
 {
-  "schema": "K501_ARTIFACT_MANIFEST/1.0.0",
-  "manifest_id": "K501_EARC_MAIN_TRANSITION_MANIFEST_1793333967",
+  "schema": "EARC_NEUTRAL_ARCHIVE_MANIFEST/1.0.0",
+  "manifest_id": "EARC_NEUTRAL_ARCHIVE_MANIFEST_1793335241",
   "repository": "k501-Information-Space/eArc",
-  "target_branch": "main",
-  "parent_commit": "d91d11e8a851d54df0624295452d5c06f96134c3",
-  "parent_tree": "b1656f48ef6adf89847fafe6c8360372a0bd16bb",
-  "operator_time_anchor": 1793333967,
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "canonical_authority": "NONE",
+  "parent_commit": "0429b08b710252e4e83799b8e8d19f0705433a53",
+  "operator_time_anchor": 1793335241,
   "hash_algorithm": "SHA-256",
   "checksum_file": "SHA256SUMS.txt",
-  "checksum_scope": "All listed transition text artifacts except MANIFEST.json itself; SHA256SUMS.txt contains checksums for all listed user documents.",
   "artifacts": [
     {
+      "path": "EARC_NEUTRALITY_TRANSITION_1793335241.json",
+      "sha256": "548b8af691b0b617d1d142991230d3d5d558efd7b23e5ae62124610949d8fd02",
+      "bytes": 1121,
+      "identity_source": "UTF8_CONTENT"
+    },
+    {
+      "path": "EARC_NEUTRALITY_TRANSITION_1793335241.md",
+      "sha256": "1396ffbf235c9ade9b86d0b86df9624aeab6b8c7a3726742ee6752cbcdbb3bd0",
+      "bytes": 1978,
+      "identity_source": "UTF8_CONTENT"
+    },
+    {
+      "path": "EARC_NEUTRALITY_VALIDATION_1793335241.json",
+      "sha256": "31ce19399e057ed6aee9d53b6d523e7b4129961108d2c423aebf03efa2e74763",
+      "bytes": 1377,
+      "identity_source": "UTF8_CONTENT"
+    },
+    {
+      "path": "EARC_NEUTRALITY_VALIDATION_1793335241.md",
+      "sha256": "d6e8769bdbe0c3b288c56d5ad4e1ebcf27fb12eaf9d1280265fc4e72ba877d43",
+      "bytes": 1458,
+      "identity_source": "UTF8_CONTENT"
+    },
+    {
+      "path": "EARC_OBJECT_RECORD_qh_core.c_1793335241.json",
+      "sha256": "2f4b8209a0fc66fb61ccd781afed4cc62469bdec16b3c5c1b89ba97e68ffe412",
+      "bytes": 2383,
+      "identity_source": "UTF8_CONTENT"
+    },
+    {
+      "path": "EARC_REPOSITORY_STATE_ANCHOR_1793335241.json",
+      "sha256": "acd7181d31c2bc04f79c71722c731b5acd014b0979e10e0d0d448835e0404653",
+      "bytes": 1337,
+      "identity_source": "UTF8_CONTENT"
+    },
+    {
+      "path": "EARC_REPOSITORY_STATE_ANCHOR_1793335241.md",
+      "sha256": "58ccfcd002814f162ce01139fda3ee2aac838e272fd418176a4a4b0a7a0f2fc7",
+      "bytes": 1939,
+      "identity_source": "UTF8_CONTENT"
+    },
+    {
       "path": "Gateway.md",
-      "sha256": "e651aed4620c4385e5f2b19b2695ce614f7198ff8f671352deed0686b7106b98",
-      "bytes": 3051
+      "sha256": "e50d276eb0d2892c01aa2a39b537f4be202e2d184e6b36d342f731b644f9b8c0",
+      "bytes": 1916,
+      "identity_source": "UTF8_CONTENT"
     },
     {
       "path": "GW__ROOT.json",
-      "sha256": "d54bd5adfc5a7845e27fdb355b862068db2a1a2cd695ecfe40d4eab080972140",
-      "bytes": 3486
+      "sha256": "b380f1d27545746de37345fcb59bf130e1eee7e503311d0e631794fbc8109af8",
+      "bytes": 2766,
+      "identity_source": "UTF8_CONTENT"
     },
     {
       "path": "INDEX.json",
-      "sha256": "6c167e2012c6a13373256c2885df3ed9146cd0910acbc7ef1d08134a51eff047",
-      "bytes": 5202
+      "sha256": "bb370417ada82526468720b611a2c268663ad14de988541ee8a1d5875721ed18",
+      "bytes": 3418,
+      "identity_source": "UTF8_CONTENT"
     },
     {
       "path": "INDEX.md",
-      "sha256": "d4963ffd8be4cbf8ec095c4a5736bbc9676fa0261aac1e2ad34be96e17444ec3",
-      "bytes": 4940
-    },
-    {
-      "path": "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.json",
-      "sha256": "41ff836bf7861fafd4ed66578190bd2fe4927bf5854202ce130c46f09cbbc02e",
-      "bytes": 3042
-    },
-    {
-      "path": "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md",
-      "sha256": "e77169d0d77e83aa30facf2be1eb0794e85d8670242dca6c2b5fd6d05a1df704",
-      "bytes": 3940
+      "sha256": "f8b88f6fdd581c62da63904cd4de6dfad6d49c509e96b5ef33834b9c1203714e",
+      "bytes": 3273,
+      "identity_source": "UTF8_CONTENT"
     },
     {
       "path": "LICENSE",
-      "sha256": "2e5d6b4806185865337bb27729eb01f362ec7d4711b19e569f9e16ab5af9fcb5",
-      "bytes": 1083
+      "sha256": "4ea00fde6ad48da3ca56e36c6f8ec6e980103fc099a3f96642e23c3be2f2c7c1",
+      "bytes": 1290,
+      "identity_source": "UTF8_CONTENT"
     },
     {
       "path": "LICENSE_MAP.md",
-      "sha256": "aa91f6c33a3feea5e9a014c0967390e014a1a9ae5cdcdc89484238c7530178fb",
-      "bytes": 3062
+      "sha256": "0c489f6fbefba9f35df5be426202b5cff45486fcc8073e63794da7c57dca12b4",
+      "bytes": 1455,
+      "identity_source": "UTF8_CONTENT"
     },
     {
       "path": "LICENSE-CONTENT",
-      "sha256": "03dbce75eaf83fc882f83ac2cd6f720c105e1750b39e11168cc3875e116b9d36",
-      "bytes": 1073
+      "sha256": "4ff8a35097f8f3878fe37cc87c9bbb56950e2b74679db4a948d06430a44567a4",
+      "bytes": 852,
+      "identity_source": "UTF8_CONTENT"
     },
     {
       "path": "README.md",
-      "sha256": "9f8f530be7b839bddf5d80305126539a23987741ab201eb5472123c0bfa2b5e0",
-      "bytes": 3807
+      "sha256": "a8fea10f6bb20cfede1ec18bed4208ba05d0a25cf5124c2d148000c5b58b9711",
+      "bytes": 3928,
+      "identity_source": "UTF8_CONTENT"
+    },
+    {
+      "path": "RIGHTS_REGISTER.json",
+      "sha256": "90f4fb74cfd153b1d23d234d357555f4c66497b07d4678f865e22916ca5d427a",
+      "bytes": 4351,
+      "identity_source": "UTF8_CONTENT"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "391484dd8ede29a1f8de5c1f53b6b3d3831bec04b86f7a91a6bee4bd6b6e69b0",
-      "bytes": 2319
+      "sha256": "e75c43eee8301d8942c2b80dfe9750b73960f87a3431ee8903774bd3b37ac692",
+      "bytes": 1461,
+      "identity_source": "UTF8_CONTENT"
     },
     {
-      "path": "VALIDATION_REPORT.json",
-      "sha256": "869df8d49eb79d190ece4a18a2944da4c50bad890603f9ce62ea8fe8fddbc905",
-      "bytes": 2723
+      "path": "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.md",
+      "git_blob_sha": "8302adcb93e26c7f302e01ef13a2bcda7928a1fb",
+      "content_sha256": "NOT_RECOMPUTED_IN_THIS_PASS",
+      "identity_source": "PRECREATED_GIT_BLOB"
     },
     {
-      "path": "VALIDATION_REPORT.md",
-      "sha256": "1945eb6803d2da31e177bdaed9000e9cd046f5a05053b643fb70ccbee19ab4e2",
-      "bytes": 3324
+      "path": "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.json",
+      "git_blob_sha": "b2d0bea0fab16587a0d9bbd27a36123d9aa27ab8",
+      "content_sha256": "NOT_RECOMPUTED_IN_THIS_PASS",
+      "identity_source": "PRECREATED_GIT_BLOB"
+    },
+    {
+      "path": "EARC_INGEST_POLICY_v1.0.md",
+      "git_blob_sha": "c638bdc4ae1d1bbc106acff21fa43a99080f7c24",
+      "content_sha256": "NOT_RECOMPUTED_IN_THIS_PASS",
+      "identity_source": "PRECREATED_GIT_BLOB"
+    },
+    {
+      "path": "EARC_INGEST_POLICY_v1.0.json",
+      "git_blob_sha": "e2b0d252ec9235a26ce2d2fe130b020b59696c1b",
+      "content_sha256": "NOT_RECOMPUTED_IN_THIS_PASS",
+      "identity_source": "PRECREATED_GIT_BLOB"
+    },
+    {
+      "path": "EARC_OBJECT_RECORD_SCHEMA_v1.0.md",
+      "git_blob_sha": "184f9f0b398001d5fab8c17964623711f4e4d30d",
+      "content_sha256": "NOT_RECOMPUTED_IN_THIS_PASS",
+      "identity_source": "PRECREATED_GIT_BLOB"
+    },
+    {
+      "path": "EARC_OBJECT_RECORD_SCHEMA_v1.0.json",
+      "git_blob_sha": "073d4e9e54b4ab22a4693e769a48fc870681ce2e",
+      "content_sha256": "NOT_RECOMPUTED_IN_THIS_PASS",
+      "identity_source": "PRECREATED_GIT_BLOB"
     }
   ],
-  "manifest_self_hash": "OMITTED_BY_DESIGN_TO_AVOID_SELF_REFERENCE",
-  "checksum_self_hash": "OMITTED_BY_DESIGN_TO_AVOID_SELF_REFERENCE"
+  "self_reference": "MANIFEST.json and SHA256SUMS.txt omit their own hashes."
 }

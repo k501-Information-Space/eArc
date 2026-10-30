@@ -1,0 +1,39 @@
+{
+  "schema": "EARC_REPOSITORY_STATE_ANCHOR/1.0.0",
+  "anchor_id": "EARC_REPOSITORY_STATE_ANCHOR_1793335241",
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "canonical_authority": "NONE",
+  "operator_time_anchor": {
+    "unix_epoch": 1793335241,
+    "utc": "2026-10-30T04:40:41Z",
+    "europe_berlin": "2026-10-30T05:40:41+01:00"
+  },
+  "source": {
+    "repository": "k501-Information-Space/eArc",
+    "branch": "main",
+    "parent_commit": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "parent_tree": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "blobs": 4516,
+    "trees": 62,
+    "truncated": false
+  },
+  "correction": "Earlier eArc canonical terminology is replaced by neutral archive terminology. Legacy path canonical/ is retained with no authority.",
+  "rules": {
+    "source_status": "CLAIM_ONLY",
+    "earc_authority": "NONE",
+    "rights_default": "RIGHTS_OPEN"
+  },
+  "example_object_record": "EARC_OBJECT_RECORD_qh_core.c_1793335241.json",
+  "open": [
+    "Full provenance/rights/privacy review",
+    "LFS payload verification",
+    "build/runtime reproduction",
+    "external QH256 validation reproduction",
+    "historical root path migration"
+  ],
+  "paired_files": [
+    "EARC_REPOSITORY_STATE_ANCHOR_1793335241.md",
+    "EARC_REPOSITORY_STATE_ANCHOR_1793335241.json"
+  ]
+}
