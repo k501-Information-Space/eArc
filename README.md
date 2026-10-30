@@ -1,289 +1,151 @@
-# K501 Information Space
+# eArc — K501 Information Space
 
-eArc :: Append-Only Deterministic Information Architecture
+**eArc:** Append-only deterministic information architecture.  
+**Repository:** [k501-Information-Space/eArc](https://github.com/k501-Information-Space/eArc)
 
-Status: CANONICAL
-Epoch: 1778976550
-UTC: Sun May 17 00:09:10 2026 UTC
-Europe/Amsterdam: Sun May 17 02:09:10 2026 CEST
+## Snapshot and scope
 
----
+This navigation snapshot was prepared from the GitHub tree rooted at:
 
-# Core Identity
+- Branch: `main`
+- Commit: `f78849f9b792d59cc6e8d81418b71277129fbb33`
+- Tree: `94468af772b7cf1c70897cfbf9caf0594ef2f222`
+- Observation anchor supplied for this review: Unix `1793333424` — 2026-10-30 04:10:24 UTC
 
-K501 is an append-only information architecture.
+The original root declaration recorded `Status: CANONICAL` and time anchor `1778976550` (2026-05-17). That historical owner-declared status is preserved as history; this navigation snapshot does not independently validate every artifact or change the status of any enclosed object.
 
-The system separates:
+This first harmonization pass:
+- removes only seven tracked placeholder files that were the sole contents of otherwise empty directories;
+- updates the human and machine navigation to match the observed repository tree;
+- does not move, rename, deduplicate, reinterpret, or rewrite source, archive, specification, implementation, or derived data.
 
-* runtime
-* archive
-* canonical memory
-* structural evolution
-* semantic stabilization
+The branch carrying this pass is separate from `main`.
 
-into interoperable deterministic layers.
+## Entry order
 
-K501 preserves:
+1. `README.md` — repository overview.
+2. `Gateway.md` — human navigation and zone descriptions.
+3. `GW__ROOT.json` — machine-readable root navigation.
 
-* provenance
-* structural continuity
-* topology integrity
-* semantic context
+## Harmonized repository zones
 
-over time.
+| Zone | Exact path(s) | Observed role |
+|---|---|---|
+| Canonical reference | `canonical/` | Owner-designated canonical definitions, manifests, and hash-seal records. Individual files retain their own declared status. |
+| Formal specifications | `spec/` | Research and system specifications. |
+| Source corpus | `raw/` | Retained source collections: DOCX, Markdown, TXT, and a legacy workspace subtree. |
+| Historical archive | `archive/` | Epoch binaries, legacy storage objects, runtime topology manifest, and topology snapshots. |
+| Implementation | `src/`, `include/`, `Makefile`, `.vscode/` | C sources, C interfaces, build configuration, and editor/debug configuration. |
+| Derived ingest | `semantic_ingest_v1/` | Frozen chunk/embedding outputs and ingest reports derived from the declared source path. |
+| Test corpus | `test_ingest_20/` | A separate 20-file Markdown ingest/test collection. |
+| Repository-state evidence | The existing top-level `_` directories listed below | Historical tree captures, freeze records, merge preparation, namespace analysis, runtime seals, and topology reports. |
 
----
+### Source corpus: `raw/`
 
-# Core Principles
+The current populated source branches are:
 
-K501 is not a traditional document repository.
+- `raw/docx/`
+- `raw/md/AIONARC_KANON/`
+- `raw/md/archived_unsorted/`
+- `raw/md/bootframes/`
+- `raw/md/chatGPT_converastions/`
+- `raw/md/kernel/`
+- `raw/md/philosophy/`
+- `raw/md/snapshots/`
+- `raw/md/temporary/`
+- `raw/txt/`
+- `raw/legacy/vscodium_workspace/`
 
-It is a structured information topology designed for:
+The path `chatGPT_converastions` is preserved exactly as stored; this pass does not normalize names. `raw/md/archived_unsorted/` is populated and is not an empty directory.
 
-* deterministic archival continuity
-* append-only historical preservation
-* semantic layering
-* canonical stabilization
-* runtime interoperability
-* machine and human co-navigation
+### Derived ingest: `semantic_ingest_v1/`
 
-The system preserves historical state rather than replacing history.
+The freeze record at `semantic_ingest_v1/FREEZE_20260517/semantic_ingest_state.txt` declares:
 
----
+- source: `raw/md/archived_unsorted`
+- model: `nomic-embed-text`
+- chunk directory: `semantic_ingest_v1/chunks`
+- embedding directory: `semantic_ingest_v1/embeddings`
+- report directory: `semantic_ingest_v1/reports`
+- chunk maximum: 40 lines
 
-# Repository Topology
+The observed tree contains 994 chunk files and 994 embedding files, plus a freeze record, manifests, reports, and a separate `test_run/` subtree. These are derived artifacts, not replacements for their source records. The freeze file's own `CANONICAL_BASELINE` label is retained as a source declaration; the folder's navigation role here is “derived ingest”.
 
-```text id="grxt5n"
-archive/    → immutable historical storage
-build/      → generated runtime/build artifacts
-canonical/  → stabilized canonical structures
-include/    → headers/interfaces
-raw/        → intake, snapshots, semantic sorting
-scripts/    → automation tooling
-spec/       → formal specifications
-src/        → implementation source
-```
+### Implementation
 
----
+The repository contains six C source files in `src/` and six headers in `include/`. The root `Makefile` builds `k501_core.bin` from `src/*.c`; `.vscode/launch.json` and `.vscode/tasks.json` also refer to that root-level output. Therefore this pass does not move the binary or change build paths without a build-and-test transition.
 
-# raw/md Structure
+### Repository-state evidence currently at root
 
-```text id="j9p9qv"
-raw/md/
+These exact existing paths are grouped together for navigation, but remain physically unchanged in this pass:
 
-bootframes/             → boot and initialization frames
-kernel/                 → kernel and architecture definitions
-snapshots/              → historical state captures
-philosophy/             → conceptual and semantic foundations
-archived_unsorted/      → historical pre-stabilization state
+- `_ANALYSIS/`
+- `_FREEZE_CANONICAL/`
+- `_FREEZE_STATE/`
+- `_REMOTE_TREE/`
+- `_mainline_freeze/`
+- `_merge_preparation/`
+- `_namespace_normalization/`
+- `_remote_audit/`
+- `_runtime_seal/`
+- `_topology_map/`
 
-canonical_candidates/
-duplicate_candidates/
-gateway_indexed/
-pending_review/
-structural_unknown/
-unstable_fragments/
-temporary/
-```
+Their manifests and reports are historical, source-scoped records. They must not be interpreted as a single current global state merely because they are presented together in navigation.
 
----
+### Root-level hold items
 
-# Operational Model
+The following files remain at their original paths until their exact roles and downstream references are registered:
 
-K501 operates as an append-only system.
-
-Historical states are preserved whenever possible.
-
-Preferred workflow:
-
-```text id="5prj2r"
-1. intake
-2. classify
-3. stabilize
-4. canonicalize
-5. archive
-```
-
-Deletion is avoided unless structurally necessary.
-
----
-
-# Gateway System
-
-K501 uses a deterministic Gateway architecture.
-
----
-
-## Global Human Gateway
-
-There exists exactly one global human Gateway:
-
-```text id="7kdtpn"
-/workspace/Gateway.md
-```
-
-This file defines:
-
-* repository structure
-* navigation logic
-* canonical zones
-* topology orientation
-* semantic continuity
-
-for both humans and machines.
-
----
-
-## Human Gateway Layers
-
-Human Gateway layers exist only for major structural zones.
-
-Examples:
-
-```text id="9k5z6m"
-RAW_Gateway.md
-MD_Gateway.md
-ARCHIVE_Gateway.md
-SPEC_Gateway.md
-CANONICAL_Gateway.md
-```
-
-Human Gateway layers are:
-
-* readable
-* minimal
-* stable
-* non-recursive
-
----
-
-## Machine Gateway Layers
-
-Machine Gateway objects use deterministic JSON topology mapping.
-
-Format:
-
-```text id="9r95z6"
-GW_<layer>.json
-```
-
-Examples:
-
-```text id="65wh0h"
-GW_raw.json
-GW_raw_md.json
-GW_archive.json
-GW_spec.json
-GW_canonical.json
-```
-
-Machine Gateway objects provide:
-
-* deterministic paths
-* topology references
-* canonical bindings
-* navigation mappings
-* structural metadata
-
----
-
-# Canonical Specification
-
-```json id="bm0c1z"
-{
-  "system": "K501 Information Space",
-  "repository": "eArc",
-  "organization": "k501-Information-Space",
-  "repository_url": "https://github.com/k501-Information-Space/eArc",
-  "definition": "append-only deterministic information architecture",
-  "author": "Patrick R. Miller (Iinkognit0)"
-}
-```
-
----
-
-# Current Status
-
-K501 currently operates in:
-
-```text id="7f0j2d"
-Topology Stabilization
-Gateway Reconciliation
-Canonical Consolidation
-Semantic Classification
-```
-
-K501 evolves toward:
-
-* deterministic semantic infrastructure
-* canonical knowledge topology
-* archival runtime interoperability
-* machine-readable continuity layers
-
----
-
-# References
-
-Author:
-
-```text id="v00bq8"
-Patrick R. Miller (Iinkognit0)
-```
-
-Source:
-
-```text id="vtch0q"
-https://iinkognit0.de/
-```
-
-GitHub:
-
-```text id="9bc2m0"
-https://github.com/Iinkognit0
-https://github.com/k501-Information-Space
-https://github.com/k501-Information-Space/eArc
-```
-
-Mastodon:
-
-```text id="pwhqq8"
-https://mastodon.social/@K501
-```
-
-Dev.to:
-
-```text id="3hrq6d"
-https://dev.to/k501is
-```
-
----
-
-# Philosophy
-
-K501 treats information as persistent structural state.
-
-The objective is not compression of history,
-but preservation of semantic continuity.
-
----
-
-# Observation
-
-Most information systems optimize for speed.
-
-K501 optimizes for continuity.
-
-This changes how memory, structure, retrieval,
-and long-term machine interpretation behave.
-
----
-
-K501 :: APPEND_ONLY
-
-K501 :: NO_SEMANTIC_DRIFT
-
-K501 :: HUMAN_MACHINE_ORIENTATION
-
-K501 :: STRUCTURAL_CONTINUITY
-
-THE_LIVING_STRUCTURE :: CONTINUES
+- `k501_core.bin` — referenced build output.
+- `output.ndjson` — NDJSON object tracked through Git LFS.
+- `run1.ndjson` — retained line-oriented data file.
+- `structure.txt` — local workspace topology capture; a same-content copy is also present at `archive/manifests/runtime/structure.txt`. The two paths remain separate objects.
+
+No deduplication or automatic relocation is performed.
+
+## Empty-directory cleanup in this branch
+
+Git does not store empty directories. The following seven paths were represented only by a zero-byte `.keep` file and are removed in this branch:
+
+- `raw/imports/`
+- `raw/md/canonical_candidates/`
+- `raw/md/duplicate_candidates/`
+- `raw/md/gateway_indexed/`
+- `raw/md/pending_review/`
+- `raw/md/structural_unknown/`
+- `raw/md/unstable_fragments/`
+
+The `.keep` file under `raw/md/archived_unsorted/` is retained because that directory also contains 1,014 source files. Other zero-byte files that are not empty-directory markers are retained.
+
+## Second-stage physical consolidation proposal — not executed
+
+The remaining repository-state directories could later be placed beneath one physical root, for example `repository_state/`, with this explicit crosswalk:
+
+| Current path | Proposed path |
+|---|---|
+| `_ANALYSIS/` | `repository_state/analysis/` |
+| `_FREEZE_CANONICAL/` | `repository_state/freeze/canonical/` |
+| `_FREEZE_STATE/` | `repository_state/freeze/state/` |
+| `_mainline_freeze/` | `repository_state/freeze/mainline/` |
+| `_REMOTE_TREE/` | `repository_state/tree_captures/` |
+| `_merge_preparation/` | `repository_state/merge_preparation/` |
+| `_namespace_normalization/` | `repository_state/namespace_normalization/` |
+| `_remote_audit/` | `repository_state/remote_audit/` |
+| `_runtime_seal/` | `repository_state/runtime_seal/` |
+| `_topology_map/` | `repository_state/topology_map/` |
+
+This is a proposal, not a completed move. Before applying it, create an exact old-path/new-path register, inspect references to old paths, preserve all blob identities and checksums, and validate the resulting tree. The raw corpus, archive, canonical material, specifications, implementation, test corpus, and derived ingest should remain separate zones.
+
+## Continuity rules
+
+- Preserve exact paths and filenames unless an explicit path transition is registered.
+- Keep source objects, archive objects, specifications, canonical declarations, and derived ingest outputs distinguishable.
+- Do not infer authority from a filename or directory name alone.
+- Do not treat hashes as semantic correctness proofs.
+- Keep historical snapshots time-scoped.
+- Do not merge, overwrite, or deduplicate equal-content objects solely because their bytes match.
+
+K501 :: APPEND_ONLY  
+K501 :: PROOF_BEFORE_STATE  
+K501 :: RECONSTRUCT_BEFORE_EXTEND  
+K501 :: PRESERVE_HISTORY

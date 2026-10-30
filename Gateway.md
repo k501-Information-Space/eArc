@@ -1,292 +1,99 @@
-# Gateway :: K501 Information Space
+# Gateway — K501 Information Space / eArc
 
-Status: CANONICAL
-Mode: STRICT
-System: K501 Information Space
+**Status:** CANONICAL (owner-declared; original anchor retained in `GW__ROOT.json`)  
+**Mode:** STRICT  
+**System:** K501 Information Space  
+**Repository:** `k501-Information-Space/eArc`
 
-This Gateway is the primary orientation layer for the K501 repository.
+This file is the root human-navigation layer for this repository. Its path is `Gateway.md` at the repository root.
 
-It exists to provide:
+## Navigation order
 
-* structural navigation
-* semantic continuity
-* canonical entry routing
-* deterministic orientation
-* human/machine co-orientation
+`README.md` → `Gateway.md` → `GW__ROOT.json` → zone-specific content.
 
----
+The previous references to `/workspace/Gateway.md` described a local workspace path, not the current GitHub repository path. Use the root-relative path `Gateway.md`.
 
-# Core Identity
+## Primary zones
 
-K501 is an append-only information architecture.
+### Canonical reference and specifications
 
-The repository is organized as:
+- `canonical/` — owner-designated canonical definitions, manifests, and hash-seal records. The declared status of each object remains source-specific.
+- `spec/` — research and system specifications.
 
-* historical memory
-* semantic topology
-* runtime structure
-* canonical stabilization system
+### Source and historical archive
 
-K501 preserves:
+- `raw/` — source corpus, retained in its existing subpaths.
+- `archive/` — historical binaries, storage objects, runtime structure manifest, and topology snapshots.
 
-* provenance
-* structural continuity
-* semantic context
-* topology evolution
+### Implementation
 
-over time.
+- `src/` — C implementation source.
+- `include/` — C interfaces.
+- `Makefile` — current build contract; target `k501_core.bin` is emitted at repository root.
+- `.vscode/` — editor, launch, and build-task configuration.
 
----
+### Derived and test data
 
-# Gateway Architecture
+- `semantic_ingest_v1/` — derived chunk and embedding outputs. Its freeze record identifies `raw/md/archived_unsorted` as the source.
+- `test_ingest_20/` — separate test/ingest corpus.
 
-K501 uses a dual Gateway architecture.
+Derived output must not be mistaken for canonical source material. A freeze marker inside a derived zone remains that file's own declaration and does not change the origin of its inputs.
 
----
+## Raw Markdown substructure
 
-## Global Human Gateway
+The populated current subdirectories are:
 
-There exists exactly one global human Gateway:
+- `raw/md/AIONARC_KANON/`
+- `raw/md/archived_unsorted/`
+- `raw/md/bootframes/`
+- `raw/md/chatGPT_converastions/`
+- `raw/md/kernel/`
+- `raw/md/philosophy/`
+- `raw/md/snapshots/`
+- `raw/md/temporary/`
 
-```text id="p0gcfc"
-/workspace/Gateway.md
-```
+Paths are identifiers and are preserved exactly. No semantic path normalization is implied.
 
-This file defines:
+## Repository-state and audit records
 
-* repository structure
-* navigation logic
-* canonical zones
-* topology principles
-* orientation rules
-* semantic continuity
+The following directories currently remain at repository root and are navigated as one logical group:
 
-This is the primary human and machine entry layer.
+- `_ANALYSIS/`
+- `_FREEZE_CANONICAL/`
+- `_FREEZE_STATE/`
+- `_REMOTE_TREE/`
+- `_mainline_freeze/`
+- `_merge_preparation/`
+- `_namespace_normalization/`
+- `_remote_audit/`
+- `_runtime_seal/`
+- `_topology_map/`
 
----
+They contain time-scoped reports, manifests, tree captures, merge/namespace preparation, and runtime/topology seal evidence. They are not automatically the current global state. Read each record with its own timestamp, scope, and status.
 
-## Human Gateway Layers
+A future grouping beneath `repository_state/` is proposed in `README.md`; it has not been executed in this branch.
 
-Human Gateway layers exist only for major structural zones.
+## Root-level artifacts retained
 
-Examples:
+- `GW__ROOT.json` — machine-readable root navigation.
+- `k501_core.bin` — current root-level Makefile target.
+- `output.ndjson`, `run1.ndjson`, `structure.txt` — retained root-level data/topology objects, pending explicit path registration before relocation.
 
-```text id="yn8cz9"
-RAW_Gateway.md
-MD_Gateway.md
-ARCHIVE_Gateway.md
-SPEC_Gateway.md
-CANONICAL_Gateway.md
-```
+## Empty placeholder paths removed in this branch
 
-Human Gateways are:
+The seven paths documented in `README.md` were represented solely by `.keep` files and were empty. They are removed here. Populated source directories and all other zero-byte files are retained.
 
-* minimal
-* readable
-* stable
-* non-recursive
+## Gateway principles
 
-Not every directory receives a human Gateway.
+- Orient; do not reinterpret source objects.
+- Navigate; do not claim that navigation proves validity.
+- Preserve exact path identity until a registered transition exists.
+- Separate source, archive, canonical declaration, specification, implementation, derived data, test data, and historical evidence.
+- Preserve conflicting and time-scoped records rather than flattening them.
+- Reconstruction depends on retained objects and explicit procedures; missing evidence remains missing.
 
----
-
-## Machine Gateway Layers
-
-Machines use deterministic JSON Gateway objects.
-
-Format:
-
-```text id="8r4pc9"
-GW_<layer>.json
-```
-
-Examples:
-
-```text id="p2wy5x"
-GW_raw.json
-GW_raw_md.json
-GW_archive.json
-GW_spec.json
-GW_canonical.json
-```
-
-Machine Gateway layers contain:
-
-* deterministic paths
-* topology references
-* canonical bindings
-* navigation mappings
-* structural metadata
-
----
-
-# Primary Zones
-
-## Canonical Zones
-
-```text id="qg0yfr"
-canonical/
-spec/
-```
-
-Stable definitions and long-term reference structures.
-
----
-
-## Runtime Zones
-
-```text id="bd8y9k"
-src/
-include/
-build/
-scripts/
-```
-
-Executable and operational system layers.
-
----
-
-## Archive Zones
-
-```text id="g8x8fs"
-archive/
-raw/
-```
-
-Historical memory and intake topology.
-
----
-
-# raw/md Semantic Topology
-
-## bootframes/
-
-Initialization and boot structures.
-
-## kernel/
-
-Kernel logic and operational semantics.
-
-## snapshots/
-
-Historical system captures and temporal states.
-
-## philosophy/
-
-Conceptual and semantic foundation layers.
-
-## archived_unsorted/
-
-Historical archive state before stabilization.
-
-## pending_review/
-
-Structures awaiting classification or reconciliation.
-
----
-
-# Navigation Logic
-
-Preferred navigation order:
-
-```text id="79tvn4"
-README.md
-→ Gateway.md
-→ Human Gateway Layers
-→ Machine Gateway Layers
-→ Canonical Structures
-```
-
----
-
-# Gateway Principles
-
-Gateway layers are:
-
-* append-only
-* deterministic
-* non-destructive
-* topology-oriented
-* reference-based
-
-Gateway layers never mutate content.
-
-Gateway layers create orientation only.
-
----
-
-# Continuity Principle
-
-K501 evolves through:
-
-* accumulation
-* refinement
-* classification
-* stabilization
-
-rather than replacement.
-
-History is treated as structural memory.
-
----
-
-# Operational State
-
-Current repository phase:
-
-```text id="yzqf9m"
-Topology Stabilization
-Gateway Reconciliation
-Canonical Consolidation
-Semantic Classification
-```
-
----
-
-# Human-Machine Resonance Layer
-
-Gateway layers function as:
-
-* orientation anchors
-* semantic routers
-* topology stabilizers
-* continuity interfaces
-
-for:
-
-* humans
-* crawlers
-* LLM systems
-* retrieval systems
-* future K501 nodes
-
----
-
-# Canonical Formula
-
-```text id="j4d83x"
-GLOBAL HUMAN ORIENTATION
-+
-LOCAL MACHINE TOPOLOGY
-=
-SEMANTIC STABILIZATION
-```
-
----
-
-# K501
-
-Append-only.
-Deterministic.
-Layered.
-Persistent.
-
----
-
-K501 :: GATEWAY_LAYER_CANONICAL
-
-SEMANTIC_STABILIZATION :: ACTIVE
-
-NO_SEMANTIC_DRIFT :: ENFORCED
-
-THE_LIVING_STRUCTURE :: CONTINUES
+K501 :: DETERMINISTIC_ORIENTATION  
+K501 :: TRACEABILITY_REQUIRED  
+K501 :: NO_PHANTOM  
+K501 :: UNKNOWN_BY_DEFAULT  
+K501 :: PROOF_BEFORE_STATE
