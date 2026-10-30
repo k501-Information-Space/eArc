@@ -1,62 +1,37 @@
 # Gateway — K501 Information Space / eArc
 
-**Status:** CANONICAL (owner-declared; original anchor retained in `GW__ROOT.json`)  
-**Mode:** STRICT  
-**System:** K501 Information Space  
-**Repository:** `k501-Information-Space/eArc`
+**Repository:** `k501-Information-Space/eArc`  
+**Human entry:** `Gateway.md`  
+**Machine entry:** `GW__ROOT.json`  
+**Navigation state:** owner-maintained; repository observation is time-scoped.
 
-This file is the root human-navigation layer for this repository. Its path is `Gateway.md` at the repository root.
+## Entry sequence
 
-## Navigation order
+`README.md` → `Gateway.md` → `GW__ROOT.json` → `INDEX.md` / `INDEX.json` → zone content → paired Global State Anchor and validation report.
 
-`README.md` → `Gateway.md` → `GW__ROOT.json` → zone-specific content.
+## Main zones
 
-The previous references to `/workspace/Gateway.md` described a local workspace path, not the current GitHub repository path. Use the root-relative path `Gateway.md`.
-
-## Primary zones
-
-### Canonical reference and specifications
-
-- `canonical/` — owner-designated canonical definitions, manifests, and hash-seal records. The declared status of each object remains source-specific.
+### Canonical reference and specification
+- `canonical/` — owner-designated canonical reference material. A directory name does not automatically confer authority on every file within it.
 - `spec/` — research and system specifications.
 
-### Source and historical archive
-
-- `raw/` — source corpus, retained in its existing subpaths.
-- `archive/` — historical binaries, storage objects, runtime structure manifest, and topology snapshots.
+### Original and historical information
+- `raw/` — retained source corpus. Paths and names are preserved exactly.
+- `archive/` — historical storage objects, binaries, manifests and topology captures.
 
 ### Implementation
-
-- `src/` — C implementation source.
-- `include/` — C interfaces.
-- `Makefile` — current build contract; target `k501_core.bin` is emitted at repository root.
-- `.vscode/` — editor, launch, and build-task configuration.
+- `src/` — C implementation sources.
+- `include/` — C interfaces and shared types.
+- `Makefile` — build definition; current target is `k501_core.bin` at repository root.
+- `.vscode/` — editor/debug configuration.
 
 ### Derived and test data
-
-- `semantic_ingest_v1/` — derived chunk and embedding outputs. Its freeze record identifies `raw/md/archived_unsorted` as the source.
+- `semantic_ingest_v1/` — frozen chunks, embeddings and reports. Its freeze record identifies `raw/md/archived_unsorted` as the source.
 - `test_ingest_20/` — separate test/ingest corpus.
 
-Derived output must not be mistaken for canonical source material. A freeze marker inside a derived zone remains that file's own declaration and does not change the origin of its inputs.
+Derived artifacts do not replace their source objects and do not inherit a blanket licence where source rights are unknown.
 
-## Raw Markdown substructure
-
-The populated current subdirectories are:
-
-- `raw/md/AIONARC_KANON/`
-- `raw/md/archived_unsorted/`
-- `raw/md/bootframes/`
-- `raw/md/chatGPT_converastions/`
-- `raw/md/kernel/`
-- `raw/md/philosophy/`
-- `raw/md/snapshots/`
-- `raw/md/temporary/`
-
-Paths are identifiers and are preserved exactly. No semantic path normalization is implied.
-
-## Repository-state and audit records
-
-The following directories currently remain at repository root and are navigated as one logical group:
+## Repository-state records retained at root
 
 - `_ANALYSIS/`
 - `_FREEZE_CANONICAL/`
@@ -69,31 +44,30 @@ The following directories currently remain at repository root and are navigated 
 - `_runtime_seal/`
 - `_topology_map/`
 
-They contain time-scoped reports, manifests, tree captures, merge/namespace preparation, and runtime/topology seal evidence. They are not automatically the current global state. Read each record with its own timestamp, scope, and status.
+These remain physically unchanged. Each record must be read with its own time anchor, scope and status. Their coexistence does not make them one current global state.
 
-A future grouping beneath `repository_state/` is proposed in `README.md`; it has not been executed in this branch.
+## Root-level records and controls
 
-## Root-level artifacts retained
+- `INDEX.md` / `INDEX.json` — observed topology index.
+- `K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md/.json` — matched state-anchor pair.
+- `VALIDATION_REPORT.md/.json` — validation scope and limitations.
+- `LICENSE`, `LICENSE-CONTENT`, `LICENSE_MAP.md`, `THIRD_PARTY_NOTICES.md` — scoped licensing.
+- `MANIFEST.json`, `SHA256SUMS.txt` — integrity metadata for transition artifacts.
 
-- `GW__ROOT.json` — machine-readable root navigation.
-- `k501_core.bin` — current root-level Makefile target.
-- `output.ndjson`, `run1.ndjson`, `structure.txt` — retained root-level data/topology objects, pending explicit path registration before relocation.
+## Rights boundaries
 
-## Empty placeholder paths removed in this branch
+MIT applies only to K501-authored software within `LICENSE_MAP.md`. CC BY 4.0 applies only to K501-authored documentation within that map. Mixed raw/archive/derived/test material, third-party material and unresolved sources are excluded unless separately licensed.
 
-The seven paths documented in `README.md` were represented solely by `.keep` files and were empty. They are removed here. Populated source directories and all other zero-byte files are retained.
+## Gateway rules
 
-## Gateway principles
-
-- Orient; do not reinterpret source objects.
-- Navigate; do not claim that navigation proves validity.
-- Preserve exact path identity until a registered transition exists.
-- Separate source, archive, canonical declaration, specification, implementation, derived data, test data, and historical evidence.
-- Preserve conflicting and time-scoped records rather than flattening them.
-- Reconstruction depends on retained objects and explicit procedures; missing evidence remains missing.
+- Navigation is not validation.
+- A path is an identifier, not semantic authority.
+- Do not silently move, rename, merge or deduplicate source objects.
+- Preserve conflicting and historical state records.
+- Report missing evidence as missing.
+- Keep generated/derived information distinct from original sources.
 
 K501 :: DETERMINISTIC_ORIENTATION  
 K501 :: TRACEABILITY_REQUIRED  
-K501 :: NO_PHANTOM  
-K501 :: UNKNOWN_BY_DEFAULT  
-K501 :: PROOF_BEFORE_STATE
+K501 :: PROOF_BEFORE_STATE  
+K501 :: PRESERVE_HISTORY

@@ -1,0 +1,45 @@
+{
+  "report_id": "K501_EARC_MAIN_TRANSITION_VALIDATION_1793333967",
+  "schema": "K501_VALIDATION_REPORT/1.0.0",
+  "status": "PASS_SCOPED_CHECKS_WITH_CRITICAL_IMPLEMENTATION_FINDING_AND_OPEN_LIMITATIONS",
+  "parent": {
+    "commit": "d91d11e8a851d54df0624295452d5c06f96134c3",
+    "tree": "b1656f48ef6adf89847fafe6c8360372a0bd16bb"
+  },
+  "operator_time_anchor": 1793333967,
+  "checks_passed": [
+    "Connected GitHub permissions returned admin, maintain, pull and push.",
+    "Main branch and recursive tree read before transition.",
+    "Parent recursive tree: 4505 Git blobs, 62 Git trees, truncated=false.",
+    "Seven placeholder-only paths removed by previous merged transition and absent from parent tree.",
+    "Primary source/archive/canonical/specification/implementation/derived/test zones present.",
+    "Selected README, Gateway, root Gateway JSON, licence, source, header, canonical, specification and freeze files read.",
+    "Scoped MIT and CC BY 4.0 policy documented; mixed and unverified material excluded.",
+    "JSON documents syntax-checked before blob creation.",
+    "SHA-256 implementation passed known abc test vector and generated checksums for listed transition files.",
+    "Resulting Git tree read back before main ref transition; key existing data-zone paths were preserved."
+  ],
+  "observations": [
+    {
+      "path": "src/qh_core.c",
+      "blob_sha": "5eadf75402eb1605268b93dffe939a55bb015595",
+      "function": "k501_hash_compute",
+      "observed_expression": "out[i] = (uint8_t)((i + len) & 0xFF);",
+      "payload_bytes_read_by_observed_function": false,
+      "assessment": "NOT_SHA256; no content-dependent cryptographic hash is implemented by this function.",
+      "consequence": "Do not rely on this implementation for cryptographic object identity or integrity. A separate corrected and independently tested transition is required.",
+      "scope": "static inspection of the selected source file only; not a complete code audit."
+    }
+  ],
+  "open": [
+    "No build or runtime tests.",
+    "No full repository content review or rehash.",
+    "No Git LFS payload download or payload hash validation.",
+    "No complete per-file rights/provenance audit.",
+    "No exhaustive third-party code provenance review.",
+    "No semantic validation of canonical/specification assertions.",
+    "No physical relocation of historical root-level repository-state directories.",
+    "The observed k501_hash_compute function is not SHA-256; all integrity claims depending on it remain open."
+  ],
+  "validation_boundary": "PASS applies only to the specified repository/documentation checks. Software correctness, hash correctness, rights clearance and physical consolidation remain OPEN."
+}

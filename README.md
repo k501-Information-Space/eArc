@@ -1,151 +1,62 @@
 # eArc — K501 Information Space
 
-**eArc:** Append-only deterministic information architecture.  
-**Repository:** [k501-Information-Space/eArc](https://github.com/k501-Information-Space/eArc)
+**Repository:** https://github.com/k501-Information-Space/eArc  
+**Model:** append-only, reference-oriented archival and information structure.
 
-## Snapshot and scope
+## Repository state
 
-This navigation snapshot was prepared from the GitHub tree rooted at:
+This main-branch update is based on the verified parent:
 
-- Branch: `main`
-- Commit: `f78849f9b792d59cc6e8d81418b71277129fbb33`
-- Tree: `94468af772b7cf1c70897cfbf9caf0594ef2f222`
-- Observation anchor supplied for this review: Unix `1793333424` — 2026-10-30 04:10:24 UTC
+- Parent commit: `d91d11e8a851d54df0624295452d5c06f96134c3`
+- Parent tree: `b1656f48ef6adf89847fafe6c8360372a0bd16bb`
+- Operator time anchor: Unix `1793333967` — 2026-10-30 04:19:27 UTC / 05:19:27 Europe/Berlin.
 
-The original root declaration recorded `Status: CANONICAL` and time anchor `1778976550` (2026-05-17). That historical owner-declared status is preserved as history; this navigation snapshot does not independently validate every artifact or change the status of any enclosed object.
+The previous first-stage harmonization is already on `main`. This transition adds a rights boundary, a human/machine index, a paired Global State Anchor, a validation report, and updated navigation. It does not physically move the ten historical repository-state directories. Their proposed consolidation remains separate and requires an exact path-reference register.
 
-This first harmonization pass:
-- removes only seven tracked placeholder files that were the sole contents of otherwise empty directories;
-- updates the human and machine navigation to match the observed repository tree;
-- does not move, rename, deduplicate, reinterpret, or rewrite source, archive, specification, implementation, or derived data.
+## Navigation order
 
-The branch carrying this pass is separate from `main`.
-
-## Entry order
-
-1. `README.md` — repository overview.
-2. `Gateway.md` — human navigation and zone descriptions.
+1. `README.md` — repository purpose, boundaries and entry points.
+2. `Gateway.md` — human navigation.
 3. `GW__ROOT.json` — machine-readable root navigation.
+4. `INDEX.md` and `INDEX.json` — observed repository inventory.
+5. `K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md/.json` — paired, time-scoped state record.
+6. `VALIDATION_REPORT.md/.json` — scope and results of this transition.
 
-## Harmonized repository zones
+## Main zones
 
-| Zone | Exact path(s) | Observed role |
+| Zone | Paths | Role |
 |---|---|---|
-| Canonical reference | `canonical/` | Owner-designated canonical definitions, manifests, and hash-seal records. Individual files retain their own declared status. |
-| Formal specifications | `spec/` | Research and system specifications. |
-| Source corpus | `raw/` | Retained source collections: DOCX, Markdown, TXT, and a legacy workspace subtree. |
-| Historical archive | `archive/` | Epoch binaries, legacy storage objects, runtime topology manifest, and topology snapshots. |
-| Implementation | `src/`, `include/`, `Makefile`, `.vscode/` | C sources, C interfaces, build configuration, and editor/debug configuration. |
-| Derived ingest | `semantic_ingest_v1/` | Frozen chunk/embedding outputs and ingest reports derived from the declared source path. |
-| Test corpus | `test_ingest_20/` | A separate 20-file Markdown ingest/test collection. |
-| Repository-state evidence | The existing top-level `_` directories listed below | Historical tree captures, freeze records, merge preparation, namespace analysis, runtime seals, and topology reports. |
+| Canonical reference | `canonical/` | Owner-designated canonical declarations and manifests; file-level status remains authoritative for each object. |
+| Specifications | `spec/` | Research and system specifications. |
+| Source corpus | `raw/` | Retained DOCX, Markdown, TXT and legacy source material. |
+| Historical archive | `archive/` | Historical binaries, storage objects, manifests and topology snapshots. |
+| Implementation | `src/`, `include/`, `Makefile` | C source, interfaces and build definition. |
+| Derived ingest | `semantic_ingest_v1/` | Chunk, embedding and report artifacts derived from an identified source path. |
+| Test corpus | `test_ingest_20/` | Separate 20-file ingest/test collection. |
+| Repository-state evidence | Ten existing top-level `_` directories | Historical freeze, tree, audit, merge, namespace, runtime and topology records. |
 
-### Source corpus: `raw/`
+The root-level historical repository-state directories remain at their existing paths. A proposed `repository_state/` crosswalk is documented in `INDEX.md`, but no physical consolidation is claimed in this transition.
 
-The current populated source branches are:
+## Licensing
 
-- `raw/docx/`
-- `raw/md/AIONARC_KANON/`
-- `raw/md/archived_unsorted/`
-- `raw/md/bootframes/`
-- `raw/md/chatGPT_converastions/`
-- `raw/md/kernel/`
-- `raw/md/philosophy/`
-- `raw/md/snapshots/`
-- `raw/md/temporary/`
-- `raw/txt/`
-- `raw/legacy/vscodium_workspace/`
+The repository uses two separate licensing tracks:
 
-The path `chatGPT_converastions` is preserved exactly as stored; this pass does not normalize names. `raw/md/archived_unsorted/` is populated and is not an empty directory.
+- `LICENSE` — MIT for K501-authored software, within the exact scope in `LICENSE_MAP.md`.
+- `LICENSE-CONTENT` — CC BY 4.0 for K501-authored documentation, within the exact scope in `LICENSE_MAP.md`.
 
-### Derived ingest: `semantic_ingest_v1/`
+`THIRD_PARTY_NOTICES.md` records the rights boundary and review limitations. The licences do **not** automatically cover the mixed source corpus, imported conversations, legacy material, archival binaries, LFS payloads, derived embeddings, test data, or files whose authorship/rights have not been established. Those objects remain source-specific / rights-open unless a file-level notice says otherwise.
 
-The freeze record at `semantic_ingest_v1/FREEZE_20260517/semantic_ingest_state.txt` declares:
+## Continuity and evidence
 
-- source: `raw/md/archived_unsorted`
-- model: `nomic-embed-text`
-- chunk directory: `semantic_ingest_v1/chunks`
-- embedding directory: `semantic_ingest_v1/embeddings`
-- report directory: `semantic_ingest_v1/reports`
-- chunk maximum: 40 lines
+- Preserve source objects and historical path identity.
+- Keep source, canonical declarations, specifications, implementation and derived output distinct.
+- Treat timestamps and status claims as time- and scope-bound.
+- Do not infer rights, authority, correctness or semantic equivalence from a filename, path or matching hash.
+- A Git tree inventory is not a complete payload download, content review, build, runtime test or legal provenance audit.
+- The state anchor is a scoped repository observation, not a replacement for the K501 global authority hierarchy.
 
-The observed tree contains 994 chunk files and 994 embedding files, plus a freeze record, manifests, reports, and a separate `test_run/` subtree. These are derived artifacts, not replacements for their source records. The freeze file's own `CANONICAL_BASELINE` label is retained as a source declaration; the folder's navigation role here is “derived ingest”.
-
-### Implementation
-
-The repository contains six C source files in `src/` and six headers in `include/`. The root `Makefile` builds `k501_core.bin` from `src/*.c`; `.vscode/launch.json` and `.vscode/tasks.json` also refer to that root-level output. Therefore this pass does not move the binary or change build paths without a build-and-test transition.
-
-### Repository-state evidence currently at root
-
-These exact existing paths are grouped together for navigation, but remain physically unchanged in this pass:
-
-- `_ANALYSIS/`
-- `_FREEZE_CANONICAL/`
-- `_FREEZE_STATE/`
-- `_REMOTE_TREE/`
-- `_mainline_freeze/`
-- `_merge_preparation/`
-- `_namespace_normalization/`
-- `_remote_audit/`
-- `_runtime_seal/`
-- `_topology_map/`
-
-Their manifests and reports are historical, source-scoped records. They must not be interpreted as a single current global state merely because they are presented together in navigation.
-
-### Root-level hold items
-
-The following files remain at their original paths until their exact roles and downstream references are registered:
-
-- `k501_core.bin` — referenced build output.
-- `output.ndjson` — NDJSON object tracked through Git LFS.
-- `run1.ndjson` — retained line-oriented data file.
-- `structure.txt` — local workspace topology capture; a same-content copy is also present at `archive/manifests/runtime/structure.txt`. The two paths remain separate objects.
-
-No deduplication or automatic relocation is performed.
-
-## Empty-directory cleanup in this branch
-
-Git does not store empty directories. The following seven paths were represented only by a zero-byte `.keep` file and are removed in this branch:
-
-- `raw/imports/`
-- `raw/md/canonical_candidates/`
-- `raw/md/duplicate_candidates/`
-- `raw/md/gateway_indexed/`
-- `raw/md/pending_review/`
-- `raw/md/structural_unknown/`
-- `raw/md/unstable_fragments/`
-
-The `.keep` file under `raw/md/archived_unsorted/` is retained because that directory also contains 1,014 source files. Other zero-byte files that are not empty-directory markers are retained.
-
-## Second-stage physical consolidation proposal — not executed
-
-The remaining repository-state directories could later be placed beneath one physical root, for example `repository_state/`, with this explicit crosswalk:
-
-| Current path | Proposed path |
-|---|---|
-| `_ANALYSIS/` | `repository_state/analysis/` |
-| `_FREEZE_CANONICAL/` | `repository_state/freeze/canonical/` |
-| `_FREEZE_STATE/` | `repository_state/freeze/state/` |
-| `_mainline_freeze/` | `repository_state/freeze/mainline/` |
-| `_REMOTE_TREE/` | `repository_state/tree_captures/` |
-| `_merge_preparation/` | `repository_state/merge_preparation/` |
-| `_namespace_normalization/` | `repository_state/namespace_normalization/` |
-| `_remote_audit/` | `repository_state/remote_audit/` |
-| `_runtime_seal/` | `repository_state/runtime_seal/` |
-| `_topology_map/` | `repository_state/topology_map/` |
-
-This is a proposal, not a completed move. Before applying it, create an exact old-path/new-path register, inspect references to old paths, preserve all blob identities and checksums, and validate the resulting tree. The raw corpus, archive, canonical material, specifications, implementation, test corpus, and derived ingest should remain separate zones.
-
-## Continuity rules
-
-- Preserve exact paths and filenames unless an explicit path transition is registered.
-- Keep source objects, archive objects, specifications, canonical declarations, and derived ingest outputs distinguishable.
-- Do not infer authority from a filename or directory name alone.
-- Do not treat hashes as semantic correctness proofs.
-- Keep historical snapshots time-scoped.
-- Do not merge, overwrite, or deduplicate equal-content objects solely because their bytes match.
-
-K501 :: APPEND_ONLY  
 K501 :: PROOF_BEFORE_STATE  
 K501 :: RECONSTRUCT_BEFORE_EXTEND  
-K501 :: PRESERVE_HISTORY
+K501 :: APPEND_ONLY  
+K501 :: NO_PHANTOM  
+K501 :: UNKNOWN_BY_DEFAULT

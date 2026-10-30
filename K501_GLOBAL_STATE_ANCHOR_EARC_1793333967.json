@@ -1,0 +1,85 @@
+{
+  "schema": "K501_GLOBAL_STATE_ANCHOR/1.0.0",
+  "anchor_id": "K501_GLOBAL_STATE_ANCHOR_EARC_MAIN_1793333967",
+  "anchor_type": "REPOSITORY_SCOPED_STATE_ANCHOR",
+  "status": "PASS_SCOPED_REPOSITORY_OBSERVATION_AND_DOCUMENTATION_TRANSITION",
+  "authority_boundary": "This eArc repository anchor does not replace the K501 global authority hierarchy.",
+  "operator_time_anchor": {
+    "unix_epoch": 1793333967,
+    "utc": "2026-10-30T04:19:27Z",
+    "europe_berlin": "2026-10-30T05:19:27+01:00",
+    "source": "operator_supplied"
+  },
+  "source_state": {
+    "repository": "k501-Information-Space/eArc",
+    "branch": "main",
+    "parent_commit": "d91d11e8a851d54df0624295452d5c06f96134c3",
+    "parent_tree": "b1656f48ef6adf89847fafe6c8360372a0bd16bb"
+  },
+  "observed_parent_tree": {
+    "git_blobs": 4505,
+    "git_trees": 62,
+    "recursive_response_truncated": false,
+    "git_blob_size_sum_bytes": 722927327,
+    "size_note": "Git LFS pointer blob sizes do not equal full LFS payload sizes."
+  },
+  "transition": {
+    "adds": [
+      "scoped MIT and CC BY 4.0 licences",
+      "license map",
+      "third-party rights notice",
+      "human index",
+      "machine index",
+      "paired state anchor",
+      "paired validation report",
+      "manifest",
+      "checksum list",
+      "updated README/Gateway/root Gateway JSON"
+    ],
+    "physical_moves": 0,
+    "source_object_content_rewrites": 0,
+    "source_deletions": 0,
+    "historical_repository_state_consolidation": "PROPOSED_ONLY_NOT_EXECUTED"
+  },
+  "license_state": {
+    "software": "MIT",
+    "documentation": "CC-BY-4.0",
+    "scope_document": "LICENSE_MAP.md",
+    "excluded_zones": [
+      "raw/**",
+      "archive/**",
+      "semantic_ingest_v1/**",
+      "test_ingest_20/**"
+    ],
+    "excluded_root_data": [
+      "k501_core.bin",
+      "output.ndjson",
+      "run1.ndjson",
+      "structure.txt"
+    ],
+    "rights_review": "PARTIALLY_SCOPED",
+    "complete_rights_clearance": "OPEN"
+  },
+  "critical_observation": {
+    "path": "src/qh_core.c",
+    "parent_blob_sha": "5eadf75402eb1605268b93dffe939a55bb015595",
+    "function": "k501_hash_compute",
+    "observed_expression": "out[i] = (uint8_t)((i + len) & 0xFF);",
+    "input_payload_bytes_used": false,
+    "assessment": "NOT_SHA256",
+    "consequence": "Do not rely on this routine for content-dependent cryptographic identity or integrity; correction and standard-vector testing require a separate transition."
+  },
+  "open_unknowns": [
+    "Complete file-level provenance and rights clearance.",
+    "Complete third-party code provenance review.",
+    "Git LFS payload download and payload checksum verification.",
+    "Build and runtime validation.",
+    "Cryptographic correctness of src/qh_core.c:k501_hash_compute.",
+    "Old-path reference scan required before moving historical repository-state directories."
+  ],
+  "paired_artifacts": {
+    "markdown": "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md",
+    "json": "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.json"
+  },
+  "principle": "PROOF_BEFORE_STATE"
+}

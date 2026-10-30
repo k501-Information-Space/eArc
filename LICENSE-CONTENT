@@ -1,0 +1,16 @@
+# Creative Commons Attribution 4.0 International
+
+**SPDX-License-Identifier:** CC-BY-4.0  
+**Canonical legal code:** https://creativecommons.org/licenses/by/4.0/legalcode  
+**Human-readable deed:** https://creativecommons.org/licenses/by/4.0/
+
+This licence is applied only to K501-authored documentation for which Patrick R. Miller has the rights necessary to grant it, and only within the path scope stated in `LICENSE_MAP.md`.
+
+Attribution requested by the licensor:
+
+- Creator: Patrick R. Miller (K501)
+- Source: https://github.com/k501-Information-Space/eArc
+- Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+- Changes: indicate whether the material was modified and identify modifications where reasonably practicable.
+
+The canonical Creative Commons legal code is the operative licence text. This repository notice is not a substitute or modification of that legal code. CC BY 4.0 does not apply to material excluded in `LICENSE_MAP.md`, third-party material, public-domain material, or material for which the licensor lacks the necessary rights.

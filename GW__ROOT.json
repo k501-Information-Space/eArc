@@ -7,41 +7,32 @@
   "system": "K501 Information Space",
   "repository": "eArc",
   "repository_url": "https://github.com/k501-Information-Space/eArc",
-  "author": "Patrick R. Miller (Iinkognit0)",
-  "time_anchor": {
-    "unix_epoch": 1778976550,
-    "utc": "Sun May 17 00:09:10 2026 UTC",
-    "europe_amsterdam": "Sun May 17 02:09:10 2026 CEST",
-    "scope": "historical owner-declared root anchor; retained without revision"
-  },
-  "repository_observation": {
-    "observed_at_unix": 1793333424,
-    "observed_at_utc": "Fri Oct 30 04:10:24 2026 UTC",
-    "source_branch": "main",
-    "source_commit": "f78849f9b792d59cc6e8d81418b71277129fbb33",
-    "source_tree": "94468af772b7cf1c70897cfbf9caf0594ef2f222",
-    "scope": "GitHub recursive tree and selected root/zone files; not a full content rehash or runtime validation"
-  },
-  "principles": [
-    "APPEND_ONLY",
-    "NO_SEMANTIC_DRIFT",
-    "DETERMINISTIC_STRUCTURE",
-    "PRESERVE_HISTORY",
-    "STRUCTURAL_CONTINUITY",
-    "HUMAN_MACHINE_ORIENTATION",
-    "PROOF_BEFORE_STATE",
-    "RECONSTRUCT_BEFORE_EXTEND",
-    "UNKNOWN_BY_DEFAULT",
-    "TRACEABILITY_REQUIRED"
-  ],
+  "author": "Patrick R. Miller (K501)",
   "navigation": {
     "entry_order": [
       "README.md",
       "Gateway.md",
-      "GW__ROOT.json"
+      "GW__ROOT.json",
+      "INDEX.md",
+      "INDEX.json",
+      "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md",
+      "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.json",
+      "VALIDATION_REPORT.md",
+      "VALIDATION_REPORT.json"
     ],
     "human_gateway": "Gateway.md",
-    "machine_gateway": "GW__ROOT.json"
+    "machine_gateway": "GW__ROOT.json",
+    "human_index": "INDEX.md",
+    "machine_index": "INDEX.json"
+  },
+  "repository_observation": {
+    "operator_time_anchor": 1793333967,
+    "operator_time_utc": "2026-10-30T04:19:27Z",
+    "operator_timezone": "Europe/Berlin",
+    "source_branch": "main",
+    "source_commit": "d91d11e8a851d54df0624295452d5c06f96134c3",
+    "source_tree": "b1656f48ef6adf89847fafe6c8360372a0bd16bb",
+    "scope": "recursive Git tree and selected text-file review; this is not a full LFS download, content rehash, runtime test or complete rights audit"
   },
   "primary_zones": {
     "canonical_reference": [
@@ -68,7 +59,7 @@
     "test_corpus": [
       "test_ingest_20/"
     ],
-    "repository_state_records_current_paths": [
+    "repository_state_current_paths": [
       "_ANALYSIS/",
       "_FREEZE_CANONICAL/",
       "_FREEZE_STATE/",
@@ -81,53 +72,60 @@
       "_topology_map/"
     ]
   },
-  "raw_markdown_populated_subzones": [
-    "raw/md/AIONARC_KANON/",
-    "raw/md/archived_unsorted/",
-    "raw/md/bootframes/",
-    "raw/md/chatGPT_converastions/",
-    "raw/md/kernel/",
-    "raw/md/philosophy/",
-    "raw/md/snapshots/",
-    "raw/md/temporary/"
-  ],
-  "tracked_root_artifacts": [
-    "k501_core.bin",
-    "output.ndjson",
-    "run1.ndjson",
-    "structure.txt"
-  ],
-  "empty_placeholder_paths_removed_in_restructure_branch": [
-    "raw/imports/",
-    "raw/md/canonical_candidates/",
-    "raw/md/duplicate_candidates/",
-    "raw/md/gateway_indexed/",
-    "raw/md/pending_review/",
-    "raw/md/structural_unknown/",
-    "raw/md/unstable_fragments/"
-  ],
+  "root_artifacts": {
+    "navigation": [
+      "README.md",
+      "Gateway.md",
+      "GW__ROOT.json"
+    ],
+    "index": [
+      "INDEX.md",
+      "INDEX.json"
+    ],
+    "state_anchor": [
+      "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md",
+      "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.json"
+    ],
+    "validation": [
+      "VALIDATION_REPORT.md",
+      "VALIDATION_REPORT.json"
+    ],
+    "licensing": [
+      "LICENSE",
+      "LICENSE-CONTENT",
+      "LICENSE_MAP.md",
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "integrity": [
+      "MANIFEST.json",
+      "SHA256SUMS.txt"
+    ]
+  },
+  "license_policy": {
+    "software": "MIT",
+    "documentation": "CC-BY-4.0",
+    "path_scope": "LICENSE_MAP.md",
+    "mixed_or_unverified_content": "RIGHTS_OPEN_EXCLUDED_FROM_BLANKET_LICENSE"
+  },
   "proposed_repository_state_grouping": {
     "status": "PROPOSED_ONLY_NOT_EXECUTED",
     "target_root": "repository_state/",
-    "path_mapping_required_before_transition": true,
-    "all_existing_paths_remain_unchanged_in_this_pass": true
+    "path_mapping_required_before_transition": true
   },
-  "historical_runtime_state": {
-    "as_of_unix_epoch": 1778976550,
-    "drift": "NONE",
-    "state": "CANONICAL",
+  "historical_owner_declared_anchor": {
+    "unix_epoch": 1778976550,
+    "status": "HISTORICAL_OWNER_DECLARATION_PRESERVED",
     "runtime_hash": "565377054a1f8f6ba8bd137ddd4ab91394a48b93935ba9abe07610e2c0008457",
-    "note": "Preserved historical declaration; not revalidated by this navigation update"
+    "note": "Historical statement; not revalidated by this update."
   },
-  "external_references": {
-    "website": "https://iinkognit0.de/",
-    "mastodon": "https://mastodon.social/@K501",
-    "devto": "https://dev.to/k501is",
-    "github_author": "https://github.com/Iinkognit0",
-    "github_org": "https://github.com/k501-Information-Space"
-  },
-  "k501_observation": {
-    "statement": "Stable orientation layers reduce semantic entropy and increase long-term machine-readable continuity.",
-    "status": "owner-declared observation; not independently validated by this navigation update"
-  }
+  "principles": [
+    "APPEND_ONLY",
+    "NO_SEMANTIC_DRIFT",
+    "DETERMINISTIC_STRUCTURE",
+    "PRESERVE_HISTORY",
+    "PROOF_BEFORE_STATE",
+    "RECONSTRUCT_BEFORE_EXTEND",
+    "UNKNOWN_BY_DEFAULT",
+    "TRACEABILITY_REQUIRED"
+  ]
 }
