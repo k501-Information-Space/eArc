@@ -1,0 +1,166 @@
+{
+  "schema_id": "K501_REPOSITORY_GATEWAY/0.1.0-draft",
+  "gateway_id": "EARC-ROOT-GATEWAY",
+  "status": "CURRENT_REPOSITORY_NAVIGATION_DRAFT",
+  "canonical": false,
+  "repository": {
+    "owner": "k501-Information-Space",
+    "name": "eArc",
+    "full_name": "k501-Information-Space/eArc",
+    "url": "https://github.com/k501-Information-Space/eArc",
+    "default_branch": "main",
+    "role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+    "repository_authority": "NONE",
+    "canonical_authority": "NONE",
+    "visibility": "PUBLIC"
+  },
+  "observation": {
+    "base_commit": "c376f91ab2accf25927cb972bf0a4eeac4df5ffe",
+    "branch": "main",
+    "operator_time_anchor": {
+      "unix_epoch": 1793389236,
+      "utc": "2026-10-30T19:40:36Z",
+      "europe_berlin": "2026-10-30T20:40:36+01:00",
+      "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+      "system_time_independently_verified": false
+    },
+    "scope": "Common root entrypoints and selected declared zones; no recursive source-content scan."
+  },
+  "entrypoints": {
+    "default_human": "README.md",
+    "human_gateway": "Gateway.md",
+    "machine_gateway": "Gateway.json",
+    "human_index": "Index.md",
+    "machine_index": "Index.json",
+    "neutral_archive_model": [
+      "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.md",
+      "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.json"
+    ],
+    "ingest_policy": [
+      "EARC_INGEST_POLICY_v1.0.md",
+      "EARC_INGEST_POLICY_v1.0.json"
+    ],
+    "object_record_schema": [
+      "EARC_OBJECT_RECORD_SCHEMA_v1.0.md",
+      "EARC_OBJECT_RECORD_SCHEMA_v1.0.json"
+    ],
+    "rights_register": "RIGHTS_REGISTER.json"
+  },
+  "legacy_entrypoints": {
+    "machine_gateway": "GW__ROOT.json",
+    "historical_human_index": "INDEX.md",
+    "historical_machine_index": "INDEX.json",
+    "preservation": "EXACT_PATHS_AND_SOURCE_CONTENT_UNCHANGED"
+  },
+  "navigation_routes": [
+    {
+      "route_id": "start",
+      "target": "README.md",
+      "related": [
+        "Gateway.md",
+        "Gateway.json",
+        "Index.md",
+        "Index.json"
+      ]
+    },
+    {
+      "route_id": "neutrality",
+      "target": "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.md",
+      "related": [
+        "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.json",
+        "EARC_INGEST_POLICY_v1.0.md",
+        "EARC_INGEST_POLICY_v1.0.json"
+      ]
+    },
+    {
+      "route_id": "object-records",
+      "target": "EARC_OBJECT_RECORD_SCHEMA_v1.0.md",
+      "related": [
+        "EARC_OBJECT_RECORD_SCHEMA_v1.0.json",
+        "RIGHTS_REGISTER.json"
+      ]
+    },
+    {
+      "route_id": "historical-topology",
+      "target": "INDEX.md",
+      "related": [
+        "INDEX.json",
+        "GW__ROOT.json"
+      ],
+      "status": "PRESERVED_HISTORICAL_SNAPSHOT"
+    },
+    {
+      "route_id": "zones",
+      "target": "Index.json",
+      "related": [
+        "raw/",
+        "archive/",
+        "src/",
+        "include/",
+        "spec/",
+        "semantic_ingest_v1/",
+        "test_ingest_20/",
+        "canonical/"
+      ]
+    }
+  ],
+  "historical_topology_snapshot": {
+    "human": "INDEX.md",
+    "machine": "INDEX.json",
+    "parent_commit": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "parent_tree_as_recorded": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "git_blobs": 4516,
+    "git_trees": 62,
+    "currentness": "HISTORICAL_SOURCE_SCOPE_ONLY",
+    "files_unchanged": true
+  },
+  "zones": {
+    "source_corpus": [
+      "raw/"
+    ],
+    "historical_storage": [
+      "archive/"
+    ],
+    "development_code": [
+      "src/",
+      "include/"
+    ],
+    "working_specifications": [
+      "spec/"
+    ],
+    "derived_data": [
+      "semantic_ingest_v1/"
+    ],
+    "test_data": [
+      "test_ingest_20/"
+    ],
+    "legacy_named_path_without_authority": [
+      "canonical/"
+    ]
+  },
+  "neutrality": {
+    "governing_model": "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.json",
+    "governing_ingest_policy": "EARC_INGEST_POLICY_v1.0.json",
+    "source_claims": "PRESERVED_AS_ORIGIN_CLAIMS_ONLY",
+    "archive_authority": "NONE",
+    "endorsement": "NONE",
+    "validation_by_storage": "NONE",
+    "currentness_by_storage": "NONE",
+    "canonical_authority": "NONE"
+  },
+  "rights_and_privacy": {
+    "rights_register": "RIGHTS_REGISTER.json",
+    "default_rights": "RIGHTS_OPEN",
+    "folder_wide_grants": false,
+    "privacy_review": "SEPARATE_REQUIRED_AXIS",
+    "reproduction": "SEPARATE_RECORDED_AXIS"
+  },
+  "invariants": [
+    "PROOF_BEFORE_STATE",
+    "TRACEABILITY_REQUIRED",
+    "PRESERVE_HISTORY",
+    "UNKNOWN_BY_DEFAULT",
+    "NO_FILENAME_BASED_CLASSIFICATION",
+    "NO_SILENT_DEDUPLICATION"
+  ]
+}
