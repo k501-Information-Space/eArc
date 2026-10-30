@@ -1,124 +1,78 @@
-# eArc — Repository Index
+# eArc — Neutral Archive Index
 
-**Index type:** observed topology index  
-**Source branch:** `main`  
-**Source commit before this transition:** `d91d11e8a851d54df0624295452d5c06f96134c3`  
-**Source tree before this transition:** `b1656f48ef6adf89847fafe6c8360372a0bd16bb`  
-**Operator time anchor:** `1793333967` — 2026-10-30 04:19:27 UTC / 05:19:27 Europe/Berlin.
+**Index type:** observed repository topology; descriptive only.  
+**Repository role:** `NEUTRAL_DEVELOPMENT_ARCHIVE`.  
+**Authority:** `NONE`.  
+**Parent commit/tree:** `0429b08b710252e4e83799b8e8d19f0705433a53`.  
+**Operator time anchor:** `1793335241`.
 
-This index describes the observed Git tree. It is navigation metadata, not a semantic classification, rights clearance, complete content audit or build validation.
+This index records locations and counts. It does not classify authority,
+establish canonicality, validate content, clear rights or select a current version.
 
-## 1. Observed inventory before this transition
+## Parent inventory
 
-- Files: 4,505 Git blobs.
-- Directories: 62 Git trees.
-- Recursive tree response: not truncated.
-- Git blob-size sum: 722,927,327 bytes. This is Git object metadata, not a verified total payload size; Git LFS objects are represented by pointer blobs in the Git tree.
+- Git blobs: 4,516.
+- Git trees/directories: 62.
+- Recursive API response: not truncated.
+- Git LFS payloads: not downloaded for this index.
 
-### Top-level zones
+## Main areas
 
-| Path | Files | Role observed |
+| Path | Files | Neutral archival description |
 |---|---:|---|
-| `.vscode/` | 3 | Editor/debug/build-task configuration |
-| `_ANALYSIS/` | 1 | Historical runtime-state note |
-| `_FREEZE_CANONICAL/` | 4 | Historical canonical freeze records |
-| `_FREEZE_STATE/` | 2 | Historical freeze-state records |
-| `_REMOTE_TREE/` | 4 | Historical remote tree captures |
-| `_mainline_freeze/` | 7 | Mainline freeze manifests and reports |
-| `_merge_preparation/` | 7 | Merge preparation manifests and reports |
-| `_namespace_normalization/` | 5 | Namespace normalization manifests/reports |
-| `_remote_audit/` | 10 | Remote audit records |
-| `_runtime_seal/` | 4 | Runtime seal manifest/reports |
-| `_topology_map/` | 6 | Topology map manifests/reports |
-| `archive/` | 12 | Historical storage, binaries, manifests and topology snapshots |
-| `canonical/` | 14 | Canonical declarations and hash-seal records |
-| `include/` | 6 | C interfaces |
-| `raw/` | 2,367 | Source corpus; seven empty placeholders removed in prior transition |
-| `semantic_ingest_v1/` | 2,009 | Derived chunks, embeddings, freeze and reports |
-| `spec/` | 7 | Research/system specifications |
-| `src/` | 6 | C implementation sources |
-| `test_ingest_20/` | 20 | Separate test/ingest documents |
+| `.vscode/` | 3 | Editor/debug/build configuration |
+| `_ANALYSIS/` | 1 | Historical analysis |
+| `_FREEZE_CANONICAL/` | 4 | Historical freeze records carrying source terminology |
+| `_FREEZE_STATE/` | 2 | Historical state |
+| `_REMOTE_TREE/` | 4 | Historical tree captures |
+| `_mainline_freeze/` | 7 | Historical mainline freeze |
+| `_merge_preparation/` | 7 | Historical merge preparation |
+| `_namespace_normalization/` | 5 | Historical namespace records |
+| `_remote_audit/` | 10 | Historical remote audit |
+| `_runtime_seal/` | 4 | Historical runtime seal |
+| `_topology_map/` | 6 | Historical topology |
+| `archive/` | 12 | Historical storage and topology |
+| `canonical/` | 14 | Legacy path name only; development artefacts; eArc authority NONE |
+| `include/` | 6 | Development code interfaces; rights open |
+| `raw/` | 2,367 | Source corpus and imports |
+| `semantic_ingest_v1/` | 2,009 | Derived chunk/embedding/report artefacts |
+| `spec/` | 7 | Development specifications |
+| `src/` | 6 | Development code including experimental/history |
+| `test_ingest_20/` | 20 | Test/ingest corpus |
 
-There are also 11 root-level blobs in the source tree: `.gitattributes`, `.gitignore`, `GW__ROOT.json`, `Gateway.md`, `LICENSE`, `Makefile`, `README.md`, `k501_core.bin`, `output.ndjson`, `run1.ndjson` and `structure.txt`.
+The counts describe the parent tree only, not semantic content or legal status.
 
-## 2. Raw source subzones
+## Source and derivative areas
 
-Observed populated paths:
+Observed raw subareas include `raw/docx/`, `raw/md/AIONARC_KANON/`,
+`raw/md/archived_unsorted/`, `raw/md/bootframes/`,
+`raw/md/chatGPT_converastions/`, `raw/md/kernel/`,
+`raw/md/philosophy/`, `raw/md/snapshots/`, `raw/md/temporary/`,
+`raw/txt/` and `raw/legacy/vscodium_workspace/`.
 
-- `raw/docx/`
-- `raw/md/AIONARC_KANON/`
-- `raw/md/archived_unsorted/`
-- `raw/md/bootframes/`
-- `raw/md/chatGPT_converastions/`
-- `raw/md/kernel/`
-- `raw/md/philosophy/`
-- `raw/md/snapshots/`
-- `raw/md/temporary/`
-- `raw/txt/`
-- `raw/legacy/vscodium_workspace/`
+The existing semantic ingest freeze file identifies `raw/md/archived_unsorted`
+as source and records its own model/chunk settings. Those are preserved source
+claims; derived output does not replace source.
 
-The path `chatGPT_converastions` is recorded exactly as present. It is not normalized here.
+## Legacy path named canonical
 
-## 3. Derived ingest
+`canonical/` remains at its historical path. Its contents are archived
+development artefacts. Original source declarations remain unchanged, but
+eArc does not treat this path or its contents as canonical.
 
-`semantic_ingest_v1/FREEZE_20260517/semantic_ingest_state.txt` declares:
+## Code example
 
-- source: `raw/md/archived_unsorted`
-- embedding model: `nomic-embed-text`
-- chunk limit: 40 lines
-- output roots: `chunks/`, `embeddings/`, `reports/`.
+`src/qh_core.c` is recorded by the operator as an old historical experimental
+core in `EARC_OBJECT_RECORD_qh_core.c_1793335241.json`. That is an archive
+classification, not a code quality or currentness validation.
 
-The tree contains 994 chunk objects and 994 embedding objects. Derived outputs remain distinct from their original source collection and inherit no blanket licence from this index.
+## Historical state folders
 
-## 4. Implementation
+Ten underscore-prefixed root directories remain in place. Future grouping
+under `repository_state/` is only a proposal pending path-reference mapping.
 
-- `src/`: six C files.
-- `include/`: six C headers.
-- `Makefile`: compiles `src/*.c` into root-level `k501_core.bin`.
-- `.vscode/`: three config files referring to the root build output.
+## Rights and model
 
-The build was not run during this index transition.
-
-## 5. Root-level items retained
-
-- `k501_core.bin`
-- `output.ndjson`
-- `run1.ndjson`
-- `structure.txt`
-
-`output.ndjson` is configured for Git LFS by `.gitattributes`. LFS payloads were not downloaded as part of this tree inventory.
-
-## 6. Historical repository-state directories
-
-The ten underscore-prefixed root directories remain physically unchanged. The proposed target root `repository_state/` is not present and no path relocation is asserted.
-
-| Existing path | Proposed future path |
-|---|---|
-| `_ANALYSIS/` | `repository_state/analysis/` |
-| `_FREEZE_CANONICAL/` | `repository_state/freeze/canonical/` |
-| `_FREEZE_STATE/` | `repository_state/freeze/state/` |
-| `_mainline_freeze/` | `repository_state/freeze/mainline/` |
-| `_REMOTE_TREE/` | `repository_state/tree_captures/` |
-| `_merge_preparation/` | `repository_state/merge_preparation/` |
-| `_namespace_normalization/` | `repository_state/namespace_normalization/` |
-| `_remote_audit/` | `repository_state/remote_audit/` |
-| `_runtime_seal/` | `repository_state/runtime_seal/` |
-| `_topology_map/` | `repository_state/topology_map/` |
-
-No move should be executed until exact old-path/new-path registration and reference validation are complete.
-
-## 7. Navigation
-
-- `README.md`
-- `Gateway.md`
-- `GW__ROOT.json`
-- `INDEX.md`
-- `INDEX.json`
-- `K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md/.json`
-- `VALIDATION_REPORT.md/.json`
-- `LICENSE`
-- `LICENSE-CONTENT`
-- `LICENSE_MAP.md`
-- `THIRD_PARTY_NOTICES.md`
-- `MANIFEST.json`
-- `SHA256SUMS.txt`
+Unregistered objects default to `RIGHTS_OPEN`. Exact grants are in
+`RIGHTS_REGISTER.json`; no directory-wide grants are made. See the model,
+ingestion policy, object schema and neutrality transition files.

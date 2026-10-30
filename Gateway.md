@@ -1,73 +1,47 @@
-# Gateway — K501 Information Space / eArc
+# Gateway — eArc Neutral Development Archive
 
-**Repository:** `k501-Information-Space/eArc`  
-**Human entry:** `Gateway.md`  
-**Machine entry:** `GW__ROOT.json`  
-**Navigation state:** owner-maintained; repository observation is time-scoped.
+**Repository role:** `NEUTRAL_DEVELOPMENT_ARCHIVE`  
+**Repository authority:** `NONE`  
+**Canonical authority:** `NONE`
 
-## Entry sequence
+Navigation only: `README.md` → `Gateway.md` → `GW__ROOT.json` → `INDEX.md` / `INDEX.json` → object records and archive zones.
 
-`README.md` → `Gateway.md` → `GW__ROOT.json` → `INDEX.md` / `INDEX.json` → zone content → paired Global State Anchor and validation report.
+## Neutrality
 
-## Main zones
+This Gateway does not approve, canonize, validate, endorse, select or establish currentness for any archived object. Source-declared status is preserved as a claim from its own originating context. eArc authority is always `NONE`.
 
-### Canonical reference and specification
-- `canonical/` — owner-designated canonical reference material. A directory name does not automatically confer authority on every file within it.
-- `spec/` — research and system specifications.
+## Areas
 
-### Original and historical information
-- `raw/` — retained source corpus. Paths and names are preserved exactly.
-- `archive/` — historical storage objects, binaries, manifests and topology captures.
+- `raw/`: original source corpus and imports.
+- `archive/`: historical storage, binaries, manifests and topology captures.
+- `src/`, `include/`: development code, including historical and experimental material.
+- `spec/`: working specifications and research.
+- `semantic_ingest_v1/`: derived chunks/embeddings, not source replacements.
+- `test_ingest_20/`: test and ingest corpus.
+- `canonical/`: legacy path name only; not a canonical zone in eArc.
+- Underscore-prefixed paths: time-scoped historical analysis, freeze, audit, merge and topology records.
 
-### Implementation
-- `src/` — C implementation sources.
-- `include/` — C interfaces and shared types.
-- `Makefile` — build definition; current target is `k501_core.bin` at repository root.
-- `.vscode/` — editor/debug configuration.
+## Models
 
-### Derived and test data
-- `semantic_ingest_v1/` — frozen chunks, embeddings and reports. Its freeze record identifies `raw/md/archived_unsorted` as the source.
-- `test_ingest_20/` — separate test/ingest corpus.
+`EARC_NEUTRAL_ARCHIVE_MODEL_v1.0`, `EARC_INGEST_POLICY_v1.0`,
+`EARC_OBJECT_RECORD_SCHEMA_v1.0`,
+`EARC_NEUTRALITY_TRANSITION_1793335241`,
+`EARC_REPOSITORY_STATE_ANCHOR_1793335241`,
+`EARC_NEUTRALITY_VALIDATION_1793335241` (each with Markdown/JSON pairs).
 
-Derived artifacts do not replace their source objects and do not inherit a blanket licence where source rights are unknown.
+## Rights
 
-## Repository-state records retained at root
+`LICENSE` is an MIT instrument; `LICENSE-CONTENT` is a CC BY 4.0 instrument.
+Exact grants are listed in `RIGHTS_REGISTER.json`. The default is
+`RIGHTS_OPEN`; no folder-wide grants apply.
 
-- `_ANALYSIS/`
-- `_FREEZE_CANONICAL/`
-- `_FREEZE_STATE/`
-- `_REMOTE_TREE/`
-- `_mainline_freeze/`
-- `_merge_preparation/`
-- `_namespace_normalization/`
-- `_remote_audit/`
-- `_runtime_seal/`
-- `_topology_map/`
+## Invariants
 
-These remain physically unchanged. Each record must be read with its own time anchor, scope and status. Their coexistence does not make them one current global state.
+Preserve origin claims as claims. Never expose an eArc `CANONICAL` status.
+Keep provenance, integrity, rights, privacy, review and reproduction as
+separate axes. Preserve exact paths and historical versions. Unknown remains
+unknown.
 
-## Root-level records and controls
-
-- `INDEX.md` / `INDEX.json` — observed topology index.
-- `K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md/.json` — matched state-anchor pair.
-- `VALIDATION_REPORT.md/.json` — validation scope and limitations.
-- `LICENSE`, `LICENSE-CONTENT`, `LICENSE_MAP.md`, `THIRD_PARTY_NOTICES.md` — scoped licensing.
-- `MANIFEST.json`, `SHA256SUMS.txt` — integrity metadata for transition artifacts.
-
-## Rights boundaries
-
-MIT applies only to K501-authored software within `LICENSE_MAP.md`. CC BY 4.0 applies only to K501-authored documentation within that map. Mixed raw/archive/derived/test material, third-party material and unresolved sources are excluded unless separately licensed.
-
-## Gateway rules
-
-- Navigation is not validation.
-- A path is an identifier, not semantic authority.
-- Do not silently move, rename, merge or deduplicate source objects.
-- Preserve conflicting and historical state records.
-- Report missing evidence as missing.
-- Keep generated/derived information distinct from original sources.
-
-K501 :: DETERMINISTIC_ORIENTATION  
 K501 :: TRACEABILITY_REQUIRED  
-K501 :: PROOF_BEFORE_STATE  
-K501 :: PRESERVE_HISTORY
+K501 :: PRESERVE_HISTORY  
+K501 :: PROOF_BEFORE_STATE

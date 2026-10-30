@@ -1,0 +1,40 @@
+{
+  "schema": "EARC_NEUTRALITY_VALIDATION/1.0.0",
+  "report_id": "EARC_NEUTRALITY_VALIDATION_1793335241",
+  "parent_commit": "0429b08b710252e4e83799b8e8d19f0705433a53",
+  "operator_time_anchor": 1793335241,
+  "status": "DOCUMENTATION_AND_REPOSITORY_MODEL_CHECKS_ONLY",
+  "passed": [
+    "Main recursive tree read: 4516 blobs/62 trees",
+    "Prior navigation/licence files read",
+    "qh_core source read; Git blob recorded; file unchanged",
+    "Neutral model/ingest/schema/sample created",
+    "JSON syntax checked",
+    "Active eArc canonical wording removed",
+    "Rights default RIGHTS_OPEN; exact grants only",
+    "SHA-256 implementation test vector abc passed"
+  ],
+  "observations": [
+    {
+      "path": "src/qh_core.c",
+      "git_blob_sha": "5eadf75402eb1605268b93dffe939a55bb015595",
+      "bytes": 198,
+      "archive_class": "EXPERIMENTAL_CORE",
+      "basis": "operator context",
+      "content_sha256": "NOT_COMPUTED",
+      "authority": "NONE"
+    }
+  ],
+  "open": [
+    "No build/runtime test",
+    "No complete content review",
+    "No LFS download/hash",
+    "No full rights/privacy/provenance audit",
+    "No conversation secret scan",
+    "No QH256 rerun/independent reproduction",
+    "No current runtime selection",
+    "No physical path movement",
+    "No legal opinion"
+  ],
+  "semantics": "Does not canonize or validate archived source artefacts."
+}

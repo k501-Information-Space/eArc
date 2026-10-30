@@ -1,65 +1,75 @@
 {
-  "gateway_standard": "K501_Gateway_v1",
-  "gateway_type": "ROOT",
+  "gateway_standard": "EARC_NEUTRAL_GATEWAY/1.0.0",
+  "gateway_type": "ROOT_NAVIGATION",
   "gateway_file": "GW__ROOT.json",
-  "status": "CANONICAL",
-  "mode": "STRICT",
-  "system": "K501 Information Space",
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "canonical_authority": "NONE",
+  "endorsement": "NONE",
+  "validation_by_storage": "NONE",
+  "currentness_by_storage": "NONE",
   "repository": "eArc",
   "repository_url": "https://github.com/k501-Information-Space/eArc",
-  "author": "Patrick R. Miller (K501)",
+  "operator_time_anchor": {
+    "unix_epoch": 1793335241,
+    "utc": "2026-10-30T04:40:41Z",
+    "europe_berlin": "2026-10-30T05:40:41+01:00"
+  },
   "navigation": {
-    "entry_order": [
-      "README.md",
-      "Gateway.md",
-      "GW__ROOT.json",
-      "INDEX.md",
-      "INDEX.json",
-      "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md",
-      "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.json",
-      "VALIDATION_REPORT.md",
-      "VALIDATION_REPORT.json"
-    ],
+    "readme": "README.md",
     "human_gateway": "Gateway.md",
     "machine_gateway": "GW__ROOT.json",
     "human_index": "INDEX.md",
-    "machine_index": "INDEX.json"
-  },
-  "repository_observation": {
-    "operator_time_anchor": 1793333967,
-    "operator_time_utc": "2026-10-30T04:19:27Z",
-    "operator_timezone": "Europe/Berlin",
-    "source_branch": "main",
-    "source_commit": "d91d11e8a851d54df0624295452d5c06f96134c3",
-    "source_tree": "b1656f48ef6adf89847fafe6c8360372a0bd16bb",
-    "scope": "recursive Git tree and selected text-file review; this is not a full LFS download, content rehash, runtime test or complete rights audit"
-  },
-  "primary_zones": {
-    "canonical_reference": [
-      "canonical/"
+    "machine_index": "INDEX.json",
+    "neutrality_model": [
+      "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.md",
+      "EARC_NEUTRAL_ARCHIVE_MODEL_v1.0.json"
     ],
-    "specifications": [
-      "spec/"
+    "ingest_policy": [
+      "EARC_INGEST_POLICY_v1.0.md",
+      "EARC_INGEST_POLICY_v1.0.json"
     ],
+    "object_record_schema": [
+      "EARC_OBJECT_RECORD_SCHEMA_v1.0.md",
+      "EARC_OBJECT_RECORD_SCHEMA_v1.0.json"
+    ],
+    "repository_state_anchor": [
+      "EARC_REPOSITORY_STATE_ANCHOR_1793335241.md",
+      "EARC_REPOSITORY_STATE_ANCHOR_1793335241.json"
+    ],
+    "neutrality_transition": [
+      "EARC_NEUTRALITY_TRANSITION_1793335241.md",
+      "EARC_NEUTRALITY_TRANSITION_1793335241.json"
+    ],
+    "validation": [
+      "EARC_NEUTRALITY_VALIDATION_1793335241.md",
+      "EARC_NEUTRALITY_VALIDATION_1793335241.json"
+    ]
+  },
+  "zones": {
     "source_corpus": [
       "raw/"
     ],
-    "historical_archive": [
+    "historical_storage": [
       "archive/"
     ],
-    "implementation": [
+    "development_code": [
       "src/",
-      "include/",
-      "Makefile",
-      ".vscode/"
+      "include/"
     ],
-    "derived_ingest": [
+    "working_specifications": [
+      "spec/"
+    ],
+    "derived_data": [
       "semantic_ingest_v1/"
     ],
-    "test_corpus": [
+    "test_data": [
       "test_ingest_20/"
     ],
-    "repository_state_current_paths": [
+    "legacy_named_path_without_authority": [
+      "canonical/"
+    ],
+    "historical_repository_state": [
       "_ANALYSIS/",
       "_FREEZE_CANONICAL/",
       "_FREEZE_STATE/",
@@ -72,60 +82,23 @@
       "_topology_map/"
     ]
   },
-  "root_artifacts": {
-    "navigation": [
-      "README.md",
-      "Gateway.md",
-      "GW__ROOT.json"
-    ],
-    "index": [
-      "INDEX.md",
-      "INDEX.json"
-    ],
-    "state_anchor": [
-      "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md",
-      "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.json"
-    ],
-    "validation": [
-      "VALIDATION_REPORT.md",
-      "VALIDATION_REPORT.json"
-    ],
-    "licensing": [
+  "rights": {
+    "default": "RIGHTS_OPEN",
+    "instruments": [
       "LICENSE",
-      "LICENSE-CONTENT",
-      "LICENSE_MAP.md",
-      "THIRD_PARTY_NOTICES.md"
+      "LICENSE-CONTENT"
     ],
-    "integrity": [
-      "MANIFEST.json",
-      "SHA256SUMS.txt"
-    ]
+    "exact_grants_register": "RIGHTS_REGISTER.json",
+    "map": "LICENSE_MAP.md"
   },
-  "license_policy": {
-    "software": "MIT",
-    "documentation": "CC-BY-4.0",
-    "path_scope": "LICENSE_MAP.md",
-    "mixed_or_unverified_content": "RIGHTS_OPEN_EXCLUDED_FROM_BLANKET_LICENSE"
-  },
-  "proposed_repository_state_grouping": {
-    "status": "PROPOSED_ONLY_NOT_EXECUTED",
-    "target_root": "repository_state/",
-    "path_mapping_required_before_transition": true
-  },
-  "historical_owner_declared_anchor": {
-    "unix_epoch": 1778976550,
-    "status": "HISTORICAL_OWNER_DECLARATION_PRESERVED",
-    "runtime_hash": "565377054a1f8f6ba8bd137ddd4ab91394a48b93935ba9abe07610e2c0008457",
-    "note": "Historical statement; not revalidated by this update."
-  },
+  "previous_anchor": "K501_GLOBAL_STATE_ANCHOR_EARC_1793333967.md/.json (historical; prior terminology not current)",
   "principles": [
+    "NEUTRAL_ARCHIVE",
+    "NO_CANONICAL_AUTHORITY",
     "APPEND_ONLY",
-    "NO_SEMANTIC_DRIFT",
-    "DETERMINISTIC_STRUCTURE",
-    "PRESERVE_HISTORY",
-    "PROOF_BEFORE_STATE",
-    "RECONSTRUCT_BEFORE_EXTEND",
+    "PRESERVE_SOURCE_CLAIMS",
     "UNKNOWN_BY_DEFAULT",
-    "TRACEABILITY_REQUIRED"
+    "PROVENANCE_REQUIRED",
+    "RIGHTS_OPEN_BY_DEFAULT"
   ]
 }

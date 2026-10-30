@@ -1,113 +1,111 @@
 {
-  "schema": "K501_EARC_INDEX/1.0.0",
-  "index_id": "K501_EARC_INDEX_MAIN_1793333967",
-  "type": "OBSERVED_TOPOLOGY_INDEX",
-  "status": "OBSERVATION_WITH_EXPLICIT_LIMITS",
+  "schema": "EARC_NEUTRAL_INDEX/1.0.0",
+  "index_id": "EARC_NEUTRAL_INDEX_1793335241",
+  "repository_role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+  "repository_authority": "NONE",
+  "canonical_authority": "NONE",
   "source": {
     "repository": "k501-Information-Space/eArc",
     "branch": "main",
-    "commit": "d91d11e8a851d54df0624295452d5c06f96134c3",
-    "tree": "b1656f48ef6adf89847fafe6c8360372a0bd16bb",
-    "operator_time_anchor": 1793333967,
-    "operator_time_utc": "2026-10-30T04:19:27Z"
+    "parent_commit": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "parent_tree": "0429b08b710252e4e83799b8e8d19f0705433a53",
+    "operator_time_anchor": 1793335241
   },
-  "inventory_before_transition": {
-    "blobs": 4505,
-    "directories": 62,
-    "tree_truncated": false,
-    "git_blob_size_sum_bytes": 722927327,
-    "note": "Git LFS payload sizes are not represented by pointer blob sizes; no full payload download or content rehash is claimed."
+  "inventory": {
+    "git_blobs": 4516,
+    "git_trees": 62,
+    "tree_truncated": false
   },
   "zones": [
     {
       "path": ".vscode/",
       "files": 3,
-      "role": "editor/debug/build-task configuration"
+      "role": "editor configuration"
     },
     {
       "path": "_ANALYSIS/",
       "files": 1,
-      "role": "historical runtime-state note"
+      "role": "historical analysis"
     },
     {
       "path": "_FREEZE_CANONICAL/",
       "files": 4,
-      "role": "historical canonical freeze records"
+      "role": "historical freeze records; source terminology only"
     },
     {
       "path": "_FREEZE_STATE/",
       "files": 2,
-      "role": "historical freeze-state records"
+      "role": "historical state"
     },
     {
       "path": "_REMOTE_TREE/",
       "files": 4,
-      "role": "historical remote tree captures"
+      "role": "historical tree captures"
     },
     {
       "path": "_mainline_freeze/",
       "files": 7,
-      "role": "mainline freeze manifests and reports"
+      "role": "historical mainline freeze"
     },
     {
       "path": "_merge_preparation/",
       "files": 7,
-      "role": "merge preparation records"
+      "role": "historical merge preparation"
     },
     {
       "path": "_namespace_normalization/",
       "files": 5,
-      "role": "namespace normalization records"
+      "role": "historical namespace"
     },
     {
       "path": "_remote_audit/",
       "files": 10,
-      "role": "remote audit records"
+      "role": "historical remote audit"
     },
     {
       "path": "_runtime_seal/",
       "files": 4,
-      "role": "runtime seal records"
+      "role": "historical runtime seal"
     },
     {
       "path": "_topology_map/",
       "files": 6,
-      "role": "topology map records"
+      "role": "historical topology"
     },
     {
       "path": "archive/",
       "files": 12,
-      "role": "historical storage, binaries, manifests and topology snapshots"
+      "role": "historical storage"
     },
     {
       "path": "canonical/",
       "files": 14,
-      "role": "canonical declarations and hash-seal records"
+      "role": "legacy path; development artefacts; authority NONE"
     },
     {
       "path": "include/",
       "files": 6,
-      "role": "C interfaces"
+      "role": "development interfaces; rights open"
     },
     {
       "path": "raw/",
       "files": 2367,
-      "role": "source corpus; no blanket licence"
+      "role": "source corpus/imports"
     },
     {
       "path": "semantic_ingest_v1/",
       "files": 2009,
-      "role": "derived chunks, embeddings, freeze and reports"
+      "role": "derived artefacts"
     },
     {
       "path": "spec/",
       "files": 7,
-      "role": "research and system specifications"
+      "role": "development specifications"
     },
     {
       "path": "src/",
       "files": 6,
-      "role": "C implementation source"
+      "role": "development code including experimental artefacts"
     },
     {
       "path": "test_ingest_20/",
@@ -115,20 +113,14 @@
       "role": "test/ingest corpus"
     }
   ],
-  "root_files": [
-    ".gitattributes",
-    ".gitignore",
-    "GW__ROOT.json",
-    "Gateway.md",
-    "LICENSE",
-    "Makefile",
-    "README.md",
-    "k501_core.bin",
-    "output.ndjson",
-    "run1.ndjson",
-    "structure.txt"
-  ],
-  "raw_populated_subzones": [
+  "legacy_path": {
+    "canonical/": {
+      "preserved": true,
+      "authority": "NONE",
+      "role": "DEVELOPMENT_ARCHIVE_MATERIAL"
+    }
+  },
+  "source_subzones": [
     "raw/docx/",
     "raw/md/AIONARC_KANON/",
     "raw/md/archived_unsorted/",
@@ -141,52 +133,18 @@
     "raw/txt/",
     "raw/legacy/vscodium_workspace/"
   ],
-  "semantic_ingest": {
-    "source": "raw/md/archived_unsorted",
-    "model": "nomic-embed-text",
-    "chunk_limit_lines": 40,
-    "chunk_objects": 994,
-    "embedding_objects": 994,
-    "derived": true
-  },
-  "repository_state_grouping": {
-    "status": "PROPOSED_ONLY_NOT_EXECUTED",
-    "root": "repository_state/",
-    "mapping": {
-      "_ANALYSIS/": "repository_state/analysis/",
-      "_FREEZE_CANONICAL/": "repository_state/freeze/canonical/",
-      "_FREEZE_STATE/": "repository_state/freeze/state/",
-      "_mainline_freeze/": "repository_state/freeze/mainline/",
-      "_REMOTE_TREE/": "repository_state/tree_captures/",
-      "_merge_preparation/": "repository_state/merge_preparation/",
-      "_namespace_normalization/": "repository_state/namespace_normalization/",
-      "_remote_audit/": "repository_state/remote_audit/",
-      "_runtime_seal/": "repository_state/runtime_seal/",
-      "_topology_map/": "repository_state/topology_map/"
-    },
-    "precondition": "exact path registration and cross-reference validation"
-  },
+  "example_object": "EARC_OBJECT_RECORD_qh_core.c_1793335241.json",
   "rights": {
-    "software": "MIT",
-    "documentation": "CC-BY-4.0",
-    "map": "LICENSE_MAP.md",
-    "excluded": [
-      "raw/**",
-      "archive/**",
-      "semantic_ingest_v1/**",
-      "test_ingest_20/**",
-      "k501_core.bin",
-      "output.ndjson",
-      "run1.ndjson",
-      "structure.txt"
+    "default": "RIGHTS_OPEN",
+    "exact_grants": "RIGHTS_REGISTER.json",
+    "instruments": [
+      "MIT",
+      "CC-BY-4.0"
     ],
-    "status": "PARTIALLY_SCOPED_RIGHTS_OPEN_FOR_EXCLUDED_OR_UNVERIFIED_OBJECTS"
+    "blanket_folder_grants": false
   },
-  "limitations": [
-    "No complete per-file content review.",
-    "No complete source provenance or third-party licence audit.",
-    "No Git LFS payload download or payload hash verification.",
-    "No build, runtime test, or semantic validation performed.",
-    "Historical repository-state records are not collapsed into one global state."
-  ]
+  "repository_state_folders": {
+    "physical_move": "NOT_EXECUTED",
+    "future_grouping": "PROPOSAL_ONLY"
+  }
 }
